@@ -1,0 +1,5 @@
+ポケモンドリームワールド用
+--- RECORDSEPARATOR ---
+SharedObject 
+--- RECORDSEPARATOR ---
+をクリアしました。
