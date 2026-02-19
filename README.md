@@ -3,7 +3,8 @@
 This repository serves as the main **Asset Library** of the Dream World Revival Project
 Our Goal is to recreate Pokemon Dream World functionality for the Pokemon Generation 5 Games, One dream at a time
 
-![Logo](<img width="1280" height="1095" alt="image" src="https://github.com/user-attachments/assets/c6d7d810-0b64-4bbe-9879-2432e46cfb63" />)
+!(<img width="1280" height="1095" alt="image" src="https://github.com/user-attachments/assets/c6d7d810-0b64-4bbe-9879-2432e46cfb63" />
+)
 
 **Contributors** (Discord)
 + Grey (*Shade_of_Gr3y*): Main Book-Keeper, Made this Github\
