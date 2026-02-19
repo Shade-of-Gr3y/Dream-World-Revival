@@ -6,13 +6,13 @@ Our Goal is to recreate Pokemon Dream World functionality for the Pokemon Genera
 <img width="1280" height="1095" alt="image" src="https://github.com/user-attachments/assets/c6d7d810-0b64-4bbe-9879-2432e46cfb63" />
 
 **Contributors** (Discord)
-+ Grey (*Shade_of_Gr3y*): Main Book-Keeper, Made this Github\
-+ StarBorne (*StarBorne*): Lead Programmer\
-+ DarkShade (*DarkShade*): Oversight\
-+ Rye (*thetrashdragon*): Asset Recreation (Berry Farmer)\
-+ GabiShy (*gabishy*): Video Archiver and Asset Finder\
-+ Shadow (*q8yshadow*): Asset Finder\
++ Grey (*Shade_of_Gr3y*): Main Book-Keeper, Made this Github
++ StarBorne (*StarBorne*): Lead Programmer
++ DarkShade (*DarkShade*): Oversight
++ Rye (*thetrashdragon*): Asset Recreation (Berry Farmer)
++ GabiShy (*gabishy*): Video Archiver and Asset Finder
++ Shadow (*q8yshadow*): Asset Finder
 
 **Special Shoutouts**\
 Bulbapedia\
-The Project Pokemon Discord\
+The Project Pokemon Discord
