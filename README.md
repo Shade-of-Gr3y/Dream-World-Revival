@@ -1,4 +1,6 @@
-The Assets division of the Dream World Revival Project
+**Pokemon Dream World Revival Project**
+
+This repository serves as the main **Asset Library** of the Dream World Revival Project
 Our Goal is to recreate Pokemon Dream World functionality for the Pokemon Generation 5 Games, One dream at a time
 
 **Contributors** (Discord @)
