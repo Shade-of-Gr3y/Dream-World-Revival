@@ -1,0 +1,4 @@
+1. Download and install MCP-MA7
+2. click on "Edit" on the top right and Press "Add"
+3. Select the .MMF file
+4. Play the track with the play button (Below the "Default" drop down menu)
