@@ -7,11 +7,12 @@ Our Goal is to recreate Pokemon Dream World functionality for the Pokemon Genera
 
 **Contributors** (Discord)
 + Grey (*Shade_of_Gr3y*): Main Book-Keeper, Made this Github
-+ StarBorne (*StarBorne*): Lead Programmer
++ StarBorne (*kfnole*): Lead Programmer
 + DarkShade (*DarkShade*): Oversight
 + Rye (*thetrashdragon*): Asset Recreation (Berry Farmer)
-+ GabiShy (*gabishy*): Video Archiver and Asset Finder
++ GabiShy (*gabishy*): Video Archiver,  Asset Finder
 + Shadow (*q8yshadow*): Asset Finder
++ stgiga (*stgiga*): HD Audio Sourcing
 
 **Special Shoutouts**\
 Bulbapedia\
