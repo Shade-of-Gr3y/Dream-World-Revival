@@ -7,7 +7,7 @@ Our Goal is to recreate Pokemon Dream World functionality for the Pokemon Genera
 
 **Contributors** (Discord)
 + Grey (*Shade_of_Gr3y*): Main Book-Keeper, Made this Github
-+ Coyote (*THERIIOCIDE*): Github
++ Coyote (*THERIIOCIDE*): Github, Asset Recreation
 + Phantazap (*Phantazap*): .swf professional, Github
 + StarBorne (*kfnole*): Lead Programmer
 + DarkShade (*DarkShade*): Oversight
