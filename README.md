@@ -14,6 +14,7 @@ Our Goal is to recreate Pokemon Dream World functionality for the Pokemon Genera
 + Rye (*thetrashdragon*): Asset Recreation, "Berry Farmer"
 + GabiShy (*gabishy*): Video Archiver,  Asset Finder
 + Shadow (*q8yshadow*): Asset Finder
++ maq47 (*maq47*): Asset Finder
 + stgiga (*stgiga*): HD Audio Sourcing
 + Greenland (*Greenland_101*): Artist
 + Akima (*Akeyma*): Server related stuff
