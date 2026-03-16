@@ -7,15 +7,17 @@ Our Goal is to recreate Pokemon Dream World functionality for the Pokemon Genera
 
 **Contributors** (Discord)
 + Grey (*Shade_of_Gr3y*): Main Book-Keeper, Made this Github
-+ Coyote (*THERIIOCIDE*): Github, Asset Recreation
-+ Phantazap (*Phantazap*): .swf professional, Github
++ Coyote (*THERIIOCIDE*): Github Management, Asset Recreation
++ Phantazap (*Phantazap*): Web UI, Github help
 + StarBorne (*kfnole*): Lead Programmer
 + DarkShade (*DarkShade*): Oversight
-+ Rye (*thetrashdragon*): Asset Recreation (Berry Farmer)
++ Rye (*thetrashdragon*): Asset Recreation, "Berry Farmer"
 + GabiShy (*gabishy*): Video Archiver,  Asset Finder
 + Shadow (*q8yshadow*): Asset Finder
++ maq47 (*maq47*): Asset Finder
 + stgiga (*stgiga*): HD Audio Sourcing
 + Greenland (*Greenland_101*): Artist
++ Akima (*Akeyma*): Server related stuff
 
 **Special Shoutouts**\
 Bulbapedia\
