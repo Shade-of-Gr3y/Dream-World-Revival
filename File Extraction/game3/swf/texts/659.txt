@@ -1,0 +1,3 @@
+Puntos 
+--- RECORDSEPARATOR ---
+acumulados: 

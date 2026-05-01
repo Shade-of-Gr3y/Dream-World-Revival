@@ -1,0 +1,3 @@
+점수
+--- RECORDSEPARATOR ---
+:

@@ -1,0 +1,7 @@
+남은
+--- RECORDSEPARATOR ---
+ 
+--- RECORDSEPARATOR ---
+시간
+--- RECORDSEPARATOR ---
+:

@@ -1,0 +1,1 @@
+Folders in this location are not to be added to or modified. This location contains complete, unaltered file dumps of the SWF files we currently have, as well as the un-extracted SWF files.
