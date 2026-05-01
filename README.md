@@ -15,6 +15,7 @@ Our Goal is to recreate Pokemon Dream World functionality for the Pokemon Genera
 + GabiShy (*gabishy*): Video Archiver,  Asset Finder
 + Shadow (*q8yshadow*): Asset Finder
 + maq47 (*maq47*): Asset Finder
++ galarianguy (*galarianguy*): MVP for finding decomp project from 2012
 + stgiga (*stgiga*): HD Audio Sourcing
 + Greenland (*Greenland_101*): Artist
 + Akima (*Akeyma*): Server related stuff
