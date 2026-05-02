@@ -1,0 +1,1 @@
+All possible Pokémon avatars as of November 6, 2012, exported by Lorenzo The Comic.
