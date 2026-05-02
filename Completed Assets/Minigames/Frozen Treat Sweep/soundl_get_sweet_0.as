@@ -1,0 +1,14 @@
+package 
+{
+    import flash.media.*;
+
+    dynamic public class soundl_get_sweet_0 extends Sound
+    {
+
+        public function soundl_get_sweet_0()
+        {
+            return;
+        }// end function
+
+    }
+}
