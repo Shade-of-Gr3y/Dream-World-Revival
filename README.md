@@ -7,10 +7,10 @@ Our Goal is to recreate Pokemon Dream World functionality for the Pokemon Genera
 <img width="1280" height="1095" alt="image" src="https://github.com/user-attachments/assets/c6d7d810-0b64-4bbe-9879-2432e46cfb63" />
 
 **Contributors** (Discord)
-+ Grey (*Shade_of_Gr3y*): Main Book-Keeper, Made the Github
++ Grey (*Shade_of_Gr3y*): Main Book-Keeper, Github Manager
 + DarkShade (*DarkShade*): Oversight
 + Coyote (*THERIIOCIDE*): Github Management, Asset Recreation
-+ Phantazap (*Phantazap*): Web UI, Adobe Flash Programmer
++ Phantazap (*Phantazap*): Web UI, Asset Finder, Github Help
 + ShutterBug (*ShutterBug2000*): Programmer
 + StarBorne (*kfnole*): Programmer
 + Minibug (*bonnibel.bubblegum*): Programmer
