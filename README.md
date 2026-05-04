@@ -1,6 +1,7 @@
 **Pokemon Dream World Revival Project**
 
-This repository serves as the main **Asset Library** of the Dream World Revival Project. The programmin Library can be found here
+This repository serves as the main **Asset Library** of the Dream World Revival Project. The programming and Server hosting Library can be found here\
+https://github.com/shutterbug2000/dreamworld-reawakened\
 Our Goal is to recreate Pokemon Dream World functionality for the Pokemon Generation 5 Games, One dream at a time
 
 <img width="1280" height="1095" alt="image" src="https://github.com/user-attachments/assets/c6d7d810-0b64-4bbe-9879-2432e46cfb63" />
