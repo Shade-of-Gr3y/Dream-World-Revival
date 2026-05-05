@@ -26,5 +26,7 @@ Our Goal is to recreate Pokemon Dream World functionality for the Pokemon Genera
 
 **Special Shoutouts**\
 Bulbapedia\
+PokeWiki\
 @Cuddleofdeath on Youtube and Twitter\
+MinakoArtemis5 on Bulbapedia\
 The Project Pokemon Discord
