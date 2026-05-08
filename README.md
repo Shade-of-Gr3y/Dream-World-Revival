@@ -28,8 +28,8 @@ Our Goal is to recreate Pokemon Dream World functionality for the Pokemon Genera
 **Special Shoutouts**\
 Bulbapedia\
 PokeWiki\
-Independent blogger YaTen(夜天) (Site: http://pokeaogtytnsy.blog70.fc2.com/?cat=24&page=4 )\
-Rem on Ameba (Site: https://www.ameba.jp/profile/general/pokemonplatinum/)\
+Independent blogger YaTen(夜天) (Site: http://pokeaogtytnsy.blog70.fc2.com/?cat=24&page=4) \
+Rem on Ameba (Site: https://www.ameba.jp/profile/general/pokemonplatinum/) \
 @Cuddleofdeath on Youtube and Twitter\
 MinakoArtemis5 on Bulbapedia\
 ReignOfComputer on Discord and Serebii\
