@@ -30,9 +30,10 @@ Bulbapedia\
 PokeWiki\
 PocketMonsters.net\
 galarianguy on Discord (MVP for finding a decomp from 2012) \
+Piplipness_ on Discord \
 Independent blogger YaTen(夜天) (Site: http://pokeaogtytnsy.blog70.fc2.com/?cat=24&page=4) \
 Rem on Ameba (Site: https://www.ameba.jp/profile/general/pokemonplatinum/) \
-@Cuddleofdeath on Youtube and Twitter\
+@Cuddleofdeath on Youtube and Twitter \
 MinakoArtemis5 on Bulbapedia\
 ReignOfComputer on Discord and Serebii\
 Blupee/KuroNeko on Discord and Github\
