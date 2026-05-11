@@ -19,7 +19,7 @@ Our Goal is to recreate Pokemon Dream World functionality for the Pokemon Genera
 + GabiShy (*gabishy*): Video Archiver,  Asset Finder
 + Shadow (*q8yshadow*): Asset Finder
 + maq47 (*maq47*): Asset Finder
-+ galarianguy (*galarianguy*): Video Archiver, MVP for finding a decomp from 2012
++ Yemu (*yemu0766*): File Modification
 + stgiga (*stgiga*): HD Audio Sourcing
 + Greenland (*Greenland_101*): Artist
 + Akima (*Akeyma*): Server related stuff
@@ -29,6 +29,7 @@ Our Goal is to recreate Pokemon Dream World functionality for the Pokemon Genera
 Bulbapedia\
 PokeWiki\
 PocketMonsters.net\
+galarianguy on Discord (MVP for finding a decomp from 2012) \
 Independent blogger YaTen(夜天) (Site: http://pokeaogtytnsy.blog70.fc2.com/?cat=24&page=4) \
 Rem on Ameba (Site: https://www.ameba.jp/profile/general/pokemonplatinum/) \
 @Cuddleofdeath on Youtube and Twitter\
