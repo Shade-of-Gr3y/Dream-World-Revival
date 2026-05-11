@@ -12,7 +12,7 @@ Our Goal is to recreate Pokemon Dream World functionality for the Pokemon Genera
 + DarkShade (*DarkShade*): Oversight
 + Phantazap (*Phantazap*): Web UI, Asset Finder, Github Help
 + ShutterBug (*ShutterBug2000*): Programmer
-+ Minibug (*bonnibel.bubblegum*): Programmer
++ Minibug (*bonnibel.bubblegum*): Lead Programmer
 + StarBorne (*kfnole*): Programmer
 + Omni (*Omni_Omen*): Programmer
 + Coyote (*THERIIOCIDE*): Github Help, Asset Recreation
