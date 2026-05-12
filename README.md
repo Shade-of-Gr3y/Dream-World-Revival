@@ -30,6 +30,7 @@ Bulbapedia\
 PokeWiki\
 Pokemon Central Wiki\
 PocketMonsters.net\
+Pente.koro-Pokemon\
 galarianguy on Discord (MVP for finding a decomp from 2012) \
 Piplipness_ on Discord \
 Independent blogger YaTen(夜天) (Site: http://pokeaogtytnsy.blog70.fc2.com/?cat=24&page=4) \
