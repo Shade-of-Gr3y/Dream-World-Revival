@@ -28,6 +28,7 @@ Our Goal is to recreate Pokemon Dream World functionality for the Pokemon Genera
 **Special Shoutouts**\
 Bulbapedia\
 PokeWiki\
+Pokemon Central Wiki\
 PocketMonsters.net\
 galarianguy on Discord (MVP for finding a decomp from 2012) \
 Piplipness_ on Discord \
