@@ -24,6 +24,8 @@ Our Goal is to recreate Pokemon Dream World functionality for the Pokemon Genera
 + Greenland (*Greenland_101*): Artist
 + Akima (*Akeyma*): Server related stuff
 
+**Translation Help** (Language)
++ Piplipness_ (Italian)
 
 **Special Shoutouts**\
 Bulbapedia\
@@ -32,7 +34,6 @@ Pokemon Central Wiki\
 PocketMonsters.net\
 Pente.koro-Pokemon\
 galarianguy on Discord (MVP for finding a decomp from 2012) \
-Piplipness_ on Discord \
 Independent blogger YaTen(夜天) (Site: http://pokeaogtytnsy.blog70.fc2.com/?cat=24&page=4) \
 Rem on Ameba (Site: https://www.ameba.jp/profile/general/pokemonplatinum/) \
 @Cuddleofdeath on Youtube and Twitter \
