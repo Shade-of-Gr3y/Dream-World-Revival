@@ -10,7 +10,7 @@ Our Goal is to recreate Pokemon Dream World functionality for the Pokemon Genera
 + Grey (*Shade_of_Gr3y*): Main Book-Keeper, Github Manager
 + Rye (*thetrashdragon*): Asset Recreation, Programmer, "Berry Farmer"
 + DarkShade (*DarkShade*): Oversight
-+ Phantazap (*Phantazap*): Web UI, Asset Finder, Github Help
++ Phantazap (*Phantazap*): Asset Finder, Github Help
 + ShutterBug (*ShutterBug2000*): Programmer
 + Minibug (*bonnibel.bubblegum*): Lead Programmer
 + StarBorne (*kfnole*): Programmer
@@ -25,7 +25,14 @@ Our Goal is to recreate Pokemon Dream World functionality for the Pokemon Genera
 + Akima (*Akeyma*): Server related stuff
 
 **Translation Help** (Language)
++ kamet_sdr, fenmiri, _n0tvortex_ (Spanish (SP-EU/ES-ES))
++ joapixies (Latin Spanish (ES-LA))
++ (French)
++ lazysasch (German)
 + Piplipness_ (Italian)
++ (Korean)
++ (Chinese)
++ (Chinese Traditional)
 
 **Special Shoutouts**\
 Bulbapedia\
