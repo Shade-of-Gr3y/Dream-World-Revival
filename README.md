@@ -30,7 +30,7 @@ Our Goal is to recreate Pokemon Dream World functionality for the Pokemon Genera
 + joapixies (Brazilian Portugese (PT-BR)
 + (French)
 + lazysasch (German)
-+ Piplipness_ (Italian)
++ Piplupness_ (Italian)
 + (Korean)
 + (Chinese)
 + (Chinese Traditional)
