@@ -25,8 +25,9 @@ Our Goal is to recreate Pokemon Dream World functionality for the Pokemon Genera
 + Akima (*Akeyma*): Server related stuff
 
 **Translation Help** (Language)
-+ kamet_sdr, fenmiri, _n0tvortex_ (Spanish (SP-EU/ES-ES))
-+ joapixies (Latin Spanish (ES-LA))
++ kamet_sdr, fenmiri (Spanish (SP-EU/ES-ES))
++ _n0tvortex_ (Latin Spanish (ES-LA))
++ joapixies (Brazilian Portugese (PT-BR)
 + (French)
 + lazysasch (German)
 + Piplipness_ (Italian)
