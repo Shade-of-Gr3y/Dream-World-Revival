@@ -28,7 +28,7 @@ Our Goal is to recreate Pokemon Dream World functionality for the Pokemon Genera
 + Eclipse (*eclipse69x*): Asset Help
 
 **Translation Help** (Language)
-+ kamet_sdr, fenmiri, angie_vala, Arceusgp,  (Spanish (SP-EU/ES-ES))
++ kamet_sdr, fenmiri, angie_vala, Arceusgp, backe, (Spanish (SP-EU/ES-ES))
 + _n0tvortex_ (Latin Spanish (ES-LA))
 + joapixies (Brazilian Portugese (PT-BR)
 + pawrawre, silver_mix_rgnt, Shermaann, warbinc, yeon2727 (French)
