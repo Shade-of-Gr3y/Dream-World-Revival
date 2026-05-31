@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<swf>
+	<common>
+		<font>1.0</font>
+		<se>1.0</se>
+		<sound>1.0</sound>
+		<poke>2.0</poke>
+		<strings>
+			<ja>1.0</ja>
+			<en>1.0</en>
+			<fr>1.0</fr>
+			<it>1.0</it>
+			<de>1.0</de>
+			<es>1.0</es>
+			<ko>1.0</ko>
+		</strings>
+		<format>
+			<ja>1.0</ja>
+			<en>1.0</en>
+			<fr>1.0</fr>
+			<it>1.0</it>
+			<de>1.0</de>
+			<es>1.0</es>
+			<ko>1.0</ko>
+		</format>
+	</common>
+	<pgl>
+		<campaign>
+			<swf>2.0</swf>
+			<strings>
+				<ja>1.0</ja>
+				<en>1.0</en>
+				<fr>1.0</fr>
+				<it>1.0</it>
+				<de>1.0</de>
+				<es>1.0</es>
+				<ko>1.0</ko>
+			</strings>
+			<format>
+				<ja>1.0</ja>
+				<en>1.0</en>
+				<fr>1.0</fr>
+				<it>1.0</it>
+				<de>1.0</de>
+				<es>1.0</es>
+				<ko>1.0</ko>
+			</format>
+		</campaign>
+		<present>
+			<swf>2.0</swf>
+			<strings>
+				<ja>1.0</ja>
+				<en>1.0</en>
+				<fr>1.0</fr>
+				<it>1.0</it>
+				<de>1.0</de>
+				<es>1.0</es>
+				<ko>1.0</ko>
+			</strings>
+			<format>
+				<ja>1.0</ja>
+				<en>1.0</en>
+				<fr>1.0</fr>
+				<it>1.0</it>
+				<de>1.0</de>
+				<es>1.0</es>
+				<ko>1.0</ko>
+			</format>
+		</present>
+		<information>
+			<swf>2.0</swf>
+			<strings>
+				<ja>1.0</ja>
+				<en>1.0</en>
+				<fr>1.0</fr>
+				<it>1.0</it>
+				<de>1.0</de>
+				<es>1.0</es>
+				<ko>1.0</ko>
+			</strings>
+			<format>
+				<ja>1.0</ja>
+				<en>1.0</en>
+				<fr>1.0</fr>
+				<it>1.0</it>
+				<de>1.0</de>
+				<es>1.0</es>
+				<ko>1.0</ko>
+			</format>
+		</information>
+	</pgl>
+	<mailer>
+		<swf>2.0</swf>
+		<strings>
+			<ja>1.0</ja>
+			<en>1.0</en>
+			<fr>1.0</fr>
+			<it>1.0</it>
+			<de>1.0</de>
+			<es>1.0</es>
+			<ko>1.0</ko>
+		</strings>
+		<format>
+			<ja>1.0</ja>
+			<en>1.0</en>
+			<fr>1.0</fr>
+			<it>1.0</it>
+			<de>1.0</de>
+			<es>1.0</es>
+			<ko>1.0</ko>
+		</format>
+	</mailer>
+	<help>
+		<swf>2.0</swf>
+	</help>
+	<pdw>
+		<alert>
+			<swf>2.0</swf>
+			<strings>
+				<ja>1.0</ja>
+				<en>1.0</en>
+				<fr>1.0</fr>
+				<it>1.0</it>
+				<de>1.0</de>
+				<es>1.0</es>
+				<ko>1.0</ko>
+			</strings>
+			<format>
+				<ja>1.0</ja>
+				<en>1.0</en>
+				<fr>1.0</fr>
+				<it>1.0</it>
+				<de>1.0</de>
+				<es>1.0</es>
+				<ko>1.0</ko>
+			</format>
+		</alert>
+		<swf>4.0</swf>
+		<catalog>2.0</catalog>
+		<board>1.0</board>
+
+		<pdw_arc>4.0</pdw_arc>
+		<pdw_farm>3.0</pdw_farm>
+		<pdw_footprint>3.0</pdw_footprint>
+		<pdw_garden>5.0</pdw_garden>
+		<pdw_home>6.0</pdw_home>
+		<pdw_island>3.5</pdw_island>
+		<pdw_island_campaign2>2.0</pdw_island_campaign2>
+		<pdw_main>5.1</pdw_main>
+		<pdw_move>3.0</pdw_move>
+		<pdw_opening>3.0</pdw_opening>
+		<pdw_room>4.0</pdw_room>
+		<pdw_share>3.0</pdw_share>
+		<pdw_sound>3.0</pdw_sound>
+		<pdw_world>3.0</pdw_world>
+		<pdw_world_ca>2.0</pdw_world_ca>
+		<takarabako>3.0</takarabako>
+		<tutorial0>3.0</tutorial0>
+		<tutorial1>3.0</tutorial1>
+		<tutorial2>3.0</tutorial2>
+		<tutorial3>3.0</tutorial3>
+		<tutorial4>3.0</tutorial4>
+		<tutorial5>3.0</tutorial5>
+		<tutorial6>3.0</tutorial6>
+		<tutorial7>3.0</tutorial7>
+		<tutorial8>3.0</tutorial8>
+		<tutorial9>3.0</tutorial9>
+		<tutorial10>3.0</tutorial10>
+		<tutorial11>3.0</tutorial11>
+
+		<campaing_parts>
+			<ja>1.0</ja>
+			<en>1.0</en>
+			<fr>1.0</fr>
+			<it>1.0</it>
+			<de>1.0</de>
+			<es>1.0</es>
+			<ko>1.0</ko>
+		</campaing_parts>
+	</pdw>
+	<gts>
+		<swf>2.0</swf>
+	</gts>
+	<gbu>
+		<swf>2.1</swf>
+	</gbu>
+	<yumeshima>
+		<game1>
+			<ja ver="1.0">game/game1.swf</ja>
+			<ko ver="1.0">game/game1.swf</ko>
+			<de ver="1.0">game/game1.swf</de>
+			<en ver="1.0">game/game1.swf</en>
+			<es ver="1.0">game/game1.swf</es>
+			<fr ver="1.0">game/game1.swf</fr>
+			<it ver="1.0">game/game1.swf</it>
+		</game1>
+		<game2>
+			<ja ver="1.0">game/game2.swf</ja>
+			<ko ver="1.0">game/game2.swf</ko>
+			<de ver="1.0">game/game2.swf</de>
+			<en ver="1.0">game/game2.swf</en>
+			<es ver="1.0">game/game2.swf</es>
+			<fr ver="1.0">game/game2.swf</fr>
+			<it ver="1.0">game/game2.swf</it>
+		</game2>
+		<game3>
+			<ja ver="1.0">game/game3.swf</ja>
+			<ko ver="1.0">game/game3.swf</ko>
+			<de ver="1.0">game/game3.swf</de>
+			<en ver="1.0">game/game3.swf</en>
+			<es ver="1.0">game/game3.swf</es>
+			<fr ver="1.0">game/game3.swf</fr>
+			<it ver="1.0">game/game3.swf</it>
+		</game3>
+		<game4>
+			<ja ver="1.0">game/game4.ja.swf</ja>
+			<ko ver="1.0">game/game4.ko.swf</ko>
+			<de ver="1.0">game/game4.de.swf</de>
+			<en ver="1.0">game/game4.en.swf</en>
+			<es ver="1.0">game/game4.es.swf</es>
+			<fr ver="1.0">game/game4.fr.swf</fr>
+			<it ver="1.0">game/game4.it.swf</it>
+		</game4>
+		<game5>
+			<ja ver="1.0">game/game5.swf</ja>
+			<ko ver="1.0">game/game5.swf</ko>
+			<de ver="1.0">game/game5.swf</de>
+			<en ver="1.0">game/game5.swf</en>
+			<es ver="1.0">game/game5.swf</es>
+			<fr ver="1.0">game/game5.swf</fr>
+			<it ver="1.0">game/game5.swf</it>
+		</game5>
+		<game6>
+			<ja ver="1.0">game/game6.swf</ja>
+			<ko ver="1.0">game/game6.swf</ko>
+			<de ver="1.0">game/game6.swf</de>
+			<en ver="1.0">game/game6.swf</en>
+			<es ver="1.0">game/game6.swf</es>
+			<fr ver="1.0">game/game6.swf</fr>
+			<it ver="1.0">game/game6.swf</it>
+		</game6>
+		<game7>
+			<ja ver="1.0">game/game7.swf</ja>
+			<ko ver="1.0">game/game7.swf</ko>
+			<de ver="1.0">game/game7.swf</de>
+			<en ver="1.0">game/game7.swf</en>
+			<es ver="1.0">game/game7.swf</es>
+			<fr ver="1.0">game/game7.swf</fr>
+			<it ver="1.0">game/game7.swf</it>
+		</game7>
+		<game8>
+			<ja ver="1.0">game/game8.swf</ja>
+			<ko ver="1.0">game/game8.swf</ko>
+			<de ver="1.0">game/game8.swf</de>
+			<en ver="1.0">game/game8.swf</en>
+			<es ver="1.0">game/game8.swf</es>
+			<fr ver="1.0">game/game8.swf</fr>
+			<it ver="1.0">game/game8.swf</it>
+		</game8>
+		<template_xml>1.0</template_xml>
+		<se>1.0</se>
+		<pdw_yumeshima_se>1.0</pdw_yumeshima_se>
+		<bgm3>1.0</bgm3>
+		<bgm4>1.0</bgm4>
+		<bgm5>1.0</bgm5>
+		<bgm6>1.0</bgm6>
+		<bgm7>1.0</bgm7>
+		<bgm50>1.0</bgm50>
+		<bgm51>1.0</bgm51>
+		<bgm52>1.0</bgm52>
+		<template3>1.0</template3>
+		<template4>1.0</template4>
+		<template5>1.0</template5>
+		<template6>1.0</template6>
+		<template50>1.0</template50>
+		<template51>2.0</template51>
+		<template52>1.0</template52>
+		<pdw_dreamtree>1.0</pdw_dreamtree>
+	</yumeshima>
+	<yumenoki>
+		<bgm_yumenoki>1.0</bgm_yumenoki>
+	</yumenoki>
+</swf>
