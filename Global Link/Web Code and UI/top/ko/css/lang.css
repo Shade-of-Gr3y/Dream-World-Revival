@@ -1,0 +1,223 @@
+#login-control h1 {
+  background-image: url(/web/20121017005114im_/http://cdn2.pokemon-gl.com/src/swf/top/ko/images/logo.png);
+}
+
+#pdw {
+  background: url(/web/20121017005114im_/http://cdn2.pokemon-gl.com/src/swf/top/ko/images/pdw.png) no-repeat;
+}
+
+#wifi {
+  background: url(/web/20121017005114im_/http://cdn2.pokemon-gl.com/src/swf/top/ko/images/wifi.png) no-repeat;
+}
+
+#campaign {
+  background: url(/web/20121017005114im_/http://cdn2.pokemon-gl.com/src/swf/top/ko/images/campaign.png) no-repeat;
+}
+
+#support {
+  background: url(/web/20121017005114im_/http://cdn2.pokemon-gl.com/src/swf/top/ko/images/support.png) no-repeat;
+}
+
+#report-link {
+  background: url(/web/20121017005114im_/http://cdn2.pokemon-gl.com/src/swf/top/ko/images/report.png) no-repeat;
+}
+
+.information .information-icon-new {
+  background-image: url(/web/20121017005114im_/http://cdn2.pokemon-gl.com/src/swf/top/ko/images/new.png);
+}
+.information .information-category-8 .information-icon {
+  background: url(/web/20121017005114im_/http://cdn2.pokemon-gl.com/src/swf/top/ko/images/cat-info.png) no-repeat 0 0;
+}
+.information .information-category-9 .information-icon {
+  background: url(/web/20121017005114im_/http://cdn2.pokemon-gl.com/src/swf/top/ko/images/cat-wifi.png) no-repeat 0 0;
+}
+.information .information-category-10 .information-icon {
+  background: url(/web/20121017005114im_/http://cdn2.pokemon-gl.com/src/swf/top/ko/images/cat-news.png) no-repeat 0 0;
+}
+.information .information-category-11 .information-icon {
+  background: url(/web/20121017005114im_/http://cdn2.pokemon-gl.com/src/swf/top/ko/images/cat-interior.png) no-repeat 0 0;
+}
+.information .information-category-12 .information-icon {
+  background: url(/web/20121017005114im_/http://cdn2.pokemon-gl.com/src/swf/top/ko/images/cat-cgear.png) no-repeat 0 0;
+}
+.information .information-category-13 .information-icon {
+  background: url(/web/20121017005114im_/http://cdn2.pokemon-gl.com/src/swf/top/ko/images/cat-zukan.png) no-repeat 0 0;
+}
+.information .information-category-14 .information-icon {
+  background: url(/web/20121017005114im_/http://cdn2.pokemon-gl.com/src/swf/top/ko/images/cat-pokemon.png) no-repeat 0 0;
+}
+.information .information-category-15 .information-icon {
+  background: url(/web/20121017005114im_/http://cdn2.pokemon-gl.com/src/swf/top/ko/images/cat-musical.png) no-repeat 0 0;
+}
+.information .information-category-16 .information-icon {
+  background: url(/web/20121017005114im_/http://cdn2.pokemon-gl.com/src/swf/top/ko/images/cat-maintenance.png) no-repeat 0 0;
+}
+.information .information-category-17 .information-icon {
+  background: url(/web/20121017005114im_/http://cdn2.pokemon-gl.com/src/swf/top/ko/images/cat-serverdown.png) no-repeat 0 0;
+}
+
+.login-menu-profile {
+  background: url(/web/20121017005114im_/http://cdn2.pokemon-gl.com/src/swf/top/ko/images/profile-t.png) no-repeat 0 0;;
+}
+.logged-in-white .login-menu-profile {
+  background-image: url(/web/20121017005114im_/http://cdn2.pokemon-gl.com/src/swf/top/ko/images/profile-bw.png);
+}
+.logged-in-black .login-menu-profile {
+  background-image: url(/web/20121017005114im_/http://cdn2.pokemon-gl.com/src/swf/top/ko/images/profile-bw.png);
+}
+.logged-in-white2 .login-menu-profile {
+  background-image: url(/web/20121017005114im_/http://cdn2.pokemon-gl.com/src/swf/top/ko/images/profile-w2.png);
+}
+.logged-in-black2 .login-menu-profile {
+  background-image: url(/web/20121017005114im_/http://cdn2.pokemon-gl.com/src/swf/top/ko/images/profile-b2.png);
+}
+
+.login-menu-mailer {
+  background: url(/web/20121017005114im_/http://cdn2.pokemon-gl.com/src/swf/top/ko/images/mailer-t.png) no-repeat 0 0;;
+}
+.logged-in-white .login-menu-mailer {
+  background-image: url(/web/20121017005114im_/http://cdn2.pokemon-gl.com/src/swf/top/ko/images/mailer-bw.png);
+}
+.logged-in-black .login-menu-mailer {
+  background-image: url(/web/20121017005114im_/http://cdn2.pokemon-gl.com/src/swf/top/ko/images/mailer-bw.png);
+}
+.logged-in-white2 .login-menu-mailer {
+  background-image: url(/web/20121017005114im_/http://cdn2.pokemon-gl.com/src/swf/top/ko/images/mailer-w2.png);
+}
+.logged-in-black2 .login-menu-mailer {
+  background-image: url(/web/20121017005114im_/http://cdn2.pokemon-gl.com/src/swf/top/ko/images/mailer-b2.png);
+}
+
+.login-menu-customize {
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+.logged-in-white .login-menu-customize {
+  background-image: url(/web/20121017005114im_/http://cdn2.pokemon-gl.com/src/swf/top/ko/images/customize-bw.png);
+}
+.logged-in-black .login-menu-customize {
+  background-image: url(/web/20121017005114im_/http://cdn2.pokemon-gl.com/src/swf/top/ko/images/customize-bw.png);
+}
+.logged-in-white2 .login-menu-customize {
+  background-image: url(/web/20121017005114im_/http://cdn2.pokemon-gl.com/src/swf/top/ko/images/customize-w2.png);
+}
+.logged-in-black2 .login-menu-customize {
+  background-image: url(/web/20121017005114im_/http://cdn2.pokemon-gl.com/src/swf/top/ko/images/customize-b2.png);
+}
+
+.member-info-rom-change {
+  background: url(/web/20121017005114im_/http://cdn2.pokemon-gl.com/src/swf/top/ko/images/rom-change-bw.png) no-repeat 0 0;;
+}
+.logged-in-white .member-info-rom-change {
+  background-image: url(/web/20121017005114im_/http://cdn2.pokemon-gl.com/src/swf/top/ko/images/rom-change-bw.png);
+}
+.logged-in-black .member-info-rom-change {
+  background-image: url(/web/20121017005114im_/http://cdn2.pokemon-gl.com/src/swf/top/ko/images/rom-change-bw.png);
+}
+.logged-in-white2 .member-info-rom-change {
+  background-image: url(/web/20121017005114im_/http://cdn2.pokemon-gl.com/src/swf/top/ko/images/rom-change-w2.png);
+}
+.logged-in-black2 .member-info-rom-change {
+  background-image: url(/web/20121017005114im_/http://cdn2.pokemon-gl.com/src/swf/top/ko/images/rom-change-b2.png);
+}
+.member-info-rom-register {
+  background: url(/web/20121017005114im_/http://cdn2.pokemon-gl.com/src/swf/top/ko/images/rom-register-t.png) no-repeat 0 0;;
+}
+.logged-in-white .member-info-rom-register {
+  background-image: url(/web/20121017005114im_/http://cdn2.pokemon-gl.com/src/swf/top/ko/images/rom-register-bw.png);
+}
+.logged-in-black .member-info-rom-register {
+  background-image: url(/web/20121017005114im_/http://cdn2.pokemon-gl.com/src/swf/top/ko/images/rom-register-bw.png);
+}
+.logged-in-white2 .member-info-rom-register {
+  background-image: url(/web/20121017005114im_/http://cdn2.pokemon-gl.com/src/swf/top/ko/images/rom-register-w2.png);
+}
+.logged-in-black2 .member-info-rom-register {
+  background-image: url(/web/20121017005114im_/http://cdn2.pokemon-gl.com/src/swf/top/ko/images/rom-register-b2.png);
+}
+
+.trial .member-info-rom-image {
+  background-image: url(/web/20121017005114im_/http://cdn2.pokemon-gl.com/src/swf/top/ko/images/rom-image-t.png);
+}
+.logged-in-white .member-info-rom-image {
+  background-image: url(/web/20121017005114im_/http://cdn2.pokemon-gl.com/src/swf/top/ko/images/rom-image-w.png);
+}
+.logged-in-black .member-info-rom-image {
+  background-image: url(/web/20121017005114im_/http://cdn2.pokemon-gl.com/src/swf/top/ko/images/rom-image-b.png);
+}
+.logged-in-white2 .member-info-rom-image {
+  background-image: url(/web/20121017005114im_/http://cdn2.pokemon-gl.com/src/swf/top/ko/images/rom-image-w2.png);
+}
+.logged-in-black2 .member-info-rom-image {
+  background-image: url(/web/20121017005114im_/http://cdn2.pokemon-gl.com/src/swf/top/ko/images/rom-image-b2.png);
+}
+
+.member-info-pdw-wakeup {
+  background: url(/web/20121017005114im_/http://cdn2.pokemon-gl.com/src/swf/top/ko/images/wakeup-t.png) no-repeat 0 0;;
+}
+.logged-in-white .member-info-pdw-wakeup {
+  background-image: url(/web/20121017005114im_/http://cdn2.pokemon-gl.com/src/swf/top/ko/images/wakeup-bw.png);
+}
+.logged-in-black .member-info-pdw-wakeup {
+  background-image: url(/web/20121017005114im_/http://cdn2.pokemon-gl.com/src/swf/top/ko/images/wakeup-bw.png);
+}
+.logged-in-white2 .member-info-pdw-wakeup {
+  background-image: url(/web/20121017005114im_/http://cdn2.pokemon-gl.com/src/swf/top/ko/images/wakeup-w2.png);
+}
+.logged-in-black2 .member-info-pdw-wakeup {
+  background-image: url(/web/20121017005114im_/http://cdn2.pokemon-gl.com/src/swf/top/ko/images/wakeup-b2.png);
+}
+
+#right-buttons .login-menu-logout a {
+  background-image: url(/web/20121017005114im_/http://cdn2.pokemon-gl.com/src/swf/top/ko/images/logout-t.png);
+}
+.logged-in-black #right-buttons .login-menu-logout a {
+  background-image: url(/web/20121017005114im_/http://cdn2.pokemon-gl.com/src/swf/top/ko/images/logout-b.png);
+}
+.logged-in-white #right-buttons .login-menu-logout a {
+  background-image: url(/web/20121017005114im_/http://cdn2.pokemon-gl.com/src/swf/top/ko/images/logout-w.png);
+}
+.logged-in-black2 #right-buttons .login-menu-logout a {
+  background-image: url(/web/20121017005114im_/http://cdn2.pokemon-gl.com/src/swf/top/ko/images/logout-b2.png);
+}
+.logged-in-white2 #right-buttons .login-menu-logout a {
+  background-image: url(/web/20121017005114im_/http://cdn2.pokemon-gl.com/src/swf/top/ko/images/logout-w2.png);
+}
+
+
+
+#report-gts .trade-deposit .pokemon .types li {
+  background-image: url(/web/20121017005114im_/http://cdn2.pokemon-gl.com/src/swf/top/ko/images/types-large.png);
+}
+#report-gts .trade-deposit .moves li .type {
+  background-image: url(/web/20121017005114im_/http://cdn2.pokemon-gl.com/src/swf/top/ko/images/types-small.png);
+}
+#report-records .most-slept-pokemon .types li {
+  background-image: url(/web/20121017005114im_/http://cdn2.pokemon-gl.com/src/swf/top/ko/images/types-small.png);
+}
+
+
+
+
+
+
+/*
+     FILE ARCHIVED ON 00:51:14 Oct 17, 2012 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 00:50:04 May 31, 2026.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.545
+  exclusion.robots: 0.049
+  exclusion.robots.policy: 0.039
+  esindex: 0.01
+  cdx.remote: 7.008
+  LoadShardBlock: 38.702 (3)
+  PetaboxLoader3.datanode: 157.768 (4)
+  load_resource: 1953.456
+  PetaboxLoader3.resolve: 1824.793
+*/
