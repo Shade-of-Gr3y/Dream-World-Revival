@@ -1,0 +1,75 @@
+
+.not-logged-in #header {
+  background-image: url(/web/20130213082914im_/http://cdn2.pokemon-gl.com/src/swf/assets/global/ja/images/gmenu-n.png);
+}
+.trial #header {
+  background-image: url(/web/20130213082914im_/http://cdn2.pokemon-gl.com/src/swf/assets/global/ja/images/gmenu-t.png);
+}
+.logged-in-black #header {
+  background-image: url(/web/20130213082914im_/http://cdn2.pokemon-gl.com/src/swf/assets/global/ja/images/gmenu-b.png);
+}
+.logged-in-white #header {
+  background-image: url(/web/20130213082914im_/http://cdn2.pokemon-gl.com/src/swf/assets/global/ja/images/gmenu-w.png);
+}
+.logged-in-black2 #header {
+  background-image: url(/web/20130213082914im_/http://cdn2.pokemon-gl.com/src/swf/assets/global/ja/images/gmenu-b2.png);
+}
+.logged-in-white2 #header {
+  background-image: url(/web/20130213082914im_/http://cdn2.pokemon-gl.com/src/swf/assets/global/ja/images/gmenu-w2.png);
+}
+
+.trial #head-menu li a {
+  background-image: url(/web/20130213082914im_/http://cdn2.pokemon-gl.com/src/swf/assets/global/ja/images/gmenu-t.png);
+}
+.logged-in-black #head-menu li a {
+  background-image: url(/web/20130213082914im_/http://cdn2.pokemon-gl.com/src/swf/assets/global/ja/images/gmenu-b.png);
+}
+.logged-in-white #head-menu li a {
+  background-image: url(/web/20130213082914im_/http://cdn2.pokemon-gl.com/src/swf/assets/global/ja/images/gmenu-w.png);
+}
+.logged-in-black2 #head-menu li a {
+  background-image: url(/web/20130213082914im_/http://cdn2.pokemon-gl.com/src/swf/assets/global/ja/images/gmenu-b2.png);
+}
+.logged-in-white2 #head-menu li a {
+  background-image: url(/web/20130213082914im_/http://cdn2.pokemon-gl.com/src/swf/assets/global/ja/images/gmenu-w2.png);
+}
+
+#header #logo a {
+  background-image: url(/web/20130213082914im_/http://cdn2.pokemon-gl.com/src/swf/assets/global/ja/images/logo.png);
+}
+#header-rom-change a {
+  background-image: url(/web/20130213082914im_/http://cdn2.pokemon-gl.com/src/swf/assets/global/ja/images/header-buttons.png);
+}
+#header-logout a {
+  background-image: url(/web/20130213082914im_/http://cdn2.pokemon-gl.com/src/swf/assets/global/ja/images/header-buttons.png);
+}
+#header-back-to-top a {
+  background-image: url(/web/20130213082914im_/http://cdn2.pokemon-gl.com/src/swf/assets/global/ja/images/gmenu-n.png);
+}
+
+.dialog-buttons-ok, .dialog-buttons-register, .dialog-buttons-cancel, .dialog-buttons-back, .dialog-buttons-wakeup, .dialog-buttons-details {
+  background-image: url(/web/20130213082914im_/http://cdn2.pokemon-gl.com/src/swf/assets/global/ja/images/dialog-buttons.png);
+}
+
+
+
+/*
+     FILE ARCHIVED ON 08:29:14 Feb 13, 2013 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 00:36:03 May 31, 2026.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.483
+  exclusion.robots: 0.046
+  exclusion.robots.policy: 0.036
+  esindex: 0.009
+  cdx.remote: 25.541
+  LoadShardBlock: 75.673 (3)
+  PetaboxLoader3.datanode: 83.807 (4)
+  load_resource: 229.221
+  PetaboxLoader3.resolve: 191.942
+*/
