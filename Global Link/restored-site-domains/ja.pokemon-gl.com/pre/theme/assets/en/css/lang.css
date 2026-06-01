@@ -1,0 +1,66 @@
+
+#header-romname {
+	left: 746px;
+}
+
+.not-logged-in #header {
+	background-image: url(../images/header-logout.png);
+	color: #ADBFD3;
+}
+.not-signed-up      #header,
+.trial              #header,
+.interim-registered #header {
+	background-image: url(../images/header-login.png);
+	color: #ADBFD3;
+}
+.logged-in-white #header {
+	background-image: url(../images/header-white.png);
+	color: #464646;
+}
+.logged-in-black #header {
+	background-image: url(../images/header-black.png);
+	color: #FFFFFF;
+}
+.dialog-button a {
+	background-image: url(../images/dialog-button.png);
+}
+.footer-buttons {
+	background-image: url(../images/footer-buttons.png);
+}
+
+
+
+
+/**/
+.alt{
+	visibility:hidden;
+	position:absolute;
+	top:-15000px;
+	left:-15000px;
+	width:1px;
+	display:none;
+	/*?*/
+	display:block;
+	/**/
+	}
+
+/*TOP*/
+#content{background:url(../images/top_bg.jpg) no-repeat; height:539px; text-align:left; position:relative;}
+#BTclub{position:absolute; right:338px; top:453px;}
+#BTbwlink{position:absolute; right:378px; top:492px;}
+#BTlanguage{position:absolute; right:9px; top:8px;}
+
+#left{background: url(../images/top_left.jpg) no-repeat; width:291px; height:326px; top:203px; left:36px; position:absolute;}
+#right{background: url(../images/top_right.jpg) no-repeat; width:291px; height:326px; top:203px; right:36px; position:absolute;}
+
+
+a:hover img
+{
+filter: alpha(opacity=80);
+opacity:0.8;
+background: #fff;
+}
+
+
+/**/
+

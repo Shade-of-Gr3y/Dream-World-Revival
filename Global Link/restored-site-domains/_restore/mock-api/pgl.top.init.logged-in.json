@@ -1,0 +1,31 @@
+{
+  "mock": true,
+  "status": "forced-local-login",
+  "message": "Generated offline login state from rebuild_structure.py",
+  "language": "en",
+  "token": "offline-token",
+  "member": {
+    "member_savedata_id": "100000001",
+    "avator_id": 1,
+    "avator_name": "Offline Trainer",
+    "pgl_name": "Offline Trainer",
+    "trainer_name": "OFFLINE",
+    "rom_name": "Pokemon Black",
+    "rom_id": "21",
+    "langcode": 2,
+    "trial_flag": "0",
+    "gsid_count": 1,
+    "gscd": "0000-0000",
+    "last_up_time": "2014-01-01 00:00",
+    "world_id": 1,
+    "first_flag": "1",
+    "pokemon_name": "Musharna",
+    "pokemon_no": 518,
+    "form_no": 0,
+    "sleeping_flag": "1",
+    "is_downloaded": "0",
+    "play_status": "2",
+    "nextstart_remaintime": 0
+  },
+  "medals": []
+}

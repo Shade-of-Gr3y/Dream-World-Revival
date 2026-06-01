@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<meta property="og:site_name" content="Pokémon Global Link" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Pokémon Global Link GTS Info-ポケモングローバルリンク トレーナーのマイページ GTSの情報" />
+<meta property="og:url" content="/3ds.pokemon-gl.com/user/R-258-0647-S/gts" />
+<meta property="og:image" content="/3ds.pokemon-gl.com/share/images/logo_default.png" />
+<meta property="og:description" content="GTS info from a Trainer playing on the Pokémon Global Link.-ポケモングローバルリンクで遊んでいるトレーナーのGTSの情報です。" />
+
+<title>Pokémon Global Link</title>
+
+<script src="/3ds.pokemon-gl.com/share/js/jquery-1.9.0.min.js"></script>
+<script src="/3ds.pokemon-gl.com/share/js/loader.js"></script>
+<script>
+loadStyles([
+  '/share/css/common.css',
+  '/pc/common/css/base.css',
+  '/pc/common/css/parts/color_default.css',
+  '/pc/common/css/parts/color_x.css',
+  '/pc/common/css/parts/color_y.css',
+  '/pc/common/css/parts/table.css',
+  '/pc/common/css/parts/title.css',
+  '/pc/common/css/parts/dialog.css',
+  '/pc/common/css/parts/button.css',
+  '/pc/common/css/parts/pokemon.selector.css',
+  '/pc/common/css/parts/type.css',
+  '/pc/common/css/parts/icon.css',
+  '/pc/common/css/parts/panel.css',
+  '/pc/common/css/parts/form.css'
+]);
+loadScripts([
+  '/share/js/json2.js',
+  '/share/js/jquery.cookie.min.js',
+  '/share/js/jquery.easing.1.3.js',
+  '/share/js/share.base.js',
+  '/share/js/share.date.js',
+  '/share/js/share.model.text.js',
+  '/share/js/share.model.api.js',
+  '/share/js/share.model.error.js',
+  '/pc/common/js/pc.api.error.js',
+  '/pc/common/js/pc.base.js',
+  '/pc/common/js/pc.model.dialog.js'
+]);
+</script>
+<script>
+
+PGL.INFO.PAGENAME = 'locale.mypage.gts';
+
+</script>
+
+<script>
+loadStyles([
+  '/pc/common/css/mypage/mypage.css',
+  '/pc/common/css/mypage/gts.css'
+]);
+loadScripts([
+  '/pc/common/js/mypage/common.js',
+  '/pc/common/js/mypage/gts.js'
+]);
+</script>
+<script>
+
+var USERS_ACCOUNT_ID='511be8c0-424f-11e3-b789-068eb5a70c9c';
+var USERS_SAVEDATA_ID='4bfa2b30-4250-11e3-9c84-068eb58d00ba';
+
+</script>
+<script src="../../../../_restore/mock-api-interceptor.js" data-pgl-restore="mock-api-interceptor.js"></script>
+<script src="../../../../_restore/plugin-guards.js" data-pgl-restore="plugin-guards.js"></script>
+<script src="../../../../_restore/runtime-fixes.js" data-pgl-restore="runtime-fixes.js"></script>
+</head>
+
+<body><!-- Wrapper Start //-->
+
+<div id="wrapper">
+
+<script type="text/html" id="template"><!-- Header Start //-->
+
+<header></header><!-- Header End //--><!-- Contents Start //-->
+
+
+
+<div id="contents">
+
+    <div id="contentsHead">
+      <ul class="breadcrumb">
+        <li><a href="/3ds.pokemon-gl.com/">{{GLOSSARY_CONTENT_TOPPAGE}}</a> > </li>
+        <li><a href="javascript:void(0)" class="mypage">{{GLOSSARY_CONTENT_MYPAGE}}</a> > </li>
+        <li>{{GLOSSARY_CONTENT_USER_GTS}}</li>
+      </ul>
+      <h2 class="mypage"><span id="trainerName"></span></h2>
+    </div>
+
+<section id="column2" class="mypage"><!-- navigation -->
+
+<nav id="sideNavigation">
+    <ul>
+    </ul>
+</nav><!-- /navigation --><!-- main -->
+
+
+
+<div id="main">
+<div id="mainIn">
+        <h3 id="pageTitle">{{GLOSSARY_CONTENT_USER_GTS}}</h3>
+        <section>
+        <div id="trade" class="mb30">
+
+          <div id="userPageOwnerHeader" class="for-owner">
+            <p id="currentPrivacySetting"></p>
+            <a id="btnPublishStatus" class="btnGrSmall"></a>
+            <ul class="snsButtons"></ul>
+          </div>
+          <p class="caption caution01">{{GLOSSARY_UPDATE_LAG_NOTICE}}</p>
+
+          <h4>{{F-MY-01-08_SUB_TITLE}} <p class="upDate" id="appendupDate"></p></h4>
+          <div id="depositCont">
+          <dl>
+          	<dt class="squeeze" style="font-size:10px;">{{F-MY-01-08_DEPOSIT_LABEL}}</dt>
+            <dd class="squeeze" style="font-size:10px;">{{F-MY-01-08_TRADE_LABEL}}</dd>
+          </dl>
+          <div id="tradeDeposit"></div>
+          </div>
+
+          <div id="tradeCont">
+          <dl>
+          	<dt class="squeeze" style="font-size:10px;">{{F-MY-01-08_DEPOSIT_LABEL_COMP}}</dt>
+            <dd class="squeeze" style="font-size:10px;">{{F-MY-01-08_TRADE_LABEL_COMP}}</dd>
+            <dd>{{F-MY-01-08_TRADER_LABEL}}</dd>
+          </dl>
+          <div id="tradeList"></div>
+          </div>
+
+          <div id="loading"><span></span> Loading... </div>
+
+							 <div id="note">
+            <p class="ttl">{{GLOSSARY_NOTES}}</p>
+            <p class="lock01">{{GLOSSARY_NOTES_LOCKED_INFO}}</p>
+          </div>
+
+        </div>
+        </section>
+</div>
+</div><!-- /main -->
+
+
+</section>
+
+</div><!-- Contents End //--><!-- Footer Start //-->
+
+
+
+
+<footer></footer><!-- Footer End //-->
+
+
+</script><!-- Wrapper End //-->
+
+
+</div>
+</body>
+</html>

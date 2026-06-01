@@ -1,0 +1,1006 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=1024" />
+  <title>Pokémon Global Link</title>
+  <link rel="stylesheet" type="text/css" href="/cdn2.pokemon-gl.com/src/swf/assets/global/css/theme.css" />
+  <link rel="stylesheet" type="text/css" href="/cdn2.pokemon-gl.com/src/swf/assets/global/ko/css/lang.css" />
+  <script src="/ko.pokemon-gl.com/assets/global/js/jquery-1.7.min.js"></script>
+  <script src="/ko.pokemon-gl.com/assets/global/js/jquery.blockUI.js"></script>
+  <script src="/ko.pokemon-gl.com/assets/global/js/jquery.corner.js"></script>
+  <script src="/ko.pokemon-gl.com/assets/global/js/swfobject.js"></script>
+  <script src="/ko.pokemon-gl.com/assets/global/js/pgl.js"></script>
+  <script src="/ko.pokemon-gl.com/assets/global/js/text.js"></script>
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-17682532-2']);
+    _gaq.push(['_setDomainName', '.pokemon-gl.com']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+    <link rel="stylesheet" href="assets/css/profile.css" />
+    <link rel="stylesheet" href="assets/ko/css/lang.css" />
+    <script src="/ko.pokemon-gl.com/assets/global/js/jquery.ba-hashchange.min.js"></script>
+    <script src="assets/js/text.js"></script>
+    <script src="assets/js/profile.js"></script>
+    
+<script src="../../_restore/mock-api-interceptor.js" data-pgl-restore="mock-api-interceptor.js"></script>
+<script src="../../_restore/plugin-guards.js" data-pgl-restore="plugin-guards.js"></script>
+<script src="../../_restore/runtime-fixes.js" data-pgl-restore="runtime-fixes.js"></script>
+</head>
+<body id="wrapper" oncontextmenu="return false" ondragstart="return false" onselectstart="return false">
+  <div id="container">
+    <div id="header">
+      <div id="logo">
+        <a href="/ko.pokemon-gl.com/">Pokémon Global Link</a>
+      </div>
+      <div id="logged-in-info">
+        <div id="header-avatar" class="logged-in"></div>
+        <div id="header-pgln" class="logged-in">
+          <span id="header-pglname"></span>
+        </div>
+        <div id="header-rom" class="logged-in">
+          <span id="header-romname" class="game-card-name"></span>
+        </div>
+        <div id="header-volume"><div id="header-volume-swf"></div></div>
+        <div id="header-rom-change" class="logged-in"></div>
+        <div id="header-logout" class="logged-in"><a href="/ko.pokemon-gl.com/?p=logout">로그아웃</a></div>
+        <div id="header-back-to-top" class="logged-out"><a href="/ko.pokemon-gl.com/"></a></div>
+      </div>
+      <div id="head-menu">
+        <ul>
+          <li id="head-menu-profile"><a href="/ko.pokemon-gl.com/profile">마이페이지</a></li>
+          <li id="head-menu-campaign"><a href="/ko.pokemon-gl.com/campaign/">캠페인</a></li>
+          <li id="head-menu-customize"><a href="/ko.pokemon-gl.com/customize">커스터마이즈</a></li>
+          <li id="head-menu-pdw"><a href="/ko.pokemon-gl.com/pdw/">PDW</a></li>
+          <li id="head-menu-report"><a href="/ko.pokemon-gl.com/report/">리포트</a></li>
+          <li id="head-menu-wifi"><a href="/ko.pokemon-gl.com/wifi/">Wi-Fi 대회</a></li>
+          <li id="head-menu-support"><a href="/ko.pokemon-gl.com/support/">고객지원</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="main">
+
+
+    <div id="profile">
+      <div id="back-to-mypage"><a href="/ko.pokemon-gl.com/profile/">내 마이페이지로 돌아가기</a></div>
+      
+      <div id="side">
+        <h4>유저 정보</h4>
+        <div id="login-user">
+          <div id="avatar"></div>
+          <p class="logged-in"><a id="avatar-change-button">변경하기</a></p>
+          <dl>
+            <dt>PGL 닉네임</dt>
+            <dd id="pglname"></dd>
+            <dt>주소</dt>
+            <dd id="place"></dd>
+          </dl>
+        </div>
+        <div class="change-buttons logged-in">
+          <p><a id="disclosure-change-button" class="side-button">프로필 공개 범위 변경</a></p>
+          <p><a id="gsid-change-button" class="side-button">게임 소프트웨어 등록</a></p>
+          <p><a id="rom-change-button" class="side-button">게임 소프트웨어 바꾸기</a></p>
+        </div>
+        <div class="logged-in about-updating-profile">포켓몬 오피셜 멤버십에 등록한 메일주소, 비밀번호, 주소 변경은 여기에서 변경해 주십시오.<br /><a class="member-info-link-pki" href="http://pokemonkorea.co.kr" target="_blank"><img src="assets/ko/images/dialog-pki-logo.png" alt="Pokémon Korea, Inc." valign="middle"/></a></div>
+      </div>
+
+
+      <div id="tabs">
+        <div id="sub-menu">
+          <ul>
+            <li><a href="javascript:;" id="tab-soft" class="tab-link selected">게임 소프트웨어 정보</a></li>
+            <li><a href="javascript:;" id="tab-pdw" class="tab-link">PDW</a></li>
+            <li><a href="javascript:;" id="tab-gbu" class="tab-link">GBU/Wi-Fi 대회</a></li>
+            <li><a href="javascript:;" id="tab-gts" class="tab-link">GTS</a></li>
+          </ul>
+        </div>
+      <div class="tab" id="soft">
+        <h3>플레이하고 있는 게임 소프트웨어 정보</h3>
+        <div id="soft-info">
+          <div id="soft-package"></div>
+          <div id="soft-desc">
+            <h5 id="soft-romname"></h5>
+            <div id="soft-synctime"><span class="label">마지막에 재운 일시: </span> <span class="value"></span></div>
+            <div id="soft-gsidc"><span class="label">이 게임 소프트웨어로 등록한 게임싱크 ID 코드: </span><span class="value"></span></div>
+            <div id="soft-trainername"><span class="label">트레이너 이름:</span><span class="value"></span></div>
+            <div id="soft-playtime"><span class="label">플레이시간: </span><span class="value"></span></div>
+            <div id="soft-badges"><span class="label">배지의 수: </span><span class="value"></span></div>
+          </div>
+        </div>
+        <h4>게임프렌드 리스트</h4>
+        <p class="friendlist-update-notes">※게임프렌드 리스트 갱신은 1일 1회입니다.</p>
+        <div id="soft-friendlist">
+          <div id="soft-friendlist-select">
+            <a id="soft-friendlist-select-" class="soft-friendlist-select selected">모두 표시</a>
+            <a id="soft-friendlist-select-3" class="soft-friendlist-select">친구를 표시</a>
+            <a id="soft-friendlist-select-2" class="soft-friendlist-select">아는 사람을 표시</a>
+          </div>
+          <table class="friendlist">
+            <tr>
+              <th class="avatar no-border">아바타</th>
+              <th class="pglname"><div class="sort-field" id="soft-sort-name">PGL 닉네임<div class="friendlist-sort-icon soft-ui"></div></div></th>
+              <th class="area"><div class="sort-field" id="soft-sort-relation">지역</div></th>
+              <th class="relation"><div class="sort-field" id="soft-sort-relation">관계<div class="friendlist-sort-icon soft-ui"></div></div></th>
+              <th class="action">행동</th>
+            </tr>
+            <tr class="even"></tr>
+            <tr class="odd"></tr>
+            <tr class="even"></tr>
+            <tr class="odd"></tr>
+            <tr class="even"></tr>
+          </table>
+
+          <div class="friendlist-pager"></div>
+          <div class="friendlist-description accent-color-negative">
+            <dl>
+              <dt class="friend-icon friend-icon-friend">친구</dt>
+              <dd> 게임 소프트웨어에서 친구 코드를 교환한 유저와는 「친구」가 됩니다.</dd>
+              <dt class="friend-icon friend-icon-tradepal">아는사람</dt>
+              <dd> 게임 소프트웨어의 GTS(글로벌 트레이드 스테이션) 등에서 포켓몬을 교환한 유저와는 「아는사람」이 됩니다.</dd>
+            </dl>
+          </div>
+        </div>
+
+        <h4 class="medals">획득한 메달</h4>
+        <div id="medals-container" class="medals">
+          <div id="recommended-medal">
+            <p>강추메달</p>
+            <div id="recommended-medal-image"></div>
+            <div id="recommended-medal-name"></div>
+          </div>
+
+          <div id="medals-pager-l" class="medals-pager"></div>
+          <div id="medals">
+            <div id="medals-pages">
+              <div id="medals-page1" class="medals-page">
+              <ul id="medals-column1" class="medals-column">
+                <li class="medal1 odd"><span class="medal-image"></span></li>
+                <li class="medal2 even"><span class="medal-image"></span></li>
+                <li class="medal3 odd"><span class="medal-image"></span></li>
+                <li class="medal4 even"><span class="medal-image"></span></li>
+                <li class="medal5 odd"><span class="medal-image"></span></li>
+                <li class="medal6 even"><span class="medal-image"></span></li>
+                <li class="medal7 odd"><span class="medal-image"></span></li>
+                <li class="medal8 even"><span class="medal-image"></span></li>
+                <li class="medal9 odd"><span class="medal-image"></span></li>
+                <li class="medal10 even"><span class="medal-image"></span></li>
+              </ul>
+              <ul id="medals-column2" class="medals-column">
+                <li class="medal1 odd"><span class="medal-image"></span></li>
+                <li class="medal2 even"><span class="medal-image"></span></li>
+                <li class="medal3 odd"><span class="medal-image"></span></li>
+                <li class="medal4 even"><span class="medal-image"></span></li>
+                <li class="medal5 odd"><span class="medal-image"></span></li>
+                <li class="medal6 even"><span class="medal-image"></span></li>
+                <li class="medal7 odd"><span class="medal-image"></span></li>
+                <li class="medal8 even"><span class="medal-image"></span></li>
+                <li class="medal9 odd"><span class="medal-image"></span></li>
+                <li class="medal10 even"><span class="medal-image"></span></li>
+              </ul>
+              </div>
+              <div id="medals-page2" class="medals-page">
+              <ul id="medals-column3" class="medals-column">
+                <li class="medal1 odd"><span class="medal-image"></span></li>
+                <li class="medal2 even"><span class="medal-image"></span></li>
+                <li class="medal3 odd"><span class="medal-image"></span></li>
+                <li class="medal4 even"><span class="medal-image"></span></li>
+                <li class="medal5 odd"><span class="medal-image"></span></li>
+                <li class="medal6 even"><span class="medal-image"></span></li>
+                <li class="medal7 odd"><span class="medal-image"></span></li>
+                <li class="medal8 even"><span class="medal-image"></span></li>
+                <li class="medal9 odd"><span class="medal-image"></span></li>
+                <li class="medal10 even"><span class="medal-image"></span></li>
+              </ul>
+              <ul id="medals-column4" class="medals-column">
+                <li class="medal1 odd"><span class="medal-image"></span></li>
+                <li class="medal2 even"><span class="medal-image"></span></li>
+                <li class="medal3 odd"><span class="medal-image"></span></li>
+                <li class="medal4 even"><span class="medal-image"></span></li>
+                <li class="medal5 odd"><span class="medal-image"></span></li>
+                <li class="medal6 even"><span class="medal-image"></span></li>
+                <li class="medal7 odd"><span class="medal-image"></span></li>
+                <li class="medal8 even"><span class="medal-image"></span></li>
+                <li class="medal9 odd"><span class="medal-image"></span></li>
+                <li class="medal10 even"><span class="medal-image"></span></li>
+              </ul>
+              </div>
+              <div id="medals-page3" class="medals-page">
+              <ul id="medals-column5" class="medals-column">
+                <li class="medal1 odd"><span class="medal-image"></span></li>
+                <li class="medal2 even"><span class="medal-image"></span></li>
+                <li class="medal3 odd"><span class="medal-image"></span></li>
+                <li class="medal4 even"><span class="medal-image"></span></li>
+                <li class="medal5 odd"><span class="medal-image"></span></li>
+                <li class="medal6 even"><span class="medal-image"></span></li>
+                <li class="medal7 odd"><span class="medal-image"></span></li>
+                <li class="medal8 even"><span class="medal-image"></span></li>
+                <li class="medal9 odd"><span class="medal-image"></span></li>
+                <li class="medal10 even"><span class="medal-image"></span></li>
+              </ul>
+              <ul id="medals-column6" class="medals-column">
+                <li class="medal1 odd"><span class="medal-image"></span></li>
+                <li class="medal2 even"><span class="medal-image"></span></li>
+                <li class="medal3 odd"><span class="medal-image"></span></li>
+                <li class="medal4 even"><span class="medal-image"></span></li>
+                <li class="medal5 odd"><span class="medal-image"></span></li>
+                <li class="medal6 even"><span class="medal-image"></span></li>
+                <li class="medal7 odd"><span class="medal-image"></span></li>
+                <li class="medal8 even"><span class="medal-image"></span></li>
+                <li class="medal9 odd"><span class="medal-image"></span></li>
+                <li class="medal10 even"><span class="medal-image"></span></li>
+              </ul>
+              </div>
+              <div id="medals-page4" class="medals-page">
+              <ul id="medals-column7" class="medals-column">
+                <li class="medal1 odd"><span class="medal-image"></span></li>
+                <li class="medal2 even"><span class="medal-image"></span></li>
+                <li class="medal3 odd"><span class="medal-image"></span></li>
+                <li class="medal4 even"><span class="medal-image"></span></li>
+                <li class="medal5 odd"><span class="medal-image"></span></li>
+                <li class="medal6 even"><span class="medal-image"></span></li>
+                <li class="medal7 odd"><span class="medal-image"></span></li>
+                <li class="medal8 even"><span class="medal-image"></span></li>
+                <li class="medal9 odd"><span class="medal-image"></span></li>
+                <li class="medal10 even"><span class="medal-image"></span></li>
+              </ul>
+              <ul id="medals-column8" class="medals-column">
+                <li class="medal1 odd"><span class="medal-image"></span></li>
+                <li class="medal2 even"><span class="medal-image"></span></li>
+                <li class="medal3 odd"><span class="medal-image"></span></li>
+                <li class="medal4 even"><span class="medal-image"></span></li>
+                <li class="medal5 odd"><span class="medal-image"></span></li>
+                <li class="medal6 even"><span class="medal-image"></span></li>
+                <li class="medal7 odd"><span class="medal-image"></span></li>
+                <li class="medal8 even"><span class="medal-image"></span></li>
+                <li class="medal9 odd"><span class="medal-image"></span></li>
+                <li class="medal10 even"><span class="medal-image"></span></li>
+              </ul>
+              </div>
+              <div id="medals-page5" class="medals-page">
+              <ul id="medals-column9" class="medals-column">
+                <li class="medal1 odd"><span class="medal-image"></span></li>
+                <li class="medal2 even"><span class="medal-image"></span></li>
+                <li class="medal3 odd"><span class="medal-image"></span></li>
+                <li class="medal4 even"><span class="medal-image"></span></li>
+                <li class="medal5 odd"><span class="medal-image"></span></li>
+                <li class="medal6 even"><span class="medal-image"></span></li>
+                <li class="medal7 odd"><span class="medal-image"></span></li>
+                <li class="medal8 even"><span class="medal-image"></span></li>
+                <li class="medal9 odd"><span class="medal-image"></span></li>
+                <li class="medal10 even"><span class="medal-image"></span></li>
+              </ul>
+              <ul id="medals-column10" class="medals-column">
+                <li class="medal1 odd"><span class="medal-image"></span></li>
+                <li class="medal2 even"><span class="medal-image"></span></li>
+                <li class="medal3 odd"><span class="medal-image"></span></li>
+                <li class="medal4 even"><span class="medal-image"></span></li>
+                <li class="medal5 odd"><span class="medal-image"></span></li>
+                <li class="medal6 even"><span class="medal-image"></span></li>
+                <li class="medal7 odd"><span class="medal-image"></span></li>
+                <li class="medal8 even"><span class="medal-image"></span></li>
+                <li class="medal9 odd"><span class="medal-image"></span></li>
+                <li class="medal10 even"><span class="medal-image"></span></li>
+              </ul>
+              </div>
+              <div id="medals-page6" class="medals-page">
+              <ul id="medals-column11" class="medals-column">
+                <li class="medal1 odd"><span class="medal-image"></span></li>
+                <li class="medal2 even"><span class="medal-image"></span></li>
+                <li class="medal3 odd"><span class="medal-image"></span></li>
+                <li class="medal4 even"><span class="medal-image"></span></li>
+                <li class="medal5 odd"><span class="medal-image"></span></li>
+                <li class="medal6 even"><span class="medal-image"></span></li>
+                <li class="medal7 odd"><span class="medal-image"></span></li>
+                <li class="medal8 even"><span class="medal-image"></span></li>
+                <li class="medal9 odd"><span class="medal-image"></span></li>
+                <li class="medal10 even"><span class="medal-image"></span></li>
+              </ul>
+              <ul id="medals-column12" class="medals-column">
+                <li class="medal1 odd"><span class="medal-image"></span></li>
+                <li class="medal2 even"><span class="medal-image"></span></li>
+                <li class="medal3 odd"><span class="medal-image"></span></li>
+                <li class="medal4 even"><span class="medal-image"></span></li>
+                <li class="medal5 odd"><span class="medal-image"></span></li>
+                <li class="medal6 even"><span class="medal-image"></span></li>
+                <li class="medal7 odd"><span class="medal-image"></span></li>
+                <li class="medal8 even"><span class="medal-image"></span></li>
+                <li class="medal9 odd"><span class="medal-image"></span></li>
+                <li class="medal10 even"><span class="medal-image"></span></li>
+              </ul>
+              </div>
+              <div id="medals-page7" class="medals-page">
+              <ul id="medals-column13" class="medals-column">
+                <li class="medal1 odd"><span class="medal-image"></span></li>
+                <li class="medal2 even"><span class="medal-image"></span></li>
+                <li class="medal3 odd"><span class="medal-image"></span></li>
+                <li class="medal4 even"><span class="medal-image"></span></li>
+                <li class="medal5 odd"><span class="medal-image"></span></li>
+                <li class="medal6 even"><span class="medal-image"></span></li>
+                <li class="medal7 odd"><span class="medal-image"></span></li>
+                <li class="medal8 even"><span class="medal-image"></span></li>
+                <li class="medal9 odd"><span class="medal-image"></span></li>
+                <li class="medal10 even"><span class="medal-image"></span></li>
+              </ul>
+              <ul id="medals-column14" class="medals-column">
+                <li class="medal1 odd"><span class="medal-image"></span></li>
+                <li class="medal2 even"><span class="medal-image"></span></li>
+                <li class="medal3 odd"><span class="medal-image"></span></li>
+                <li class="medal4 even"><span class="medal-image"></span></li>
+                <li class="medal5 odd"><span class="medal-image"></span></li>
+                <li class="medal6 even"><span class="medal-image"></span></li>
+                <li class="medal7 odd"><span class="medal-image"></span></li>
+                <li class="medal8 even"><span class="medal-image"></span></li>
+                <li class="medal9 odd"><span class="medal-image"></span></li>
+                <li class="medal10 even"><span class="medal-image"></span></li>
+              </ul>
+              </div>
+              <div id="medals-page8" class="medals-page">
+              <ul id="medals-column15" class="medals-column">
+                <li class="medal1 odd"><span class="medal-image"></span></li>
+                <li class="medal2 even"><span class="medal-image"></span></li>
+                <li class="medal3 odd"><span class="medal-image"></span></li>
+                <li class="medal4 even"><span class="medal-image"></span></li>
+                <li class="medal5 odd"><span class="medal-image"></span></li>
+                <li class="medal6 even"><span class="medal-image"></span></li>
+                <li class="medal7 odd"><span class="medal-image"></span></li>
+                <li class="medal8 even"><span class="medal-image"></span></li>
+                <li class="medal9 odd"><span class="medal-image"></span></li>
+                <li class="medal10 even"><span class="medal-image"></span></li>
+              </ul>
+              <ul id="medals-column16" class="medals-column">
+                <li class="medal1 odd"><span class="medal-image"></span></li>
+                <li class="medal2 even"><span class="medal-image"></span></li>
+                <li class="medal3 odd"><span class="medal-image"></span></li>
+                <li class="medal4 even"><span class="medal-image"></span></li>
+                <li class="medal5 odd"><span class="medal-image"></span></li>
+                <li class="medal6 even"><span class="medal-image"></span></li>
+                <li class="medal7 odd"><span class="medal-image"></span></li>
+                <li class="medal8 even"><span class="medal-image"></span></li>
+                <li class="medal9 odd"><span class="medal-image"></span></li>
+                <li class="medal10 even"><span class="medal-image"></span></li>
+              </ul>
+              </div>
+              <div id="medals-page9" class="medals-page">
+              <ul id="medals-column17" class="medals-column">
+                <li class="medal1 odd"><span class="medal-image"></span></li>
+                <li class="medal2 even"><span class="medal-image"></span></li>
+                <li class="medal3 odd"><span class="medal-image"></span></li>
+                <li class="medal4 even"><span class="medal-image"></span></li>
+                <li class="medal5 odd"><span class="medal-image"></span></li>
+                <li class="medal6 even"><span class="medal-image"></span></li>
+                <li class="medal7 odd"><span class="medal-image"></span></li>
+                <li class="medal8 even"><span class="medal-image"></span></li>
+                <li class="medal9 odd"><span class="medal-image"></span></li>
+                <li class="medal10 even"><span class="medal-image"></span></li>
+              </ul>
+              <ul id="medals-column18" class="medals-column">
+                <li class="medal1 odd"><span class="medal-image"></span></li>
+                <li class="medal2 even"><span class="medal-image"></span></li>
+                <li class="medal3 odd"><span class="medal-image"></span></li>
+                <li class="medal4 even"><span class="medal-image"></span></li>
+                <li class="medal5 odd"><span class="medal-image"></span></li>
+                <li class="medal6 even"><span class="medal-image"></span></li>
+                <li class="medal7 odd"><span class="medal-image"></span></li>
+                <li class="medal8 even"><span class="medal-image"></span></li>
+                <li class="medal9 odd"><span class="medal-image"></span></li>
+                <li class="medal10 even"><span class="medal-image"></span></li>
+              </ul>
+              </div>
+              <div id="medals-page10" class="medals-page">
+              <ul id="medals-column19" class="medals-column">
+                <li class="medal1 odd"><span class="medal-image"></span></li>
+                <li class="medal2 even"><span class="medal-image"></span></li>
+                <li class="medal3 odd"><span class="medal-image"></span></li>
+                <li class="medal4 even"><span class="medal-image"></span></li>
+                <li class="medal5 odd"><span class="medal-image"></span></li>
+                <li class="medal6 even"><span class="medal-image"></span></li>
+                <li class="medal7 odd"><span class="medal-image"></span></li>
+                <li class="medal8 even"><span class="medal-image"></span></li>
+                <li class="medal9 odd"><span class="medal-image"></span></li>
+                <li class="medal10 even"><span class="medal-image"></span></li>
+              </ul>
+              <ul id="medals-column20" class="medals-column">
+                <li class="medal1 odd"><span class="medal-image"></span></li>
+                <li class="medal2 even"><span class="medal-image"></span></li>
+                <li class="medal3 odd"><span class="medal-image"></span></li>
+                <li class="medal4 even"><span class="medal-image"></span></li>
+                <li class="medal5 odd"><span class="medal-image"></span></li>
+                <li class="medal6 even"><span class="medal-image"></span></li>
+                <li class="medal7 odd"><span class="medal-image"></span></li>
+                <li class="medal8 even"><span class="medal-image"></span></li>
+                <li class="medal9 odd"><span class="medal-image"></span></li>
+                <li class="medal10 even"><span class="medal-image"></span></li>
+              </ul>
+              </div>
+              <div id="medals-page11" class="medals-page">
+              <ul id="medals-column21" class="medals-column">
+                <li class="medal1 odd"><span class="medal-image"></span></li>
+                <li class="medal2 even"><span class="medal-image"></span></li>
+                <li class="medal3 odd"><span class="medal-image"></span></li>
+                <li class="medal4 even"><span class="medal-image"></span></li>
+                <li class="medal5 odd"><span class="medal-image"></span></li>
+                <li class="medal6 even"><span class="medal-image"></span></li>
+                <li class="medal7 odd"><span class="medal-image"></span></li>
+                <li class="medal8 even"><span class="medal-image"></span></li>
+                <li class="medal9 odd"><span class="medal-image"></span></li>
+                <li class="medal10 even"><span class="medal-image"></span></li>
+              </ul>
+              <ul id="medals-column22" class="medals-column">
+                <li class="medal1 odd"><span class="medal-image"></span></li>
+                <li class="medal2 even"><span class="medal-image"></span></li>
+                <li class="medal3 odd"><span class="medal-image"></span></li>
+                <li class="medal4 even"><span class="medal-image"></span></li>
+                <li class="medal5 odd"><span class="medal-image"></span></li>
+                <li class="medal6 even"><span class="medal-image"></span></li>
+                <li class="medal7 odd"><span class="medal-image"></span></li>
+                <li class="medal8 even"><span class="medal-image"></span></li>
+                <li class="medal9 odd"><span class="medal-image"></span></li>
+                <li class="medal10 even"><span class="medal-image"></span></li>
+              </ul>
+              </div>
+              <div id="medals-page12" class="medals-page">
+              <ul id="medals-column23" class="medals-column">
+                <li class="medal1 odd"><span class="medal-image"></span></li>
+                <li class="medal2 even"><span class="medal-image"></span></li>
+                <li class="medal3 odd"><span class="medal-image"></span></li>
+                <li class="medal4 even"><span class="medal-image"></span></li>
+                <li class="medal5 odd"><span class="medal-image"></span></li>
+                <li class="medal6 even"><span class="medal-image"></span></li>
+                <li class="medal7 odd"><span class="medal-image"></span></li>
+                <li class="medal8 even"><span class="medal-image"></span></li>
+                <li class="medal9 odd"><span class="medal-image"></span></li>
+                <li class="medal10 even"><span class="medal-image"></span></li>
+              </ul>
+              <ul id="medals-column24" class="medals-column">
+                <li class="medal1 odd"><span class="medal-image"></span></li>
+                <li class="medal2 even"><span class="medal-image"></span></li>
+                <li class="medal3 odd"><span class="medal-image"></span></li>
+                <li class="medal4 even"><span class="medal-image"></span></li>
+                <li class="medal5 odd"><span class="medal-image"></span></li>
+                <li class="medal6 even"><span class="medal-image"></span></li>
+                <li class="medal7 odd"><span class="medal-image"></span></li>
+                <li class="medal8 even"><span class="medal-image"></span></li>
+                <li class="medal9 odd"><span class="medal-image"></span></li>
+                <li class="medal10 even"><span class="medal-image"></span></li>
+              </ul>
+              </div>
+              <div id="medals-page13" class="medals-page">
+              <ul id="medals-column25" class="medals-column">
+                <li class="medal1 odd"><span class="medal-image"></span></li>
+                <li class="medal2 even"><span class="medal-image"></span></li>
+                <li class="medal3 odd"><span class="medal-image"></span></li>
+                <li class="medal4 even"><span class="medal-image"></span></li>
+                <li class="medal5 odd"><span class="medal-image"></span></li>
+                <li class="medal6 even"><span class="medal-image"></span></li>
+                <li class="medal7 odd"><span class="medal-image"></span></li>
+                <li class="medal8 even"><span class="medal-image"></span></li>
+                <li class="medal9 odd"><span class="medal-image"></span></li>
+                <li class="medal10 even"><span class="medal-image"></span></li>
+              </ul>
+              <ul id="medals-column26" class="medals-column">
+                <li class="medal1 odd"><span class="medal-image"></span></li>
+                <li class="medal2 even"><span class="medal-image"></span></li>
+                <li class="medal3 odd"><span class="medal-image"></span></li>
+                <li class="medal4 even"><span class="medal-image"></span></li>
+                <li class="medal5 odd"><span class="medal-image"></span></li>
+                <li class="medal6 even"><span class="medal-image"></span></li>
+                <li class="medal7 odd"><span class="medal-image"></span></li>
+                <li class="medal8 even"><span class="medal-image"></span></li>
+                <li class="medal9 odd"><span class="medal-image"></span></li>
+                <li class="medal10 even"><span class="medal-image"></span></li>
+              </ul>
+              </div>
+            </div>
+          </div>
+          <div id="medals-pager-r" class="medals-pager"></div>
+        </div>
+
+        <div class="pgl-info accent-color-negative">※플레이하고 있는 게임 소프트웨어의 정보 반영에 시간이 걸리는 경우가 있습니다.</div>
+      </div>
+
+      <div class="tab" id="pdw">
+        <h3>PDW</h3>
+        <div id="pdw-info">
+          <div id="pdw-info-general">
+            <h5>상태</h5>
+            <div id="pdw-game-status">
+              <div class="vertical-middle-body"></div>
+              <div class="vertical-middle-hint"></div>
+            </div>
+            <div id="pdw-home-thumbnail"></div>
+            <div id="pdw-point">
+              <div class="vertical-middle-body label">꿈포인트: </div>
+              <div class="vertical-middle-hint"></div>
+              <div class="value accent-color-positive"></div>
+            </div>
+          </div>
+          <div id="pdw-info-pokemon">
+            <h5>재운 포켓몬</h5>
+            <div id="pdw-pokemon-status">
+              <div class="nickname"></div>
+              <div class="level">
+                <span class="label">Lv.</span>
+                <span class="value"></span>
+              </div>
+              <div class="sex"></div>
+            </div>
+            <div id="pdw-slept-image"></div>
+            <div class="pdw-status2">
+              <p id="pdw-slept-name"></>
+                <div id="pdw-wakeup"><a class="pdw-ui">포켓몬을 깨우기</a></div>
+            </div>
+            <p id="pdw-slept-parent">
+              <span class="label">어버이</span>
+              <span class="value accent-color-positive"></span>
+            </p>
+            <p id="pdw-slept-types">
+              <span class="label">타입</span>
+              <span class="pokemon-type pokemon-type1"></span>
+              <span class="pokemon-type pokemon-type2"></span>
+            </p>
+            <p id="pdw-slept-nature">
+              <span class="label">성격</span>
+              <span class="value accent-color-positive"></span>
+            </p>
+          </div>
+          <div id="pdw-info-befriend">
+            <h5>최근 동료가 된 포켓몬</h5>
+            <ol id="pdw-recent-mate"></ol>
+            <div id="pdw-recent-mate-empty" class="corner" data-corner="4px">최근 동료가 된 포켓몬이 없습니다</div>
+          </div>
+        </div>
+        <h4>꿈친구 리스트</h4>
+        <p class="friendlist-update-notes">※꿈친구 리스트 갱신은 1일 1회입니다.</p>
+        <div id="pdw-friendlist">
+          <div id="pdw-friendlist-select">
+            <a id="pdw-friendlist-select-friends" class="pdw-friendlist-select selected">꿈친구를 표시</a>
+            <a id="pdw-friendlist-select-requesting" class="pdw-friendlist-select">꿈친구 신청 중을 표시</a>
+            <a id="pdw-friendlist-select-requested" class="pdw-friendlist-select">도착한 신청을 표시</a>
+          </div>
+          <table class="friendlist">
+            <tr>
+              <th class="avatar no-border">아바타</th>
+              <th class="pglname"><div class="sort-field" id="pdw-sort-name">PGL 닉네임<div class="friendlist-sort-icon pdw-ui"></div></div></th>
+              <th class="area">지역</th>
+              <th class="relation">관계</th>
+              <th class="action">행동</th>
+            </tr>
+            <tr class="even"></tr>
+            <tr class="odd"></tr>
+            <tr class="even"></tr>
+            <tr class="odd"></tr>
+            <tr class="even"></tr>
+          </table>
+          <div class="friendlist-pager"></div>
+          <div class="friendlist-description accent-color-negative">
+            <dl>
+              <dt class="friend-icon friend-icon-dreampal">꿈친구</dt>
+              <dd> PDW에서 꿈친구가 된 유저를 「꿈친구」라고 합니다.</dd>
+            </dl>
+          </div>
+          <dl class="pgl-description">
+            <dt>[꿈친구를 신청한 경우]</dt>
+            <dd>승인되어 꿈친구가 되면 홈의 「알림보드」에 알림이 도착합니다.</dd>
+            <dt>[꿈친구 신청을 받은 경우]</dt>
+            <dd>이 유저 홈에 가서「꿈친구 되기」 버튼을 클릭하면 꿈친구가 될 수 있습니다.</dd>
+            <dt>[주의]</dt>
+            <dd>꿈친구가 되지 않고 1주일 이상 지나면 꿈친구 신청이 자동으로 사라지므로 양해 바랍니다.</dd>
+          </dl>
+        </div>
+        <div class="pgl-info accent-color-negative">
+            ※플레이하고 있는 게임 소프트웨어 및 PDW의 정보 반영에 시간이 걸리는 경우가 있습니다.
+        </div>
+
+
+      </div>
+
+      <div class="tab" id="gbu">
+        <h3>GBU/Wi-Fi 대회</h3>
+
+        <h4 class="gbu-record"><span>대전 성적</span></h4>
+        <div id="gbu-season-select-box">
+          <select id="gbu-season-select" name="gbu-season-select"></select>
+        </div>
+        <table class="pgl-data">
+          <tr id="gbu-record-head" class="even">
+            <th class="no-border"><span id=""></span></th>
+            <th class="gbu-record-column"><span id="gbu-record-head-total">종합 랭킹</span></th>
+            <th class="gbu-record-column"><span id="gbu-record-head-single">싱글</span></th>
+            <th class="gbu-record-column"><span id="gbu-record-head-double">더블</span></th>
+            <th class="gbu-record-column"><span id="gbu-record-head-triple">트리플</span></th>
+            <th class="gbu-record-column"><span id="gbu-record-head-shooter">슈터</span></th>
+            <th class="gbu-record-column"><span id="gbu-record-head-rotation">로테이션</span></th>
+          </tr>
+          <tr id="gbu-record-rating" class="odd">
+            <th class="no-border"><span id="gbu-record-rating-head">레이팅</span></th>
+            <td><span id="gbu-record-rating-total"></span> pt</td>
+            <td><span id="gbu-record-rating-single"></span> pt</td>
+            <td><span id="gbu-record-rating-double"></span> pt</td>
+            <td><span id="gbu-record-rating-triple"></span> pt</td>
+            <td><span id="gbu-record-rating-shooter"></span> pt</td>
+            <td><span id="gbu-record-rating-rotation"></span> pt</td>
+          </tr>
+          <tr id="gbu-record-ranking" class="even">
+            <th class="no-border"><span id="gbu-record-ranking-head">랭킹</span></th>
+            <td><span id="gbu-record-ranking-total"></span> 위</td>
+            <td><span id="gbu-record-ranking-single"></span> 위</td>
+            <td><span id="gbu-record-ranking-double"></span> 위</td>
+            <td><span id="gbu-record-ranking-triple"></span> 위</td>
+            <td><span id="gbu-record-ranking-shooter"></span> 위</td>
+            <td><span id="gbu-record-ranking-rotation"></span> 위</td>
+          </tr>
+          <tr id="gbu-record-battles" class="odd">
+            <th class="no-border"><span id="gbu-record-battles-head">대전수</span></th>
+            <td><span class="win total"><span class="value"></span> 승</span> <span class="lose total"><span class="value"></span> 패</span></td>
+            <td><span class="win single"><span class="value"></span> 승</span> <span class="lose single"><span class="value"></span> 패</span></td>
+            <td><span class="win double"><span class="value"></span> 승</span> <span class="lose double"><span class="value"></span> 패</span></td>
+            <td><span class="win triple"><span class="value"></span> 승</span> <span class="lose triple"><span class="value"></span> 패</span></td>
+            <td><span class="win shooter"><span class="value"></span> 승</span> <span class="lose shooter"><span class="value"></span> 패</span></td>
+            <td><span class="win rotation"><span class="value"></span> 승</span> <span class="lose rotation"><span class="value"></span> 패</span></td>
+          </tr>
+        </table>
+        <div class="updated-at">
+          <span class="label">레이팅： </span>
+          <span class="value"></span>
+          <span class="label">갱신</span>
+        </div>
+        <div class="updated-at">
+          <span class="label">랭킹： </span>
+          <span class="value"></span>
+          <span class="label">갱신</span>
+        </div>
+      
+        <h4 class="gbu-history"><span>최근 대전</span></h4>
+        <div id="battle-history">
+          <table id="battle-history-table" class="pgl-data">
+            <tr class="even">
+              <th class="date">일시</th>
+              <th class="regulation">규칙</th>
+              <th class="avatar">아바타</th>
+              <th class="pgl-name">PGL 닉네임</th>
+              <th class="player-name">트레이너 이름</th>
+              <th class="country">지역</th>
+              <th class="win-lose">승패</th>
+            </tr>
+            <tr class="battle-history-template">
+              <td class="date"></td>
+              <td class="regulation"></td>
+              <td class="avatar"></td>
+              <td class="pgl-name"></td>
+              <td class="player-name"></td>
+              <td class="country"></td>
+              <td class="win-lose"></td>
+            </tr>
+          </table>
+        </div>
+
+        <h4 class="gbu-status"><span>대회 상태</span></h4>
+        <div id="gbu-status"><a href="/ko.pokemon-gl.com/wifi/"></a>
+        </div>
+
+
+        <h4 class="gbu-history"><span>대회 참가 기록</span></h4>
+        <div id="tournament-history">
+          <table id="tournament-history-table" class="pgl-data">
+            <tr class="even">
+              <th class="date no-border">참가일</th>
+              <th class="name">대회명</th>
+              <th class="rating">레이팅</th>
+              <th class="ranking">랭킹</th>
+              <th class="winlose">승패 수</th>
+            </tr>
+            <tr class="tournament-history-template">
+              <td class="date"></td>
+              <td class="name"></td>
+              <td class="rating"><span class="value"></span> pt</td>
+              <td class="ranking"><span class="value"></span> 위</td>
+              <td class="winlose"></td>
+            </tr>
+          </table>
+        </div>
+
+        <h4 class="gbu-video"><span>선호하는 배틀 비디오</span></h4>
+        <div class="pgl-description" id="gbu-favorite-video-description">
+          선호하는 배틀 비디오의 번호(12자리)를 등록할 수 있습니다.<br />
+          비디오 넘버는 게임 내의 글로벌 배틀 터미널에 보낸 배틀 비디오에 있습니다.
+        </div>
+        <div id="gbu-favorite-video" class="subsection-body">
+          <div class="form">
+            <div><div style="max-width:250px;">배틀 비디오 등록하기</div>
+              <input type="text" id="gbu-favorite-video-code" name="video_code" maxlength="14"/>
+            </div>
+            <a id="gbu-favorite-video-submit" class="gbu-ui"><span>등록</span></a>
+          </div>
+          <ul></ul>
+          <div style="clear: both;"></div>
+        </div>
+
+        <div class="pgl-info accent-color-negative">
+          ※플레이하고 있는 게임 소프트웨어의 정보 반영에 시간이 걸리는 경우가 있습니다.
+        </div>
+      </div>
+
+
+      <div class="tab" id="gts">
+        <h3>글로벌 트레이드 스테이션</h3>
+
+        <h4 class="gbu-history"><span>최근 교환</span></h4>
+        <div class="updated-at">
+          <span class="label"></span>
+          <span class="value"></span>
+          <span class="label">갱신</span>
+        </div>
+        <div id="gts-trade-history">
+          <table id="gts-trade-history-table" class="pgl-data">
+            <tr id="gts-triade-history-header">
+              <th class="no-border">일시</th>
+              <th width="221">맡긴 포켓몬</th>
+              <th>상대 정보</th>
+              <th>원하는 포켓몬/받은 포켓몬</th>
+            </tr>
+            <tr class="gts-trade-history-template">
+              <td class="date no-border"></td>
+              <td class="gts-pokemon">
+                <div class="gts-pokemon-column1">
+                  <div class="gts-pokemon-image"></div>
+                  <p class="gts-pokemon-name"></p>
+                </div>
+                <div class="gts-pokemon-column2">
+                  <p class="gts-pokemon-waza1"></p>
+                  <p class="gts-pokemon-waza2"></p>
+                  <p class="gts-pokemon-waza3"></p>
+                  <p class="gts-pokemon-waza4"></p>
+                  <p class="gts-pokemon-pokeitem"></p>
+                  <p class="gts-pokemon-lvg">
+                    <span class="gts-pokemon-lv">Lv.<span class="gts-pokemon-level"></span></span>
+                    <span class="gts-pokemon-gender"></span>
+                  </p>
+                </div>
+              </td>
+              <td class="trade">
+                <div class="trade-avatar"></div>
+                <div class="trade-info">
+                  <dl>
+                    <dt class="trade-player-name">트레이너 이름</dt>
+                    <dd class="trade-player-name"></dd>
+                    <dt class="trade-country">지역</dt>
+                    <dd class="trade-country"></dd>
+                    <dt class="trade-pgl-name">PGL 닉네임</dt>
+                    <dd class="trade-pgl-name"></dd>
+                  </dl>
+                </div>
+              </td>
+              <td class="trade-pokemon">
+                <div class="trade-pokemon-column1">
+                  <div class="trade-pokemon-image"></div>
+                  <p class="trade-pokemon-name"></p>
+                </div>
+                <div class="trade-pokemon-column2">
+                  <p class="trade-pokemon-waza1"></p>
+                  <p class="trade-pokemon-waza2"></p>
+                  <p class="trade-pokemon-waza3"></p>
+                  <p class="trade-pokemon-waza4"></p>
+                  <p class="trade-pokemon-pokeitem"></p>
+                  <p class="trade-pokemon-lvg">
+                    <span class="trade-pokemon-lv">Lv.<span class="trade-pokemon-level"></span></span>
+                    <span class="trade-pokemon-gender"></span>
+                  </p>
+                </div>
+              </td>
+              <td class="want-pokemon">
+                <div class="want-pokemon-column1">
+                  <div class="want-pokemon-image"></div>
+                  <p class="want-pokemon-name"></p>
+                </div>
+                <div class="want-pokemon-column2">
+                  <p class="want-pokemon-g">
+                    성별<br /><span class="want-pokemon-gender"></span>
+                  </p>
+                  <p class="want-pokemon-lv">
+                  레벨<br />
+                  <span class="want-pokemon-level">
+                    <span class="want-pokemon-level-min"></span> - 
+                    <span class="want-pokemon-level-max"></span>
+                  </span>
+                  </p>
+                </div>
+              </td>
+            </tr>
+          </table>
+        </div>
+
+        <h4 class="gts-bookmark"><span>북마크</span></h4>
+        <div id="gts-bookmark">
+          <div id="gts-bookmark-pager-l" class="gts-bookmark-pager"></div>
+          <div id="gts-bookmark-list">
+            <ul></ul>
+          </div>
+          <div id="gts-bookmark-pager-r" class="gts-bookmark-pager"></div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+
+
+
+
+    <div id="dialog-avatar" class="dialog">
+      <div class="dialog-header">아바타 설정<div class="dialog-close">X</div></div>
+      <div class="dialog-body">
+        <p class="dialog-lead">아바타를 설정할 수 있습니다</p>
+        <div class="clearfix">
+          <div id="dialog-avatar-selected">
+            <div id="dialog-avatar-selected-label">선택한 아바타</div>
+            <div id="dialog-avatar-selected-image"></div>
+            <div id="dialog-avatar-selected-name"></div>
+          </div>
+          <div id="dialog-avatar-list">
+            <ul></ul>
+          </div>
+          <div id="dialog-avatar-pager">
+            <ul></ul>
+          </div>
+        </div>
+        <div class="dialog-buttons">
+          <a class="dialog-buttons-ok"></a>
+        </div>
+      </div>
+    </div>
+
+    <div id="dialog-disclosure" class="dialog">
+      <div class="dialog-header">프로필 공개 범위 변경<div class="dialog-close">X</div></div>
+      <div class="dialog-body">
+        <p class="dialog-lead">프로필/게임프렌드 리스트 공개 범위를 설정할 수 있습니다.</p>
+        <div class="for-trial">
+          현재 체험판을 플레이 중입니다.<br />게임싱크 ID 코드를 등록하면 프로필 공개 범위를 변경할 수 있습니다.
+        </div>
+        <div class="disclosure" id="dialog-disclosure-profile">
+          <div class="disclosure-label">프로필 공개 범위</div>
+          <ul>
+            <li>모든 유저에게 공개</li>
+            <li>친구에게 공개</li>
+            <li>비공개</li>
+          </ul>
+        </div>
+        <div class="disclosure" id="dialog-disclosure-friend">
+          <div class="disclosure-label">게임프렌드 리스트・꿈친구 공개 범위</div>
+          <ul>
+            <li>모든 유저에게 공개</li>
+            <li>게임프렌드 리스트를 친구에게 공개</li>
+            <li>비공개</li>
+          </ul>
+        </div>
+        <p class="dialog-help"><a href="/ko.pokemon-gl.com/support/help/page/307/#lay1"><img src="/ko.pokemon-gl.com/assets/global/images/support-link-icon.png" alt=""/>공개 설정에 대해서</a></p>
+
+        <div class="dialog-buttons">
+          <a class="dialog-buttons-ok"></a>
+        </div>
+      </div>
+    </div>
+
+
+    <div id="dialog-gsidc" class="dialog">
+      <div class="dialog-header">게임싱크 ID 코드 등록<div class="dialog-close">X</div></div>
+      <div id="dialog-gsidc-body-1" class="dialog-body">
+        <p class="dialog-lead">게임싱크 ID 코드를 등록할 수 있습니다.</p>
+        <div class="register">
+          <label for="dialog-gsidc-input">게임싱크 ID 코드: </label>
+          <input type="text" maxlength="10" id="dialog-gsidc-input"/>
+        </div>
+        <p class="dialog-help"><a href="/ko.pokemon-gl.com/support/help/cooperation/100/#lay2"><img src="/ko.pokemon-gl.com/assets/global/images/support-link-icon.png" alt=""/>게임싱크 ID 코드에 대해서</a></p>
+        <div class="dialog-buttons">
+          <a class="dialog-buttons-register"></a>
+        </div>
+        <div class="about-gsidc">
+          <p>
+            게임싱크 ID 코드는 「<span class="game-card-name">포켓몬스터 블랙</span>」「<span class="game-card-name">포켓몬스터 화이트</span>」 또는 「<span class="game-card-name">포켓몬스터 블랙 2</span>」「<span class="game-card-name">포켓몬스터 화이트 2</span>」에서 어느 정도 모험을 진행하면 타이틀 메뉴→「게임싱크 설정」에서 볼 수 있습니다.
+          </p>
+          <p>
+            하나의 「포켓몬 오피셜 멤버십」 ID에 「<span class="game-card-name">포켓몬스터 블랙</span>」「<span class="game-card-name">포켓몬스터 화이트</span>」 「<span class="game-card-name">포켓몬스터 블랙 2</span>」「<span class="game-card-name">포켓몬스터 화이트 2</span>」 게임 소프트웨어 별로 하나의 게임싱크 ID 코드를 등록할 수 있습니다.
+          </p>
+          <p>※한번 등록한 게임싱크 ID 코드는 변경 및 삭제할 수 없습니다.</p>
+        </div>
+      </div>
+      <div id="dialog-gsidc-body-2" class="dialog-body">
+        <p class="dialog-lead">아래와 같이 등록합니다.<br />문제없으면 「등록」 버튼을 클릭해 주십시오.</p>
+        <div class="register">
+          <div class="logo"></div>
+          <label for="dialog-gsidc-input2">게임싱크 ID 코드: </label>
+          <input type="text" maxlength="10" id="dialog-gsidc-input2" readonly="readonly"/>
+        </div>
+        <div class="dialog-buttons">
+          <a class="dialog-buttons-register"></a>
+          <a class="dialog-buttons-cancel"></a>
+        </div>
+      </div>
+    </div>
+
+    <div id="dialog-rom" class="dialog">
+      <div class="dialog-header">게임 소프트웨어 바꾸기<div class="dialog-close">X</div></div>
+      <div class="dialog-body">
+        <p class="dialog-lead">포켓몬 글로벌 링크와 연계된 게임 소프트웨어를 바꿀 수 있습니다.</p>
+        <div>
+          <div id="dialog-rom-21" class="dialog-rom-item">
+            <input type="radio" name="game"/>
+            <div class="package"></div>
+            <div class="logo"></div>
+            <div class="dialog-gsidc-item-state">
+              <p class="dialog-gsidc-item-gsidc"><span class="label">게임싱크 ID 코드: </span><span class="value"></span></p>
+              <p class="dialog-gsidc-item-time"><span class="label">마지막에 재운 일시: </span><span class="value"></span></p>
+            </div>
+          </div>
+          <div id="dialog-rom-20" class="dialog-rom-item">
+            <input type="radio" name="game"/>
+            <div class="package"></div>
+            <div class="logo"></div>
+            <div class="dialog-gsidc-item-state">
+              <p class="dialog-gsidc-item-gsidc"><span class="label">게임싱크 ID 코드: </span><span class="value"></span></p>
+              <p class="dialog-gsidc-item-time"><span class="label">마지막에 재운 일시: </span><span class="value"></span></p>
+            </div>
+          </div>
+          <div id="dialog-rom-23" class="dialog-rom-item">
+            <input type="radio" name="game"/>
+            <div class="package"></div>
+            <div class="logo"></div>
+            <div class="dialog-gsidc-item-state">
+              <p class="dialog-gsidc-item-gsidc"><span class="label">게임싱크 ID 코드: </span><span class="value"></span></p>
+              <p class="dialog-gsidc-item-time"><span class="label">마지막에 재운 일시: </span><span class="value"></span></p>
+            </div>
+          </div>
+          <div id="dialog-rom-22" class="dialog-rom-item">
+            <input type="radio" name="game"/>
+            <div class="package"></div>
+            <div class="logo"></div>
+            <div class="dialog-gsidc-item-state">
+              <p class="dialog-gsidc-item-gsidc"><span class="label">게임싱크 ID 코드: </span><span class="value"></span></p>
+              <p class="dialog-gsidc-item-time"><span class="label">마지막에 재운 일시: </span><span class="value"></span></p>
+            </div>
+          </div>
+          <div class="dialog-buttons">
+            <a class="dialog-buttons-ok"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+    </div>
+    <div id="footer">
+      <ul id="footer-links">
+        <li><a href="/ko.pokemon-gl.com/terms-of-use/">약속</a></li>
+        <li><a href="/ko.pokemon-gl.com/maintenance/">사이트 점검에 대해서</a></li>
+        <li><a href="http://pokemonkorea.co.kr/pgl/footer/browser.asp">PC 설정</a></li>
+        <li><a href="http://pokemonkorea.co.kr/pgl/footer/privacy.asp">개인정보취급방침</a></li>
+        <li><a href="http://pokemonkorea.co.kr/pgl/footer/copyright.asp">저작권</a></li>
+        <li><a href="" class="trafficy">PDW 혼잡상황</a></li>
+      </ul>
+      <ul id="select-language">
+        <li>언어 선택（Language） : &nbsp;&nbsp;&nbsp;</li>
+        <li><a href="/ja.pokemon-gl.com/">日本語</a></li>
+        <li><a href="/en.pokemon-gl.com/">English</a></li>
+        <li><a href="/fr.pokemon-gl.com/">Français</a></li>
+        <li><a href="/it.pokemon-gl.com/">Italiano</a></li>
+        <li><a href="/de.pokemon-gl.com/">Deutsch</a></li>
+        <li><a href="/es.pokemon-gl.com/">Español</a></li>
+        <li><a href="/ko.pokemon-gl.com/">한국어</a></li>
+      </ul>
+      <div id="copyright">
+        <p>© 2013 Pokémon. © 1995-2013 Nintendo/Creatures Inc./GAME FREAK inc. 포켓몬스터, 포켓몬, Pokémon은 Nintendo의 등록상표입니다. Nintendo DS is a trademark of Nintendo. </p>
+        <p class="maintenance"><a href="http://www.nintendo.co.kr/DS/soft/wifi/wifi_connection.php" target="_blank">닌텐도 DS 네트워크 점검정보·가동상황</a></p>
+      </div>
+      <div id="badges"><a class="footer-badges-pki" href="http://pokemonkorea.co.kr/" target="_blank"><img src="/ko.pokemon-gl.com/assets/global/ko/images/footer/pki.png"/></a><a class="footer-badges-nintendo" href="http://www.nintendo.co.kr/" target="_blank"><img src="/ko.pokemon-gl.com/assets/global/ko/images/footer/nintendo.png"/></a><a class="footer-badges-wifi" href="http://www.nintendo.co.kr/DS/soft/wifi/wifi_connection.php" target="_blank"><img src="/ko.pokemon-gl.com/assets/global/ko/images/footer/wifi.png"/></a><span class="footer-badges-ko"><img src="/ko.pokemon-gl.com/assets/global/ko/images/footer/ko.png"/></span></div>
+    </div>
+  </div>
+</body>
+</html>

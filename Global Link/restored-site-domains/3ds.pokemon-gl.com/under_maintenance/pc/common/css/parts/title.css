@@ -1,0 +1,79 @@
+@charset "UTF-8";
+/* CSS Document */
+
+h2{
+	font-weight: bold;
+	font-size: 23px;
+	letter-spacing: 2px;
+	padding: 0px 10px 3px 45px;
+	margin-bottom:30px;
+	background-position: 0 center;
+	background-repeat: no-repeat;
+	min-height:33px;
+}
+h2.mypage {
+	margin: 0;
+	background-position: 4px top;
+	background-repeat: no-repeat;
+}
+h2.journal{ margin:0 0 0px 0; padding:0; border:none !important;}
+
+h3{
+	font-size: 16px;
+	color:#FFFFFF;
+	padding: 10px 10px 0px 70px;
+	min-height:30px;
+	margin-bottom:20px;
+	border:1px solid #E1E1E1;
+	box-shadow: 3px 3px 0px 0px rgba(255,255,255,1) inset,-3px -3px 0px 0px rgba(255,255,255,1) inset;
+	-moz-box-shadow: 3px 3px 0px 0px rgba(255,255,255,1) inset,-3px -3px 0px 0px rgba(255,255,255,1) inset;
+	-webkit-box-shadow: 3px 3px 0px 0px rgba(255,255,255,1) inset,-3px -3px 0px 0px rgba(255,255,255,1) inset;
+}
+
+h3[class*="sttl"]{
+	font-weight: bold;
+	font-size: 16px;
+	padding: 0px 10px 3px 25px;
+	min-height:auto;
+	margin-bottom:20px;
+	box-shadow: none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	border:none;
+}
+
+h3[class*="sttl or"]{
+	background:url(/3ds.pokemon-gl.com/under_maintenance/pc/common/images/parts/h3_icon_mypage.png) no-repeat left 2px;
+}
+
+/* 無印のspanへの指定は、以降spanを使えなくなってしまうため一旦無効化しました */
+/*h3 span{ font-size:12px; font-weight:normal; float:right; margin-right:5px;}*/
+h3 span[class*="left"]{ float:none; margin:0 0 0 15px; font-size:11px;}
+h3 span[class*="date"]{ background:url(/3ds.pokemon-gl.com/under_maintenance/pc/common/images/icon/icon_rankingttl01.png) no-repeat left 2px; padding-left:25px;}
+h3 span.lock02{ font-size:16px; font-weight:bold; float:none; margin-right:0;}
+
+section.mypage h3{
+	font-weight: bold;
+	font-size: 17px;
+	margin-bottom:20px;
+	box-shadow: none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	letter-spacing: 2px;
+	padding: 0;
+	min-height: 28px;
+	padding-left: 25px;
+	background-repeat: no-repeat;
+	background-position: 1px 4px;
+}
+
+h4{
+	color:#FFFFFF;
+	padding:3px 6px;
+	font-weight:bold;
+	font-size:13px;
+	min-height:1px;
+	letter-spacing: 2px;
+}
+
+

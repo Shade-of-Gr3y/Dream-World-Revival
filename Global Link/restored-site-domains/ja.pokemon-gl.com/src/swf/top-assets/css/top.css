@@ -1,0 +1,971 @@
+
+body {
+	background-position: 50% -1304px;
+}
+
+#content {
+	height: 656px;
+}
+
+.member-info-avatar {
+	behavior: url(/ja.pokemon-gl.com/theme/assets/js/iepngfix.htc);
+}
+#pokemon-window {
+	behavior: url(/ja.pokemon-gl.com/theme/assets/js/iepngfix.htc);
+}
+/*
+.pokemon-window-image img {
+	behavior: url(/ja.pokemon-gl.com/theme/assets/js/iepngfix.htc);
+}
+*/
+
+
+/*
+ サイドバー
+ */
+#sidebar {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 223px;
+	height: 677px;
+	z-index: 2;
+	background-repeat: no-repeat;
+	background-position: left top;
+	behavior: url(/ja.pokemon-gl.com/theme/assets/js/iepngfix.htc);
+}
+/*
+ サイドバー ログイン状態に応じたスタイル
+ */
+#sidebar, #sidebar a {
+	color: #5B5B5B;
+}
+.logged-in-black #sidebar, .logged-in-black #sidebar a {
+	color: #FFF;
+}
+.logged-in-white #sidebar, .logged-in-white #sidebar a {
+	color: #5B5B5B;
+}
+
+#content {
+	background: #2D3844;
+}
+.logged-in-black #content {
+	background: #111;
+}
+.logged-in-white #content {
+	background: #E3E3E3;
+}
+
+
+
+#sidebar h1 {
+	background-repeat: no-repeat;
+	background-position: top left;
+	width: 205px;
+	height: 125px;
+	position: relative;
+}
+#sidebar h1 span {
+	position: absolute;
+	left: -999em;
+}
+
+/*
+ サイドバー ログイン関係コントロール
+ */
+#login-control {
+	position: absolute;
+	left: 0px;
+	top: 117px;
+	width: 100%;
+	height: 238px;
+}
+
+/*
+ サイドバー メンバー情報
+ */
+.member-info dt {
+	position: absolute;
+	left: 0px;
+}
+.member-info dd {
+	position: absolute;
+	left: 18px;
+	font-size: 13px;
+	/* font-weight: bold; */
+	margin: 0;
+}
+dd.member-info-pglname { top: 27px; left: 51px; width:154px; display: block; }
+dd.member-info-romname { top: 77px; }
+dd.member-info-sleptname { top: 117px; width:180px; }
+dd.member-info-pdwstatus { top: 164px; width:180px; }
+
+.member-info .member-info-avatar {
+	position: absolute;
+	left: 8px;
+	top: 16px;
+}
+
+
+/*
+ 起こすボタン
+ */
+.member-info-wakeup {
+	position: absolute;
+	left: 97px;
+	top: 114px;
+}
+.member-info-wakeup a {
+	width: 96px;
+	height: 20px;
+	background-position: 0px -99px;
+}
+.member-info-wakeup a:hover {
+	background-position: -96px -99px;
+}
+.member-info-wakeup span {
+	display: block;
+	width: 96px;
+	height: 20px;
+	background-position: -192px -99px;
+}
+
+
+/*
+ プロフィールボタン
+ */
+.login-menu-profile {
+	position: absolute;
+	left: 12px;
+	top: 196px;
+}
+.login-menu-profile a {
+	width: 104px;
+	height: 25px;
+	background-position: 0 -49px;
+}
+.login-menu-profile a:hover {
+	background-position: 0 -74px;
+}
+
+/*
+ ログアウトボタン
+ */
+.login-menu-logout {
+	position: absolute;
+	left: 120px;
+	top: 196px;
+}
+.login-menu-logout a {
+	width: 76px;
+	height: 25px;
+	background-position: -104px -49px;
+}
+.login-menu-logout a:hover {
+	background-position: -104px -74px;
+}
+
+
+
+#login-control .updated-at {
+	font-size: 11px;
+	text-align: right;
+	
+	position: absolute;
+	right: 26px;
+	top: 227px;
+	width: 191px;
+}
+.logged-in-black #login-control .updated-at {
+	color: #999;
+}
+
+
+
+/*
+ ログインフレーム
+ */
+#login-control .login-frame {
+	width: 207px;
+	height: 238px;
+	border-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+
+
+
+
+/*
+ サイドバー インフォメーション
+ */
+#information {
+	position: absolute;
+	width: 209px;
+	height: 279px;
+	left: 0;
+	top: 363px;
+}
+#information h2 {
+	position: absolute;
+	left: 5px;
+	top: 3px;
+	width: 130px;
+	height: 23px;
+}
+
+#information h2 span {
+	position: absolute;
+	left: -999em;
+}
+#information .information-more {
+	position: absolute;
+	right: 10px;
+	top: 7px;
+}
+#information .information-more a {
+	width: 60px;
+	height: 17px;
+	background-position: 0px -32px;
+	background-repeat: no-repeat;
+}
+#information .information-more a:hover {
+	background-position: -60px -32px;
+}
+
+#information ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+#information li {
+	border-bottom: 1px dotted #696969;
+	padding: 9px 8px;
+	line-height: 120%;
+	font-size: 11px;
+}
+#information li a {
+	color: inherit;
+	text-decoration: none;
+}
+#information li span.type {
+	display: block;
+	float: left;
+}
+#information li span.date {
+	font-size: 11px;
+	display: block;
+	color: #F66;
+	text-align: right;
+}
+#information li span.title {
+	display: block;
+	padding-top: 2px;
+}
+#information .scroll-target {
+	position: absolute;
+	left: 4px;
+	top: 29px;
+	width: 199px;
+	height: 226px;
+	overflow: hidden;
+}
+#information .scroller-up a {
+	position: absolute;
+	left: 106px;
+	top: 261px;
+	cursor: pointer;
+	width: 60px;
+	height: 16px;
+	background-position: -60px 0;
+}
+#information .scroller-up a:hover {
+	background-position: -120px 0;
+}
+#information .scroller-up a.disabled {
+	background-position: 0px 0;
+	cursor: default;
+}
+#information .scroller-down a {
+	position: absolute;
+	left: 40px;
+	top: 261px;
+	cursor: pointer;
+	width: 60px;
+	height: 16px;
+	background-position: -60px -16px;
+}
+#information .scroller-down a:hover {
+	background-position: -120px -16px;
+}
+#information .scroller-down a.disabled {
+	background-position: 0px -16px;
+	cursor: default;
+}
+#information .scroller-up a span {
+	position: absolute;
+	left: -999em;
+}
+#information .scroller-down a span {
+	position: absolute;
+	left: -999em;
+}
+
+
+.information-icon {
+	width: 58px;
+	height: 14px;
+	display: block;
+	float: left;
+	behavior: url(/ja.pokemon-gl.com/theme/assets/js/iepngfix.htc);
+}
+.information-category-1 {
+	background-position: 0 -0px;
+}
+.information-category-2 {
+	background-position: 0 -14px;
+}
+.information-category-3 {
+	background-position: 0 -42px;
+}
+.information-category-4 {
+	background-position: 0 -28px;
+}
+.information-category-5 {
+	background-position: 0 -56px;
+}
+.information-category-6 {
+	background-position: 0 -70px;
+}
+.information-icon-new {
+	background-position: 0 -84px;
+}
+
+
+
+
+#main {
+	position: absolute;
+	left: 207px;
+	width: 796px; /* clearly spec for IE6 */
+	top: 0;
+	right: 0;
+	color: #000;
+	z-index: 1;
+	height: 656px;
+}
+#pgl-map {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	background: #F8F8F8;
+	position: relative;
+}
+
+
+
+
+
+
+
+#pgl-map-canvas {
+	width: 2927px;
+	height: 1961px;
+	position: relative
+}
+#pgl-map-grid {
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	background: url(../images/map/map-grid.png);
+}
+
+
+#pgl-stats-charts dt {
+	/* width: 150px; */
+	height: 15px;
+	font-size: 12px;
+	/* font-weight: bold; */
+}
+
+dt.pgl-stats-member {
+	background-position: 0 -0px;
+}
+dd.pgl-stats-member {
+	height: 50px;
+}
+dd.pgl-stats-member span {
+	width: 19px;
+	height: 27px;
+	display: block;
+	float: left;
+	background: url(../images/fonts.png) no-repeat;
+	text-indent: 100px;
+	overflow: hidden;
+	behavior: url(/ja.pokemon-gl.com/theme/assets/js/iepngfix.htc);
+}
+dd.pgl-stats-member span.font-0 { background-position:   -0px 0; }
+dd.pgl-stats-member span.font-1 { background-position:  -19px 0; }
+dd.pgl-stats-member span.font-2 { background-position:  -38px 0; }
+dd.pgl-stats-member span.font-3 { background-position:  -57px 0; }
+dd.pgl-stats-member span.font-4 { background-position:  -76px 0; }
+dd.pgl-stats-member span.font-5 { background-position:  -95px 0; }
+dd.pgl-stats-member span.font-6 { background-position: -114px 0; }
+dd.pgl-stats-member span.font-7 { background-position: -133px 0; }
+dd.pgl-stats-member span.font-8 { background-position: -152px 0; }
+dd.pgl-stats-member span.font-9 { background-position: -171px 0; }
+dd.pgl-stats-member span.font-comma { background-position: -191px 0; width: 9px; }
+dd.pgl-stats-member span.font-dot   { background-position: -200px 0; width: 7px; }
+dd.pgl-stats-member span.font-space { background-image: none; width: 5px; }
+dt.pgl-stats-chart1 {
+	padding-bottom: 4px;
+}
+dt.pgl-stats-chart2 {
+	padding-bottom: 4px;
+}
+dd.pgl-stats-chart1 {
+	height: 102px;
+}
+dd.pgl-stats-chart2 {
+	height: 102px;
+}
+
+#pgl-stats-charts ul {
+	display: none;
+}
+
+
+/*
+ ランキング
+ */
+#pgl-ranking {
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}
+
+#pgl-ranking-label {
+	height: 20px;
+	padding-left: 65px;
+	padding-top: 5px;
+	padding-right: 12px;
+	margin-right: 118px;
+	font-size: 11px;
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+.not-logged-in #pgl-ranking-label,
+.not-signed-up #pgl-ranking-label,
+.trial #pgl-ranking-label,
+.interim-registered #pgl-ranking-label {
+	color: #AFC1D2;
+	background-image: url(../images/ranking-bg-logout.png);
+}
+.logged-in-white #pgl-ranking-label {
+	color: #474A4F;
+	background-image: url(../images/ranking-bg-white.png);
+}
+.logged-in-black #pgl-ranking-label {
+	color: #FFFFFF;
+	background-image: url(../images/ranking-bg-black.png);
+}
+#pgl-ranking-selector {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 111px;
+	height: 22px;
+	background-repeat: no-repeat;
+	background-position: right top;
+	padding-left: 7px;
+	padding-top: 4px;
+}
+.not-logged-in #pgl-ranking-selector,
+.not-signed-up #pgl-ranking-selector,
+.trial #pgl-ranking-selector,
+.interim-registered #pgl-ranking-selector {
+	background-image: url(../images/ranking-bg-logout.png);
+}
+.logged-in-white #pgl-ranking-selector {
+	background-image: url(../images/ranking-bg-white.png);
+}
+.logged-in-black #pgl-ranking-selector {
+	background-image: url(../images/ranking-bg-black.png);
+}
+#pgl-ranking-selector a {
+	width: 17px;
+	height: 17px;
+	display: block;
+	float: left;
+	position: relative;
+	margin-right: 2px;
+}
+.not-logged-in #pgl-ranking-selector a,
+.not-signed-up #pgl-ranking-selector a,
+.trial #pgl-ranking-selector a,
+.interim-registered #pgl-ranking-selector a {
+	background-image: url(../images/ranking-bg-logout.png);
+}
+.logged-in-white #pgl-ranking-selector a {
+	background-image: url(../images/ranking-bg-white.png);
+}
+.logged-in-black #pgl-ranking-selector a {
+	background-image: url(../images/ranking-bg-black.png);
+}
+#pgl-ranking-selector a span {
+	position: absolute;
+	left: -999em;
+}
+#pgl-ranking-selector .digit1 { background-position: -889px -4px; }
+#pgl-ranking-selector .digit2 { background-position: -908px -4px; }
+#pgl-ranking-selector .digit3 { background-position: -927px -4px; }
+#pgl-ranking-selector .digit4 { background-position: -946px -4px; }
+#pgl-ranking-selector .digit5 { background-position: -965px -4px; }
+#pgl-ranking-selector.selected1 .digit1 { background-position: -783px -4px; }
+#pgl-ranking-selector.selected2 .digit2 { background-position: -802px -4px; }
+#pgl-ranking-selector.selected3 .digit3 { background-position: -821px -4px; }
+#pgl-ranking-selector.selected4 .digit4 { background-position: -840px -4px; }
+#pgl-ranking-selector.selected5 .digit5 { background-position: -859px -4px; }
+#pgl-ranking-updated-at {
+	position: absolute;
+	right: 66px;
+	top: 30px;
+	text-align: right;
+}
+#pgl-ranking-updated-at span {
+	width: 7px;
+	height: 10px;
+	display: block;
+	float: left;
+	background: url(../images/fonts.png) no-repeat;
+	text-indent: 100px;
+	overflow: hidden;
+	behavior: url(/ja.pokemon-gl.com/theme/assets/js/iepngfix.htc);
+}
+#pgl-ranking-updated-at span.font-0 { background-position:  -0px -27px; }
+#pgl-ranking-updated-at span.font-1 { background-position:  -7px -27px; width: 3px; }
+#pgl-ranking-updated-at span.font-2 { background-position: -10px -27px; }
+#pgl-ranking-updated-at span.font-3 { background-position: -17px -27px; }
+#pgl-ranking-updated-at span.font-4 { background-position: -24px -27px; }
+#pgl-ranking-updated-at span.font-5 { background-position: -31px -27px; }
+#pgl-ranking-updated-at span.font-6 { background-position: -38px -27px; }
+#pgl-ranking-updated-at span.font-7 { background-position: -45px -27px; }
+#pgl-ranking-updated-at span.font-8 { background-position: -52px -27px; }
+#pgl-ranking-updated-at span.font-9 { background-position: -59px -27px; }
+#pgl-ranking-updated-at span.font-colon { background-position: -66px -27px; width: 4px; }
+#pgl-ranking-updated-at span.font-comma { background-position: -70px -27px; width: 4px; }
+#pgl-ranking-updated-at span.font-dot   { background-position: -74px -27px; width: 3px; }
+#pgl-ranking-updated-at span.font-space { background-image: none; width: 5px; }
+#pgl-ranking-updated-at span.font-slash { background-position: -77px -27px; width: 5px; }
+
+
+
+
+
+
+
+
+#top-volume {
+	position: absolute;
+	right: 8px;
+	top: 29px;
+	text-align: right;
+	width: 56px;
+	height: 12px;
+}
+
+/*
+ 地域情報
+ */
+#pgl-area-info {
+	position: absolute;
+	left: 248px;
+	top: 92px;
+	width: 530px;
+	height: 233px;
+}
+#pgl-area-info-text {
+	color: #333;
+	/* font-weight: bold; */
+}
+#pgl-area-info-text2 {
+	position: absolute;
+	left: 258px;
+	top: 27px;
+	font-size: 15px;
+}
+#pgl-area-info-text3 {
+	position: absolute;
+	left: 258px;
+	width: 210px;
+	top: 47px;
+	font-size: 13px;
+}
+#pgl-area-info-text-tzname {
+	position: absolute;
+	right: 12px;
+	top: 70px;
+	font-size: 11px;
+	text-align: right;
+}
+#pgl-area-info-text-time {
+	position: absolute;
+	right: 12px;
+	top: 53px;
+	font-size: 11px;
+	text-align: right;
+}
+#pgl-area-info-index {
+	font-size: 19px;
+}
+#pgl-area-info-name {
+	color: #056bc0;
+}
+#pgl-area-info-value {
+	font-size: 18px;
+	color: #056bc0;
+}
+
+
+/*
+ PGL統計
+ */
+#pgl-stats-charts {
+	position: absolute;
+	left: 36px;
+	top: 12px;
+}
+#pgl-stats-charts dl {
+	margin: 0;
+	padding: 0;
+}
+#pgl-stats-charts dt {
+	margin: 0;
+	padding: 0;
+}
+#pgl-stats-charts dd {
+	margin: 0;
+	padding: 0;
+	padding-bottom: 12px;
+	position: relative;
+}
+#pgl-stats-charts dd img {
+	position: absolute;
+	left: -1px;
+	top: -1px;
+	behavior: url(/ja.pokemon-gl.com/theme/assets/js/iepngfix.htc);
+}
+
+/*
+ ポケモンウィンドウ
+ */
+#pokemon-window {
+	background-image: url(../ja/images/pokemon-window-bg.png);
+	position: absolute;
+	left: 474px;
+	top: 59px;
+	width: 322px;
+	height: 366px;
+}
+#pokemon-window .pokemon-window-image {
+	position: absolute;
+	left: 45px;
+	top: 162px;
+}
+#pokemon-window .pokemon-window-image img {
+	behavior: url(/ja.pokemon-gl.com/theme/assets/js/iepngfix.htc);
+}
+#pokemon-window .pokemon-window-info {
+	color: #FFF;
+}
+#pokemon-window .pokemon-window-info .pokemon-name {
+	position: absolute;
+	left: 155px;
+	top: 174px;
+	font-size: 12px;
+	/* font-weight: bold; */
+	color: #FBC515;
+}
+#pokemon-window .pokemon-window-info .pokemon-number {
+	position: absolute;
+	left: 155px;
+	top: 160px;
+	font-size: 12px;
+	/* font-weight: bold; */
+	color: #FFF;
+}
+#pokemon-window .pokemon-window-info .pokemon-footstamp {
+	position: absolute;
+	right: 34px;
+	top: 220px;
+}
+#pokemon-window .pokemon-window-info .pokemon-height {
+	color: #FBC515;
+	position: absolute;
+	right: 74px;
+	top: 220px;
+	width: 58px;
+	font-size: 12px;
+	/* font-weight: bold; */
+	text-align: right;
+}
+#pokemon-window .pokemon-window-info .pokemon-weight {
+	color: #FBC515;
+	position: absolute;
+	right: 74px;
+	top: 242px;
+	width: 58px;
+	font-size: 12px;
+	/* font-weight: bold; */
+	text-align: right;
+}
+#pokemon-window .pokemon-window-info .pokemon-stats {
+	position: absolute;
+	right: 39px;
+	top: 269px;
+	font-size: 12px;
+	/* font-weight: bold; */
+}
+#pokemon-window .pokemon-window-info .pokemon-stats img {
+	margin-left: -1px;
+	border:1px #616366 solid;
+}
+
+
+#pokemon-window-type1 {
+	position: absolute;
+	left: 152px;
+	top: 193px;
+}
+#pokemon-window-type2 {
+	position: absolute;
+	left: 223px;
+	top: 193px;
+}
+
+
+
+
+#contents-menu {
+	position: absolute;
+	top: 436px;
+	left: 12px;
+}
+
+
+.contents-link1 a {
+	display: block;
+	position: absolute;
+	text-decoration: none;
+}
+.contents-link1 a span {
+	position: absolute;
+	top: 120px;
+	left: 5px;
+	right: 5px;
+	bottom: 7px;
+	font-size: 11px;
+	/* font-weight: bold; */
+	line-height: 130%;
+	text-align: center;
+	width: 283px;
+	height: 44px;
+}
+.not-logged-in .contents-link1 a,
+.not-signed-up .contents-link1 a,
+.trial .contents-link1 a,
+.interim-registered .contents-link1 a { color: #abbac7; }
+.logged-in-white .contents-link1 a { color: #54575c; }
+.logged-in-black .contents-link1 a { color: #ffffff; }
+
+.contents-link2 a {
+	display: block;
+}
+.contents-link2 a span {
+	position: absolute;
+	left: -999em;
+}
+
+
+#gbu, #pdw, #gts {
+	position: absolute;
+	top: -4px;
+}
+#gbu a, #pdw a, #gts a {
+	width: 293px;
+	height: 171px;
+	background-position: center top;
+}
+#gbu a:hover, #pdw a:hover, #gts a:hover {
+	background-position: center bottom;
+}
+#gbu {
+	left: -4px;
+}
+#pdw {
+	left: 290px;
+	position: relative;
+}
+#gts {
+	left: 392px;
+}
+
+.pdw-link-overlay {
+	background-image: url(../images/pdw-link-overlay.png);
+	behavior: url(/ja.pokemon-gl.com/theme/assets/js/iepngfix.htc);
+	display: none;
+}
+#pdw-link-message {
+	position: absolute;
+	left: 8px;
+	top: 96px;
+	width: 277px;
+	height: 13px;
+	background-position: -69px 0;
+	color: #FFF;
+	text-align: center;
+	font-size: 11px;
+	padding: 2px 0;
+	font-weight: normal;
+}
+#pdw-link-badge {
+	position: absolute;
+	left: 261px;
+	top: 9px;
+	width: 23px;
+	height: 23px;
+}
+.busy-status-0 {
+	background-position: -0px 0;
+}
+.busy-status-1 {
+	background-position: -23px 0;
+}
+.busy-status-2 {
+	background-position: -46px 0;
+}
+
+
+#campaigns, #safemail, #customize {
+	position: absolute;
+	left: 586px;
+}
+#campaigns a, #safemail a, #customize a {
+	width: 191px;
+}
+#campaigns {
+	top: -4px;
+}
+#safemail {
+	top: 54px;
+}
+#customize {
+	top: 110px;
+}
+#campaigns a {
+	background-position: left -0px;
+	height: 57px;
+}
+#safemail a {
+	background-position: left -57px;
+	height: 56px;
+}
+#customize a {
+	background-position: left -113px;
+	height: 57px;
+}
+#campaigns a:hover {
+	background-position: right -0px;
+}
+#safemail a:hover {
+	background-position: right -57px;
+}
+#customize a:hover {
+	background-position: right -113px;
+}
+
+
+#inline-footer {
+	position: absolute;
+	width: 772px;
+	height: 45px;
+	left: 12px;
+	bottom: 0px;
+}
+#inline-footer-buttons a {
+	width: 92px;
+	height: 31px;
+	display: block;
+	position: absolute;
+	top: 7px;
+}
+#inline-footer-buttons a span {
+	position: absolute;
+	left: -999em;
+}
+#inline-footer-buttons #inline-footer-buttons-help {
+	left: 575px;
+}
+#inline-footer-buttons #inline-footer-buttons-languages {
+	left: 674px;
+	background-position: -92px 0;
+}
+#inline-footer-buttons #inline-footer-buttons-about-campaign {
+	width: 107px;
+	left: 461px;
+	background-position: -184px 0;
+}
+#inline-footer-buttons #inline-footer-buttons-help:hover {
+	background-position: 0 -31px;
+}
+#inline-footer-buttons #inline-footer-buttons-languages:hover {
+	background-position: -92px -31px;
+}
+#inline-footer-buttons #inline-footer-buttons-about-campaign:hover {
+	background-position: -184px -31px;
+}
+
+
+.dialog-busy {
+	width: 393px;
+	height: 163px;
+	position: absolute;
+	left: 315px;
+	top: 220px;
+	background: url(../images/dialog-caution-bg.png);
+	z-index: 1000;
+	padding: 10px;
+	text-align: center;
+}
+.dialog p, .dialog-busy p {
+	font-size: 12px;
+	color: #333;
+	padding: 6px 0;
+}
+.dialog-busy .dialog-button {
+	left: 52px;
+	top: 140px;
+}
+
+#personal-information {
+	position: absolute;
+	top: 656px;
+	left: 0;
+	width: 963px;
+	height: 18px;
+	color: #333536;
+	padding: 3px 10px 0 30px;
+	font-size: 12px;
+	cursor: pointer;
+	z-index: 10;
+	background: #B3B9BB url(../images/personal-information.png);
+}
+
+
+

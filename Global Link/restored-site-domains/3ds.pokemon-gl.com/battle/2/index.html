@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<meta property="og:site_name" content="Pokémon Global Link" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Pokémon Global Link Rating Battles-ポケモングローバルリンク レーティングバトル" />
+<meta property="og:url" content="/3ds.pokemon-gl.com/battle/2" />
+<meta property="og:image" content="/3ds.pokemon-gl.com/share/images/logo_default.png" />
+<meta property="og:description" content="Rating Battle info from the Pokémon Global Link.-ポケモングローバルリンク レーティングバトルの情報です。" />
+
+<title>Pokémon Global Link</title>
+
+<script src="/3ds.pokemon-gl.com/share/js/jquery-1.9.0.min.js"></script>
+<script src="/3ds.pokemon-gl.com/share/js/loader.js"></script>
+<script>
+loadStyles([
+  '/share/css/common.css',
+  '/pc/common/css/base.css',
+  '/pc/common/css/parts/color_default.css',
+  '/pc/common/css/parts/color_x.css',
+  '/pc/common/css/parts/color_y.css',
+  '/pc/common/css/parts/table.css',
+  '/pc/common/css/parts/title.css',
+  '/pc/common/css/parts/dialog.css',
+  '/pc/common/css/parts/button.css',
+  '/pc/common/css/parts/pokemon.selector.css',
+  '/pc/common/css/parts/type.css',
+  '/pc/common/css/parts/icon.css',
+  '/pc/common/css/parts/panel.css',
+  '/pc/common/css/parts/form.css'
+]);
+loadScripts([
+  '/share/js/json2.js',
+  '/share/js/jquery.cookie.min.js',
+  '/share/js/jquery.easing.1.3.js',
+  '/share/js/share.base.js',
+  '/share/js/share.date.js',
+  '/share/js/share.model.text.js',
+  '/share/js/share.model.api.js',
+  '/share/js/share.model.error.js',
+  '/pc/common/js/pc.api.error.js',
+  '/pc/common/js/pc.base.js',
+  '/pc/common/js/pc.model.dialog.js'
+]);
+</script>
+<script>
+
+PGL.INFO.PAGENAME = 'locale.gbu.index';
+
+</script>
+
+<script>
+loadStyles([
+  '/pc/common/css/gbu.css'
+]);
+loadScripts([
+  '/pc/common/js/ocanvas-2.4.0.js',
+  '/pc/common/js/canvas.graph.js',
+  '/pc/common/js/pc.pokemon.select.js',
+  '/pc/common/js/pc.reagion.select.js',
+  '/pc/common/js/gbu/gbu.js'
+]);
+</script>
+<script src="../../../_restore/mock-api-interceptor.js" data-pgl-restore="mock-api-interceptor.js"></script>
+<script src="../../../_restore/plugin-guards.js" data-pgl-restore="plugin-guards.js"></script>
+<script src="../../../_restore/runtime-fixes.js" data-pgl-restore="runtime-fixes.js"></script>
+</head>
+
+<body><!-- Wrapper Start //-->
+
+<div id="wrapper">
+
+<script type="text/html" id="template"><!-- Header Start //-->
+
+
+<header></header><!-- Header End //--><!-- Contents Start //-->
+
+
+
+<div id="contents">
+
+<div id="contentsHead">
+  <ul class="breadcrumb">
+    <li><a href="/3ds.pokemon-gl.com/">{{GLOSSARY_CONTENT_TOPPAGE}}</a> > </li>
+        <li>{{GLOSSARY_CONTENT_BATTLE}}</li>
+      </ul>
+  <h2 class="gbu">{{GLOSSARY_CONTENT_BATTLE}}</h2>
+</div>
+
+<section id="column1" class="battleTypeAll">
+
+<div class="clearFix">
+  <p class="floatR"><a class="iconHelp support" data-support="manual/manual_battle/">{{GLOSSARY_ABOUT_RANKING}}</a></p>
+</div>
+<div class="clearFix">
+  <p class="floatL">
+    <select class="season" id="appendSeasonList"></select>
+    <ul class="snsButtons"></ul>
+  </p>
+</div>
+<div id="battleTypeBtn">
+  <ul>
+    <li class="all" data-role="0"><a>{{GLOSSARY_BATTLE_FORMAT_ALLFORMAT}}</a></li>
+	  <li class="single" data-role="1"><a>{{GLOSSARY_BATTLE_FORMAT_SINGLE}}</a></li>
+	  <li class="double" data-role="2"><a>{{GLOSSARY_BATTLE_FORMAT_DOUBLE}}</a></li>
+	  <li class="triple" data-role="3"><a>{{GLOSSARY_BATTLE_FORMAT_TRIPLE}}</a></li>
+	  <li class="rotation" data-role="4"><a>{{GLOSSARY_BATTLE_FORMAT_ROTATION}}</a></li>
+	  <li class="special" data-role="5"><a>{{GLOSSARY_BATTLE_FORMAT_SPECIAL}}</a></li>
+  </ul>
+</div>
+<div id="gbuContainer">
+  <div class="clearFix" id="trainerRankingContainer">
+  <h3>{{GLOSSARY_PLAYER_RANKING}}<span id="appendRankingDate" class="upDate"></span></h3>
+  <p class="floatR"><a class="btnCrSmall" id="fillterSelf">{{GLOSSARY_VIEW_OWN_RANKING}}</a></p>
+  <dl>
+    <dt>{{GLOSSARY_FILTER}}</dt>
+	  <dd id="countrySelect"><a>{{GLOSSARY_SELECT_LOCATION}}</a><span class="countryCode">-</span></dd>
+    <dd id="fillterFriends"><a>{{GLOSSARY_FILTER_FRIENDS}}</a></dd>
+  </dl>
+
+<div id="trainerRankingContainerIn"></div>
+
+<p class="btnArrowLeft disabled">&nbsp;</p>
+  <p class="btnArrowRight">&nbsp;</p>
+  </div>
+
+<div class="clearFix" id="pokemonRankingContainer">
+  <h3>{{GLOSSARY_POKEMON_RANKING}}<span id="appendPokemonDate" class="upDate"></span></h3>
+  <p id="btnPokemonSelect"><a href="javascript:void(0);" class="btnCrSmall">{{GLOSSARY_SELECT_POKEMON}}</a></p>
+
+<div class="clearFix clear" id="pokemonRankingContainerIn">  </div>
+  </div>
+</div>
+</section>
+</div><!-- Contents End //--><!-- Footer Start //-->
+
+
+
+<footer></footer><!-- Footer End //-->
+
+
+</script><!-- Wrapper End //-->
+
+
+</div>
+</body>
+</html>

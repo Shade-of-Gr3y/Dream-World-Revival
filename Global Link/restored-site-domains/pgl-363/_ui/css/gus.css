@@ -1,0 +1,323 @@
+div.clear {
+	clear:both;
+	height:1px;
+	margin-top:-1px;
+	overflow:hidden;
+}
+span.offscreen {
+	display:block;
+	position:absolute;
+	left:-999999em;
+}
+
+div#gus {
+	width:100%;
+	z-index:10;
+	height: 56px;
+	position:absolute;
+	top:0;
+	left:0;
+	background: #333333 url('../img/gus-bg-repeater.png') repeat-x scroll center 0;
+}
+	div#gus div.wrapper {
+		background: url('../img/gus.png') no-repeat scroll top left;
+		width: 960px;
+		height: 56px;
+		margin:auto;
+		position:relative;
+	}
+		div#gus div.wrapper a#pokemonLogo {
+			width:110px;
+			height:44px;
+			position:absolute;
+			left:27px;
+			top:0;
+			display:block;
+			outline:0;
+		}
+		
+		div#gus ul {
+			position:absolute;
+			margin:0;
+			padding:0;
+			list-style:none;
+		}
+		
+			#gus-nav {
+				width:493px;
+				height:43px;
+				left:154px;
+				top:0;
+			}
+		
+				#gus-nav li {
+					margin:0;
+					padding:0;
+					float:left;
+				}
+					#gus-nav li a {
+						display:block;
+						height:43px;
+						border:0;
+						display:block;
+						background-repeat: no-repeat;
+						outline:0;
+						cursor:pointer;
+					}
+				
+					div#gus.en #gus-nav li a {
+						background-image: url('../img/en/gus-buttons.png')
+					} 
+
+					div#gus.fr #gus-nav li a {
+						background-image: url('../img/fr/gus-buttons.png')
+					} 
+
+					div#gus.it #gus-nav li a {
+						background-image: url('../img/it/gus-buttons.png')
+					} 
+
+					div#gus.de #gus-nav li a {
+						background-image: url('../img/de/gus-buttons.png')
+					} 
+
+					div#gus.es #gus-nav li a {
+						background-image: url('../img/es/gus-buttons.png')
+					} 
+
+					div#gus #gus-nav li#gus-videoGames a {
+						background-position:0 0;
+						width:95px;
+					}
+					div#gus #gus-nav li#gus-videoGames a:hover {
+						background-position:0 -43px;
+					}
+					div#gus #gus-nav li#gus-videoGames a:active {
+						background-position:0 -86px;
+					}
+				
+					div#gus #gus-nav li#gus-tradingCardGame a {
+						background-position:-95px 0;
+						width:136px;
+					}
+					div#gus #gus-nav li#gus-tradingCardGame a:hover {
+						background-position:-95px -43px;
+					}
+					div#gus #gus-nav li#gus-tradingCardGame a:active {
+						background-position:-95px -86px;
+					}
+				
+					div#gus #gus-nav li#gus-animation a {
+						background-position:-231px 0;
+						width:79px;
+					}
+					div#gus #gus-nav li#gus-animation a:hover {
+						background-position:-231px -43px;
+					}
+					div#gus #gus-nav li#gus-animation a:active {
+						background-position:-231px -86px;
+					}
+				
+					div#gus #gus-nav li#gus-funZone a {
+						background-position:-310px 0;
+						width:76px;
+					}
+					div#gus #gus-nav li#gus-funZone a:hover {
+						background-position:-310px -43px;
+					}
+					div#gus #gus-nav li#gus-funZone a:active {
+						background-position:-310px -86px;
+					}
+				
+					div#gus #gus-nav li#gus-news a {
+						background-position:-386px 0;
+						width:107px;
+					}
+					div#gus #gus-nav li#gus-news a:hover {
+						background-position:-386px -43px;
+					}
+					div#gus #gus-nav li#gus-news a:active {
+						background-position:-386px -86px;
+					}
+					
+			#gus-subnav {
+				width: 270px;
+				height: 54px;
+				left: 675px;
+				top: 0;
+			}
+			
+				#gus-subnav li {
+					margin:0;
+					padding:0;
+					float:left;
+				}
+					#gus-subnav li a {
+						display:block;
+						height:54px;
+						border:0;
+						display:block;
+						background-repeat: no-repeat;
+						outline:0;
+						cursor:pointer;
+					}
+					
+						div#gus.en #gus-subnav li a { background-image: url('../img/en/gus-subnav.png') } 
+						div#gus.fr #gus-subnav li a { background-image: url('../img/fr/gus-subnav.png') } 
+						div#gus.it #gus-subnav li a { background-image: url('../img/it/gus-subnav.png') }
+						div#gus.de #gus-subnav li a { background-image: url('../img/de/gus-subnav.png') } 
+						div#gus.es #gus-subnav li a { background-image: url('../img/es/gus-subnav.png') }
+						
+						#gus-subnav #gus-subnav-pokedex {
+							width: 85px;
+							margin-right: 11px;
+						}
+						
+							#gus-subnav #gus-subnav-pokedex a {
+								background-position: 0 0;
+								width: 85px;
+							}
+
+						#gus-subnav #gus-subnav-pgl {
+							width: 95px;
+							margin-right: 6px;
+						}
+
+							#gus-subnav #gus-subnav-pgl a {
+								background-position: -96px 0;
+								width: 95px;
+							}
+
+						#gus-subnav #gus-subnav-pokemontv,
+						#gus-subnav #gus-subnav-pokemontcgo {
+							width: 72px;
+						}
+							#gus-subnav #gus-subnav-pokemontv a,
+							#gus-subnav #gus-subnav-pokemontcgo a {
+								background-position: -198px 0;
+								width: 72px;
+							}
+		div#gus div.wrapper div.bumper {
+			width: 100%;
+			height: 100%;
+			position:absolute;
+			top: 0;
+			left: 0;
+			display: none;
+		}
+			div#gus div.wrapper div.bumper > div {
+				margin-left: 150px;
+	            height: 100%;
+				position:absolute;
+	            background: #333333 url('../img/gus-bg-repeater-noline.png') repeat-x scroll center 0;
+			}
+
+div#exitWarning {
+	color: white;
+	font-family: sans-serif;
+	font-size: 10px;
+}
+	div#exitWarning div.content {
+		padding-right: 125px;
+	}
+		div#exitWarning div.content h2 {
+			margin-top: 2px;
+			font-size: 12px;
+			font-weight: normal;
+			margin-bottom: 2px;
+			display: inline;
+		}
+		div#exitWarning div.content p.legal {
+			margin-top: 0;
+			display: inline;
+			padding: 0 10px;
+		}
+	div#exitWarning div.controls {
+		position: absolute;
+		top: 2px;
+		right: 15px;
+	}
+/*		div#exitWarning div.controls div.button {
+			background-color: #aaaaaa;
+			margin: 3px;
+			padding: 3px 10px;
+			text-align: center;
+			border-top: 1px solid #ffffff;
+			border-left: 1px solid #cccccc;
+			border-right: 1px solid #444444;
+			border-bottom: 1px solid #222222;
+			cursor: pointer;
+		}
+			div#exitWarning div.controls div.button a {
+				text-decoration: none;
+				color: black;
+				font-size: 12px;
+			}
+*/
+div#gus.bumper {
+	background-image: url('../img/gus-bg-repeater-noline.png');
+}
+	div#gus.bumper div.wrapper {
+		background-image: url('../img/gus-noline.png');
+    }
+
+a.btn {
+	cursor:pointer;
+	display:block;
+/*	margin-bottom:20px; */
+	float:left;
+}
+a.btn:hover {
+	border:0;
+/*	margin-bottom:20px; */
+}
+	a.btn span.left, a.btn span.mid, a.btn span.right {
+		float:left;
+		display:block;
+		background:url('../img/btn/btn-sprite.png') no-repeat scroll;
+	}
+
+/* LITTLE BUTTON WHITE */
+
+a.btn-lbwhite {
+	height:27px;
+}
+	a.btn-lbwhite span.left {
+		background-position:0 -900px;
+		width: 14px;
+		height:27px;
+	}
+	a.btn-lbwhite span.mid {
+		background-position:-14px -900px;
+		height:27px;
+		font-size:11px;
+		font-weight:bold;
+		padding:7px 10px 9px 0;
+		color:#646464;
+	}
+	a.btn-lbwhite span.right {
+		background-position:right -900px;
+		width: 25px;
+		height:27px;
+	}
+
+	a.btn-lbwhite:hover span.left {
+		background-position:0 -1000px;
+	}
+	a.btn-lbwhite:hover span.mid {
+		background-position:-14px -1000px;
+	}
+	a.btn-lbwhite:hover span.right {
+		background-position:right -1000px;
+	}
+
+	a.btn-lbwhite:active span.left {
+		background-position:0 -1100px;
+	}
+	a.btn-lbwhite:active span.mid {
+		background-position:-14px -1100px;
+	}
+	a.btn-lbwhite:active span.right {
+		background-position:right -1100px;
+	}	
+

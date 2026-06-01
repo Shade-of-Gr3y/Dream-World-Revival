@@ -1,0 +1,294 @@
+div.clear {
+	clear:both;
+	height:1px;
+	margin-top:-1px;
+	overflow:hidden;
+}
+span.offscreen {
+	display:block;
+	position:absolute;
+	left:-999999em;
+}
+
+div#gus {
+	width:100%;
+	z-index:10;
+	height: 56px;
+	position:absolute;
+	top:0;
+	left:0;
+	background: #333333 url('../img/gus-bg-repeater.png') repeat-x scroll center 0;
+}
+	div#gus div.wrapper {
+		background: url('../img/gus.png') no-repeat scroll top left;
+		width: 743px;
+		height: 56px;
+		margin:auto;
+		position:relative;
+	}
+		div#gus div.wrapper a#pokemonLogo {
+			width:110px;
+			height:44px;
+			position:absolute;
+			left:27px;
+			top:0;
+			display:block;
+			outline:0;
+		}
+		
+		div#gus ul {
+			position:absolute;
+			margin:0;
+			padding:0;
+			list-style:none;
+		}
+		
+			#gus-nav {
+				width:589px;
+				height:56px;
+				left:154px;
+				top:0;
+			}
+		
+				#gus-nav li {
+					margin:0;
+					padding:0;
+					float:left;
+				}
+					#gus-nav li a {
+						display:block;
+						height:56px;
+						border:0;
+						display:block;
+						background-repeat: no-repeat;
+						outline:0;
+						cursor:pointer;
+					}
+				
+					div#gus.da #gus-nav li a {
+						background-image: url('../img/da/gus-buttons-lite.png')
+					} 
+					div#gus.fi #gus-nav li a {
+						background-image: url('../img/fi/gus-buttons-lite.png')
+					} 
+					div#gus.nb #gus-nav li a {
+						background-image: url('../img/nb/gus-buttons-lite.png')
+					} 
+					div#gus.nl #gus-nav li a {
+						background-image: url('../img/nl/gus-buttons-lite.png')
+					} 
+					div#gus.pt #gus-nav li a {
+						background-image: url('../img/pt/gus-buttons-lite.png')
+					} 
+					div#gus.sv #gus-nav li a {
+						background-image: url('../img/sv/gus-buttons-lite.png')
+					} 
+					div#gus.ru #gus-nav li a {
+						background-image: url('../img/ru/gus-buttons-lite.png')
+					} 
+
+					div#gus #gus-nav li#gus-tv a {
+						background-position:0 0;
+						width: 118px;
+					}
+					div#gus #gus-nav li#gus-tv a:hover {
+						background-position:0 -58px;
+					}
+				
+					div#gus #gus-nav li#gus-funzone a {
+						background-position:-120px 0;
+						width: 117px;
+					}
+					div#gus #gus-nav li#gus-funzone a:hover {
+						background-position:-120px -58px;
+					}
+				
+					div#gus #gus-nav li#gus-pokedex a {
+						background-position:-239px 0;
+						width:115px;
+					}
+					div#gus #gus-nav li#gus-pokedex a:hover {
+						background-position:-239px -58px;
+					}
+				
+					div#gus #gus-nav li#gus-pgl a {
+						background-position:-356px 0;
+						width:115px;
+					}
+					div#gus #gus-nav li#gus-pgl a:hover {
+						background-position:-356px -58px;
+					}
+				
+					div#gus #gus-nav li#gus-pokemontcgo a {
+						background-position:-474px 0;
+						width:117px;
+					}
+					div#gus #gus-nav li#gus-pokemontcgo a:hover {
+						background-position:-474px -58px;
+					}
+					
+					/* Russian icon width overrides */
+					div#gus.ru #gus-nav li#gus-tv a {
+						background-position:0 0;
+						width: 114px;
+					}
+					div#gus.ru #gus-nav li#gus-tv a:hover {
+						background-position:0 -58px;
+					}
+				
+					div#gus.ru #gus-nav li#gus-funzone a {
+						background-position:-114px 0;
+						width: 132px;
+					}
+					div#gus.ru #gus-nav li#gus-funzone a:hover {
+						background-position:-114px -58px;
+					}
+				
+					div#gus.ru #gus-nav li#gus-pokedex a {
+						background-position:-246px 0;
+						width:114px;
+					}
+					div#gus.ru #gus-nav li#gus-pokedex a:hover {
+						background-position:-246px -58px;
+					}
+				
+					div#gus.ru #gus-nav li#gus-pgl a {
+						background-position:-360px 0;
+						width:115px;
+					}
+					div#gus.ru #gus-nav li#gus-pgl a:hover {
+						background-position:-360px -58px;
+					}
+				
+					div#gus.ru #gus-nav li#gus-pokemontcgo a {
+						background-position:-475px 0;
+						width:114px;
+					}
+					div#gus.ru #gus-nav li#gus-pokemontcgo a:hover {
+						background-position:-475px -58px;
+					}
+		div#gus div.wrapper div.bumper {
+			width: 850px;
+			height: 100%;
+			position:absolute;
+			top: 0;
+			left: 0;
+			display: none;
+		}
+			div#gus div.wrapper div.bumper > div {
+				margin-left: 150px;
+	            height: 100%;
+				position:absolute;
+	            background: #333333 url('../img/gus-bg-repeater-noline.png') repeat-x scroll center 0;
+			}
+
+div#exitWarning {
+	color: white;
+	font-family: sans-serif;
+	font-size: 10px;
+}
+	div#exitWarning div.content {
+		padding-right: 105px;
+	}
+		div#exitWarning div.content h2 {
+			margin-top: 2px;
+			font-size: 12px;
+			font-weight: normal;
+			margin-bottom: 2px;
+			display: inline;
+		}
+		div#exitWarning div.content p.legal {
+			margin-top: 0;
+			display: inline;
+			padding: 0 10px;
+		}
+	div#exitWarning div.controls {
+		position: absolute;
+		top: 2px;
+		right: -15px;
+	}
+/*		div#exitWarning div.controls div.button {
+			background-color: #aaaaaa;
+			margin: 3px;
+			padding: 3px 10px;
+			text-align: center;
+			border-top: 1px solid #ffffff;
+			border-left: 1px solid #cccccc;
+			border-right: 1px solid #444444;
+			border-bottom: 1px solid #222222;
+			cursor: pointer;
+		}
+			div#exitWarning div.controls div.button a {
+				text-decoration: none;
+				color: black;
+				font-size: 12px;
+			}
+*/
+
+div#gus.bumper {
+	background-image: url('../img/gus-bg-repeater-noline.png');
+}
+	div#gus.bumper div.wrapper {
+		background-image: url('../img/gus-noline.png');
+    }
+
+a.btn {
+	cursor:pointer;
+	display:block;
+/*	margin-bottom:20px; */
+	float:left;
+}
+a.btn:hover {
+	border:0;
+/*	margin-bottom:20px; */
+}
+	a.btn span.left, a.btn span.mid, a.btn span.right {
+		float:left;
+		display:block;
+		background:url('../img/btn/btn-sprite.png') no-repeat scroll;
+	}
+
+/* LITTLE BUTTON WHITE */
+
+a.btn-lbwhite {
+	height:27px;
+}
+	a.btn-lbwhite span.left {
+		background-position:0 -900px;
+		width: 14px;
+		height:27px;
+	}
+	a.btn-lbwhite span.mid {
+		background-position:-14px -900px;
+		height:27px;
+		font-size:11px;
+		font-weight:bold;
+		padding:7px 10px 9px 0;
+		color:#646464;
+	}
+	a.btn-lbwhite span.right {
+		background-position:right -900px;
+		width: 25px;
+		height:27px;
+	}
+
+	a.btn-lbwhite:hover span.left {
+		background-position:0 -1000px;
+	}
+	a.btn-lbwhite:hover span.mid {
+		background-position:-14px -1000px;
+	}
+	a.btn-lbwhite:hover span.right {
+		background-position:right -1000px;
+	}
+
+	a.btn-lbwhite:active span.left {
+		background-position:0 -1100px;
+	}
+	a.btn-lbwhite:active span.mid {
+		background-position:-14px -1100px;
+	}
+	a.btn-lbwhite:active span.right {
+		background-position:right -1100px;
+	}	
+

@@ -1,0 +1,1916 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.overlay{
+}
+.overlay:before {
+	content: ".";
+	width:100%;
+	height:100%;
+	position:fixed;
+	top:0;
+	left:0;
+	background-color:rgba(0,0,0,0.5);
+	z-index:1000;
+	text-align:left;
+}
+
+.baseWindow, .dialog {
+	z-index:1000;
+	width:840px;
+	background-color:#FFFFFF;
+	padding-bottom:0px;
+	position:absolute;	
+	left: 50%;
+}
+
+/* headbox */
+.baseWindow .headBox,
+.dialog .headBox {
+	min-height: 18px;
+	margin:0px 0 10px;
+	padding:7px 10px;
+	font-size: 14px;
+	color:#FFFFFF;
+	box-shadow: 0px 3px 5px rgba(0,0,0,0.4);
+	-moz-box-shadow: 0px 3px 5px rgba(0,0,0,0.4);
+	-webkit-box-shadow: 0px 3px 5px rgba(0,0,0,0.4);
+	background: #D35336;
+}
+
+.gbuPokemonListZukan #confirmWindow {
+	padding: 20px 25px;
+	border: solid 10px #D9D9D9;
+	box-shadow: 1px 1px 0 rgba(204,204,204,1.0) inset;
+	-moz-box-shadow: 1px 1px 0 rgba(204,204,204,1.0) inset, -1px -1px 0 rgba(204,204,204,1.0) inset;
+	-webkit-box-shadow: 1px 1px 0 rgba(204,204,204,1.0) inset, -1px -1px 0 rgba(204,204,204,1.0) inset;
+}
+
+
+/* ダイヤログ外枠別パターン */
+
+/*
+#confirmWindow .headBox{
+	min-height: 18px;
+	margin:0px 0 10px;
+	color:#FFFFFF;
+	background: none;
+	box-shadow: none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+}
+
+.gbuPokemonListZukan #confirmWindow .btnConfirmClose {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	width: 31px;
+	height: 31px;
+	background: url(/3ds.pokemon-gl.com/under_maintenance/pc/common/images/parts/btn_close.png) 0 0 no-repeat;
+}
+*/
+
+
+#confirmWindow .headBox>.popClose a{ position:absolute; top:12px; right:10px; width:15px; height:15px; background:#FFFFFF;}
+
+/* footbox */
+#confirmWindow .footBox{ text-align:center;}
+#confirmWindow .footBox>a[class*="confButton"]{
+	-moz-border-radius: 30px;
+	 -webkit-border-radius: 30px;
+	 border-radius: 30px;
+	 background-color:#B8CCDE;
+	 color:#004485;
+	 font-size:14px;
+	 padding:10px 80px;
+	 display:inline-block;
+	 text-decoration:none !important;
+	 margin:20px 10px;
+}
+#confirmWindow .footBox>a.disabled{display:inline-block; background:#7B9DBE; color:#FAFAFA;}
+
+/* contentBox */
+
+
+/* 閉じるボタン */
+.btnConfirmClose {
+	position: absolute;
+	top: 5px;
+	right: 6px;
+	cursor:pointer;
+	width: 20px;
+	height: 20px;
+	background: url(/3ds.pokemon-gl.com/under_maintenance/pc/common/images/parts/btn_close.png) 0 0 no-repeat;
+}
+.dialog .headBox .close {
+	position: absolute;
+	top: 5px;
+	right: 6px;
+	cursor:pointer;
+	width: 20px;
+	height: 20px;
+	background: url(/3ds.pokemon-gl.com/under_maintenance/pc/common/images/parts/btn_close.png) 0 0 no-repeat;
+	border-style: none;
+	padding: 0;
+	display: none;
+}
+.dialog.closable .headBox .close {
+	display: inline-block;
+}
+
+
+.bodyBox {
+	position: relative;
+	padding: 10px 30px 20px;
+}
+
+.footerBox {
+	/*position: absolute;*/
+	left: 0;
+	width: 100%;
+	min-height: 50px;
+	padding-top: 10px;
+	background: #E0E0E0;
+	text-align: center;
+}
+.footerBox:empty {
+	display: none;
+}
+
+.footerBox a.btnCrLarge,
+.footerBox a.btnGrLarge {
+	min-width: 160px;
+}
+
+.dialog .footerBox a {
+	cursor: pointer;
+}
+
+.footerBox a.btnGrLarge {
+	min-width: 160px;
+	margin-right: 30px;
+	padding: 7px 10px;
+}
+
+.footerBox>a:last-child{ margin-right:0;}
+
+/* 写真ダイヤログ */
+.overlay.photoWindow > #confirmWindow{
+	width:840px;
+}
+
+.overlay.photoWindow .bodyBox{
+	min-height: 550px;
+	padding: 0 30px 30px;
+
+}
+
+/* SNSボタン */
+.bodyBox .snsBtns {
+	position: absolute;	
+	top: 0;
+	right: 10px;
+	margin-bottom: ;
+}
+
+
+/* ポイント移行のフロー図 */
+#inputMilePoint{ text-align:right;}
+.pointStep {
+	position: relative;
+	border-radius: 5px;
+	background: #CCCCCC;
+}
+
+/* issue:0001500 */
+#inputMilePoint2 {
+	text-align: right !important;
+	font-size: 26px !important;
+	letter-spacing: 3px;
+	font-family: "04b03b";
+	color: #004485;
+	padding-right: 66px;
+}
+
+.pointStep li {
+	float: left;
+	width: 33.3%;
+	height: 40px;
+	padding: 10px 15px 10px 30px;
+	color: #FFFFFF;
+	
+	vertical-align: bottom;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	background: url(/3ds.pokemon-gl.com/under_maintenance/pc/common/images/parts/bg_step.jpg) 0 0 no-repeat;
+}
+
+.pointStep li:first-child {
+	padding-left: 15px;
+	background-image: none;
+}
+
+.pointStep li:last-child {
+	float: left;
+	width: 33.4%;
+}
+
+.pointStep li:first-child.active {
+	border-radius: 5px 0 0 5px;
+	background-image: none;
+}
+
+.pointStep li:last-child.active {
+	border-radius: 0 5px 5px 0;
+}
+
+.pointStep li span {
+	font-size: 166% !important;
+}
+
+.stepDesc {
+	min-height: 20px;
+	margin: 10px 0 0;	
+}
+
+
+.milePointStatus {
+	padding: 0px 0 20px;
+	background: url(/3ds.pokemon-gl.com/under_maintenance/pc/common/images/parts/bg_mile_point_status.jpg) center bottom no-repeat #E0E0E0;
+	height:60px;	
+}
+
+
+.milePointStatus div.half {
+	width: 390px;
+	display: table-cell;
+	vertical-align: middle;
+	height: 60px;
+}
+
+.milePointStatus div.half:last-child p {
+	text-align: center !important;
+	margin-left: 0;
+}
+
+.milePointStatus div.half p {
+	margin-left: 20px;
+	font-size: 14px !important;
+}
+.milePointStatus div.half p>span{
+	color:#cc0000;
+	font-size:10px !important;
+	margin:0px 0 0 0;
+	display:block;
+}
+
+.milePointStatus > p {
+	text-align: center;
+	font-size: 14px !important;
+	padding-top:20px;
+}
+
+.milePointStatus > p > span {
+	margin: 0 5px;
+}
+
+.milePointStatus div.half input[type="text"] {
+	display: block;
+	width: 272px;
+	margin: 0px auto 0 !important;
+	border-radius: 4px;
+	border: #CCCCCC 1px solid;
+	text-align:right;
+	font-size:22px;
+	font-weight:bold;
+}
+.milePointStatus div.half input.error{
+	border:2px solid #CA4828;
+	background:#FFF0F0;
+}
+
+.pointChangeBox  {
+	padding: 0 20px;	
+	
+}
+
+.pointChangeBox > div {
+	float: left;
+	width: 303px;
+	margin: 0;
+	padding: 14px 9px 9px;
+	font-size: 90%;	
+	border-radius: 4px;
+	border: 1px solid #E3E3E3;
+	box-shadow: 1px 2px 1px rgba(0,0,0,0.3) inset;
+	-moz-box-shadow: 1px 2px 1px rgba(0,0,0,0.3) inset;
+	-webkit-box-shadow: 1px 2px 1px rgba(0,0,0,0.3) inset;
+}
+
+.currentPointTitle {
+	font-size: 130% !important;	
+	margin: 0 10px 5px;
+}
+
+.currentPointDate {
+	font-size: 90% !important;	
+	color: #666666;
+	margin: 0 10px 10px;
+	padding-left: 18px;
+	background: url(/3ds.pokemon-gl.com/under_maintenance/pc/common/images/icon/icon_date.png) 0 center no-repeat;
+}
+
+.noCurrentPointDate {
+	font-size: 90% !important;	
+	color: #666666;
+	margin: 0 10px 10px;
+	padding-left: 18px;
+}
+
+.movePoint {
+	text-align: right;
+	font-size: 140% !important;
+	min-height: 1.0em;
+	margin: 0 0 10px;
+}
+
+.pointChangeBox {
+	margin: -7px 0 0;
+	background: url(/3ds.pokemon-gl.com/under_maintenance/pc/common/images/dialog/bg_point_change_box.png) center center no-repeat;	
+}
+
+.pointChangeBox > div:last-child {
+	float: right;
+}
+
+.pointChangeBox div.softLabel {
+	padding: 85px 10px 10px;
+	border-radius: 2px;
+	border: #CCCCCC 1px solid;
+	background: #FFFFFF;
+	background-position: center 10px;
+	background-repeat: no-repeat; 
+}
+
+.pointChangeBox div.softLabel > dl {
+	display: inline-block;
+	margin: 0 0 15px 15px;
+	font-size: 80%;
+}
+
+.pointChangeBox div.softLabel > dl dt {
+	display: inline-block;
+	color: #999999;
+	min-width: 115px;
+}
+
+.pointChangeBox div.softLabel > dl dd {
+	display: inline-block;
+	color: #666666;
+}
+
+.pointChangeBox ul.panelTrainer {
+	background: #ECECEC;
+	box-shadow: none !important;
+	border-radius: 2px;	
+}
+
+.pointChangeBox .panelTrainer li:nth-child(2) {
+	width:160px;
+	margin-right:5px;
+}
+
+.panelTrainer li:nth-child(3).countryCode{
+	padding-left:0px;
+	background-position:0px 10px;
+}
+
+.pointChangeBox ul.panelTrainer li {
+	border: none;
+}
+
+.pointChangeBox ul.panelTrainer dt {
+	font-size: 110%;
+}
+
+.pointChangeBox ul.panelTrainer dd {
+	color: #999999;
+	/* issue:0000769 */
+	padding-left: 19px;
+	background: url(/3ds.pokemon-gl.com/under_maintenance/pc/common/images/register/icon_id.png) 1px 4px no-repeat;
+}
+
+.move24 {
+	background: #E5ECF4;
+}
+
+.move24 div.softLabel {
+	background-image: url(/3ds.pokemon-gl.com/under_maintenance/share/images/game_logo/logo_24.png);	
+	border-color: #BDCEE0;
+}
+
+.move24 div.softLabel .colorText01, .move24 div.softLabel .colorText02, .move24 .movePoint {
+	/*color: #004485 !important;	*/
+}
+
+.move25 {
+	background: #F9EEEC;
+	font-size: 90%;
+}
+
+.move25 div.softLabel {
+	background-image: url(/3ds.pokemon-gl.com/under_maintenance/share/images/game_logo/logo_25.png);	
+	border-color: #E0BBB5;
+}
+
+.move25 div.softLabel .colorText01, .move25 div.softLabel .colorText02, .move25 .movePoint {
+	/*color: #9F1326 !important;	*/
+}
+
+
+/* 共通化savedataBoxのポイント移動バリアント */
+.pointChangeBox .savedataBox.rom-24 {
+	border-color: #BDCEE0;
+}
+.pointChangeBox .savedataBox.rom-25 {
+	border-color: #E0BBB5;
+}
+
+.pointChangeBox .savedataBox.rom-24 .trainerBox .trainerName{ color:#004688 !important;}
+.pointChangeBox .savedataBox.rom-25 .trainerBox .trainerName{ color:#7D1021 !important;}
+
+
+.softLabel .panelTrainer dl dt{ line-height:14px;}
+.softLabel .countryCode{ margin-top:5px;}
+.softLabel .panelTrainer dl dt span{line-height: 12px;}
+
+.errorBox {
+	padding:50px 0;
+}
+
+.errorBox > p {
+	font-size: 16px !important;
+	line-height: 1.3;
+}
+
+
+/* マイページ写真 */
+
+.overlay.photoWindow > #confirmWindow{
+	width:644px;
+}
+
+.overlay.photoWindow .bodyBox{
+	min-height: 350px;
+	padding: 0 30px 30px;
+
+}
+
+#pictureDetailImg{
+	margin:10px auto 0;
+	width:480px;
+	position:relative;
+	text-align:center;
+}
+
+#pictureDetailImg img{
+	width:400px;
+	height:240px;
+}
+
+#pictureDetailImg .btnArrowLeft{
+	position:absolute;
+	left:-50px;
+	top:50px;
+}
+
+#pictureDetailImg .btnArrowRight{
+	position:absolute;
+	right:-50px;
+	top:50px;
+}
+
+.picture_id{ font-size:40px !important; font-family:"04b03b"; color:#999999; margin:0 auto 10px; width:400px; text-align:left;}
+.btnArrowLeftL {
+	position: absolute;
+	top: 140px;
+	left: -34px;
+}
+
+.btnArrowRightL {
+	position: absolute;
+	top: 140px;
+	right: -34px;
+}
+
+#pictureDetailBtns {
+	position: relative;
+	text-align: center;	
+}
+#pictureDetailBtns a:last-child { margin-right:0;}
+#pictureDetailBtns a.btnCrLarge,
+#pictureDetailBtns a.btnGrLarge{ min-width:120px !important;}
+
+#pictureDetailBtns a>img{ margin-right:2px;}
+
+.pictureDate{ margin:10px auto 20px; font-weight:bold; width:400px; text-align:left;}
+.dialogMessage{ margin:150px 0 30px; text-align:center; font-size:14px !important; font-weight:bold;}
+
+/* バトルボックス */
+
+.battleBoxList {
+	margin-top: 20px;	
+}
+
+.battleBoxList > li {
+	float: left;
+	width: 212px;
+	height: 225px;
+	margin-right: 15px;
+	margin-bottom: 15px;
+	padding: 3px 17px;
+	border: 2px solid #ffffff;
+	border-radius: 2px;
+	box-shadow: 0 0px 3px #aaaaaa;
+	background-color: #f6f6f6;
+}
+
+.battleBoxList > li:nth-child(3n) {
+	margin-right: 0;
+}
+
+
+.nameArea {
+	height: 31px;
+	margin-bottom: 6px;
+}
+
+.nameArea .name {
+	width: 105px;
+	padding-left: 25px;
+	font-size: 13px;
+	color: #ffffff;
+	line-height: 31px;
+	background: url(/3ds.pokemon-gl.com/under_maintenance/pc/common/images/icon/icon_mb_wt.png) 5px center no-repeat;
+
+}
+
+.nameArea .level {
+	width: 40px;
+	font-size: 11px;
+	color: #ffffff;
+	line-height: 31px;
+}
+
+.nameArea p[class*="sex"] {
+	width: 22px;
+	min-height: 23px;
+	padding-top: 8px;
+	padding-left: 12px;
+	text-align: center;
+	vertical-align: middle;
+	background: url(/3ds.pokemon-gl.com/under_maintenance/pc/common/images/gbu/bg_gbu_battle_box.png) right center no-repeat;
+}
+
+.nameArea p.sexMale {
+	color: #004688;
+}
+
+.nameArea p.sexFemale {
+	color: #CC3333;
+}
+
+.imageArea {
+	float: left;
+	width: 100px;
+	margin-bottom: 8px;
+}
+
+.pokemonImageOut {
+	border: 1px solid #ffffff;
+}
+
+.pokemonImage {
+	display: table-cell;
+	width: 98px;
+	height: 98px;
+	border: 1px solid #ccc;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #ffffff;
+}
+
+.pokemonImage img {
+	vertical-align: middle;
+}
+
+.pokemonType {
+	float: left;
+	margin-top: 6px;
+}
+
+.pokemonType li:first-child {
+	margin-right: 4px;
+}
+
+.pokemonType li {
+	width: 48px;
+	height: 17px;
+	color: #fff;
+	font-size: 10px!important;
+	line-height: 17px;
+	text-align: center;
+	border-radius: 4px;
+	radius: 4px;
+	display: block;
+	margin: 0;
+	float: left;
+}
+
+
+.skillArea {
+	float: left;
+	width: 106px;
+	margin-top: 0;
+	margin-left: 4px;
+	margin-bottom: 6px;
+	border-top: 1px solid #dbdbdb;
+}
+
+.skillArea {
+	float: left;
+	width: 106px;
+	margin-top: 0;
+	margin-left: 4px;
+	margin-bottom: 6px;
+	border-top: 1px solid #dbdbdb;
+}
+
+.skillArea dl {
+	height: 27px;
+	padding: 1px 0;
+	border-top: 1px solid #ffffff;
+	border-bottom: 1px solid #dbdbdb;
+
+}
+
+.skillArea dt {
+	float: left;
+	width: 101px;
+	height: 27px;
+	font-size: 11px;
+	line-height: 2.5;
+}
+
+.skillArea dd {
+	float: right;
+	width: 5px;
+	height: 26px;
+	margin: -1px 0 0;
+	border-radius: 0;
+}
+
+.statusArea table {
+	position: relative;
+	width: 210px;
+	margin-top: 6px;
+	border: 1px solid #ffffff;
+	font-size: 11px;
+
+}
+
+.statusArea table:before {
+	position: absolute;
+	content: "";
+	width: 208px;
+	height: 100%;
+	border: 1px solid #cccccc;
+}
+
+.statusArea th {
+	width: 56px;
+	padding: 2px 3px 2px 5px;
+	background: none;
+}
+
+.statusArea table tr:nth-child(1) th {
+	border-bottom: 1px solid #cccccc;
+}
+
+.statusArea td {
+	width: 81px;
+	padding: 2px 3px;
+	background: none;
+}
+
+.statusArea table .rightNone {
+	width: 81px;
+	border: 1px solid #cccccc;
+	border-left: none;
+}
+
+.statusArea .itemImage {
+	width: 55px;
+	text-align: center;
+	vertical-align: middle;
+	padding: 0;
+	border-top: 1px solid #cccccc;
+}
+
+
+
+
+
+/* ポケモン一覧 名前順 */
+
+.overlay.gbuPokemonList > #confirmWindow{
+	width:840px;
+}
+
+.overlay.gbuPokemonList .bodyBox{
+	min-height: 460px;
+	padding: 10px 30px 30px;
+
+}
+
+.tab02PokemonList ul li a {
+	width: 50%;
+}
+
+.tab02PokemonList ul li.active a {
+}
+
+
+/* ポケモン一覧 名前順 */
+
+/* 名前順ナビゲーション */
+.pokemonSortList nav {
+	float: left;
+	width: 80px;
+}
+
+.pokemonSortList li a {
+	display: block;
+	width: 73px;
+	margin: 0 0 5px;
+	padding: 1px 3px;
+	text-align: center;
+	border-radius: 3px;
+	border: 1px solid #CCCCCC;
+	color: #636363;
+	text-decoration: none;
+	background: #F0F0F0;
+	box-shadow: 1px 1px 0 rgba(255,255,255,1.0) inset, -1px -1px 0 rgba(255,255,255,1.0) inset;
+	-moz-box-shadow: 1px 1px 0 rgba(255,255,255,1.0) inset, -1px -1px 0 rgba(255,255,255,1.0) inset;
+	-webkit-box-shadow: 1px 1px 0 rgba(255,255,255,1.0) inset, -1px -1px 0 rgba(255,255,255,1.0) inset;
+}
+.pokemonSortList li:last-child>a{ margin-bottom:0;}
+
+
+/* 名前順 ポケモン一覧 */
+.pokemonListArea {
+	float: right;
+	overflow: scroll;
+	overflow-x: hidden;
+	width: 678px;
+	height: 425px;
+	padding: 2px 0 0 2px;
+
+}
+
+.pokemonListArea>div> a {
+	float: left;
+	width: 117px;
+	min-height: 112px;
+	margin-right: 5px;
+	margin-bottom: 10px;
+	padding: 2px;
+	border-radius: 3px;
+	border: #FFFFFF 2px solid;
+	-webkit-box-shadow: 0 0 5px 0 rgba(0,0,0,0.3);
+	-moz-box-shadow: 0 0 5px 0 rgba(0,0,0,0.3);
+	-o-box-shadow: 0 0 5px 0 rgba(0,0,0,0.3);
+	-ms-box-shadow: 0 0 5px 0 rgba(0,0,0,0.3);
+	background: #F5F5F5;
+	color:#333 !important;
+}
+/* リンクなし */
+.pokemonListArea>div>a.noDetail span,
+.pokemonListArea>div>a.noDetail dd{ color:#CCC !important;}
+.pokemonListArea>div>a.noDetail{ cursor:default;}
+.pokemonListArea>div>a.noDetail:hover{ background: #F5F5F5; cursor:default;}
+
+
+.pokemonListArea>div > a:hover {
+	background: #fff;
+	text-decoration: none;
+}
+
+.pokemonListArea>div > a dl dt {
+	position: relative;
+	min-height: 88px;
+}
+
+.pokemonListArea>div > a dl dt > span {
+	position: absolute;
+	font-size: 13px;
+	line-height: 1.1;
+	top: 5px;
+	left: 5px;
+}
+
+.pokemonListArea>div > a dl dt > p {
+	position: relative;
+	top: 5px;
+	left: 0;
+	display: table-cell;
+	width: 117px;
+	height: 78px;
+	text-align: center;
+	vertical-align: middle;
+	background: url(/3ds.pokemon-gl.com/under_maintenance/pc/common/images/parts/bg_panel_pokemonlist.png) center center no-repeat;
+	
+}
+
+.pokemonListArea>div > a dl dt > p > img {
+	vertical-align: middle;
+}
+
+.pokemonListArea>div > a dl dd {
+	padding: 7px 7px 3px;
+	line-height: 1.1;
+	border-top: #FFFFFF solid 1px;
+	-webkit-box-shadow: 0 1px 0 rgba(204,204,204,1) inset;
+	-moz-box-shadow: 0 1px 0 rgba(204,204,204,1) inset;
+	-o-box-shadow: 0 1px 0 rgba(204,204,204,1) inset;
+	box-shadow: 0 1px 0 rgba(204,204,204,1) inset;
+	
+}
+
+
+/* ポケモン詳細 */
+
+.overlay.gbuPokemonDetail > #confirmWindow{
+	width:930px;
+}
+
+.overlay.gbuPokemonDetail .bodyBox{
+	min-height: 455px;
+	padding: 10px 30px 30px;
+
+}
+
+.bodyBox .loading {
+	position: absolute;
+	z-index: 1000;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 278px;
+	padding-top: 227px;
+	text-align: center;
+	background-color: rgba(255,255,255,0.8);
+	
+}
+
+.overlay.gbuPokemonDetail > #confirmWindow .headBox{
+	position: relative;
+	z-index: 2;
+
+}
+
+
+#matchBox {
+	position: relative;
+	top: -10px;
+	padding: 10px 30px;
+	display: none;
+}
+
+/* セレクトボックス幅指定 */
+#matchBox > div:first-child {
+	float: left;
+	width: 388px;
+}
+
+#matchBox > div:first-child select {
+	min-width: 388px;
+	height: 31px;
+	background-position: right;
+}
+
+
+/* セレクトボックス幅指定 */
+#matchBox > div:last-child {
+	float: right;
+	width: 458px;
+	height: 29px;
+	border: solid 1px #C8C9CE;
+	background: -moz-linear-gradient(top, #F9F9F9 0%, #F0F0F0 100%); /* FF3.6+ */
+	background: -webkit-linear-gradient(top, #F9F9F9 0%,#F0F0F0 100%); /* Chrome10+,Safari5.1+ */
+	background: -ms-linear-gradient(top, #F9F9F9 0%,#F0F0F0 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #F9F9F9 0%,#F0F0F0 100%); /* W3C */
+}
+
+#matchBox > div:last-child ul {
+	padding: 3px 0;
+
+}
+
+#matchBox > div:last-child ul li {
+	float: left;
+	width: 76px;
+	height: 23px;
+	text-align: center;
+	border-right: 1px solid #C8C9CE;
+	
+}
+
+#matchBox > div:last-child ul li a {
+	display: block;
+	height: 25px;
+	margin: -1px 0;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+#matchBox > div:last-child ul li.active a, #matchBox > div:last-child ul li:hover a {
+	display: block;
+	height: 31px;
+	margin: -4px -1px;
+	-webkit-box-shadow: -1px -1px 0 rgba(0,0,0,0.15) inset;
+	-moz-box-shadow: -1px -1px 0 rgba(0,0,0,0.15) inset;
+	-o-box-shadow: -1px -1px 0 rgba(0,0,0,0.15) inset;
+	box-shadow: -1px -1px 0 rgba(0,0,0,0.15) inset;
+	
+}
+
+#matchBox > div:last-child ul li:last-child {
+	width: 73px;
+	border-right: none;
+}
+
+li.battleAll a {
+	background-image: url(/3ds.pokemon-gl.com/under_maintenance/pc/common/images/icon/icon_battle_all.png);		
+	background-size:30px;
+}
+
+li.battleAll.active a, li.battleAll:hover a {
+	background-image: url(/3ds.pokemon-gl.com/under_maintenance/pc/common/images/icon/icon_battle_all_hover.png);
+	background-color: #69AADA;	
+}
+
+li.battleSingle a {
+	background-image: url(/3ds.pokemon-gl.com/under_maintenance/pc/common/images/icon/icon_battle_single.png);		
+	background-size:30px;	
+}
+
+li.battleSingle.active a, li.battleSingle:hover a {
+	background-image: url(/3ds.pokemon-gl.com/under_maintenance/pc/common/images/icon/icon_battle_single_hover.png);
+	background-color: #80CE55;
+	
+}
+
+li.battleDouble a {
+	background-image: url(/3ds.pokemon-gl.com/under_maintenance/pc/common/images/icon/icon_battle_double.png);		
+	background-size:30px;
+}
+
+li.battleDouble.active a, li.battleDouble:hover a {
+	background-image: url(/3ds.pokemon-gl.com/under_maintenance/pc/common/images/icon/icon_battle_double_hover.png);
+	background-color: #EFC725;
+	
+}
+
+li.battleTriple a {
+	background-image: url(/3ds.pokemon-gl.com/under_maintenance/pc/common/images/icon/icon_battle_triple.png);		
+	background-size:30px;	
+}
+
+li.battleTriple.active a, li.battleTriple:hover a {
+	background-image: url(/3ds.pokemon-gl.com/under_maintenance/pc/common/images/icon/icon_battle_triple_hover.png);
+	background-color: #F58B3D;
+	
+}
+
+li.battleRotation a {
+	background-image: url(/3ds.pokemon-gl.com/under_maintenance/pc/common/images/icon/icon_battle_rotation.png);		
+	background-size:30px;	
+}
+
+li.battleRotation.active a, li.battleRotation:hover a {
+	background-image: url(/3ds.pokemon-gl.com/under_maintenance/pc/common/images/icon/icon_battle_rotation_hover.png);
+	background-color: #DF6A9F;
+	
+}
+
+li.battleSpecial a {
+	background-image: url(/3ds.pokemon-gl.com/under_maintenance/pc/common/images/icon/icon_battle_special.png);		
+	background-size:30px;
+}
+
+li.battleSpecial.active a, li.battleSpecial:hover a {
+	background-image: url(/3ds.pokemon-gl.com/under_maintenance/pc/common/images/icon/icon_battle_special_hover.png);
+	background-color: #A581D1;
+	
+}
+
+/* issue:0001310 */
+nav.tab02PokemonDetail,
+.pokemonDetailTabContainer .btnArrowRight,
+.pokemonDetailTabContainer .btnArrowLeft{
+	display: none;
+}
+
+/* issue:0001308 */
+nav.tab02PokemonDetail ul {
+	background-image: url(/3ds.pokemon-gl.com/under_maintenance/pc/common/images/parts/bg_tab_03.png);
+	background-position: center 6px;
+	background-repeat: no-repeat;
+}
+.tab02PokemonDetail ul li a {
+	width: 33.3%;
+}
+
+/* issue:0001307 */
+#rom-x .tab02PokemonDetail ul li a,
+#rom-y .tab02PokemonDetail ul li a,
+#rom-default .tab02PokemonDetail ul li a {
+	color: #999;
+}
+
+.tab02PokemonDetail ul li:last-child a {
+	width: 33.4%;
+}
+
+
+
+.pokemonDetailTabContainer {
+	position: relative;
+	width: 100%;
+	min-height: 400px;
+	display:none;
+}
+
+.pokemonDetailTabContainer .btnArrowLeft {
+	position: absolute;
+	top: 220px;
+	left: 0;
+	margin-top: -9px;
+}
+
+.pokemonDetailTabContainer .pokemonDesc {
+	/*position: absolute;
+	top: 0;
+	left: 30px;*/
+	width: 810px;
+	margin: 0 auto;
+	/*height: 402px;*/
+}
+
+.pokemonDesc > * { float: left;}
+.pokemonDesc nav { width: 230px;}
+.pokemonSpecificTab a {
+	display: block;
+	border: #D2D2D2 1px solid;
+	margin: 0 0 0px;
+	padding: 3px 0;
+	font-size: 13px;
+	line-height: 1.1;
+	-webkit-box-shadow: -1px -1px 0 rgba(255,255,255,1.0) inset,1px 1px 0 rgba(255,255,255,1.0) inset;
+	-moz-box-shadow: -1px -1px 0 rgba(255,255,255,1.0) inset,1px 1px 0 rgba(255,255,255,1.0) inset;
+	-o-box-shadow: -1px -1px 0 rgba(255,255,255,1.0) inset,1px 1px 0 rgba(255,255,255,1.0) inset;
+	box-shadow: -1px -1px 0 rgba(255,255,255,1.0) inset,1px 1px 0 rgba(255,255,255,1.0) inset;
+	text-align: center;
+	text-decoration: none;
+	background: #E6E6E6 url(/3ds.pokemon-gl.com/under_maintenance/pc/common/images/parts/bg_triangle_01.png) 10px 9px no-repeat;
+	height: 16px;
+}
+.pokemonSpecificTab.active a,
+.pokemonSpecificTab.active a:hover{ background: #E6E6E6 url(/3ds.pokemon-gl.com/under_maintenance/pc/common/images/parts/bg_triangle_02.png) 9px 10px no-repeat; cursor:default;}
+.pokemonSpecificTab a:hover { background: #FFFFFF url(/3ds.pokemon-gl.com/under_maintenance/pc/common/images/parts/bg_triangle_02.png) 9px 10px no-repeat;}
+.pokemonSpecificTabContainer { height: 310px; margin-top:9px;}
+/* issue;0001310 */
+#trendContainer li:last-child .pokemonSpecificTabContainer { border-bottom: 1px solid #D2D2D2; }
+
+
+
+.wazaGraph {
+	margin: 3px 0 5px;
+	text-align: center;
+	height: 110px;
+	position:relative;
+}
+.wazaGraph canvas{ margin:5px auto;}
+.wazaGraph .percent {
+		width:55px;
+		display: block;
+		position: absolute;
+		top: 45px;
+		left: 85px;
+		font-size: 18px !important;
+		text-align: right;
+		font-weight:bold;
+}
+.wazaGraph .unit {
+	font-size: 12px !important;
+	font-weight: bold;
+	margin-left: 2px;
+}
+
+
+.pokemonSpecificTabContainer ol li {
+	line-height: 1.2;
+	padding: 2px 7px 2px 0;
+	font-size: 11px;
+}
+
+.pokemonSpecificTabContainer ol li p.number {
+	float: left;
+}
+
+.pokemonSpecificTabContainer ol li p.rate {
+	float: right;
+}
+
+
+.pokemonSpecificTabContainer ol li p.number span {
+	display: inline-block;
+	width: 2em;
+	margin-right: 5px;
+	text-align: center;
+}
+
+.pokemonSpecificTabContainer ol li.active, .pokemonSpecificTabContainer ol li:hover {
+	background: #F4D08B;
+}
+
+
+
+.pokemonDesc .pokemonId {
+	width: 290px;
+	margin: 0 31px;
+}
+
+.pokemonDesc .pokemonId dl dt {
+	background: url(/3ds.pokemon-gl.com/under_maintenance/pc/common/images/gbu/bg_panel_pokemondetail.png) center 15px no-repeat;
+	height: 285px;
+	padding-top:30px;
+}
+
+.pokemonDesc .pokemonId dl dd.id {
+	font-size: 40px;
+	text-align: center;
+	line-height: 1.1;
+	font-weight:bold;
+}
+
+.pokemonDesc .pokemonId dl dd.name {
+	font-size: 20px;
+	text-align: center;
+	line-height: 1.1;
+	font-weight:bold;	
+}
+
+.pokemonDesc .pokemonId dl dd.status {
+	margin-top: 5px;
+	padding-top: 5px;
+	border-top: solid 1px #CCCCCC;
+
+}
+
+.pokemonDesc .pokemonId dl dd.status p {
+	float: left;
+	width: 49%;
+
+}
+
+.pokemonDesc .pokemonId dl dd.status p span[class*="type"] {
+	min-width: 56px;
+}
+
+.pokemonDesc .pokemonId dl dd.status p:first-child {
+	text-align: left;
+	margin-right: 1%;
+}
+
+.pokemonDesc .pokemonId dl dd.status p:last-child {
+	text-align: center;
+	margin-left: 1%;
+	width:100%;
+}
+
+.pokemonDesc .relatedPokemonList { width: 228px;}
+.pokemonDesc .relatedPokemonList .relatedPokemonTitle{ margin-bottom:9px;}
+
+.pokemonDetailTabContainer .btnArrowRight {
+	position: absolute;
+	top: 220px;
+	right: 0;
+	margin-top: -9px;
+}
+
+dl.relatedPokemonTitle {
+	font-size: 11px;
+	line-height: 1.3;
+}
+
+dl.relatedPokemonTitle dt {
+	float: left;
+	vertical-align: top;
+	width: 4px;
+	min-height: 24px;
+	margin-right: 4px;
+	border-radius: 3px;
+	background: #AFD1EB;
+	border: 1px solid #86BBE1;
+}
+
+dl.relatedPokemonTitle dd {
+	display: table-cell;
+	height: 2.4em;
+	vertical-align: middle;
+	font-weight:bold;
+}
+
+dl.relatedPokemonTitle dd span.nowrap {
+	white-space: nowrap;
+}
+.relatedPokemonList > ul > li {
+	width: 97px;
+	margin: 0 0 3px;
+	padding: 6px 6px 2px;
+	background: #F6F6F6;
+	border: #E1E1E1 1px solid;
+	border-radius: 5px;
+	font-size: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	-webkit-box-shadow: -1px -1px 0 rgba(255,255,255,1.0) inset,1px 1px 0 rgba(255,255,255,1.0) inset;
+	-moz-box-shadow: -1px -1px 0 rgba(255,255,255,1.0) inset,1px 1px 0 rgba(255,255,255,1.0) inset;
+	-o-box-shadow: -1px -1px 0 rgba(255,255,255,1.0) inset,1px 1px 0 rgba(255,255,255,1.0) inset;
+	box-shadow: -1px -1px 0 rgba(255,255,255,1.0) inset,1px 1px 0 rgba(255,255,255,1.0) inset;
+}
+.relatedPokemonList > ul > li:nth-child(odd){ margin-right:3px;}
+
+/* リンクは後工程のため */
+.relatedPokemonList > ul > li a {
+	cursor: default;
+}
+/*
+.relatedPokemonList > ul > li:hover {
+	opacity: 0.5;
+}
+.relatedPokemonList > ul > li:hover a {
+	text-decoration: none;
+}
+*/
+
+.relatedPokemonList > ul > li div.desc {
+	float: left;
+	width: 35px;
+	text-align: center;
+}
+
+.relatedPokemonList > ul > li div.desc > ul li {
+	height: 13px;
+	margin-bottom: 2px;
+}
+
+.relatedPokemonList > ul > li div.desc > ul li span[class*="type"]{
+	width: 38px;
+	height: auto;
+	margin-right: 0;
+	padding: 0 2px;
+	font-size: 8px !important;
+	font-weight: 100;
+	line-height: 1.4;
+}
+
+.relatedPokemonList > ul > li p.img {
+	float: right;
+	width: 49px;
+	height: 47px;
+	padding-top:3px;
+	margin-top: 0px;
+	margin-bottom: 3px;
+	text-align: center;
+	background: url(/3ds.pokemon-gl.com/under_maintenance/pc/common/images/gbu/bg_panel_pokemonrelate.png) center center no-repeat;
+}
+
+.relatedPokemonList > ul > li p.name {
+	clear: both;
+	width: 100%;
+	text-align: center;
+	line-height: 1.0;
+	color:#333;
+	font-size:11px !important;
+}
+
+.relatedPokemonList > ul > li div.desc .colorText01 {
+	font-size: 21px !important;
+	line-height:80%;
+	font-weight:bold;
+}
+
+.relatedPokemonList > ul > li:nth-child(odd) {
+	float: left;
+}
+
+.relatedPokemonList > ul > li:nth-child(even) {
+	float: right;
+}
+
+	
+/* GBU地域絞り込み */
+
+.regionBox {
+	margin-top: 20px;	
+}
+
+.regionBox .worldMap {
+	float: left;
+	width: 465px;
+	height: 372px;
+	background: url(/3ds.pokemon-gl.com/under_maintenance/pc/common/images/gbu/img_gbu_map.jpg) 0 0 no-repeat;
+
+}
+
+.regionBox > .countryList {
+	overflow: scroll;
+	overflow-x: hidden;
+	max-height: 480px;
+
+}
+
+.regionBox > .countryList > ul {
+	float: right;
+	width: 272px;
+	margin-right: 10px;
+	border-bottom: none;
+
+}
+
+.regionBox > .countryList > ul li {
+	cursor: pointer;
+	width: 262px;
+	font-size: 13px;
+	line-height: 1.2;
+	padding: 9px 5px 5px;
+	text-align: center;
+	text-decoration: none;
+	border: 1px solid #E4E4E4;
+	margin-bottom: -1px;
+	background: #F0F0F0;
+	-webkit-box-shadow: 1px 1px 0 rgba(255,255,255,1.0) inset,-1px 0 0 rgba(255,255,255,1.0) inset;
+	-moz-box-shadow: 1px 1px 0 rgba(255,255,255,1.0) inset,-1px 0 0 rgba(255,255,255,1.0) inset;
+	-o-box-shadow: 1px 1px 0 rgba(255,255,255,1.0) inset,-1px 0 0 rgba(255,255,255,1.0) inset;	
+	box-shadow: 1px 1px 0 rgba(255,255,255,1.0) inset,-1px 0 0 rgba(255,255,255,1.0) inset;
+}
+
+.regionBox > .countryList > ul li:hover, .regionBox > .countryList > ul li.hover {
+	background: #FFFFFF;
+
+}
+.regionBox > .countryList > ul li.country-own {
+	margin-bottom: 2px;
+}
+
+.point-country {
+	position: absolute;
+	display: block;
+	width: 11px;
+	height: 11px;
+	cursor: pointer;
+}
+.point-country:before {
+	content: ".";
+	text-indent: -9000px;
+	position: absolute;
+	left: 4px;
+	top: 4px;
+	display: block;
+	border-radius: 100%;
+	background-color: #004486;
+	width: 3px;
+	height: 3px;
+}
+
+.point-country:hover:before,.point-country.hover:before {
+	background-color: #FF0000;
+	-webkit-box-shadow: 0 0 0 4px rgba(255,0,0,0.3);
+	-moz-box-shadow: 0 0 0 4px rgba(255,0,0,0.3);
+	-o-box-shadow: 0 0 0 4px rgba(255,0,0,0.3);
+	box-shadow: 0 0 0 4px rgba(255,0,0,0.3);
+}
+.point-country.hover {
+	z-index: 100;
+}
+
+/* gbu  */
+
+#gbuTable.tableTypeDefault {
+	width: 682px;
+	margin: 0 auto 20px;
+	font-size: 11px;
+}
+
+#gbuTable.tableTypeDefault th, #gbuTable.tableTypeDefault td {
+	width: 162px;
+	text-align: center;
+	padding: 10px 5px;
+}
+
+#gbuTable.tableTypeDefault td {
+	padding: 4px 5px;
+}
+	
+#gbuTable.tableTypeDefault tr > th:nth-child(1), #gbuTable.tableTypeDefault tr > td:nth-child(1){
+	width: 152px;
+	
+}
+
+#gbuTable.tableTypeDefault tr > td:nth-child(1) {
+	text-align: left;
+	
+}
+
+#gbuTable.tableTypeDefault tr > td:nth-child(1) > span {
+	color: inherit;
+}
+
+.contentBox a[class*="btnCrLarge"] {
+	min-width: 190px;
+}
+
+
+/* アカウントの切り替え */
+.bodyBox .panelAccountlist{ border:none; text-align:center;}
+.bodyBox .accountPanel{
+	margin:0 auto;
+	text-align:left;
+	width:530px;
+	float:none !important;
+	padding:10px;
+	border:#EBEBEB 1px solid;
+	border-radius: 5px;	
+  -webkit-box-shadow:rgba(240, 240, 240, 0.65098) 1px 1px 3px 0px inset;
+	-moz-box-shadow:rgba(240, 240, 240, 0.65098) 1px 1px 3px 0px inset;
+  box-shadow:rgba(240, 240, 240, 0.65098) 1px 1px 3px 0px inset;	
+}
+
+/* step */
+.bodyBox .stepBox ul {
+	margin:0 0 20px 0;
+}
+.bodyBox .stepBox li {
+	text-align: left;
+}
+
+
+.bodyBox h4.important span{
+	display:inline-block;
+	color:#E70012;
+	background:#FFFFFF;
+	margin-right:10px;
+	padding:0 5px;
+}
+
+.bodyBox .frameContainer{
+	margin-top:10px;
+	padding:10px 0 0;
+	border-top:1px solid #CCCCCC;
+	overflow-y:scroll;
+	height:380px;
+}
+
+
+.bodyBox .noScroll{
+	overflow-y:auto;
+	height:auto;
+}
+
+.bodyBox .checkContainer{ margin-bottom:5px;}
+.bodyBox .checkContainer input{ width:20px; height:20px;}
+.bodyBox .checkContainer p{ width:60px; display:table-cell; vertical-align:middle; text-align:center;}
+/* issue:0001091 */
+.bodyBox .checkContainer label{  display:table-cell; background:#ECECEC; padding:10px; width:700px;}
+.bodyBox .checkContainer dt{ color:#004486; font-weight:bold; margin-bottom:3px;}
+
+.frameContainer .pointChangeBox{padding: 0; background:none; margin:0; float:left;}
+.frameContainer .pointChangeBox>div{
+	float: none;
+	width: 303px;
+	margin: 0;
+	padding: 14px 9px 9px;
+	font-size: 90%;	
+	border-radius: 4px;
+	border: 1px solid #E3E3E3;
+	background:#ECECEC;
+	box-shadow:none;
+	-moz-box-shadow:none;
+	-webkit-box-shadow:none;
+}
+
+.frameContainer .pointChangeBox > div:last-child { float:none;}
+.frameContainer .pointChangeBox .panelTrainer li:nth-child(2) {
+	width:165px;
+	margin-right:0px;
+}
+
+.frameContainer .panelTrainer li:nth-child(3).countryCode{
+	padding-left:15px;
+	background-position:0px 10px;
+}
+
+.frameContainer .releaseContainer{ float:right; width:420px;}
+.frameContainer .grayBox{ background:#ECECEC; border-radius: 4px; border: 1px solid #E3E3E3; padding:18px; margin-bottom:10px;}
+.frameContainer .grayBox dt{ font-weight:bold; font-size:14px; margin-bottom:10px;}
+.frameContainer .grayBox dd{ margin-bottom:5px;}
+.frameContainer .grayBox dd textarea{ width:350px;}
+
+
+.frameContainer .cancelTitle{ font-weight:bold; font-size:18px !important; line-height:140%; margin:30px 0; text-align:center;}
+.frameContainer .cancelBox{ padding:15px 30px 5px; border:1px solid #E4E4E4; border-radius:4px;}
+.frameContainer .cancelBox dt{ font-weight:bold; font-size:14px; margin-bottom:10px;}
+.frameContainer .cancelBox dd{ margin-bottom:10px;}
+
+
+
+/* 公開範囲設定 */
+
+.publishBox:first-child { margin-bottom:10px;}
+.publishBox td,
+.publishBox th{ vertical-align:top;}
+.publishBox .leftBox{ width:350px; border-right:none !important;}
+.publishBox .leftBox .allPublish dt{ font-weight:bold; margin-bottom:5px; font-size:15px;}
+.publishBox .leftBox .pointChangeBox{ margin:0 0 0 25px;}
+.publishBox .leftBox .pointChangeBox>div{ background:none; padding:0;}
+.publishBox .leftBox .pointChangeBox div.softLabel{ padding: 15px 10px 10px;}
+.publishBox .leftBox .pointChangeBox div.softLabel>dl{ margin:0 0 15px 10px;}
+.publishBox .leftBox .pointChangeBox li.countryCode{
+	padding-left:0px !important;
+	background-position:0px 10px !important;
+}
+/* issue:0000769 */
+.publishBox .leftBox .pointChangeBox li.countryCode span {
+	padding-left: 15px;
+}
+
+.publishBox .centerBox{ width:170px; font-weight:bold; padding-top:15px;}
+
+.publishBox .rightBox{ }
+.publishBox .rightBox select{ 
+	width:170px;
+}
+	
+.publishBox .allClear{ border:none !important; box-shadow:none !important;}
+
+
+/* ゲームソフトの選択 */
+.accountContainer{ border:1px solid #EBEBEB; border-radius:2px; padding:5px; margin-bottom:10px;}
+.accountContainer .accountPanel{ width:600px !important; float:right !important;}
+.accountContainer .accountPanel .pk_logo{ width:260px;}
+.accountContainer .releaseMessage dt{ 
+	display:table-cell; 
+	width:130px; 
+	vertical-align:middle; 
+	text-align:center;
+}
+.accountContainer .releaseMessage dt p{ 
+	padding:3px;
+	margin:0 auto;
+	display:inline-block;
+	border-radius:5px;
+	padding:5px 10px 5px 25px;
+	background:#FF6600 url(/3ds.pokemon-gl.com/under_maintenance/pc/common/images/icon/icon_release_entry.gif) no-repeat 7px 7px; 
+	color:#FFFFFF;
+}
+.accountContainer .releaseMessage dd{ display:table-cell; padding:0 0 0 10px;}
+
+/* 登録解除 */
+div.softLabel.releaseCont{ padding: 15px 10px 10px;}
+
+
+
+/* ポケモンフェスタ */
+.DIALOG_FESTA .bodyBox{ text-align:center;}
+.DIALOG_FESTA .bodyBox>.contentBox{
+	padding:40px 0;
+}
+.DIALOG_FESTA .bodyBox>.contentBox dt{
+	border:10px solid #81A7E7;
+	border-radius:10px;
+	padding:20px 0;
+	background:#FFFFFF;
+	margin-bottom:60px;
+	font-size:14px;
+	font-weight:bold;
+	vertical-align:top;
+}
+.DIALOG_FESTA .bodyBox>.contentBox dt>p{ display:inline-block; vertical-align: top; padding: 9px 0;}
+.DIALOG_FESTA .bodyBox>.contentBox dt img{ display:inline-block;}
+.DIALOG_FESTA .bodyBox>.contentBox dt span{
+	font-size:20px;
+	color:#D95121;
+	padding:0 5px;
+}
+
+.DIALOG_FESTA .bodyBox>.contentBox dd{ font-size:20px; font-weight:bold;}
+
+
+/* 高さ固定 */
+.bodyBox#DIALOG_RELEASE {
+	height: 460px;
+}
+.bodyBox#DIALOG_RELEASE_CANCEL {
+	height: 220px;
+}
+.bodyBox#DIALOG_POINT {
+	height: 470px;
+}
+.bodyBox#DIALOG_PUBLISH{ height:530px !important;}
+.bodyBox#DIALOG_SELECT_SOFT{
+	height: 230px;
+}
+
+
+/* ゲームをはじめる */
+.DIALOG_GAME #confirmWindow{ width:650px !important;}
+#DIALOG_GAME>.contentBox{ text-align:center;}
+#DIALOG_GAME>.contentBox>dl{
+	background: url(/3ds.pokemon-gl.com/under_maintenance/pc/common/images/pokemonfesta/bg_dialog_lv.png) no-repeat left top;
+	margin: 0 auto;
+	text-align: center;
+	width: 360px;
+	min-height: 70px;
+}
+
+#DIALOG_GAME>.contentBox>dl>dt,
+#DIALOG_GAME>.contentBox>dl>dd{ float:left;}
+#DIALOG_GAME>.contentBox>dl>dt{
+	width: 66px;
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+	padding-top: 25px;
+	margin-right: 20px;
+	font-family:"04b03b";
+}
+
+#DIALOG_GAME>.contentBox>dl>dd{
+	text-align: left;
+	font-size: 16px;
+	font-weight: bold;
+	padding-top: 13px;
+}
+
+#DIALOG_GAME>.contentBox>div{
+	background: #F0F0F0;
+	border-radius: 3px;
+	padding: 15px;
+	margin-top: 10px;
+}
+
+#DIALOG_GAME>.contentBox>div{
+	background: #F0F0F0;
+	border-radius: 3px;
+	padding: 15px;
+	margin: 10px auto 0;
+	width: 520px;
+}
+#DIALOG_GAME>.contentBox>div>dl:first-child{
+	background:url(../../images/pokemonfesta/bg_dialog_point.png) no-repeat left top;
+	min-height:73px;
+	padding-top:22px;
+}
+
+#DIALOG_GAME>.contentBox>div>dl:first-child>dt{
+	width: 310px;
+	font-size: 16px;
+	text-align: right;
+	padding-top: 11px;
+	float:left;
+	font-weight: bold;
+}
+
+#DIALOG_GAME>.contentBox>div>dl:first-child>dd{ 
+	float:left;
+	border: 1px solid #ccc;
+	padding: 12px 10px 8px;
+	width: 100px;
+	border-radius: 5px;
+	margin-left: 20px;
+	text-align: right;
+	font-size: 20px;
+	font-weight: bold;
+	font-family:"04b03b";
+	font-size: 30px;
+}
+#DIALOG_GAME>.contentBox>div>div{ background: url(/3ds.pokemon-gl.com/under_maintenance/pc/common/images/pokemonfesta/bg_dialog_next.png) no-repeat center top;}
+#DIALOG_GAME>.contentBox>div>div>dl{
+	float: left;
+	width: 200px;
+	padding: 10px;
+	text-align: left;
+	border-radius: 5px;
+	background: #fff;
+	box-shadow: 2px 2px 3px 0px rgba(0,0,0,0.2) inset;
+	-moz-box-shadow: 2px 2px 3px 0px rgba(0,0,0,0.2) inset;
+	-webkit-box-shadow: 2px 2px 3px 0px rgba(0,0,0,0.2) inset;
+}
+#DIALOG_GAME>.contentBox>div>div>dl:last-child{ float:right;}
+#DIALOG_GAME>.contentBox>div>div>dl>dt{ font-weight: bold; margin-bottom: 5px;}
+#DIALOG_GAME>.contentBox>div>div>dl>dd{ 
+	text-align:right; 
+	font-family:"04b03b";
+	font-size: 22px;
+	font-weight: bold;
+}
+
+/* アイテム一覧 */
+.DIALOG_GAME_LIST #confirmWindow{ width:820px !important;}
+#DIALOG_GAME_LIST.bodyBox{ background:url(/3ds.pokemon-gl.com/under_maintenance/pc/common/images/pokemonfesta/bg_dialog_itemlist.gif) no-repeat left -35px; height:540px;}
+#DIALOG_GAME_LIST>.contentBox{ text-align:center;}
+#DIALOG_GAME_LIST>.contentBox>dl{
+	background: url(/3ds.pokemon-gl.com/under_maintenance/pc/common/images/pokemonfesta/bg_dialog_lv.png) no-repeat left top;
+	margin: 0 auto;
+	text-align: center;
+	width: 360px;
+	min-height: 70px;
+}
+
+#DIALOG_GAME_LIST>.contentBox>dl>dt,
+#DIALOG_GAME_LIST>.contentBox>dl>dd{ float:left;}
+#DIALOG_GAME_LIST>.contentBox>dl>dt{
+	width: 66px;
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+	padding-top: 25px;
+	margin-right: 20px;
+	font-family:"04b03b";
+}
+
+#DIALOG_GAME_LIST>.contentBox>dl>dd{
+	text-align: left;
+	font-size: 16px;
+	font-weight: bold;
+	padding-top: 24px;
+}
+#DIALOG_GAME_LIST>.contentBox>div{ width:690px; margin:30px auto 0;}
+#DIALOG_GAME_LIST>.contentBox>div>section{ display:none;}
+#DIALOG_GAME_LIST>.contentBox>div>section:first-child{ display:block;}
+
+#DIALOG_GAME_LIST>.contentBox>div>section>div{ 
+	width: 328px; 
+	border:1px solid #AAC1D9; 
+	padding:5px 0px 5px 10px;
+	margin-bottom:10px;
+	background:url(/3ds.pokemon-gl.com/under_maintenance/pc/common/images/pokemonfesta/bg_dialog_itemlist_count.gif) no-repeat 274px 19px;
+}
+#DIALOG_GAME_LIST>.contentBox>div>section>div:nth-child(even){ float:right;}
+#DIALOG_GAME_LIST>.contentBox>div>section>div:nth-child(odd){ float:left;}
+#DIALOG_GAME_LIST>.contentBox>div>section>div>p{ width:40px; float:left;}
+#DIALOG_GAME_LIST>.contentBox>div>section>div>dl{ float:left; width:280px;}
+#DIALOG_GAME_LIST>.contentBox>div>section>div>dl>dt{ float:left; width:200px; text-align:left; padding:11px 0 0 25px; font-weight:bold; font-size:14px;}
+#DIALOG_GAME_LIST>.contentBox>div>section>div>dl>dd{ float:right; width:40px; font-size:20px; font-weight:bold; padding-top: 9px;}
+
+#DIALOG_GAME_LIST>.contentBox .btnArrowLeftL{ top: 277px; left: 22px;}
+#DIALOG_GAME_LIST>.contentBox .btnArrowRightL{ top: 277px; right: 22px;}
+
+
+/* 写真詳細 */
+.DIALOG_PHOTO #confirmWindow{ width:640px !important;}
+.DIALOG_PHOTO .bodyBox{ height:350px !important;}
+.DIALOG_PHOTO .footerBox{ bottom:0px !important;}
+
+.DIALOG_ERROR #confirmWindow{ width:500px !important;}
+.DIALOG_ERROR .bodyBox{ min-height:200px !important;}
+.DIALOG_ERROR .dialogMessage{ margin:70px 0 30px;}
+.DIALOG_ERROR .footerBox{
+	background: none;
+	bottom: 30px;
+	position:absolute;
+}
+.DIALOG_ERROR .contentBox{
+	text-align: center;
+	font-weight: bold;
+	font-size: 16px;
+	display: table-cell;
+	width: 440px;
+	height: 140px;
+	vertical-align: middle;
+}
+
+.DIALOG_FESTA #confirmWindow{
+	width:600px !important; 
+	background-image: url(../../images/pokemonfesta/bg_dialog_item.gif);
+	background-repeat:no-repeat;
+	background-position:left top;
+}
+.DIALOG_FESTA .bodyBox{ height:290px !important;}
+.DIALOG_FESTA .footerBox{ position:absolute; bottom:20px !important; background:none;}
+
+
+/* loading */
+
+#pokemonWindow{ min-height:510px;}
+#pokemonWindow .bodyBox{ padding-bottom:0;}
+#doLoad{
+	text-align: center;
+	color:#999;
+	font-size:16px !important;
+	line-height:150%;
+	background: rgba(255,255,255,0.7);
+	height: 250px;
+	width: 840px;
+	position: absolute;
+	top: -10px;
+	left: 0;
+	padding-top: 224px;
+	z-index:5;
+}
+
+#doLoad img{ margin-right:8px;}
+
+.DIALGO_POKEMON_SELECT #pokemonWindow{ min-height:450px;}
+.DIALGO_POKEMON_SELECT #doLoad{
+	margin-top:51px;
+	height: 260px;
+	width: 930px;
+	padding-top: 185px;
+}
+
+
+/* issue:0001292; */
+#DIALOG_RELEASE .font-face-1 {
+	font-family: '04b03b';
+}
+
+
+
+/* sub */
+.subLayer{
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.5);
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 3;
+}
+.subDialog{
+	width: 450px;
+	height: 270px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	z-index: 3;
+	background: rgba(255,255,255,1);
+	margin: -150px 0 0 -225px;
+}
+
+.subDialog>p{
+	min-height: 18px;
+	margin: 0px 0 10px;
+	padding: 7px 10px;
+	font-size: 14px;
+	color: #FFFFFF;
+	box-shadow: 0px 3px 5px rgba(0,0,0,0.4);
+	-moz-box-shadow: 0px 3px 5px rgba(0,0,0,0.4);
+	-webkit-box-shadow: 0px 3px 5px rgba(0,0,0,0.4);
+}
+
+.subDialog>dl>dd{ text-align:center;}
+.subDialog>dl>dt{ text-align:center; margin:80px 0 30px; text-align:center; font-size:14px !important; font-weight:bold;}
+.subDialog [class*="btn"]{ min-width: 120px !important;}
+.subDialog .dialogMessage{ margin:0;}
+
+#rom-x #confirmWindow .subDialog>p { background: #004688;}
+#rom-y #confirmWindow .subDialog>p { background: #9F1326;}
+#rom-default #confirmWindow .subDialog>p { background: #D35336;}
+
+
+
+
+
+.checkComProfile {
+	margin-top: 5px;
+}
+.checkComProfile a {
+	background: url(../../images/support/icon_blank.png) left center no-repeat;
+	padding: 2px 0;
+	padding-left: 22px;
+}
+
+
+
+
+
+
+
+
+

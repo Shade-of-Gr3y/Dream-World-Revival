@@ -1,0 +1,42 @@
+
+#header-pglname {
+	left: 393px;
+}
+#header-romname {
+	left: 650px;
+}
+#header-volume {
+	left: 825px;
+}
+#header-toplink {
+	width: 98px;
+}
+
+.not-logged-in #header {
+	background-image: url(../images/header-logout.png);
+	color: #ADBFD3;
+}
+.not-signed-up      #header,
+.trial              #header,
+.interim-registered #header {
+	background-image: url(../images/header-login.png);
+	color: #ADBFD3;
+}
+.logged-in-white #header {
+	background-image: url(../images/header-white.png);
+	color: #464646;
+}
+.logged-in-black #header {
+	background-image: url(../images/header-black.png);
+	color: #FFFFFF;
+}
+.dialog-button a {
+	background-image: url(../images/dialog-button.png);
+}
+.footer-buttons {
+	background-image: url(../images/footer-buttons.png);
+}
+.pokemon-type {
+	background-image: url(../images/types.gif);
+}
+

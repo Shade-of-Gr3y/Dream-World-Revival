@@ -1,0 +1,11 @@
+{
+  "mock": true,
+  "status": "forced-local-gsid-list",
+  "gsid_list": [
+    {
+      "gsid": "0000-0000",
+      "rom_id": "21",
+      "rom_name": "Pokemon Black"
+    }
+  ]
+}

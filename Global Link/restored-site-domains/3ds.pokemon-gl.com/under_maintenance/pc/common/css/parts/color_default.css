@@ -1,0 +1,547 @@
+
+
+/* リンクカラー */
+#rom-default a{ color:#D35336;}
+#rom-default a:hover{ color:#F28D38;}
+
+/* ヘッダー */
+#rom-default #headerIn>h1{ background:url(/3ds.pokemon-gl.com/under_maintenance/pc/common/images/templates/bg_header.png) no-repeat right top;}
+
+/* タイトル */
+#rom-default h2{ color:#D35336;border-bottom:3px solid #D35336;}
+#rom-default h2[class*="mypage"]{ background-image:url(/3ds.pokemon-gl.com/under_maintenance/pc/common/images/parts/h2_icon_mypage.png); border:none !important;}
+#rom-default h2[class*="festa"]{ background:url(/3ds.pokemon-gl.com/under_maintenance/pc/common/images/parts/h2_icon_festa.png) no-repeat left top;}
+#rom-default h2[class*="gbu"]{ background:url(/3ds.pokemon-gl.com/under_maintenance/pc/common/images/parts/h2_icon_gbu.png) no-repeat left top; background-size: 36px;;}
+#rom-default h2[class*="competitions"]{ background:url(/3ds.pokemon-gl.com/under_maintenance/pc/common/images/parts/h2_icon_competitions.png) no-repeat left top;}
+#rom-default h2[class*="account"]{ background:url(/3ds.pokemon-gl.com/under_maintenance/pc/common/images/parts/h2_icon_account.png) no-repeat left top;}
+#rom-default h2[class*="information"]{ background:url(/3ds.pokemon-gl.com/under_maintenance/pc/common/images/parts/h2_icon_information.png) no-repeat left top;}
+#rom-default h2[class*="event"]{ background:url(/3ds.pokemon-gl.com/under_maintenance/pc/common/images/parts/h2_icon_event.png) no-repeat left top;}
+#rom-default h2[class*="regulation"]{ background:url(/3ds.pokemon-gl.com/under_maintenance/pc/common/images/parts/h2_icon_regulation.png) no-repeat left top;}
+#rom-default h2[class*="register_01"]{ background:url(/3ds.pokemon-gl.com/under_maintenance/pc/common/images/parts/h2_icon_register_01.png) no-repeat left top;}
+#rom-default h2[class*="register_02"]{ background:url(/3ds.pokemon-gl.com/under_maintenance/pc/common/images/parts/h2_icon_register_02.png) no-repeat left top;}
+#rom-default h2[class*="register_03"]{ background:url(/3ds.pokemon-gl.com/under_maintenance/pc/common/images/parts/h2_icon_register_03.png) no-repeat left top;}
+#rom-default h2[class*="register_04"]{ background:url(/3ds.pokemon-gl.com/under_maintenance/pc/common/images/parts/h2_icon_register_04.png) no-repeat left top;}
+#rom-default h2[class*="register_05"]{ background:url(/3ds.pokemon-gl.com/under_maintenance/pc/common/images/parts/h2_icon_register_05.png) no-repeat left top;}
+#rom-default h2[class*="support"]{ background:url(/3ds.pokemon-gl.com/under_maintenance/pc/common/images/parts/h2_icon_support.png) no-repeat left top;}
+#rom-default h2[class*="journal"]{ background:url(/3ds.pokemon-gl.com/under_maintenance/pc/common/images/parts/h2_icon_journal.png) no-repeat left top;}
+#rom-default h2[class*="register_add"]{ background:url(/3ds.pokemon-gl.com/under_maintenance/pc/common/images/parts/h2_icon_register_add.png) no-repeat left top;}
+
+#rom-default h3{ background:#D35336 url(/3ds.pokemon-gl.com/under_maintenance/pc/common/images/parts/h3_icon_normal.png) no-repeat 10px bottom;}
+#rom-default section.mypage h3{ 
+background:url(/3ds.pokemon-gl.com/under_maintenance/pc/common/images/parts/h3_icon_mypage.png) no-repeat 1px 4px;
+color:#D35336;
+border:none;
+border-bottom:2px solid #D35336;
+}
+#rom-default h4{ background:#FEB071;}
+#rom-default .icon-ttl-01 {
+background-image: url(/3ds.pokemon-gl.com/under_maintenance/pc/common/images/icon/icon_ttl.png);
+}
+#rom-default h3[class*="sttl"]{
+background:url(/3ds.pokemon-gl.com/under_maintenance/pc/common/images/parts/h3_icon_mypage.png) no-repeat left 2px;
+color:#D35336;
+border-bottom:2px solid #D35336;
+}
+
+/* テキストカラー */
+#rom-default .colorText01 {color: #D35336;}
+#rom-default .colorText02 {color: #004588;}
+#rom-default #contentsHead .breadcrumb li{ color:#D35336;}
+
+/* アイコン */
+/*#rom-default .iconHelp{ background:url(/3ds.pokemon-gl.com/under_maintenance/pc/common/images/icon/icon_help.png) no-repeat left 1px; display:inline-block;}
+#rom-default .iconHelp:hover { background:url(/3ds.pokemon-gl.com/under_maintenance/pc/common/images/icon/icon_help_on.png) no-repeat left 1px;}*/
+#rom-default .iconArrowR{ background:url(/3ds.pokemon-gl.com/under_maintenance/pc/common/images/icon/icon_arrow_right.png) no-repeat 3px 2px; display:inline-block;}
+/*#rom-default .icon-question { background:url(/3ds.pokemon-gl.com/under_maintenance/pc/common/images/icon/icon_question.png) no-repeat 0 center; padding-left: 18px; display:inline-block;}*/
+#rom-default .iconBall{ background:url(/3ds.pokemon-gl.com/under_maintenance/pc/common/images/icon/icon_ball_blue.png) no-repeat left 7px; padding-left:25px !important;}
+
+/* ボタン */
+#rom-default a[class*="btnCr"]{ background:#D35336; color:#FFFFFF;}
+#rom-default a[class*="btnCr"]:hover{ background:#F28E38;}
+#rom-default a[class*="btnGr"]{ color:#D35336;}
+#rom-default a[class*="btnGr"]:hover { color:#F28E38; background:#FFFFFF;}
+#rom-default .btnArrowLeft{ background:url(/3ds.pokemon-gl.com/under_maintenance/pc/common/images/parts/btn_arrow_left_off.png) no-repeat left top;}
+#rom-default .btnArrowLeft:hover { background:url(/3ds.pokemon-gl.com/under_maintenance/pc/common/images/parts/btn_arrow_left_on.png) no-repeat left top;}
+#rom-default .btnArrowRight{ background:url(/3ds.pokemon-gl.com/under_maintenance/pc/common/images/parts/btn_arrow_right_off.png) no-repeat left top;}
+#rom-default .btnArrowRight:hover { background:url(/3ds.pokemon-gl.com/under_maintenance/pc/common/images/parts/btn_arrow_right_on.png) no-repeat left top;}
+#rom-default .btnArrowLeftL{ background:url(/3ds.pokemon-gl.com/under_maintenance/pc/common/images/parts/btn_arrow_l_left_off.png) no-repeat left top;}
+#rom-default .btnArrowLeftL:hover { background:url(/3ds.pokemon-gl.com/under_maintenance/pc/common/images/parts/btn_arrow_l_left_on.png) no-repeat left top;}
+#rom-default .btnArrowRightL{ background:url(/3ds.pokemon-gl.com/under_maintenance/pc/common/images/parts/btn_arrow_l_right_off.png) no-repeat left top;}
+#rom-default .btnArrowRightL:hover { background:url(/3ds.pokemon-gl.com/under_maintenance/pc/common/images/parts/btn_arrow_l_right_on.png) no-repeat left top;}
+
+#rom-default [class*="btnArrowLeft"][class*="disabled"]{ background:url(/3ds.pokemon-gl.com/under_maintenance/pc/common/images/parts/btn_arrow_left_disabled.png) no-repeat left top; cursor:default;}
+#rom-default [class*="btnArrowRight"][class*="disabled"]{ background:url(/3ds.pokemon-gl.com/under_maintenance/pc/common/images/parts/btn_arrow_right_disabled.png) no-repeat left top; cursor:default;}
+
+
+#rom-default [class*="btnArrowLeftL"][class*="disabled"]{ background:url(/3ds.pokemon-gl.com/under_maintenance/pc/common/images/parts/btn_arrow_l_left_disabled.png) no-repeat left top; cursor:default;}
+#rom-default [class*="btnArrowRightL"][class*="disabled"]{ background:url(/3ds.pokemon-gl.com/under_maintenance/pc/common/images/parts/btn_arrow_l_right_disabled.png) no-repeat left top; cursor:default;}
+
+#rom-default section#column2>nav#sideNavigation ul li.active a{
+	text-decoration:none !important;
+	background-image: url(/3ds.pokemon-gl.com/under_maintenance/pc/common/images/parts/bg_navigation_arrow_act.png);
+	color:#D35336;
+}
+#rom-default section#column2>nav#sideNavigation ul li:not(.account) a:hover {
+	background-image: url(/3ds.pokemon-gl.com/under_maintenance/pc/common/images/parts/bg_navigation_arrow_act.png);
+}
+
+
+/* パネル */
+[class*="panelPokemonRanking"]  dl dt{ color:#D35336;}
+
+
+
+/* タブ */
+
+
+#rom-default nav[class^="tab"] li a {
+display: block;
+float: left;
+min-height: 33px;
+padding-top: 8px;
+text-align: center;
+border-radius: 5px 5px 0 0;
+border: 1px solid #E0E0E0;
+border-bottom: none;
+background: -moz-linear-gradient(top,  #FAFAFA 0%, #F5F5F5 100%); /* FF3.6+ */
+background: -webkit-linear-gradient(top,  #FAFAFA 0%,#F5F5F5 100%); /* Chrome10+,Safari5.1+ */
+background: -ms-linear-gradient(top,  #FAFAFA 0%,#F5F5F5 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #FAFAFA 0%,#F5F5F5 100%); /* W3C */
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+-o-box-sizing: border-box;
+-ms-box-sizing: border-box;
+box-sizing: border-box;
+}
+
+#rom-default nav[class^="tab"] li a {
+font-weight: bold;
+font-size: 110%;
+}
+
+#rom-default nav[class^="tab"] li.active a {
+filter: none; /* IE6-9 */
+box-shadow: 1px 1px 0 rgba(255,255,255,0.4) inset;
+-moz-box-shadow: 1px 1px 0 rgba(255,255,255,0.4) inset;
+-webkit-box-shadow: 1px 1px 0 rgba(255,255,255,0.4) inset;
+}
+
+#rom-default nav[class^="tab"] li a:hover {
+filter: none; /* IE6-9 */
+text-decoration: none;
+}
+
+#rom-default nav[class^="tab02"] {
+min-height: 39px;
+border-radius: 0;
+background: -moz-linear-gradient(top, #F9F9F9 0%, #F0F0F0 100%); /* FF3.6+ */
+background: -webkit-linear-gradient(top, #F9F9F9 0%,#F0F0F0 100%); /* Chrome10+,Safari5.1+ */
+background: -ms-linear-gradient(top, #F9F9F9 0%,#F0F0F0 100%); /* IE10+ */
+background: linear-gradient(to bottom, #F9F9F9 0%,#F0F0F0 100%); /* W3C */
+}
+
+/* issue:0001308 */
+/*
+#rom-default nav[class^="tab02"] ul {
+background-image: url(/3ds.pokemon-gl.com/under_maintenance/pc/common/images/parts/bg_tab_02.png);
+background-repeat: no-repeat;
+background-position: center center ;
+}
+*/
+
+
+#rom-default nav[class^="tab02"] li a {
+position: relative;
+display: block;
+float: left;
+min-height: 33px;
+padding-top: 11px;
+padding-bottom: 11px;
+text-align: center;
+border-radius: 0;
+border: none;
+background: none;
+filter: none;
+}
+
+/* issue:0001308 */
+/*
+#rom-default nav[class^="tab02"] li:nth-child(2) a{
+	border-left:1px solid #E0E0E0;
+	border-right:1px solid #E0E0E0;
+}
+*/
+
+#rom-default nav[class^="tab02"] li a:hover {
+padding-bottom: 11px;
+}
+
+#rom-default nav[class^="tab02"] li.active a {
+background: none;
+filter: none; /* IE6-9 */
+box-shadow: none;
+-moz-box-shadow: none;
+-webkit-box-shadow: none;
+margin-bottom: -20px;
+padding-bottom: 21px;
+}
+
+#rom-default nav[class^="tab03"] {
+min-height: 39px;
+border-radius: 4px 4px 0 0;
+background: -moz-linear-gradient(top, #F9F9F9 0%, #F0F0F0 100%); /* FF3.6+ */
+background: -webkit-linear-gradient(top, #F9F9F9 0%,#F0F0F0 100%); /* Chrome10+,Safari5.1+ */
+background: -ms-linear-gradient(top, #F9F9F9 0%,#F0F0F0 100%); /* IE10+ */
+background: linear-gradient(to bottom, #F9F9F9 0%,#F0F0F0 100%); /* W3C */
+}
+
+#rom-default nav[class^="tab03"] ul {
+background-repeat: no-repeat;
+background-position: center center;
+}
+
+
+#rom-default nav[class^="tab03"] li a {
+position: relative;
+display: block;
+float: left;
+min-height: 33px;
+padding-top: 16px;
+padding-bottom: 12px;
+text-align: center;
+border-radius: 0;
+border: none;
+background: none;
+filter: none;
+}
+
+#rom-default nav[class^="tab03"] li a:hover {
+padding-bottom: 12px;
+}
+
+#rom-default nav[class^="tab03"] li.active a, nav[class^="tab03"] li a:hover {
+color: #FFFFFF;
+filter: none; /* IE6-9 */
+box-shadow: none;
+-moz-box-shadow: none;
+-webkit-box-shadow: none;
+margin-bottom: -25px;
+padding-bottom: 26px;
+}
+
+
+#rom-default nav[class^="tab03"] li:nth-child(1).active a, nav[class^="tab03"] li:nth-child(1) a:hover {
+border-radius: 4px 0 0 0;
+}
+
+#rom-default nav[class^="tab03"] li:nth-child(4).active a, nav[class^="tab03"] li:nth-child(4) a:hover {
+border-radius: 0 4px 0 0;
+}
+
+
+#rom-default nav[class^="tab"] {
+border-bottom: #D35336 3px solid;
+}
+
+#rom-default nav[class^="tab"] li.active a {
+color: #FFFFFF;
+background: #D35336;
+}
+
+#rom-default nav[class^="tab"] li a:hover {
+color: #FFFFFF;
+background: #F28E38;
+}
+
+
+#rom-default nav[class^="tab02"] {
+border: 1px solid #C8C9CE;
+}
+
+
+#rom-default nav[class^="tab02"] li.active a {
+color: #D35336;
+background: url(/3ds.pokemon-gl.com/under_maintenance/pc/common/images/parts/bg_tab_half_01.jpg) center bottom no-repeat;
+}
+
+
+#rom-default nav[class^="tab03"] {
+border: 1px solid #C8C9CE;
+border-bottom: 5px solid #D35336;
+
+}
+
+#rom-default nav[class^="tab03"] ul {
+background-image: url(/3ds.pokemon-gl.com/under_maintenance/pc/common/images/parts/bg_tab_04.png);
+}
+
+#rom-default nav[class^="tab03"] li.active a, nav[class^="tab03"] li a:hover {
+background: #D35336 url(/3ds.pokemon-gl.com/under_maintenance/pc/common/images/parts/bg_tab_half_01.jpg) center bottom no-repeat;
+}
+
+#rom-default .panelKaiseki p {
+background: #637A96;
+}
+
+
+/* ダイアログ */
+#rom-default .baseWindow .headBox,
+#rom-default .dialog .headBox {
+background: #D35336; /* Old browsers */
+}
+
+#rom-default .bodyBox h4.important{
+	background:url(/3ds.pokemon-gl.com/under_maintenance/pc/common/images/parts/bg_caution_important.gif) repeat left top;
+	border:1px solid #646464;
+	margin-bottom:15px;
+}
+
+/* ステップ */
+
+#rom-default .pointStep li.active {
+background-color: #6690B8;
+background-image: url(/3ds.pokemon-gl.com/under_maintenance/pc/common/images/parts/bg_step_last.jpg);
+}
+
+#rom-default .pointStep li.active + li {
+background-image: url(/3ds.pokemon-gl.com/under_maintenance/pc/common/images/parts/bg_step_active.jpg);
+}
+
+#rom-default .pointStep li.active:last-child {
+background-image: url(/3ds.pokemon-gl.com/under_maintenance/pc/common/images/parts/bg_step_last.jpg);
+}
+
+
+#rom-default .stepBox p.font_bule,
+#rom-default .font_or { color:#D35336 !important;}
+
+
+/* 表組み */
+#rom-default .tableTypeDefault table{ border-top:1px solid #E0BEA7;}
+#rom-default .tableTypeDefault table th,
+#rom-default .tableTypeDefault table td{
+border-bottom:1px solid #E0BEA7;
+border-right:1px solid #E0BEA7;
+}
+#rom-default .tableTypeDefault table th:last-child,
+#rom-default .tableTypeDefault table td:last-child{ border-right:none;}
+
+#rom-default .tableTypeDefault table th{ background:#FFF2E7; font-weight:bold;}
+#rom-default .tableTypeDefault thead th{ background:#FEB071;}
+
+#rom-default .tableTypeNoside table td span{color:#D35336;}
+
+
+/* ポケモンリスト一覧(ダイヤログ) */
+/* issue:0001077 */
+#rom-default .pokemonSortList li a:hover {
+background: #F28E38;
+color: #FFFFFF;
+border-color: #F28E38;
+box-shadow: 1px 1px 0 rgba(255,255,255,0.3) inset, -1px -1px 0 rgba(255,255,255,0.3) inset;
+-moz-box-shadow: 1px 1px 0 rgba(255,255,255,0.3) inset, -1px -1px 0 rgba(255,255,255,0.3) inset;
+-webkit-box-shadow: 1px 1px 0 rgba(255,255,255,0.3) inset, -1px -1px 0 rgba(255,255,255,0.3) inset;
+
+}
+
+/* ポケモンリスト詳細(ダイヤログ) */
+
+#rom-default .pokemonSpecificTabContainer ol li p.rate {
+color: #004687;
+}
+
+
+#rom-default #matchBox {
+background-color: #D9EAF6;
+
+}
+
+
+/* ポケモンバトルボックスダイヤログ */
+
+#rom-default .nameArea {
+border: 1px solid #014689;
+background-color: #014689;
+}
+
+#rom-default .statusArea th {
+color: #014689;
+}
+
+
+/* レギュレーション */
+
+#rom-default .boxLayout01 {
+border-color: #FEB071;
+}
+
+
+/* 登録解除申請 */
+
+#rom-default .bodyBox .checkContainer dt{ color:#004486;}
+
+
+/* トップページ */
+
+#rom-default #contents #information h2{ background:url(/3ds.pokemon-gl.com/under_maintenance/pc/common/images/top/icon_top_information.png) no-repeat left top;}
+#rom-default #contents #event h2{ background:url(/3ds.pokemon-gl.com/under_maintenance/pc/common/images/top/icon_top_event.png) no-repeat left top;}
+#rom-default #contents #gbuRanking h2,
+#rom-default #contents #pokemonRankingTop h2{ background:url(/3ds.pokemon-gl.com/under_maintenance/pc/common/images/top/icon_top_vs.png) no-repeat left top;}
+#rom-default #contents #photo h2,
+#rom-default #contents #timeline h2{ background:url(/3ds.pokemon-gl.com/under_maintenance/pc/common/images/top/icon_top_user.png) no-repeat left top;}
+
+#rom-default #pokemonRankingTop dl dt,
+#rom-default #pokemonRankingTop dl~p{ color:#D35336;}
+
+#rom-default .more{ margin-top:10px; text-align:right; }
+#rom-default .more a{
+background:url(/3ds.pokemon-gl.com/under_maintenance/pc/common/images/top/icon_top_arrow.png) no-repeat left 4px;
+padding:0 0 0 15px;
+font-weight:bold;
+display:inline-block;
+color:#D35336;
+}
+#rom-default .more a:hover{ color:#F28D38; text-decoration:none; background:url(/3ds.pokemon-gl.com/under_maintenance/pc/common/images/top/icon_top_arrow_on.png) no-repeat left 4px;}
+
+#rom-default #contents #leftColumn nav{ display:none;}
+#rom-default #pokemonRankingTop dl dt{color:#D35336;}
+#rom-default #rightColumn>#gbuRanking .detail>p{ 
+color:#D35336;
+}
+
+#rom-default dl#support{ background:url(/3ds.pokemon-gl.com/under_maintenance/pc/common/images/top/bg_support.png) no-repeat center top;}
+#rom-default #contents #mainView .balls span.active{ 
+	background:url(/3ds.pokemon-gl.com/under_maintenance/pc/common/images/top/icon_top_ball_default.png) no-repeat left top; 
+	cursor: default;
+}
+
+
+
+/* navigation */
+#rom-default #headerIn #headerNavigation p {
+	background-image: url(/3ds.pokemon-gl.com/under_maintenance/pc/common/images/templates/btn_menu.png);
+}
+
+#rom-default #headerIn #headerNavigation ul>li>a:hover{
+background: #D35336; /* Old browsers */
+background: -moz-linear-gradient(top,  #D35336 24%, #D35336 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(24%,#D35336), color-stop(100%,#D35336)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #D35336 24%,#D35336 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #D35336 24%,#D35336 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #D35336 24%,#D35336 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #D35336 24%,#D35336 100%); /* W3C */
+box-shadow: 3px 0px 0px 0px #E08773 inset,-1px 0px 0px 0px #ccc inset, 0px 3px 0px 0px #E08773 inset;
+-moz-box-shadow: 3px 0px 0px 0px #E08773 inset,-1px 0px 0px 0px #ccc inset, 0px 3px 0px 0px #E08773 inset;
+-webkit-box-shadow: 3px 0px 0px 0px #E08773 inset,-1px 0px 0px 0px #ccc inset, 0px 3px 0px 0px #E08773 inset;
+}
+
+/* competitions */
+
+#rom-default #resultPageInfoCont .infoHeader{
+color:#D35336;
+}
+
+/* entry */
+#rom-default .ttl_18 {
+background:url(/3ds.pokemon-gl.com/under_maintenance/pc/common/images/parts/h3_icon_mypage.png) no-repeat left 2px;
+color:#D35336;
+border-bottom:2px solid #D35336;
+}
+
+/* gts */ 
+
+.not-logged-in .trainerRuby{ color:#D35336;}
+.not-logged-in .trainerName{ color:#D35336;}
+.not-logged-in .hopeStatus dd span{
+color:#D35336;
+}
+.not-logged-in #trade .panel .title{ background:#FEB071;}
+
+/* pokemon selector */
+
+
+#rom-default #searchOverlay #pokemonWrapper .headBox{
+background: #D35336; /* Old browsers */
+}
+
+#rom-default #pokemonWindow #graphArea ul li.active > p{
+background:#D35336;
+color:#fff!important;
+}
+
+
+#rom-default #pokemonWindow #searchTypeBox li{
+border-bottom:1px dotted #D35336;
+}
+#rom-default #pokemonWindow #searchTypeBox li a{
+color:#D35336;
+}
+
+#rom-default #pokemonWindow .trendType li{
+border-bottom:1px dotted #D35336;
+}
+
+#rom-default #pokemonWindow .trendType li a{
+padding-top:12px;
+display:block;
+height:28px;
+font-size:12px!important;
+color:#D35336;
+text-decoration:none !important;
+}
+
+#rom-default #pName{
+color:#D35336;
+}
+
+#rom-default #pName span{
+color:#D35336;
+}
+
+#rom-default #pokemonImage table{
+border-bottom:1px solid #646464;
+}
+
+#rom-default #pHeight,#pWidth{
+color:#D35336;
+}
+
+
+/* issue:0001504,0001555 */
+#rom-default .btnWeekLeft {
+	background: url(/3ds.pokemon-gl.com/under_maintenance/pc/common/images/parts/btn_arrow_small_left.png) 12px 20px no-repeat #F0F0F0;	
+}
+
+#rom-default .btnWeekLeft:hover {
+	background: url(/3ds.pokemon-gl.com/under_maintenance/pc/common/images/parts/btn_arrow_small_left_on.png) 12px 20px no-repeat;	
+}
+
+#rom-default .btnWeekRight {
+	background: url(/3ds.pokemon-gl.com/under_maintenance/pc/common/images/parts/btn_arrow_small_right.png) 12px 20px no-repeat #F0F0F0;	
+}
+
+#rom-default .btnWeekRight:hover {
+	background: url(/3ds.pokemon-gl.com/under_maintenance/pc/common/images/parts/btn_arrow_small_right_on.png) 12px 20px no-repeat #FFFFFF;	
+}
+
+
+/* issue:0001128 */
+#rom-default .info_detail strong {
+  color: #D35336;
+}
+
+
+/* イベントカレンダー */
+
+#rom-default .userRegion {
+	border-bottom: #D35336 2px solid;	
+}
+
+#rom-default .userRegion dl dt {
+	background: #D35336;
+}
+
+#rom-default .userRegion dl dt:after {
+	border-left: 34px solid #D35336;
+	border-top: 35px solid #FAFAFA;
+}

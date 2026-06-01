@@ -1,0 +1,77 @@
+
+#content {
+	height: 545px;
+	background: url(../images/background.jpg);
+	position: relative;
+}
+
+#prompt {
+	position: absolute;
+	left:285px; top:200px; width:435px; height:69px;
+	background: url(../images/prompt.png);
+}
+#prompt p {
+	position: absolute;
+	left: -999em;
+}
+
+#selector a {
+	position: absolute;
+	background: url(../images/selector.png);
+	top:316px; height:19px;
+}
+#selector a.ja {
+	left:159px; width:61px;
+	background-position: -0px 0;
+}
+#selector a.ja:hover {
+	background-position: -0px -19px;
+}
+#selector a.en {
+	left:234px; width:85px;
+	background-position: -61px 0;
+}
+#selector a.en:hover {
+	background-position: -61px -19px;
+}
+#selector a.fr {
+	left:333px; width:99px;
+	background-position: -146px 0;
+}
+#selector a.fr:hover {
+	background-position: -146px -19px;
+}
+#selector a.de {
+	left:447px; width:91px;
+	background-position: -245px 0;
+}
+#selector a.de:hover {
+	background-position: -245px -19px;
+}
+#selector a.it {
+	left:552px; width:92px;
+	background-position: -336px 0;
+}
+#selector a.it:hover {
+	background-position: -336px -19px;
+}
+#selector a.es {
+	left:659px; width:91px;
+	background-position: -428px 0;
+}
+#selector a.es:hover {
+	background-position: -428px -19px;
+}
+#selector a.ko {
+	left:762px; width:64px;
+	background-position: -519px 0;
+}
+#selector a.ko:hover {
+	background-position: -519px -19px;
+}
+#selector a span {
+	position: absolute;
+	left: -999em;
+}
+
+

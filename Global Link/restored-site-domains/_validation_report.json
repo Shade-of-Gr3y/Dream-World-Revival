@@ -1,0 +1,2744 @@
+{
+  "generated_at": "2026-05-02T01:32:33.715445+00:00",
+  "pages_scanned": 3109,
+  "totals": {
+    "missing_script": 0,
+    "missing_style": 0,
+    "missing_image": 0,
+    "stub_scripts": 1648
+  },
+  "top_pages": [
+    {
+      "page": "3ds.pokemon-gl.com/languages/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 6,
+      "estimated_js_runtime_issues": 6,
+      "failure_score": 12
+    },
+    {
+      "page": "3ds.pokemon-gl.com/user/Z-384-4073-V/profile/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 6,
+      "estimated_js_runtime_issues": 6,
+      "failure_score": 12
+    },
+    {
+      "page": "3ds.pokemon-gl.com/user/N-189-7300-W/profile/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 6,
+      "estimated_js_runtime_issues": 6,
+      "failure_score": 12
+    },
+    {
+      "page": "3ds.pokemon-gl.com/user/F-502-0850-C/battle/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 6,
+      "estimated_js_runtime_issues": 6,
+      "failure_score": 12
+    },
+    {
+      "page": "3ds.pokemon-gl.com/user/F-502-0850-C/medal/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 6,
+      "estimated_js_runtime_issues": 6,
+      "failure_score": 12
+    },
+    {
+      "page": "3ds.pokemon-gl.com/user/F-502-0850-C/mileage/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 6,
+      "estimated_js_runtime_issues": 6,
+      "failure_score": 12
+    },
+    {
+      "page": "3ds.pokemon-gl.com/user/F-502-0850-C/profile/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 6,
+      "estimated_js_runtime_issues": 6,
+      "failure_score": 12
+    },
+    {
+      "page": "3ds.pokemon-gl.com/user/F-502-0850-C/timeline/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 6,
+      "estimated_js_runtime_issues": 6,
+      "failure_score": 12
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/it/faq/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/it/manual/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/it/manual/manual_battle/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/it/manual/manual_gamesync/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/it/manual/manual_membership/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/it/manual/manual_mileage/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/it/manual/manual_mypage/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/it/manual/manual_this-site/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/it/manual/manual_top-eventcal/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/it/manual/manual_top-eventcal/events-calendar/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/it/manual/manual_top-eventcal/events-calendar-screen/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/it/manual/manual_top-eventcal/news/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/it/manual/manual_top-eventcal/top-page/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/it/manual/manual_top-eventcal/top-screen/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/it/manual/manual_this-site/about-pgl/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/it/manual/manual_this-site/main-content/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/it/manual/manual_mypage/friend-list/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/it/manual/manual_mypage/game-card-info/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/it/manual/manual_mypage/logbook/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/it/manual/manual_mypage/medals/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/it/manual/manual_mypage/photos/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/it/manual/manual_mypage/pokemileage-club/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/it/manual/manual_mypage/profile/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/it/manual/manual_mypage/rating-battles/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/it/manual/manual_mypage/sharing-on-sns/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/it/manual/manual_mileage/about-pmc/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/it/manual/manual_mileage/pmc-screen/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/it/manual/manual_mileage/poke-miles-store/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/it/manual/manual_mileage/receive/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/it/manual/manual_mileage/save-up-poke-miles/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/it/manual/manual_mileage/transfer-poke-miles/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/it/manual/manual_mileage/use-poke-miles/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/it/manual/manual_membership/account-information/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/it/manual/manual_membership/account-settings/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/it/manual/manual_membership/privacy-settings/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/it/manual/manual_membership/registered-game-cards/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/it/manual/manual_membership/removing/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/it/manual/manual_membership/signing-up/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/it/manual/manual_membership/using-pgl/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/it/manual/manual_membership/what-you-need/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/it/manual/manual_gamesync/about-game-sync/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/it/manual/manual_gamesync/about-gamesync-id-codes/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/it/manual/manual_gamesync/changing-3ds/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/it/manual/manual_gamesync/performing-game-sync/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/it/manual/manual_battle/about-online-competitions/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/it/manual/manual_battle/about-rating-battle/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/it/manual/manual_battle/basic-rules/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/fr/faq/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/fr/manual/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/fr/manual/manual_battle/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/fr/manual/manual_gamesync/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/fr/manual/manual_mypage/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/fr/manual/manual_this-site/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/fr/manual/manual_top-eventcal/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/fr/manual/manual_top-eventcal/events-calendar/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/fr/manual/manual_top-eventcal/events-calendar-screen/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/fr/manual/manual_top-eventcal/news/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/fr/manual/manual_top-eventcal/top-page/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/fr/manual/manual_top-eventcal/top-screen/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/fr/manual/manual_this-site/about-pgl/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/fr/manual/manual_this-site/main-content/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/fr/manual/manual_mypage/friend-list/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/fr/manual/manual_mypage/game-card-info/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/fr/manual/manual_mypage/logbook/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/fr/manual/manual_mypage/medals/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/fr/manual/manual_mypage/photos/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/fr/manual/manual_mypage/pokemileage-club/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/fr/manual/manual_mypage/profile/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/fr/manual/manual_mypage/rating-battles/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/fr/manual/manual_mypage/sharing-on-sns/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/fr/manual/manual_mileage/about-pmc/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/fr/manual/manual_mileage/pmc-screen/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/fr/manual/manual_mileage/poke-miles-store/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/fr/manual/manual_mileage/receive/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/fr/manual/manual_mileage/save-up-poke-miles/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/fr/manual/manual_mileage/transfer-poke-miles/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/fr/manual/manual_mileage/use-poke-miles/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/fr/manual/manual_membership/account-information/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/fr/manual/manual_membership/account-settings/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/fr/manual/manual_membership/privacy-settings/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/fr/manual/manual_membership/registered-game-cards/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/fr/manual/manual_membership/removing/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/fr/manual/manual_membership/signing-up/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/fr/manual/manual_membership/using-pgl/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/fr/manual/manual_membership/what-you-need/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/fr/manual/manual_gamesync/about-game-sync/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/fr/manual/manual_gamesync/about-gamesync-id-codes/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/fr/manual/manual_gamesync/changing-3ds/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/fr/manual/manual_gamesync/performing-game-sync/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/fr/manual/manual_battle/about-online-competitions/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/fr/manual/manual_battle/about-rating-battle/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/fr/manual/manual_battle/basic-rules/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/es/faq/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/es/manual/manual_battle/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/es/manual/manual_gamesync/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/es/manual/manual_membership/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/es/manual/manual_mypage/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/es/manual/manual_this-site/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/es/manual/manual_top-eventcal/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/es/manual/manual_top-eventcal/events-calendar/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/es/manual/manual_top-eventcal/events-calendar-screen/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/es/manual/manual_top-eventcal/news/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/es/manual/manual_top-eventcal/top-page/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/es/manual/manual_top-eventcal/top-screen/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/es/manual/manual_this-site/about-pgl/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/es/manual/manual_this-site/main-content/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/es/manual/manual_mypage/friend-list/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/es/manual/manual_mypage/game-card-info/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/es/manual/manual_mypage/logbook/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/es/manual/manual_mypage/medals/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/es/manual/manual_mypage/photos/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/es/manual/manual_mypage/pokemileage-club/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/es/manual/manual_mypage/profile/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/es/manual/manual_mypage/rating-battles/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/es/manual/manual_mypage/sharing-on-sns/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/es/manual/manual_mileage/about-pmc/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/es/manual/manual_mileage/pmc-screen/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/es/manual/manual_mileage/poke-miles-store/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/es/manual/manual_mileage/receive/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/es/manual/manual_mileage/save-up-poke-miles/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/es/manual/manual_mileage/transfer-poke-miles/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/es/manual/manual_mileage/use-poke-miles/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/es/manual/manual_membership/account-information/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/es/manual/manual_membership/account-settings/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/es/manual/manual_membership/privacy-settings/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/es/manual/manual_membership/registered-game-cards/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/es/manual/manual_membership/removing/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/es/manual/manual_membership/signing-up/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/es/manual/manual_membership/using-pgl/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/es/manual/manual_membership/what-you-need/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/es/manual/manual_gamesync/about-game-sync/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/es/manual/manual_gamesync/about-gamesync-id-codes/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/es/manual/manual_gamesync/changing-3ds/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/es/manual/manual_gamesync/performing-game-sync/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/es/manual/manual_battle/about-online-competitions/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/es/manual/manual_battle/about-rating-battle/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/es/manual/manual_battle/basic-rules/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/en/faq/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/en/manual/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/en/manual/manual_battle/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/en/manual/manual_gamesync/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/en/manual/manual_membership/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/en/manual/manual_mileage/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/en/manual/manual_mypage/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/en/manual/manual_this-site/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/en/manual/manual_top-eventcal/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/en/manual/manual_top-eventcal/events-calendar/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/en/manual/manual_top-eventcal/events-calendar-screen/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/en/manual/manual_top-eventcal/news/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/en/manual/manual_top-eventcal/top-page/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/en/manual/manual_top-eventcal/top-screen/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/en/manual/manual_this-site/about-pgl/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/en/manual/manual_this-site/main-content/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/en/manual/manual_mypage/friend-list/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/en/manual/manual_mypage/game-card-info/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/en/manual/manual_mypage/logbook/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/en/manual/manual_mypage/medals/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/en/manual/manual_mypage/photos/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/en/manual/manual_mypage/pokemileage-club/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/en/manual/manual_mypage/profile/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/en/manual/manual_mypage/rating-battles/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/en/manual/manual_mypage/sharing-on-sns/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/en/manual/manual_mileage/about-pmc/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/en/manual/manual_mileage/pmc-screen/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/en/manual/manual_mileage/poke-miles-store/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/en/manual/manual_mileage/receive/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/en/manual/manual_mileage/save-up-poke-miles/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/en/manual/manual_mileage/transfer-poke-miles/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/en/manual/manual_mileage/use-poke-miles/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/en/manual/manual_membership/account-information/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/en/manual/manual_membership/account-settings/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/en/manual/manual_membership/privacy-settings/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/en/manual/manual_membership/registered-game-cards/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/en/manual/manual_membership/removing/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/en/manual/manual_membership/signing-up/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/en/manual/manual_membership/using-pgl/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/en/manual/manual_membership/what-you-need/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/en/manual/manual_gamesync/about-game-sync/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/en/manual/manual_gamesync/about-gamesync-id-codes/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/en/manual/manual_gamesync/changing-3ds/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/en/manual/manual_gamesync/performing-game-sync/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/en/manual/manual_battle/about-online-competitions/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/en/manual/manual_battle/about-rating-battle/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/en/manual/manual_battle/basic-rules/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/de/faq/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/de/manual/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/de/manual/manual_battle/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/de/manual/manual_gamesync/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/de/manual/manual_membership/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/de/manual/manual_mileage/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/de/manual/manual_mypage/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/de/manual/manual_this-site/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/de/manual/manual_top-eventcal/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/de/manual/manual_top-eventcal/events-calendar/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/de/manual/manual_top-eventcal/events-calendar-screen/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/de/manual/manual_top-eventcal/news/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/de/manual/manual_top-eventcal/top-page/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/de/manual/manual_top-eventcal/top-screen/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/de/manual/manual_this-site/about-pgl/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/de/manual/manual_this-site/main-content/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/de/manual/manual_mypage/friend-list/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/de/manual/manual_mypage/game-card-info/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/de/manual/manual_mypage/logbook/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/de/manual/manual_mypage/medals/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/de/manual/manual_mypage/photos/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/de/manual/manual_mypage/pokemileage-club/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/de/manual/manual_mypage/profile/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/de/manual/manual_mypage/rating-battles/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/de/manual/manual_mypage/sharing-on-sns/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/de/manual/manual_mileage/about-pmc/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/de/manual/manual_mileage/pmc-screen/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/de/manual/manual_mileage/poke-miles-store/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/de/manual/manual_mileage/receive/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/de/manual/manual_mileage/save-up-poke-miles/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/de/manual/manual_mileage/transfer-poke-miles/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/de/manual/manual_mileage/use-poke-miles/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/de/manual/manual_membership/account-information/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/de/manual/manual_membership/account-settings/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/de/manual/manual_membership/privacy-settings/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/de/manual/manual_membership/registered-game-cards/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/de/manual/manual_membership/removing/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/de/manual/manual_membership/signing-up/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/de/manual/manual_membership/using-pgl/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/de/manual/manual_membership/what-you-need/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/de/manual/manual_gamesync/about-game-sync/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/de/manual/manual_gamesync/about-gamesync-id-codes/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/de/manual/manual_gamesync/changing-3ds/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/de/manual/manual_gamesync/performing-game-sync/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/de/manual/manual_battle/about-online-competitions/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/de/manual/manual_battle/about-rating-battle/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/2/de/manual/manual_battle/basic-rules/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/1/ja/faq/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/1/ja/manual/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/1/ja/manual/manual_battle/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/1/ja/manual/manual_gamesync/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/1/ja/manual/manual_mypage/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/1/ja/manual/manual_this-site/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/1/ja/manual/manual_top-eventcal/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/1/ja/manual/manual_top-eventcal/events-calendar/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/1/ja/manual/manual_top-eventcal/events-calendar-screen/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/1/ja/manual/manual_top-eventcal/news/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/1/ja/manual/manual_top-eventcal/top-page/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/1/ja/manual/manual_top-eventcal/top-screen/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/1/ja/manual/manual_this-site/about-pgl/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/1/ja/manual/manual_this-site/main-content/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/1/ja/manual/manual_mypage/friend-list/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/1/ja/manual/manual_mypage/game-card-info/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/1/ja/manual/manual_mypage/logbook/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/1/ja/manual/manual_mypage/medals/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/1/ja/manual/manual_mypage/photos/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/1/ja/manual/manual_mypage/pokemileage-club/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/1/ja/manual/manual_mypage/profile/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/1/ja/manual/manual_mypage/rating-battles/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/1/ja/manual/manual_mypage/sharing-on-sns/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/1/ja/manual/manual_mileage/about-pmc/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/1/ja/manual/manual_mileage/pmc-screen/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/1/ja/manual/manual_mileage/poke-liles-store/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/1/ja/manual/manual_mileage/poke-miles-store/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/1/ja/manual/manual_mileage/receive/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/1/ja/manual/manual_mileage/save-up-poke-miles/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/1/ja/manual/manual_mileage/transfer-poke-miles/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/1/ja/manual/manual_mileage/use-poke-miles/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/1/ja/manual/manual_membership/account-information/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/1/ja/manual/manual_membership/account-settings/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/1/ja/manual/manual_membership/privacy-settings/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/1/ja/manual/manual_membership/registered-game-cards/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/1/ja/manual/manual_membership/removing/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/1/ja/manual/manual_membership/signing-up/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/1/ja/manual/manual_membership/using-pgl/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/1/ja/manual/manual_membership/what-you-need/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/1/ja/manual/manual_gamesync/about-game-sync/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/1/ja/manual/manual_gamesync/about-gamesync-id-codes/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/1/ja/manual/manual_gamesync/changing-3ds/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/1/ja/manual/manual_gamesync/performing-game-sync/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/1/ja/manual/manual_battle/about-online-competitions/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/1/ja/manual/manual_battle/about-rating-battle/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/1/ja/manual/manual_battle/basic-rules/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/1/ja/faq/faq_pgl/faq_pgl_general/f001/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/1/ja/faq/faq_pgl/faq_pgl_general/f002/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/1/ja/faq/faq_pgl/faq_pgl_general/f003/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/1/ja/faq/faq_pgl/faq_pgl_general/f004/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/1/ja/faq/faq_mypage/faq_mypage_timeline/f412/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/1/ja/faq/faq_mypage/faq_mypage_timeline/f413/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/1/ja/faq/faq_mypage/faq_mypage_timeline/f414/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/1/ja/faq/faq_mypage/faq_mypage_timeline/f415/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/1/ja/faq/faq_mypage/faq_mypage_timeline/f416/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/1/ja/faq/faq_mypage/faq_mypage_timeline/f417/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/1/ja/faq/faq_mypage/faq_mypage_sns/f432/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/1/ja/faq/faq_mypage/faq_mypage_sns/f433/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/1/ja/faq/faq_mypage/faq_mypage_privacy/f406/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/1/ja/faq/faq_mypage/faq_mypage_privacy/f407/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    },
+    {
+      "page": "3ds.pokemon-gl.com/support/1/ja/faq/faq_mypage/faq_mypage_privacy/f408/index.html",
+      "missing_script": 0,
+      "missing_style": 0,
+      "missing_image": 0,
+      "stub_scripts": 3,
+      "estimated_js_runtime_issues": 3,
+      "failure_score": 6
+    }
+  ],
+  "top_missing_assets": [
+    {
+      "kind": "other",
+      "path": "/3ds.pokemon-gl.com/support/2/fr/xmlrpc.php",
+      "count": 138
+    },
+    {
+      "kind": "other",
+      "path": "/3ds.pokemon-gl.com/support/1/ja/xmlrpc.php",
+      "count": 103
+    },
+    {
+      "kind": "other",
+      "path": "/3ds.pokemon-gl.com/support/2/en/xmlrpc.php",
+      "count": 89
+    },
+    {
+      "kind": "other",
+      "path": "/3ds.pokemon-gl.com/support/2/de/xmlrpc.php",
+      "count": 13
+    },
+    {
+      "kind": "other",
+      "path": "/3ds.pokemon-gl.com/support/2/es/xmlrpc.php",
+      "count": 12
+    },
+    {
+      "kind": "other",
+      "path": "/3ds.pokemon-gl.com/support/2/it/xmlrpc.php",
+      "count": 5
+    }
+  ]
+}

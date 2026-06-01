@@ -1,0 +1,6 @@
+{
+  "mock": true,
+  "endpoint": "/3ds.pokemon-gl.com/support/2/en/xmlrpc.php",
+  "status": "missing-archived-response",
+  "message": "No archived API response was available for this endpoint."
+}

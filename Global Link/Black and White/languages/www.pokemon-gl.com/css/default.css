@@ -1,0 +1,153 @@
+@charset "utf-8";
+
+/*=======================================
+
+	BASIC
+
+=======================================*/
+
+/*:::fullscreenFlash:::*/
+
+/* hide from ie on mac \*/
+html {
+	height: 100%;
+}
+
+#content_flash{
+	width: 1003px;
+	height: 570px;
+	text-align: left;
+}
+/* end hide */
+
+
+body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: #000000;
+}
+
+#wrapper{
+	width: 100%;
+	background-color: #000000;
+	background: url("/www.pokemon-gl.com/img/bg.png") top center;
+}
+#content{
+	width: 1003px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*------------------
+console
+-------------------*/
+#console{
+border: none;
+margin: 0 0 0 0px;
+padding: 0 0 0 0px;
+width: 100%;
+height:44px;
+vspace: 0;
+hspace: 0;
+overflow: hidden;
+display: none;
+}
+
+#console iframe{
+border: none;
+margin: 0 0 0 0px;
+padding: 0 0 0 0px;
+width: 100%;
+height: 44px;
+vspace: 0;
+hspace: 0;
+overflow: hidden;
+}
+
+
+/*------------------
+footer
+-------------------*/
+#footer {
+	height:52px;
+	padding:0 6px;
+	color: #fff;
+	background-color: #000;
+}
+#menu {  
+	padding: 6px 4px 4px 0;
+    margin: 0px;
+    height: 17px;
+    line-height: 17px;
+}  
+#menu li { 
+    display: inline;  
+    margin: 0;
+    padding: 0;  
+}
+#companies{
+	padding: 0px;
+	margin: 0;
+	float: right;
+}
+#companies ul{
+	padding: 0px;
+	margin: 2px 0 0;
+	float: left;
+	list-style-type: none;
+	font-size: 0px;
+	line-height: 0px;
+	vertical-align: top;
+	height: 32px;
+	overflow:hidden;
+}
+#companies ul li{
+	padding: 0px;
+	margin: 0px;
+	display: inline;
+	clear:left;
+	line-height: 0px;
+	font-size: 0px;
+}
+	
+#navigation {
+	float:left;
+	width:669px;
+}
+#copyright {
+	padding: 0px;
+	margin: 0 4px 4px 0;
+	font-size: 10px;
+	float:left;
+}
+#netinfo {
+	padding: 0px;
+	margin: 0;
+	float:left;
+	clear:both;
+	width: 100%;
+	height: 12px;
+	top: 34px;
+}
+
+/*======================================
+
+	BASICLINK
+
+=======================================*/
+a {
+text-decoration: none;
+}
+
+a:link, 
+a:visited {
+color: #fff;
+}
+
+a:active, 
+a:hover {
+color:#00CCFF;
+}
+
+

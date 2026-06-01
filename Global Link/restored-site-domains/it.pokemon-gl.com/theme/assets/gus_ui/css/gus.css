@@ -1,0 +1,137 @@
+div.clear {
+	clear:both;
+	height:1px;
+	margin-top:-1px;
+	overflow:hidden;
+}
+span.offscreen {
+	display:block;
+	position:absolute;
+	left:-999999em;
+}
+
+div#gus {
+	width:100%;
+	z-index:10;
+	height: 56px;
+	position:absolute;
+	top:0;
+	left:0;
+	background: #333333 url('../img/gus-bg-repeater.png') repeat-x scroll center 0;
+}
+	div#gus div.wrapper {
+		background: url('../img/gus.png') no-repeat scroll top left;
+		width: 960px;
+		height: 56px;
+		margin:auto;
+		position:relative;
+	}
+		div#gus div.wrapper a#pokemonLogo {
+			width:110px;
+			height:44px;
+			position:absolute;
+			left:172px;
+			top:0;
+			display:block;
+			outline:0;
+		}
+		
+		div#gus ul {
+			position:absolute;
+			width:493px;
+			height:43px;
+			left:300px;
+			top:0;
+			margin:0;
+			padding:0;
+			list-style:none;
+		}
+			div#gus ul li {
+				margin:0;
+				padding:0;
+				float:left;
+			}
+				div#gus ul li a {
+					display:block;
+					height:43px;
+					border:0;
+					display:block;
+					background-repeat: no-repeat;
+					outline:0;
+					cursor:pointer;
+				}
+				
+				div#gus.en ul li a {
+					background-image: url('../img/EN/gus-buttons.png')
+				} 
+
+				div#gus.fr ul li a {
+					background-image: url('../img/FR/gus-buttons.png')
+				} 
+
+				div#gus.it ul li a {
+					background-image: url('../img/IT/gus-buttons.png')
+				} 
+
+				div#gus.de ul li a {
+					background-image: url('../img/DE/gus-buttons.png')
+				} 
+
+				div#gus.es ul li a {
+					background-image: url('../img/ES/gus-buttons.png')
+				} 
+
+				div#gus ul li#gus-videoGames a {
+					background-position:0 0;
+					width:95px;
+				}
+				div#gus ul li#gus-videoGames a:hover {
+					background-position:0 -43px;
+				}
+				div#gus ul li#gus-videoGames a:active {
+					background-position:0 -86px;
+				}
+				
+				div#gus ul li#gus-tradingCardGame a {
+					background-position:-95px 0;
+					width:136px;
+				}
+				div#gus ul li#gus-tradingCardGame a:hover {
+					background-position:-95px -43px;
+				}
+				div#gus ul li#gus-tradingCardGame a:active {
+					background-position:-95px -86px;
+				}
+				
+				div#gus ul li#gus-animation a {
+					background-position:-231px 0;
+					width:79px;
+				}
+				div#gus ul li#gus-animation a:hover {
+					background-position:-231px -43px;
+				}
+				div#gus ul li#gus-animation a:active {
+					background-position:-231px -86px;
+				}
+				
+				div#gus ul li#gus-funZone a {
+					background-position:-310px 0;
+					width:76px;
+				}
+				div#gus ul li#gus-funZone a:hover {
+					background-position:-310px -43px;
+				}
+				div#gus ul li#gus-funZone a:active {
+					background-position:-310px -86px;
+				}
+				
+				div#gus ul li#gus-news a {
+					background-position:-386px 0;
+					width:107px;
+				}
+				div#gus ul li#gus-news a:hover {
+					background-position:-386px -43px;
+				}
+				div#gus ul li#gus-news a:active {
+					background-position:-386px -86px;
+				}

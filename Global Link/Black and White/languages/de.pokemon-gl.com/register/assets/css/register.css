@@ -1,0 +1,25 @@
+
+#container {
+  background-repeat: no-repeat;
+  background: #FFF;
+}
+
+h2 {
+  color: #333;
+  background: #DDD;
+  font-size: 17px;
+  padding: 10px 20px;
+  border-radius: 4px;
+  margin: 20px 50px;
+  font-family: "Helvetica Neue", Helvetica, "メイリオ", Arial, sans-serif;
+}
+h3 {
+  color: #F80;
+  margin-bottom: 24px;
+}
+
+#closed {
+  margin: 30px 80px 80px;
+  font-family: "Helvetica Neue", Helvetica, "メイリオ", Arial, sans-serif;
+  line-height: 150%;
+}

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=1024" />
+  <title>Pokémon Global Link</title>
+  <link rel="stylesheet" type="text/css" href="http://cdn2.pokemon-gl.com/src/swf/assets/global/css/theme.css" />
+  <link rel="stylesheet" type="text/css" href="http://cdn2.pokemon-gl.com/src/swf/assets/global/en/css/lang.css" />
+  <script src="/assets/global/js/jquery-1.7.min.js"></script>
+  <script src="/assets/global/js/jquery.blockUI.js"></script>
+  <script src="/assets/global/js/jquery.corner.js"></script>
+  <script src="/assets/global/js/swfobject.js"></script>
+  <script src="/assets/global/js/pgl.js?rev=3"></script>
+  <script src="/assets/global/js/text.js"></script>
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-17682532-2']);
+    _gaq.push(['_setDomainName', '.pokemon-gl.com']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+</head>
+<body id="wrapper" oncontextmenu="return false" ondragstart="return false" onselectstart="return false">
+  <div id="container">
+    <div id="header">
+      <div id="logo">
+        <a href="/">Pokémon Global Link</a>
+      </div>
+      <div id="logged-in-info">
+        <div id="header-avatar" class="logged-in"></div>
+        <div id="header-pgln" class="logged-in">
+          <span id="header-pglname"></span>
+        </div>
+        <div id="header-rom" class="logged-in">
+          <span id="header-romname" class="game-card-name"></span>
+        </div>
+        <div id="header-volume"><div id="header-volume-swf"></div></div>
+        <div id="header-rom-change" class="logged-in"></div>
+        <div id="header-logout" class="logged-in"><a href="/?p=logout">Log Out</a></div>
+        <div id="header-back-to-top" class="logged-out"><a href="/"></a></div>
+      </div>
+      <div id="head-menu">
+        <ul>
+          <li id="head-menu-profile"><a href="/profile">My Page</a></li>
+          <li id="head-menu-campaign"><a href="/campaign/">Promotions</a></li>
+          <li id="head-menu-customize"><a href="/customize">Customize</a></li>
+          <li id="head-menu-pdw"><a href="/pdw/">Pokémon Dream World</a></li>
+          <li id="head-menu-report"><a href="/report/">Reports</a></li>
+          <li id="head-menu-wifi"><a href="/wifi/">Wi-Fi Competition</a></li>
+          <li id="head-menu-support"><a href="/support/">Support</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="main">
+
+<div style="width:1003px;margin:0;padding:40px 0 20px 0;background:#ffffff top no-repeat;" id="flashcontent">
+
+<style type="text/css">
+.logged-in-black #container {
+  background-repeat: no-repeat;
+  background-color:#ffffff;
+}
+#container {
+  background-repeat: no-repeat;
+  background-color:#ffffff;
+}
+.finside {width:1003px;height:533px;margin:0;padding:40px 0 0 0;background:url(/src/swf/error/assets/en/img/error.en_bg.jpg) top no-repeat;text-align:center;}
+.finside p {color:#666666;font-size:80%;line-height:1.4;}
+.finside a {color:#f99604;text-decoration:none;}
+.finside div.inside {width:900px;margin:0 auto;text-align:center;}
+.finside img {border:0;}
+.finside p.topimg {margin:0;}
+.finside p.ensc {margin:0 0 15px 0;}
+</style>
+
+<div class="finside">
+
+<div class="inside">
+<p class="topimg"><img src="/src/swf/error/assets/en/img/404_03.png" width="372" height="259" /></p>
+<p class="ensc"><img src="/src/swf/error/assets/en/img/404_05.png" width="372" height="59" border="0" usemap="#Map"></p>
+<p><a href="/"><img src="/src/swf/error/assets/en/img/404_09.png" width="186" height="41"></a></p>
+</div>
+<map name="Map" id="Map"><area shape="rect" coords="128,42,167,53" href="http://support.pokemon.com/" /></map>
+</div>
+
+</div>
+    </div>
+    <div id="footer">
+      <ul id="footer-links">
+        <li><a href="http://www.pokemon.com/us/terms-of-use/">Terms of Use</a></li>
+        <li><a href="/maintenance/">Maintenance</a></li>
+        <li><a href="http://www.pokemon.com/us/pgl/requirements/">System Requirements</a></li>
+        <li><a href="http://www.pokemon.com/us/privacy-policy/">Privacy Policy</a></li>
+        <li><a href="http://www.pokemon.com/us/about/legal/">Legal Info</a></li>
+        <li><a href="" class="trafficy">Pokémon DW Usage Level</a></li>
+      </ul>
+      <ul id="select-language">
+        <li>Select Language: &nbsp;&nbsp;&nbsp;</li>
+        <li><a href="http://ja.pokemon-gl.com">日本語</a></li>
+        <li><a href="http://en.pokemon-gl.com">English</a></li>
+        <li><a href="http://fr.pokemon-gl.com">Français</a></li>
+        <li><a href="http://it.pokemon-gl.com">Italiano</a></li>
+        <li><a href="http://de.pokemon-gl.com">Deutsch</a></li>
+        <li><a href="http://es.pokemon-gl.com">Español</a></li>
+        <li><a href="http://ko.pokemon-gl.com">한국어</a></li>
+      </ul>
+      <div id="copyright">
+        <p>©2011-2013 Pokémon. ©1995-2013 Nintendo/Creatures Inc./GAME FREAK inc. Pokémon, Pokémon character names and Nintendo DS are trademarks of Nintendo.</p>
+        <p class="maintenance"><a href="" target="_blank"></a></p>
+      </div>
+      <div id="badges"><a class="footer-badges-com" href="http://www.pokemon.com/" target="_blank"><img src="/assets/global/en/images/footer/com.png"/></a><a class="footer-badges-nintendo" href="http://www.nintendo.com/" target="_blank"><img src="/assets/global/en/images/footer/nintendo.png"/></a><a class="footer-badges-ds" href="http://www.nintendo.com/" target="_blank"><img src="/assets/global/en/images/footer/ds.png"/></a><a class="footer-badges-wifi" href="http://www.nintendo.com/games/wifi" target="_blank"><img src="/assets/global/en/images/footer/wifi.png"/></a><a class="footer-badges-esrb" href="http://www.esrb.org/index-js.jsp" target="_blank"><img src="/assets/global/en/images/footer/esrb.png"/></a><a class="footer-badges-pegi" href="http://www.pegi.info" target="_blank"><img src="/assets/global/en/images/footer/pegi.png"/></a><a class="footer-badges-au" href="http://www.classification.gov.au/" target="_blank"><img src="/assets/global/en/images/footer/au.png"/></a></div>
+    </div>
+  </div>
+</body>
+</html>
+

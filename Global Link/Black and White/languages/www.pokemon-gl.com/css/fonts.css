@@ -1,0 +1,70 @@
+@charset "utf-8";
+
+/*--------------------------------------------------------------------------------
+	Font Size 設定
+--------------------------------------------------------------------------------*/
+/*
+Copyright (c) 2009, Yahoo! Inc. All rights reserved.
+Code licensed under the BSD License:
+http://developer.yahoo.net/yui/license.txt
+version: 2.7.0
+*/
+/**
+ * YUI Fonts
+ * @module fonts
+ * @namespace yui-
+ * @requires 
+ */
+/*
+Font-size Adjustment
+	 77% = 10px	|	123.1% = 16px	|	167% = 22px
+	 85% = 11px	|	131% =  17px	|	174% = 23px 
+	 93% = 12px	|	138.5% = 18px	|	182% = 24px 
+	100% = 13px	|	146.5% = 19px	|	189% = 25px 
+	108% = 14px	|	153.9% = 20px	|	197% = 26px 
+	116% = 15px	|	161.6% = 21px	| 
+*/
+
+/**
+ * Percents could work for IE, but for backCompat purposes, we are using keywords.
+ * x-small is for IE6/7 quirks mode.
+ */
+body {
+	font:13px/1.231 arial,helvetica,clean,sans-serif;
+	/* for IE6/7 */ 
+	/* *font-size:small; */
+	/* for IE Quirks Mode */
+	/* *font:x-small; */ 
+	/*font-family: 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', 'Meiryo', 'メイリオ', 'Osaka', 'ＭＳ Ｐゴシック', sans-serif;*/
+}
+
+/**
+ * Nudge down to get to 13px equivalent for these form elements
+ */ 
+select,
+input,
+button,
+textarea {
+	font:99% arial,helvetica,clean,sans-serif;
+}
+
+/**
+ * To help tables remember to inherit
+ */
+table, {
+	font-size:inherit;
+	font:100%;
+}
+
+/**
+ * Bump up IE to get to 13px equivalent for these fixed-width elements
+ */
+pre,
+code,
+kbd,
+samp,
+tt {
+	font-family:'Osaka−等幅', 'Osaka-mono', 'ＭＳ ゴシック', monospace;
+	*font-size:108%;
+	line-height:100%;
+}

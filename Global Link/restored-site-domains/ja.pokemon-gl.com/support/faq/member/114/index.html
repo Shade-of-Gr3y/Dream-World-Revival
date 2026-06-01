@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=1024" />
+  <title>Pokémon Global Link</title>
+  <link rel="stylesheet" type="text/css" href="/cdn2.pokemon-gl.com/src/swf/assets/global/css/theme.css" />
+  <link rel="stylesheet" type="text/css" href="/cdn2.pokemon-gl.com/src/swf/assets/global/ja/css/lang.css" />
+  <script src="/ja.pokemon-gl.com/assets/global/js/jquery-1.7.min.js"></script>
+  <script src="/ja.pokemon-gl.com/assets/global/js/jquery.blockUI.js"></script>
+  <script src="/ja.pokemon-gl.com/assets/global/js/jquery.corner.js"></script>
+  <script src="/ja.pokemon-gl.com/assets/global/js/swfobject.js"></script>
+  <script src="/ja.pokemon-gl.com/assets/global/js/pgl.js"></script>
+  <script src="/ja.pokemon-gl.com/assets/global/js/text.js"></script>
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-17682532-2']);
+    _gaq.push(['_setDomainName', '.pokemon-gl.com']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+<link href="/ja.pokemon-gl.com/support/assets/ja/css/common/layout.css" rel="stylesheet" type="text/css" />
+<link href="/ja.pokemon-gl.com/support/assets/ja/css/common/general.css" rel="stylesheet" type="text/css" />
+<link href="/ja.pokemon-gl.com/support/assets/ja/css/qa.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/ja.pokemon-gl.com/support/assets/ja/js/jquery.min.js"></script>
+<script type="text/javascript" src="/ja.pokemon-gl.com/support/assets/ja/js/jquery.ez-bg-resize.min.js"></script>
+<script type="text/javascript" src="/ja.pokemon-gl.com/support/assets/ja/js/local.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){				   
+  $(".navi02").hover(function(){
+    $(".navi02 ul").css("display","block");
+  },function() {
+    $(".navi02 ul").css("display","none");
+  });
+  $(".navi03").hover(function(){
+    $(".navi03 ul").css("display","block");
+  },function() {
+    $(".navi03 ul").css("display","none");
+  });
+
+	var h2=$('.supprot_rContents h2').text();
+	$('.supprot_lContents ul li a').each(function(index, element) {
+        if($(this).text()==h2){
+	     $(this).parent().addClass('on');
+	}
+    });
+
+});
+</script>
+    
+<script src="../../../../../_restore/mock-api-interceptor.js" data-pgl-restore="mock-api-interceptor.js"></script>
+<script src="../../../../../_restore/plugin-guards.js" data-pgl-restore="plugin-guards.js"></script>
+<script src="../../../../../_restore/runtime-fixes.js" data-pgl-restore="runtime-fixes.js"></script>
+</head>
+<body id="wrapper" oncontextmenu="return false" ondragstart="return false" onselectstart="return false">
+  <div id="container">
+    <div id="header">
+      <div id="logo">
+        <a href="/ja.pokemon-gl.com/">Pokémon Global Link</a>
+      </div>
+      <div id="logged-in-info">
+        <div id="header-avatar" class="logged-in"></div>
+        <div id="header-pgln" class="logged-in">
+          <span id="header-pglname"></span>
+        </div>
+        <div id="header-rom" class="logged-in">
+          <span id="header-romname" class="game-card-name"></span>
+        </div>
+        <div id="header-volume"><div id="header-volume-swf"></div></div>
+        <div id="header-rom-change" class="logged-in"></div>
+        <div id="header-logout" class="logged-in"><a href="/ja.pokemon-gl.com/?p=logout">ログアウト</a></div>
+        <div id="header-back-to-top" class="logged-out"><a href="/ja.pokemon-gl.com/"></a></div>
+      </div>
+      <div id="head-menu">
+        <ul>
+          <li id="head-menu-profile"><a href="/ja.pokemon-gl.com/profile">マイページ</a></li>
+          <li id="head-menu-campaign"><a href="/ja.pokemon-gl.com/campaign/">キャンペーン</a></li>
+          <li id="head-menu-customize"><a href="/ja.pokemon-gl.com/customize">カスタマイズ</a></li>
+          <li id="head-menu-pdw"><a href="/ja.pokemon-gl.com/pdw/">ポケモンドリームワールド</a></li>
+          <li id="head-menu-report"><a href="/ja.pokemon-gl.com/report/">レポート</a></li>
+          <li id="head-menu-wifi"><a href="/ja.pokemon-gl.com/wifi/">Wi-Fi大会</a></li>
+          <li id="head-menu-support"><a href="/ja.pokemon-gl.com/support/">サポート</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="main">
+
+	<!-- 上記コメント部分はindex.phpで利用しているので消さないで下さい（このコメントは削除して問題ありません） -->
+	
+	<!-- 
+		このコメント以下から../assets/template.[lang].htmlの
+		    <div id="main">
+		%s
+		    </div>
+		%sの部分にあてこまれます。
+	  -->
+	<div id="main">
+		<div id="supprot_gNavi" class="clearfix">
+			<p><img src="/ja.pokemon-gl.com/support/assets/ja/images/manual/imgtext01.jpg" alt="サポート" width="122" height="29" /></p>
+			<ul class="clearfix">
+				<li class="navi01"><a href="/ja.pokemon-gl.com/support/"><img src="/ja.pokemon-gl.com/support/assets/ja/images/manual/g_navi01.jpg" alt="サポートトップ" width="172" height="40" /></a></li>
+				<li class="navi02 on"><a href="/ja.pokemon-gl.com/support/help"><img src="/ja.pokemon-gl.com/support/assets/ja/images/manual/g_navi02.jpg" alt="マニュアル（あそびかた）" width="172" height="40" /></a>
+					<ul class="clearfix">
+						<li><a href="/ja.pokemon-gl.com/support/help/about/000/">このサイトについて</a></li>
+						<li><a href="/ja.pokemon-gl.com/support/help/cooperation/100/">ゲームソフトとの連携</a></li>
+						<li><a href="/ja.pokemon-gl.com/support/help/friend/200/">ゲームフレンド・ゆめとも</a></li>
+						<li><a href="/ja.pokemon-gl.com/support/help/page/300/">トップページ・マイページ</a></li>
+						<li><a href="/ja.pokemon-gl.com/support/help/report/400/">レポート</a></li>
+						<li><a href="/ja.pokemon-gl.com/support/help/custom/500/">カスタマイズ</a></li>
+						<li><a href="/ja.pokemon-gl.com/support/help/mail/600/">あんしんメール</a></li>
+						<li><a href="/ja.pokemon-gl.com/support/help/campaign/700/">キャンペーン</a></li>
+						<li><a href="/ja.pokemon-gl.com/support/help/world/800/">ポケモンドリームワールド</a></li>
+						<li class="mb0"><a href="/ja.pokemon-gl.com/support/help/wi-fi/900/">Wi-Fi大会</a></li>
+					</ul>
+				</li>
+				<li class="navi03"><a href="/ja.pokemon-gl.com/support/faq/"><img src="/ja.pokemon-gl.com/support/assets/ja/images/manual/g_navi03_on.jpg" alt="よくあるしつもん" width="170" height="40" /></a>
+					<ul class="clearfix">
+						<li><a href="/ja.pokemon-gl.com/support/faq/pgl/">PGL全般</a></li>
+						<li><a href="/ja.pokemon-gl.com/support/faq/member/">メンバー登録</a></li>
+						<li><a href="/ja.pokemon-gl.com/support/faq/login/">ログイン・ID・パスワード</a></li>
+						<li><a href="/ja.pokemon-gl.com/support/faq/soft/">ゲームソフトとの連携</a></li>
+						<li><a href="/ja.pokemon-gl.com/support/faq/campaign/">キャンペーン</a></li>
+						<li><a href="/ja.pokemon-gl.com/support/faq/friend/">ゲームフレンド・ゆめとも</a></li>
+						<li><a href="/ja.pokemon-gl.com/support/faq/world/">ポケモンドリームワールド</a></li>
+						<li class="mb0"><a href="/ja.pokemon-gl.com/support/faq/report/">レポート</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+        
+        
+        <ul id="supprot_pagePath" class="clear clearfix mb33">
+        <li><img src="/ja.pokemon-gl.com/support/assets/ja/images/qa/member.gif" alt="メンバー登録" /></li>
+	</ul>
+			     
+		
+        <!--▼コンテンツエリア-->
+        <div id="qaBottom" class="supprot_contents clear clearfix">
+        
+		<div class="supprot_rContents">
+		<h2>メールアドレスを変更したら、どのようにすればいいでしょうか？</h2>
+                
+                
+                <!--▼各section-->
+                
+                <div class="section" onContextmenu="return false">
+<div class="in">
+                <a name="lay1" id="lay1"></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="indent">
+    
+    
+    
+    
+    <div class="mb15">
+    <p>ご登録情報が変更となった場合には、できるだけ早く登録情報の修正をお願いいたします。<br />「ポケモンだいすきクラブ」のサイトへ行き、トップページ右上の「マイページ」からログインしていただき、「マイページ」から新しいメールアドレスをご入力ください。<br />また、変更のお手続きがなされないまま、仮パスワードの発行などに伴い、登録情報と合致せず、ご本人確認ができない場合には、新規でのご登録をお願いすることになりますので、十分ご注意ください。</p>
+    </div>
+    
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="supprot_info">
+    
+    <a href="http://www.pokemon.jp/">
+    <img src="/ja.pokemon-gl.com/support/faq/ja/daisuki.png" />
+    </a>
+    
+</div>
+
+
+
+
+
+
+<a name="lay2" id="lay2"></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a name="lay3" id="lay3"></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a name="lay4" id="lay4"></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a name="lay5" id="lay5"></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a name="lay6" id="lay6"></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a name="lay7" id="lay7"></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a name="lay8" id="lay8"></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               </div> 
+                
+                
+                
+
+                <div class="listbt clear">
+                <a href="../"><img src="/ja.pokemon-gl.com/support/assets/ja/images/qa/list_back.jpg" alt="しつもん一覧に戻る" /></a>
+                </div>                
+                
+                
+                
+		</div>
+                
+                
+                
+                
+                        
+
+                 
+                
+     
+            
+                        
+                </div>
+            
+	</div>
+        
+
+        
+        
+        
+		<p class="supprot_title02"><img src="/ja.pokemon-gl.com/support/assets/ja/images/qa/text02.gif" alt="ポケモンだいすきクラブサポートデスク" /></p>
+		<div class="supprot_section clear">
+        	<ul>
+            	<li class="text">上記の内容で疑問や問題が解決されないかたは、「おといあわせ」ボタンを押して、<br />フォームからお問い合わせください。</li>
+                <li class="bt"><a href="https://www.pokemon.jp/form/inquiry/" target="_blank"><img src="/ja.pokemon-gl.com/support/assets/ja/images/qa/contactBt.jpg" alt="おといあわせ" /></a></li>
+                </ul>
+		</div>
+        
+        
+        
+	</div>
+    </div>
+    <div id="footer">
+      <ul id="footer-links">
+        <li><a href="/ja.pokemon-gl.com/terms-of-use/">お約束</a></li>
+        <li><a href="/ja.pokemon-gl.com/maintenance/">メンテナンス情報</a></li>
+        <li><a href="/ja.pokemon-gl.com/browser/">推奨利用環境</a></li>
+        <li><a href="/ja.pokemon-gl.com/privacy/">プライバシーポリシー</a></li>
+        <li><a href="/ja.pokemon-gl.com/copyright/">コピーライト</a></li>
+        <li><a href="" class="trafficy">ポケモンドリームワールド混雑状況</a></li>
+      </ul>
+      <ul id="select-language">
+        <li>言語選択（Language）: &nbsp;&nbsp;&nbsp;</li>
+        <li><a href="/ja.pokemon-gl.com/">日本語</a></li>
+        <li><a href="/en.pokemon-gl.com/">English</a></li>
+        <li><a href="/fr.pokemon-gl.com/">Français</a></li>
+        <li><a href="/it.pokemon-gl.com/">Italiano</a></li>
+        <li><a href="/de.pokemon-gl.com/">Deutsch</a></li>
+        <li><a href="/es.pokemon-gl.com/">Español</a></li>
+        <li><a href="/ko.pokemon-gl.com/">한국어</a></li>
+      </ul>
+      <div id="copyright">
+        <p>©2012 Pokémon. ©1995-2012 Nintendo/Creatures Inc./GAME FREAK inc. ポケットモンスター・ポケモン・Pokémonは任天堂・クリーチャーズ・ゲームフリークの登録商標です。</p>
+        <p class="maintenance"><a href="http://www.nintendo.co.jp/netinfo/index.html" target="_blank">ニンテンドーDS ネットワークメンテナンス情報・稼働状況</a></p>
+      </div>
+      <div id="badges"><a class="footer-badges-nintendo" href="http://www.nintendo.co.jp/" target="_blank"><img src="/ja.pokemon-gl.com/assets/global/ja/images/footer/nintendo.png"/></a><a class="footer-badges-pokemon" href="http://www.pokemon.co.jp/" target="_blank"><img src="/ja.pokemon-gl.com/assets/global/ja/images/footer/pokemon.png"/></a><a class="footer-badges-pdc" href="http://www.pokemon.jp/" target="_blank"><img src="/ja.pokemon-gl.com/assets/global/ja/images/footer/pdc.png"/></a></div>
+    </div>
+  </div>
+</body>
+</html>

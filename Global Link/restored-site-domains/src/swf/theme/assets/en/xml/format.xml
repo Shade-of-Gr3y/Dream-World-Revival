@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data locale="en">	
+	<string id="pg_ame_1" size="16" color="0x000000" kerning="true" letterSpacing="0" />
+	<string id="pg_ay_2" size="14" color="0xFFFFFF" kerning="true" letterSpacing="-0.2" />
+	<string id="pg_amb_1" size="15" color="0x000000" kerning="true" letterSpacing="0" />
+	<string id="pg_amb_2" size="11" color="0x666666" kerning="true" letterSpacing="0" />
+	<string id="pg_amb_3" size="14" color="0xFFFFFF" kerning="true" letterSpacing="-0.2" />
+	<string id="pg_amb_4" size="14" color="0xFFFFFF" kerning="true" letterSpacing="-0.2" />
+	<string id="pg_ama_4" size="20" color="0x000000" kerning="true" letterSpacing="0" />
+	<string id="pg_ama_5" size="14" color="0x666666" kerning="true" letterSpacing="0" />
+	<string id="pg_ama_1" size="14" color="0xFFFFFF" kerning="true" letterSpacing="-0.2" />
+	<string id="pg_opa_1" size="10" color="0xFFFFFF" kerning="true" letterSpacing="1.0" />
+</data>

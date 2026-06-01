@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+/* Ver2.0.0-CLSTK-081215 */
+/* ----- Font Size ----- */
+body { font-size: 13px; *font-size: small; /* IE7+ */ *font: x-small; /* IE6- */ }
+/* ----- Reset Element ----- */
+body { background-color:#FFFFFF; line-height:1.66; font-family:ＭＳ Ｐゴシック,Osaka,ヒラギノ角ゴ Pro W3; }
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { margin:0; padding:0; }
+table { border-collapse:collapse; border-spacing:0; font-size:100%; }
+fieldset, a img, img { border:0; }
+address,caption,cite,code,dfn,em,strong,th,var { font-style:normal; font-weight:normal; }
+ol,ul { list-style:none; }
+caption,th { text-align:left; }
+h1,h2,h3,h4,h5,h6 { font-size:100%;font-weight:normal; }
+q:before,q:after { content:''; }
+abbr,acronym { border:0; }
+a { outline:none; cursor:pointer; }
+img { border:0; vertical-align:bottom; }
+sup, sub { line-height:-1px; vertical-align:text-top; }
+sub { vertical-align:text-bottom; }
+/* ----- Utility Element ----- */
+/* -- vanish -- */
+.hide { display:none; }
+.vanish { left:-9999px; overflow:hidden; position:absolute; width:0; height:0; margin:0; padding:0; }
+/* -- strong --*/
+strong, .bold { font-weight:bold; }
+/* -- cap --*/
+.cap { margin:2px 0 0 0; padding-left:1em; text-indent:-1em; }
+/* -- clear -- */
+.clear { clear:both; }
+br.clear { display:block; clear:both; margin:0; padding:0; line-height:1%; font-size:1%; }
+/* -- clearfix -- */
+.group:after { content:"."; display:block; height:0; clear:both; visibility:hidden; }
+.group { display:inline-block; }
+/* \*/
+* html .group { height:1%; }
+.group { display:block; }
+/* */
+
+/* --------------------------------------------- */
+
+/* base */
+body#sw_oyakusoku, body#sw_maintenance, body#sw_about {background:#ffffff;text-align:center;padding:1px 0 0 0;}
+body#sw_exception {background:#ffffff;text-align:center;}
+body#about{background:#E6F9FF;text-align:center;}
+p{line-height:1.4;}
+#sw_oyakusoku div#swin_container,#sw_maintenance div#swin_container,#sw_about div#swin_container {width:702px;margin:0 auto;text-align:left;background:#E6E6E6 url(../img/swbg.gif);padding:0;}
+#sw_exception div#swin_container {width:700px;margin:0 auto;text-align:left;border-left:1px solid #000000;border-right:1px solid #000000;background:#E6E6E6;padding:0;}
+#sw_oyakusoku table.oyakusoku {margin:0 0 33px 0;}
+#sw_oyakusoku table.oyakusokuFrame td {font-size:1%;}
+#sw_maintenance table.maintenance {margin:10px 0 33px 0;}
+#sw_maintenance table.maintenanceFrame td {font-size:1%;}
+#sw_exception table.oyakusoku {margin:10px 0 33px 0;}
+#sw_exception table.oyakusokuFrame td {font-size:1%;}
+#sw_about table.about {margin:10px 0 33px 0;}
+td.narrow {font-size:1%;}
+
+#about div#container {width:783px;margin:0 auto;text-align:left;background:#E6E6E6 url(../img/bg_main.gif);padding:0;}
+
+/* #about div#container {width:778px;margin:0 auto;text-align:left;border-left:1px solid #000000;border-right:1px solid #000000;background:#E6E6E6;padding:0;} */
+#about table.main {margin:10px 0 0 0;}
+#about table.detail {margin:20px 0 0 0;}
+
+p.att{text-indent:-1em;padding:0 0 0 1em;}
+
+#footer {width:778px;background:#000000;text-align:center;margin:30px 0 0 1px;}
+#footerInside {width:778px;/* margin:0 auto; */ text-align:left;}
+body#sw_oyakusoku #footer, body#sw_maintenance #footer, body#sw_about #footer {width:702px;background:#E6E6E6 url(../img/swbg.gif);text-align:center;/*margin:20px 0 0 0;*/margin:0 auto 0 auto;}
+body#sw_oyakusoku #footerInside, body#sw_maintenance #footerInside, body#sw_about #footerInside {width:700px;/* margin:0 auto; */ text-align:left;padding:0;}
+body#sw_exception #footer {width:702px;background:#000000;text-align:center;/*margin:20px 0 0 0;*/margin:0 auto 0 auto;}
+#footerInside table.fnv {margin:0 0 8px 211px;}
+#footerInside p {color:#ffffff;font-size:78%;line-height:1.3;text-align:center;}
+body#sw_exception #footerInside {width:700px;/* margin:0 auto; */ text-align:left;padding:0;}
+
+.bgw {background-color:#ffffff;}
+
+/* maintenance */
+td.mbg {background:url(../img/attbg.jpg) top no-repeat;}
+div.mbgInside {min-height:400px;height: auto !important;height:400px;}
+table.mFrame {margin:10px 0 20px 0;}
+p.meintananceTime {color:#f99604;font-weight:bold;font-size:115%;}
+/* EOF*/
+

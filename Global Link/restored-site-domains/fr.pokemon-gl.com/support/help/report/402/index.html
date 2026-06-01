@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=1024" />
+  <title>Pokémon Global Link</title>
+  <link rel="stylesheet" type="text/css" href="/cdn2.pokemon-gl.com/src/swf/assets/global/css/theme.css" />
+  <link rel="stylesheet" type="text/css" href="/cdn2.pokemon-gl.com/src/swf/assets/global/fr/css/lang.css" />
+  <script src="/fr.pokemon-gl.com/assets/global/js/jquery-1.7.min.js"></script>
+  <script src="/fr.pokemon-gl.com/assets/global/js/jquery.blockUI.js"></script>
+  <script src="/fr.pokemon-gl.com/assets/global/js/jquery.corner.js"></script>
+  <script src="/fr.pokemon-gl.com/assets/global/js/swfobject.js"></script>
+  <script src="/fr.pokemon-gl.com/assets/global/js/pgl.js"></script>
+  <script src="/fr.pokemon-gl.com/assets/global/js/text.js"></script>
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-17682532-2']);
+    _gaq.push(['_setDomainName', '.pokemon-gl.com']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+<link href="/fr.pokemon-gl.com/support/assets/fr/css/common/layout.css" rel="stylesheet" type="text/css" />
+<link href="/fr.pokemon-gl.com/support/assets/fr/css/common/general.css" rel="stylesheet" type="text/css" />
+<link href="/fr.pokemon-gl.com/support/assets/fr/css/manual.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/fr.pokemon-gl.com/support/assets/fr/js/jquery.min.js"></script>
+<script type="text/javascript" src="/fr.pokemon-gl.com/support/assets/fr/js/jquery.ez-bg-resize.min.js"></script>
+<script type="text/javascript" src="/fr.pokemon-gl.com/support/assets/fr/js/local.min.js"></script>
+<script type="text/javascript">
+
+$(document).ready(function(){
+ $(".navi02").hover(function(){
+  $(".navi02 ul").css("display","block");
+ },function() {
+$(".navi02 ul").css("display","none");
+});
+
+var h2=$('.supprot_rContents h2').text();
+$('.supprot_lContents ul li a').each(function(index, element) {
+      if($(this).text()==h2){
+$(this).parent().addClass('on');
+}
+});
+
+var title=$('#supprot_pagePath li img').attr('alt');
+$('.supprot_section ul li a img').each(function(index, element) {
+if($(this).attr('alt')==title){
+  var src=$(this).attr('src');
+  if(src.indexOf('_on')==-1){
+    src=src.replace('.jpg','_on.jpg');
+  }
+  $(this).attr('src',src);
+}
+});
+
+});
+
+</script>
+    
+<script src="../../../../../_restore/mock-api-interceptor.js" data-pgl-restore="mock-api-interceptor.js"></script>
+<script src="../../../../../_restore/plugin-guards.js" data-pgl-restore="plugin-guards.js"></script>
+<script src="../../../../../_restore/runtime-fixes.js" data-pgl-restore="runtime-fixes.js"></script>
+</head>
+<body id="wrapper" oncontextmenu="return false" ondragstart="return false" onselectstart="return false">
+  <div id="container">
+    <div id="header">
+      <div id="logo">
+        <a href="/fr.pokemon-gl.com/">Pokémon Global Link</a>
+      </div>
+      <div id="logged-in-info">
+        <div id="header-avatar" class="logged-in"></div>
+        <div id="header-pgln" class="logged-in">
+          <span id="header-pglname"></span>
+        </div>
+        <div id="header-rom" class="logged-in">
+          <span id="header-romname" class="game-card-name"></span>
+        </div>
+        <div id="header-volume"><div id="header-volume-swf"></div></div>
+        <div id="header-rom-change" class="logged-in"></div>
+        <div id="header-logout" class="logged-in"><a href="/fr.pokemon-gl.com/?p=logout">Déconnecter</a></div>
+        <div id="header-back-to-top" class="logged-out"><a href="/fr.pokemon-gl.com/"></a></div>
+      </div>
+      <div id="head-menu">
+        <ul>
+          <li id="head-menu-profile"><a href="/fr.pokemon-gl.com/profile">Profil</a></li>
+          <li id="head-menu-campaign"><a href="/fr.pokemon-gl.com/campaign/">Offres</a></li>
+          <li id="head-menu-customize"><a href="/fr.pokemon-gl.com/customize">Personnaliser</a></li>
+          <li id="head-menu-pdw"><a href="/fr.pokemon-gl.com/pdw/">Pokémon Dream World</a></li>
+          <li id="head-menu-report"><a href="/fr.pokemon-gl.com/report/">Données</a></li>
+          <li id="head-menu-wifi"><a href="/fr.pokemon-gl.com/wifi/">Compétitions Wi-Fi</a></li>
+          <li id="head-menu-support"><a href="/fr.pokemon-gl.com/support/">Mode d'emploi</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="main">
+
+	<!-- 上記コメント部分はindex.phpで利用しているので消さないで下さい（このコメントは削除して問題ありません） -->
+	
+	<!-- 
+		このコメント以下から../assets/template.[lang].htmlの
+		    <div id="main">
+		%s
+		    </div>
+		%sの部分にあてこまれます。
+	  -->
+	<div id="main">
+		<div id="supprot_gNavi" class="clearfix">
+			<h1><p><img src="/fr.pokemon-gl.com/support/assets/fr/images/manual/imgtext01.jpg" alt="Mode d'emploi " /></p></h1>
+			<ul class="clearfix">
+				<li class="navi01"><a href="/fr.pokemon-gl.com/support/"><img src="/fr.pokemon-gl.com/support/assets/fr/images/manual/g_navi01.jpg" alt="Support Home" width="172" height="40" /></a></li>
+				<li class="navi02"><a href="/fr.pokemon-gl.com/support/help/"><img src="/fr.pokemon-gl.com/support/assets/fr/images/manual/g_navi02_on.jpg" alt="How to Play" width="172" height="40" /></a>
+					<ul class="clearfix">
+						<li><a href="/fr.pokemon-gl.com/support/help/about/000/">Au sujet de ce site</a></li>
+						<li><a href="/fr.pokemon-gl.com/support/help/cooperation/100/">Connectivité avec les jeux vidéo</a></li>
+						<li><a href="/fr.pokemon-gl.com/support/help/friend/200/">Contacts et Rêvamis</a></li>
+						<li><a href="/fr.pokemon-gl.com/support/help/page/300/">Page d'accueil et profil</a></li>
+						<li><a href="/fr.pokemon-gl.com/support/help/report/400/">Données</a></li>
+						<li><a href="/fr.pokemon-gl.com/support/help/custom/500/">Personnaliser</a></li>
+						<li><a href="/fr.pokemon-gl.com/support/help/mail/600/">Faciméls</a></li>
+						<li><a href="/fr.pokemon-gl.com/support/help/campaign/700/">Offres</a></li>
+						<li><a href="/fr.pokemon-gl.com/support/help/world/800/">Pokémon Dream World</a></li>
+						<li class="mb0"><a href="/fr.pokemon-gl.com/support/help/wi-fi/900/">Compétitions Wi-Fi</a></li>
+					</ul>
+				</li>
+				<li class="navi03"><a href="http://support-fr.pokemon.com/" target="_blank"><img src="/fr.pokemon-gl.com/support/assets/fr/images/manual/g_navi03.jpg" alt="Customer Service" width="170" height="40" /></a></li>
+			</ul>
+		</div>
+        
+		<ul id="supprot_pagePath" class="clear clearfix">
+			<li><img src="/fr.pokemon-gl.com/support/assets/fr/images/manual/report.gif" alt="Données" /></li>
+		</ul>
+		
+        <!--▼コンテンツエリア-->
+        <div class="supprot_contents clear clearfix">
+	    <div class="supprot_rContents">
+		<h2>La Global Battle Union (GBU)</h2>
+                
+                
+                <!--▼各section-->
+                
+                <div class="section" onContextmenu="return false">
+              
+                <a name="lay1" id="lay1"></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="indent">
+    
+    
+    
+    
+    <div class="mb15">
+    <p>En participant aux Comp&eacute;titions en Rencontre Al&eacute;atoire (Mode Rang) de votre jeu, vous pouvez prendre part aux Classement de la Global Battle Union (GBU).<br />Dans le Classement de la GBU, il est possible de consulter le Score de Rang ou le Classement des joueurs du monde entier. Lors de chaque Saison de Comp&eacute;tition, les 100 premiers joueurs du Classements recevront un Avatar sp&eacute;cial en cadeau.</p>
+    </div>
+    
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a name="lay2" id="lay2"></a>
+
+
+
+
+
+<h3>Consulter ou mettre à jour votre historique de combats</h3>
+
+
+<div class="indent">
+    
+    <div class="supprot_inner clearfix">
+    
+    
+    <img class="layImg" src="/fr.pokemon-gl.com/support/help/fr/402b.png" />
+    
+    
+    
+    <p>Pour les Comp&eacute;titions en Rencontre Al&eacute;atoire (Mode Rang), une fois que les r&eacute;sultats sont publics, identifiez-vous et rendez-vous sur votre profil. Choisissez "GBU/Comp&eacute;titions Wi-Fi", et vos informations &agrave; ce sujet seront mises &agrave; jour.</p>
+<p><span style="color: #808080;"><span style="font-size: small;">*Il est &eacute;galement possible de consulter ou de mettre &agrave; jour vos r&eacute;sultats en cliquant sur le bouton "Consulter votre historique de combats" dans la partie "Classement par type de combat" de la page GBU.<br />*La mise &agrave; jour de certaines informations au sujet des combats peut prendre du temps.</span></span></p>
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a name="lay3" id="lay3"></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- bigtitle -->
+<h3>Les Compétions et les Classements</h3>
+
+
+<div class="indent">
+    
+    
+    
+    
+    <div class="mb15">
+    <p>(1) Dans les Comp&eacute;titions en Rencontre Al&eacute;atoire (Mode Rang), cherchez &agrave; totaliser plus de 10 combats, quelles que soient les r&egrave;gles de la Comp&eacute;tition ; pour certains saisons, il faut participer &agrave; plus de 10 combats pour &ecirc;tre pris en compte dans le Classement.</p>
+<p><span style="color: #808080;"><span style="font-size: small;">*Les &eacute;galit&eacute;s ou les combats interrompus pour cause de d&eacute;connexion ne seront pas pris en compte dans le total de vos combats.</span></span><br /><br />(2) Identifiez-vous et rendez-vous sur votre profil. Choisissez "GBU/Comp&eacute;titions Wi-Fi", et vos informations de combat seront mises &agrave; jour.</p>
+<p><span style="color: #808080;"><span style="font-size: small;">*Il est &eacute;galement possible de consulter ou de mettre &agrave; jour vos r&eacute;sultats en cliquant sur le bouton "Consulter votre historique de combats" dans la partie "Classement par type de combat" de la page GBU.<br />*La mise &agrave; jour de certaines informations au sujet des combats peut prendre du temps.</span></span></p>
+    </div>
+    
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a name="lay4" id="lay4"></a>
+
+
+
+
+<h3>Consulter le Classement des joueurs du monde entier</h3>
+
+
+<div class="indent">
+
+    <div class="supprot_inner clearfix">
+    
+    
+    <img class="layImg" src="/fr.pokemon-gl.com/support/help/fr/402d.png" />
+    
+    
+    
+    <p>Sur la page d'accueil des Donn&eacute;es, choisissez "GBU" puis cliquez sur le bouton "Classements GBU". Vous pourrez alors consulter les Classements les plus r&eacute;cents. Le menu d&eacute;roulant "Choisissez une Saison" vous permet de consulter ceux des saisons pass&eacute;es.<br />Dans la liste des Classements GBU, vous pouvez voir votre propre r&eacute;sultat en cliquant sur le bouton "Mon Classement". Choisissez cette option pour pouvoir acc&eacute;der directement &agrave; votre r&eacute;sultat.</p>
+<p><span style="color: #808080;"><span style="font-size: small;">*Les Classements de la GBU sont mis &agrave; jour une fois par semaine.<br />*Les Classements de la GBU sont calcul&eacute;s en fonction des historiques des combats affich&eacute;s sur le profil de chaque joueur. Il arrive donc qu'il y ait un d&eacute;calage par rapport au Score de Rang le plus r&eacute;cent.</span></span></p>
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a name="lay5" id="lay5"></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- bigtitle -->
+<h3>Le système des Saisons des Compétitions</h3>
+
+
+<div class="indent">
+
+    
+    
+    
+    <div class="mb15"><p>Les Classements de la GBU sont mis &agrave; jour chaque semaine et r&eacute;initialis&eacute;s pour chaque Saison, soit tous les 3 mois. Une Saison d&eacute;marre le jour annonc&eacute;, une fois la maintenance termin&eacute;e, et prend fin le jour annonc&eacute; quand la maintenance commence.<br />&Agrave; la fin d'une Saison, les r&eacute;sultats des joueurs y ayant pris part sont utilis&eacute;s pour calculer et annoncer les Classements.</p>
+<p><span style="color: #808080;"><span style="font-size: small;">*&Agrave; chaque Saison, les Scores de Rang et le nombre de victoires et d&eacute;faites sont r&eacute;initialis&eacute;s. Les Scores de Rang pass&eacute;s ne sont pas pris en compte.</span></span></p></div>
+    
+    
+    
+    <div style="text-align:center;" class="mb15">
+    
+    <img src="/fr.pokemon-gl.com/support/help/fr/402e.png" />
+    
+    </div>
+    
+    
+    
+    <div class="mb15"><p><span style="color: #808080;"><span style="font-size: small;">*Les d&eacute;tails sur la Saison 10 et les Saisons suivantes ne sont pas encore disponibles.</span></span></p></div>
+    
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a name="lay6" id="lay6"></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- bigtitle -->
+<h3>Avatars offerts aux 100 premiers du Classement</h3>
+
+
+<div class="indent">
+    
+    
+    
+    
+    <div class="mb15">
+    <p>Lors de chaque Saison de Comp&eacute;tition, les 100 premiers joueurs du Classement recevront un Avatar sp&eacute;cial en cadeau.<br />La disponibilit&eacute; des nouveaux Avatars sera communiqu&eacute;e au moment de la publication des r&eacute;sultats. Ces Avatars pourront &ecirc;tre s&eacute;lectionn&eacute;s depuis votre profil.</p>
+    </div>
+    
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a name="lay7" id="lay7"></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- bigtitle -->
+<h3>Infos Pokémon</h3>
+
+
+
+<div class="indent">
+    
+    
+    
+    
+    <div class="mb15">
+    <p>Pour chaque type de combat, les Pok&eacute;mon les mieux repr&eacute;sent&eacute;s dans les &eacute;quipes sont affich&eacute;s dans les Classements, et ce pour les Saisons pass&eacute;es ou en cours. Cliquer sur le bouton "Choisir un Pok&eacute;mon" vous permet de voir la liste des Pok&eacute;mon les plus souvent associ&eacute;s &agrave; lui dans une &eacute;quipe. Pour la Saison en cours, les infos sont mises &agrave; jour une fois par semaine.</p>
+    </div>
+    
+
+</div>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a name="lay8" id="lay8"></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                
+                
+                </div>
+                
+                
+
+       
+            
+                
+                
+	    </div>
+            
+            
+            <!--▼サイドナビ-->
+            
+            <div class="supprot_lContents">
+
+<p>Données</p>
+
+<ul class="clearfix">
+<li><a href="/fr.pokemon-gl.com/support/help/report/400/">Que sont les Données ?</a></li>
+</ul>
+
+<p>Global Trade Station</p>
+
+<ul class="clearfix">
+<li><a href="/fr.pokemon-gl.com/support/help/report/401/">La Global Trade Station (GTS)</a></li>
+</ul>
+
+<p>Global Battle Union</p>
+
+<ul class="clearfix">
+<li><a href="/fr.pokemon-gl.com/support/help/report/402/">La Global Battle Union (GBU)</a></li>
+</ul>
+
+<p>Compétitions Wi-Fi</p>
+
+<ul class="clearfix">
+<li><a href="/fr.pokemon-gl.com/support/help/report/403/">Les Compétitions Wi-Fi</a></li>
+</ul>
+
+<p>Statistiques de la Synchro-Jeu</p>
+
+<ul class="clearfix">
+<li><a href="/fr.pokemon-gl.com/support/help/report/404/">Que sont les statistiques de la Synchro-Jeu ?</a></li>
+</ul>
+
+</div>
+
+            
+            
+            
+		</div>
+        
+        
+		<p class="supprot_title"><img src="/fr.pokemon-gl.com/support/assets/fr/images/manual/title.jpg" alt="Mode d'emploi (comment jouer)" /></p>
+        
+        
+        <!--▼サブナビエリア-->
+		<div class="supprot_section clear">
+				<ul class="clearfix">
+					<li class="list01"><a href="/fr.pokemon-gl.com/support/help/about/000/"><img src="/fr.pokemon-gl.com/support/assets/fr/images/manual/list_photo01.jpg" alt="Au sujet de ce site" /></a></li>
+					<li class="list02"><a href="/fr.pokemon-gl.com/support/help/cooperation/100/"><img src="/fr.pokemon-gl.com/support/assets/fr/images/manual/list_photo02.jpg" alt="Connectivité avec les jeuxvidéo" /></a></li>
+					<li class="list03"><a href="/fr.pokemon-gl.com/support/help/friend/200/"><img src="/fr.pokemon-gl.com/support/assets/fr/images/manual/list_photo03.jpg" alt="Contacts et Rêvamis" /></a></li>
+					<li class="list04"><a href="/fr.pokemon-gl.com/support/help/page/300/"><img src="/fr.pokemon-gl.com/support/assets/fr/images/manual/list_photo04.jpg" alt="Page d'accueil et profil" /></a></li>
+					<li class="list05"><a href="/fr.pokemon-gl.com/support/help/report/400/"><img src="/fr.pokemon-gl.com/support/assets/fr/images/manual/list_photo05.jpg" alt="Données" /></a></li>
+				</ul>
+				<ul class="clearfix mb0">
+					<li class="list06"><a href="/fr.pokemon-gl.com/support/help/custom/500/"><img src="/fr.pokemon-gl.com/support/assets/fr/images/manual/list_photo06.jpg" alt="Personnaliser" /></a></li>
+					<li class="list07"><a href="/fr.pokemon-gl.com/support/help/mail/600/"><img src="/fr.pokemon-gl.com/support/assets/fr/images/manual/list_photo07.jpg" alt="Faciméls" /></a></li>
+					<li class="list08"><a href="/fr.pokemon-gl.com/support/help/campaign/700/"><img src="/fr.pokemon-gl.com/support/assets/fr/images/manual/list_photo08.jpg" alt="Offres" /></a></li>
+					<li class="list09"><a href="/fr.pokemon-gl.com/support/help/world/800/"><img src="/fr.pokemon-gl.com/support/assets/fr/images/manual/list_photo09.jpg" alt="Pokémon Dream World" /></a></li>
+					<li class="list10"><a href="/fr.pokemon-gl.com/support/help/wi-fi/900/"><img src="/fr.pokemon-gl.com/support/assets/fr/images/manual/list_photo10.jpg" alt="Compétitions Wi-Fi" /></a></li>
+				</ul>
+			</div>
+        
+	</div>
+    </div>
+    <div id="footer">
+      <ul id="footer-links">
+        <li><a href="http://www.pokemon.com/fr/terms-of-use/">Conditions d'utilisation</a></li>
+        <li><a href="/fr.pokemon-gl.com/maintenance/">Maintenance</a></li>
+        <li><a href="http://www.pokemon.com/fr/pgl/requirements/">Configuration requise</a></li>
+        <li><a href="http://www.pokemon.com/fr/privacy-policy/">Politique de confidentialité </a></li>
+        <li><a href="http://www.pokemon.com/fr/about/legal/">Infos juridiques</a></li>
+        <li><a href="" class="trafficy">Trafic du Pokémon DW</a></li>
+      </ul>
+      <ul id="select-language">
+        <li>Choix de la LANGUE (Language) : &nbsp;&nbsp;&nbsp;</li>
+        <li><a href="/ja.pokemon-gl.com/">日本語</a></li>
+        <li><a href="/en.pokemon-gl.com/">English</a></li>
+        <li><a href="/fr.pokemon-gl.com/">Français</a></li>
+        <li><a href="/it.pokemon-gl.com/">Italiano</a></li>
+        <li><a href="/de.pokemon-gl.com/">Deutsch</a></li>
+        <li><a href="/es.pokemon-gl.com/">Español</a></li>
+        <li><a href="/ko.pokemon-gl.com/">한국어</a></li>
+      </ul>
+      <div id="copyright">
+        <p>©2011-2012 Pokémon. © 1995-2012 Nintendo/Creatures Inc./GAME FREAK inc. Pokémon, les noms des Pokémon et Nintendo DS sont des marques de Nintendo.</p>
+        <p class="maintenance"><a href="" target="_blank"></a></p>
+      </div>
+      <div id="badges"><a class="footer-badges-com" href="http://www.pokemon.com/" target="_blank"><img src="/fr.pokemon-gl.com/assets/global/fr/images/footer/com.png"/></a><a class="footer-badges-nintendo" href="http://www.nintendo.fr/" target="_blank"><img src="/fr.pokemon-gl.com/assets/global/fr/images/footer/nintendo.png"/></a><a class="footer-badges-ds" href="http://www.nintendo.fr/" target="_blank"><img src="/fr.pokemon-gl.com/assets/global/fr/images/footer/ds.png"/></a><a class="footer-badges-wifi" href="http://www.nintendo.fr/NOE/fr_FR/connexion_wi-fi_nintendo_5025.html" target="_blank"><img src="/fr.pokemon-gl.com/assets/global/fr/images/footer/wifi.png"/></a><a class="footer-badges-esrb" href="http://www.esrb.org/index-js.jsp" target="_blank"><img src="/fr.pokemon-gl.com/assets/global/fr/images/footer/esrb.png"/></a><a class="footer-badges-pegi" href="http://www.pegi.info" target="_blank"><img src="/fr.pokemon-gl.com/assets/global/fr/images/footer/pegi.png"/></a></div>
+    </div>
+  </div>
+</body>
+</html>

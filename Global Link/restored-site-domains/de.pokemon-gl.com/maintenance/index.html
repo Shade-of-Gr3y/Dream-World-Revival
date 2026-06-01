@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=1024" />
+  <title>Pokémon Global Link</title>
+  <link rel="stylesheet" type="text/css" href="/cdn2.pokemon-gl.com/src/swf/assets/global/css/theme.css" />
+  <link rel="stylesheet" type="text/css" href="/cdn2.pokemon-gl.com/src/swf/assets/global/de/css/lang.css" />
+  <script src="/de.pokemon-gl.com/assets/global/js/jquery-1.7.min.js"></script>
+  <script src="/de.pokemon-gl.com/assets/global/js/jquery.blockUI.js"></script>
+  <script src="/de.pokemon-gl.com/assets/global/js/jquery.corner.js"></script>
+  <script src="/de.pokemon-gl.com/assets/global/js/swfobject.js"></script>
+  <script src="/de.pokemon-gl.com/assets/global/js/pgl.js"></script>
+  <script src="/de.pokemon-gl.com/assets/global/js/text.js"></script>
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-17682532-2']);
+    _gaq.push(['_setDomainName', '.pokemon-gl.com']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+<script src="../../_restore/mock-api-interceptor.js" data-pgl-restore="mock-api-interceptor.js"></script>
+<script src="../../_restore/plugin-guards.js" data-pgl-restore="plugin-guards.js"></script>
+<script src="../../_restore/runtime-fixes.js" data-pgl-restore="runtime-fixes.js"></script>
+</head>
+<body id="wrapper" oncontextmenu="return false" ondragstart="return false" onselectstart="return false">
+  <div id="container">
+    <div id="header">
+      <div id="logo">
+        <a href="/de.pokemon-gl.com/">Pokémon Global Link</a>
+      </div>
+      <div id="logged-in-info">
+        <div id="header-avatar" class="logged-in"></div>
+        <div id="header-pgln" class="logged-in">
+          <span id="header-pglname"></span>
+        </div>
+        <div id="header-rom" class="logged-in">
+          <span id="header-romname" class="game-card-name"></span>
+        </div>
+        <div id="header-volume"><div id="header-volume-swf"></div></div>
+        <div id="header-rom-change" class="logged-in"></div>
+        <div id="header-logout" class="logged-in"><a href="/de.pokemon-gl.com/?p=logout">Abmelden</a></div>
+        <div id="header-back-to-top" class="logged-out"><a href="/de.pokemon-gl.com/"></a></div>
+      </div>
+      <div id="head-menu">
+        <ul>
+          <li id="head-menu-profile"><a href="/de.pokemon-gl.com/profile">Meine Seite</a></li>
+          <li id="head-menu-campaign"><a href="/de.pokemon-gl.com/campaign/">Aktionen</a></li>
+          <li id="head-menu-customize"><a href="/de.pokemon-gl.com/customize">Individualisierung</a></li>
+          <li id="head-menu-pdw"><a href="/de.pokemon-gl.com/pdw/">Pokémon Dream World</a></li>
+          <li id="head-menu-report"><a href="/de.pokemon-gl.com/report/">Spieldaten</a></li>
+          <li id="head-menu-wifi"><a href="/de.pokemon-gl.com/wifi/">Wi-Fi-Turnier</a></li>
+          <li id="head-menu-support"><a href="/de.pokemon-gl.com/support/">Hilfe</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="main">
+<style type="text/css">
+.logged-in-black #container {
+  background-repeat: no-repeat;
+  background-image: url(../assets/global/images/bg_white.gif)
+}
+#container {
+  background-repeat: no-repeat;
+  background-image: url(../assets/global/images/bg_white.gif)
+}
+</style>
+<div style="width:1003px;margin:0;padding:40px 0;background:#ffffff;" id="flashcontent">
+
+<style type="text/css">
+.finside {width:951px; margin:0 0 0 25px;}
+.finside div {color:#3c3c3c;font-size:100%; letter-spacing:0.2px; line-height:1.8em;}
+.finside div.inside{margin:35px 0 0 28px;}
+.finside img {border:0;}
+.finside div.mttl {margin:0 0 20px 0;} 
+.finside div.textbox {width:851px; margin:0 0 40px 35px; padding:0;}
+.finside div.textbox .red {
+    color:#ff0000;
+    font-weight: bold;
+    margin:0;
+}
+.finside div.date {
+    background: url("../src/swf/maintenance/de/img/menubox.gif") no-repeat scroll center bottom transparent;
+    margin: 15px auto 10px;
+    padding: 0 0 10px;
+    width: 887px;
+}
+.finside div.datetop {
+    background: url("../src/swf/maintenance/de/img/menutop.gif") no-repeat scroll center top transparent;
+    font-size: 0;
+    height: 10px;
+    width: 887px;
+}
+.finside div.date p {
+    color: #F99604;
+    font-weight: bold;
+    margin: 0 10px;
+    text-align: center;
+    line-height:1.6em;
+}
+.small{
+    font-size:75%;
+　　margin:0;
+}
+.finside div.minitext {
+    width:680px;
+    margin:40px 0 40px 125px;
+    padding:0;
+    font-size:80%;
+    letter-spacing:0.1px;
+    line-height:1.2em;}
+</style>
+
+<div class="finside">
+<div class="mttl"><img src="../src/swf/maintenance/de/img/title.gif" width="951" height="40" alt="Regeln"></div>
+<div class="textbox">
+<p class="red">
+Kinder sollten sich diese Schritte von einem Erziehungsberechtigten erläutern lassen.
+</p>
+Die Internetseite des PGL wird entsprechend dem nachstehend<br/>
+aufgeführten Zeitplan in regelmäßigen Abständen gewartet.<br/>
+Die Internetseite steht für die Dauer der Wartungsarbeiten<br/>
+nicht zur Verfügung. Wir bitten um Verständnis!
+</div>
+<div class="date">
+<div class="datetop"></div>
+<p>Dienstags von 09:00 Uhr bis 15:00 Uhr.</p>
+</div>
+
+<div class="minitext">
+*Zwecks Aktualisierung der Internetseite kann es mitunter zu außerplanmäßigen Wartungsarbeiten kommen.<br/>
+Du findest auf der Startseite unter „Information“ rechtzeitig Einzelheiten hierzu.<br/><br/>
+
+*Bitte beachte, dass Wartungsarbeiten zur Behebung einer unvorhergesehenen Fehlfunktion ohne vorherige Ankündigung durchgeführt werden können.
+</div>
+
+</div>
+
+
+
+
+
+</div>
+
+    </div>
+    <div id="footer">
+      <ul id="footer-links">
+        <li><a href="http://www.pokemon.com/de/terms-of-use/">Nutzungsbedingungen</a></li>
+        <li><a href="/de.pokemon-gl.com/maintenance/">Wartungsarbeiten</a></li>
+        <li><a href="http://www.pokemon.com/de/pgl/requirements/">Systemvoraussetzungen</a></li>
+        <li><a href="http://www.pokemon.com/de/privacy-policy/">Datenschutzrichtlinien</a></li>
+        <li><a href="http://www.pokemon.com/de/about/legal/">Rechtl. Hinweise</a></li>
+        <li><a href="" class="trafficy">Auslastung der Pokémon DW</a></li>
+      </ul>
+      <ul id="select-language">
+        <li>Sprachauswahl (Language): &nbsp;&nbsp;&nbsp;</li>
+        <li><a href="/ja.pokemon-gl.com/">日本語</a></li>
+        <li><a href="/en.pokemon-gl.com/">English</a></li>
+        <li><a href="/fr.pokemon-gl.com/">Français</a></li>
+        <li><a href="/it.pokemon-gl.com/">Italiano</a></li>
+        <li><a href="/de.pokemon-gl.com/">Deutsch</a></li>
+        <li><a href="/es.pokemon-gl.com/">Español</a></li>
+        <li><a href="/ko.pokemon-gl.com/">한국어</a></li>
+      </ul>
+      <div id="copyright">
+        <p>©2011-2013 Pokémon. ©1995-2013 Nintendo/Creatures Inc./GAME FREAK inc. Pokémon, Pokémon character names and Nintendo DS are trademarks of Nintendo.</p>
+        <p class="maintenance"><a href="" target="_blank"></a></p>
+      </div>
+      <div id="badges"><a class="footer-badges-com" href="http://www.pokemon.com/" target="_blank"><img src="/de.pokemon-gl.com/assets/global/de/images/footer/com.png"/></a><a class="footer-badges-nintendo" href="http://www.nintendo.de/" target="_blank"><img src="/de.pokemon-gl.com/assets/global/de/images/footer/nintendo.png"/></a><a class="footer-badges-ds" href="http://www.nintendo.de/" target="_blank"><img src="/de.pokemon-gl.com/assets/global/de/images/footer/ds.png"/></a><a class="footer-badges-wifi" href="http://www.nintendo.de/NOE/de_DE/nintendo_wi-fi_5025.html" target="_blank"><img src="/de.pokemon-gl.com/assets/global/de/images/footer/wifi.png"/></a><a class="footer-badges-usk" href="http://www.usk.de/" target="_blank"><img src="/de.pokemon-gl.com/assets/global/de/images/footer/usk.png"/></a></div>
+    </div>
+  </div>
+</body>
+</html>

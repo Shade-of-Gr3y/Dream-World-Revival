@@ -1,0 +1,426 @@
+@charset "Shift-JIS";
+
+body {
+	background-color: #E6F9FF;
+	text-align:center;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	color: #333333;
+	font-size: 12px;
+	line-height:1.5;
+	font-family:"ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3";
+}
+
+/*リンクカラー定義*/
+
+a:link,a:visited,a:active,a:hover{	
+	color:#3B0500;
+	font-Size:12px;
+	line-height:14px;
+	font-weight:bolder;
+	text-decoration:none;
+}
+
+a:visited{
+	color:#D32515;
+}
+
+a:hover{
+	text-decoration:underline;
+}
+
+.TxtLink{	
+	color:#FB53170 !important;
+	background:url(../../imgs_faq/icon_link.gif) left center no-repeat;
+	padding-left:13px;
+}
+
+
+
+/*クリア*/
+.clear {
+	clear:both;
+	width:auto;
+	height:0!important;
+	margin :0;
+	padding:0;
+	line-height:0;
+}
+
+img {
+	border:none;
+	vertical-align:top;
+}
+
+
+p {
+	margin:0 !important;
+	padding-top:15px;
+}
+
+/*フロート定義*/
+.fLeft{
+	float:left;
+}
+.fRight{
+	float:right;
+}
+
+
+/*
+  .align
+-------------------------------------------------------
+*/
+
+.alignC {text-align:center !important;}
+.alignL {text-align:left !important;}
+.alignR {text-align:right !important;}
+
+/*
+  .margin
+-------------------------------------------------------
+*/
+
+.adm-t10 {margin-top:10px !important;}
+.adm-t15 {margin-top:15px !important;}
+.adm-t20 {margin-top:20px !important;}
+.adm-t25 {margin-top:25px !important;}
+.adm-t33 {margin-top:33px !important;}
+.adm-t50 {margin-top:50px !important;}
+
+.adm-r15 {margin-right:15px !important;}
+
+.adm-l10 {margin-left:10px !important;}
+.adm-l15 {margin-left:15px !important;}
+.adm-l30 {margin-left:30px !important;}
+
+.Pd0{
+	padding:0 !important;
+}
+
+.Col-Red{
+	color:#FF0000;
+}
+
+.Col-Red2{
+	color:#D32515;
+}
+
+.FsizeL{
+	font-size:120%;
+}
+
+	
+/*レイアウト定義*/
+#wrapper{
+	width :783px;
+	margin :0 auto auto auto;
+	background:url(../../shareimgs/bg_main.gif) repeat-y;
+}
+
+.MainCont{
+	width:778px;
+	margin:0 4px 0 1px;
+	text-align:center;
+	padding-bottom:20px;
+}
+
+.MainCont h1{ 
+	padding:28px 0 0 0; 
+	margin:0 auto 15px auto; 
+	font-size: 100%;
+}
+.MainCont h2{ 
+	padding:15px 0 0 0; 
+	margin:0;
+	font-size: 100%;
+}
+.MainCont h3{ 
+	padding:0 0 0 25px;
+	margin:0px; 
+	font-size: 100%;
+}
+
+.NoticeBox{
+	width:400px;
+	padding:10px;
+	margin:0 auto;
+	border: solid 1px #FB5317;
+	color:#FB5317;
+}
+
+.NoticeFullBox{
+	width:643px;
+	padding:10px;
+	margin:10px 0 10px 0;
+	border: solid 1px #FB5317;
+}
+
+.NewsBox{
+	width:643px;
+	padding:10px;
+	margin:10px 0 0 0;
+	border: solid 1px #FB5317;
+}
+
+.FAQBox{
+	width:643px;
+	margin:0 auto 0 auto;
+	padding:0;
+	text-align:left;
+}
+
+.FAQBox ul{
+	margin:10px 0 0 5px !important;
+	padding:0 !important;
+}
+
+.FAQBox li.Qu{
+	list-style:none outside;
+	background:url(../../imgs_faq/q.gif) left top no-repeat;
+	padding:2px 0 10px 25px !important;
+	margin:0 !important;
+}
+
+.FAQBox li.An{
+	list-style:none outside;
+	background:url(../../imgs_faq/a.gif) left top no-repeat;
+	padding:2px 0 10px 25px !important;
+	margin:0 !important;
+}
+
+.DotLine{
+	margin:0 0 15px 0;
+	height:10px;
+	width:643px;
+	border-bottom:#CCC dotted 1px;
+	line-height:10px;
+	font-size:2px;
+}
+
+.InqBox{
+	width:643px;
+	margin:0 auto 10px auto;
+	padding:0;
+	text-align:left;
+}
+
+.InqBox table{
+	width:643px;
+	border:1px solid #999999;
+	border-collapse: collapse;
+}
+
+.InqBox th{
+	font-size:12px;
+	font-weight:bold;
+	background-color:#F3F7D7;
+	line-height:150%;
+	padding:5px;
+	text-align:left;
+	vertical-align:top;
+	border:1px solid #999999;
+	border-collapse: collapse;
+}
+.InqBox td{
+	font-size:12px;
+	line-height:150%;
+	padding:5px;
+	border:1px solid #999999;
+	border-collapse: collapse;
+	text-align:left;
+	vertical-align:top;
+	background-color:#FFFFFF;
+}
+.InqBox td.NoLine{
+	font-size:12px;
+	line-height:150%;
+	border:none;
+	padding:5px;
+	text-align:left;
+	vertical-align:top;
+	background-color:#FFFFFF;
+}
+
+.OnegaiBox{
+	width:643px;
+	padding:10px 0;
+	margin:10px 0 0 0;
+	border: solid 1px #FFDA44;
+	background-color:#FFFFCC;
+}
+
+.OnegaiBox h2{
+	padding:0 0 0 10px;
+	margin:0;
+	font-size: 100%;
+}
+
+.InqBox h3{ 
+	padding:25px 0 0 0;
+	margin:0; 
+	font-size: 100%;
+}
+
+.OnegaiBox ul{
+	margin:10px 0 0 5px !important;
+	padding:0 10px !important;
+}
+
+.OnegaiBox li{
+	margin:5px 0 0 10px;
+}
+
+/*エラー*/
+
+.ErrorBox{
+	width:400px;
+	border:1px solid #F00;
+	color: #F00;
+	margin:20px 0 0 121px;
+	padding-top:5px;
+	padding-bottom:10px;
+	text-align:center;
+}
+
+.ErrorBox p{
+	padding-top:5px !important;
+}
+
+
+/*サポートディスク追加*/
+
+.MainCont h1.Table{ 
+	padding:0; 
+	margin:0 auto 15px auto; 
+	font-size: 100%;
+	width:634px;
+}
+
+.SupportDeskBox{
+	width:643px;
+	margin:0 auto 0 auto;
+	padding:0;
+	text-align:left;
+}
+
+.UseBox{
+	width:643px;
+	padding:10px 0;
+	margin:15px 0 10px 0;
+	border: solid 1px #FFDA44;
+	background-color:#FFFFCC;
+}
+
+.UseBox h2{
+	padding:0 0 0 10px;
+	margin:0;
+	font-size: 100%;
+}
+
+.UseBox ul{
+	margin:10px 0 0 5px !important;
+	padding:0 10px !important;
+}
+
+.UseBox li{
+	margin:5px 0 0 10px;
+}
+
+.TelNoticeBox{
+	margin:15px 0 0 0;
+	width:643px;
+	background:url(../../imgs/bg_tel.gif) repeat-y;
+}
+
+.TelNoticeBox h3{ 
+	padding:0;
+	margin:0 0 5px 0; 
+	font-size: 100%;
+}
+
+.TelNoticeBox h4{ 
+	padding:5px 0 0 15px;
+	margin:0; 
+	font-size: 100%;
+	font-weight:bold;
+	color:#FF6600;
+}
+
+.TelNoticeBox p{
+	padding:5px 15px 0 15px;
+}
+
+.TelNoticeBoxFot{
+	width:643px;
+	background:url(../../imgs/bg_tel_fot.gif) no-repeat;
+	height:10px;
+	line-height:0;
+}
+
+/*サポートデスク用リンクカラー定義*/
+
+a.BlueL:link,a.BlueL:visited,a.BlueL:active,a.BlueL:hover{	
+	color:#3366CC;
+	font-Size:12px;
+	line-height:14px;
+	font-weight:bolder;
+	text-decoration:none;
+}
+
+a.BlueL:visited{
+	color:#3366CC;
+}
+
+.notice{
+	text-indent:-1em;
+	padding:0 0 0 1em;
+}
+
+
+/*
+########################################################
+  flash表示用
+########################################################
+*/
+
+.FlashWindow{
+	width:778px;
+	background-color:#FFCE00;
+	text-align:center;
+	margin:20px 0 0 0;
+	padding:25px 0 0 0;
+}
+
+
+
+/*
+########################################################
+  .hack
+########################################################
+*/
+
+
+.clearfix:after {
+   content: ".";
+   display: block;
+   clear: both;
+   height: 0;
+   visibility: hidden;
+}
+.clearfix { display: inline-block; }
+/* exlude MacIE5 \*/
+* html .clearfix { height: 1%;}
+.clearfix {display:block;}
+/* end MacIE5 */
+
+
+
+
+
+
+
+
+

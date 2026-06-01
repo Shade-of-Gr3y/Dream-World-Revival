@@ -1,0 +1,234 @@
+@charset "utf-8";
+
+
+/*=======================================
+
+	FLASH CONTENTS
+
+=======================================*/
+
+
+
+/*------------------
+content_noscript
+-------------------*/
+#content_noscript{
+position:absolute;
+top:50%;
+left:50%;
+height:100%;
+width: 100%;
+margin-top: -150px;
+margin-left: -254px;
+}
+
+#content_noscript p.header{
+width:508px;
+text-align: center;
+}
+
+#content_noscript p.box{
+margin: 24px 0 0 0;
+width:508px;
+}
+
+#content_noscript p.btn{
+width:508px;
+background:url(../images/bg_js_frame.jpg) repeat-y #EDEDED;
+text-align:center;
+}
+
+#content_noscript p.btn a{
+margin: 0 auto;
+width:171px;
+height:27px;
+display:block;
+background:url(../images/btn_js_on.jpg) #EDEDED no-repeat;
+}
+
+#content_noscript p.btn a img{
+visibility:visible;
+}
+
+#content_noscript p.btn a:hover img{
+visibility:hidden;
+}
+
+#content_noscript p.footer {
+margin: 31px 0 0 0;
+width: 508px;
+text-align:center;
+}
+
+
+
+/*------------------
+content_download
+-------------------*/
+#content_download{
+position:absolute;
+top:50%;
+left:50%;
+height:100%;
+width: 100%;
+margin-top: -150px;
+margin-left: -254px;
+}
+
+#content_download p.header{
+width:508px;
+text-align: center;
+}
+
+#content_download p.box{
+margin: 24px 0 0 0;
+width:508px;
+}
+
+#content_download p.btn{
+width:508px;
+background:url(../images/bg_js_frame.jpg) repeat-y #EDEDED;
+text-align:center;
+}
+
+#content_download p.btn a{
+margin: 0 auto;
+width:112px;
+height:27px;
+display:block;
+text-indent: -9999px;
+background:url(../images/btn_download2.jpg) 0 0 #EDEDED no-repeat;
+}
+
+#content_download p.btn a:hover{
+background:url(../images/btn_download2.jpg) 0 -27px #EDEDED no-repeat;
+}
+
+#content_download p.btn a img{
+visibility:visible;
+}
+
+#content_download p.btn a:hover img{
+visibility:hidden;
+}
+
+#content_download p.footer {
+margin: 31px 0 0 0;
+width: 508px;
+text-align:center;
+}
+
+
+
+/*------------------
+content_install
+-------------------*/
+#content_install{
+position:absolute;
+top:50%;
+left:50%;
+height:100%;
+width: 100%;
+margin-top: -150px;
+margin-left: -254px;
+}
+
+#content_install p.header{
+width:508px;
+text-align: center;
+}
+
+#content_install p.box{
+margin: 24px 0 0 0;
+width:508px;
+}
+
+#content_install p.btn{
+width:508px;
+background:url(../images/bg_js_frame.jpg) repeat-y #EDEDED;
+text-align:center;
+}
+
+#content_install p.btn a{
+margin: 0 auto;
+width:112px;
+height:27px;
+display:block;
+text-indent: -9999px;
+background:url(../images/btn_install2.jpg) 0 0 #EDEDED no-repeat;
+}
+
+#content_install p.btn a:hover{
+background:url(../images/btn_install2.jpg) 0 -27px #EDEDED no-repeat;
+}
+
+#content_install p.btn a img{
+visibility:visible;
+}
+
+#content_install p.btn a:hover img{
+visibility:hidden;
+}
+
+#content_install p.footer {
+margin: 31px 0 0 0;
+width: 508px;
+text-align:center;
+}
+
+
+
+
+/*------------------
+content_suisyo
+-------------------*/
+#content_suisyo{
+position:absolute;
+top:50%;
+left:50%;
+height:100%;
+width: 100%;
+margin-top: -150px;
+margin-left: -254px;
+}
+
+#content_suisyo p.header{
+width:508px;
+text-align: center;
+}
+
+#content_suisyo p.box{
+margin: 24px 0 0 0;
+width:508px;
+}
+
+#content_suisyo p.btn{
+width:508px;
+background:url(../images/bg_js_frame.jpg) repeat-y #EDEDED;
+text-align:center;
+}
+
+#content_suisyo p.btn a{
+margin: 0 auto;
+width:134px;
+height:27px;
+display:block;
+background:url(../images/btn_suisyo_on.jpg) #EDEDED no-repeat;
+}
+
+#content_suisyo p.btn a img{
+visibility:visible;
+}
+
+#content_suisyo p.btn a:hover img{
+visibility:hidden;
+}
+
+#content_suisyo p.footer {
+margin: 31px 0 0 0;
+width: 508px;
+text-align:center;
+}
+
+
+

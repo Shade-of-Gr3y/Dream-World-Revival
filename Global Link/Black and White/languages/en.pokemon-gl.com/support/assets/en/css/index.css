@@ -1,0 +1,120 @@
+@charset "utf-8";
+
+/*------------------------------------------------------------
+	トップページ
+------------------------------------------------------------*/
+
+
+#main .supprot_conts {
+	padding: 0 13px;
+}
+
+#main .supprot_conts .supprot_section01 {
+	margin: 0 0 20px 0;
+	padding: 5px 5px 5px 13px;
+	background-color: #424242;
+}
+
+#main .supprot_conts .supprot_section01 .supprot_photoBox {
+	padding-top: 7px;
+	float: left;
+}
+
+#main .supprot_conts .supprot_section01 p {
+	padding: 6px 0 4px 9px;
+	border: 1px solid #000;
+	background-color: #FFF;
+	color: #666;
+	float: right;
+	width: 657px;
+	float: right;
+	font-size: 1.2em;
+}
+
+#main .supprot_conts ul li {
+	float: left;
+}
+
+#main .supprot_conts ul li img,
+#main .supprot_conts ul li a {
+	display: block;
+}
+
+#main .supprot_conts ul li a:hover img {
+	filter:alpha(opacity=0);
+	opacity:0;
+}
+
+#main .supprot_conts .supprot_btnUl01 {
+	margin: 0 auto 30px;
+	width: 773px;
+}
+
+#main .supprot_conts .supprot_btnUl01 li {
+	margin-right: 9px;
+}
+
+#main .supprot_conts .supprot_btnUl01 .link01 a {
+	background: url(../images/index/btn01_over.jpg) no-repeat;
+}
+
+#main .supprot_conts .supprot_btnUl01 .link02 a {
+	background: url(../images/index/btn02_over.jpg) no-repeat;
+}
+
+.supprot_imgMenuUl {
+	margin-left: 0;
+}
+
+.supprot_pdfBox {
+	margin: 0 0 28px;
+} 
+
+#main .supprot_conts .supprot_btnUl01 .link02,
+#main .supprot_conts .supprot_btnUl02 .link03,
+#main .supprot_conts .supprot_btnUl03 .link03 {
+	margin-right: 0;
+}
+
+#main .supprot_conts .supprot_btnUl02 {
+	margin: 0 auto 50px;
+	width: 612px;
+	clear: both;
+}
+
+#main .supprot_conts .supprot_btnUl02 li {
+	margin-right: 6px;
+}
+
+#main .supprot_conts .supprot_btnUl02 .link01 a {
+	background: url(../images/index/btn03_over.jpg) no-repeat;
+}
+
+#main .supprot_conts .supprot_btnUl02 .link02 a {
+	background: url(../images/index/btn04_over.jpg) no-repeat;
+}
+
+#main .supprot_conts .supprot_btnUl02 .link03 a {
+	background: url(../images/index/btn05_over.jpg) no-repeat;
+}
+
+#main .supprot_conts .supprot_ttl {
+	margin-bottom: 13px;
+}
+
+#main .supprot_conts .supprot_btnUl03 li {
+	margin-right: 5px;
+	margin-bottom:40px;
+}
+
+#main .supprot_conts .supprot_btnUl03 .link01 a {
+	background: url(../images/index/btn06_over.jpg) no-repeat;
+}
+
+#main .supprot_conts .supprot_btnUl03 .link02 a {
+	background: url(../images/index/btn07_over.jpg) no-repeat;
+}
+
+#main .supprot_conts .supprot_btnUl03 .link03 a {
+	background: url(../images/index/btn08_over.jpg) no-repeat;
+}

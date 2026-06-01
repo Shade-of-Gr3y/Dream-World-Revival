@@ -1,0 +1,19 @@
+<xml>
+	<data>
+	<template id="3" shadow="true">
+		<name>ちいさな森</name>
+		<title1>ゆめしま 「ちいさな森」</title1>
+		<title2>ゆめしまについた。ちいさな森をすすむことにした。</title2>
+	</template>
+	<template id="4" shadow="true">
+		<name>かがやく海</name>
+		<title1>ゆめしま 「かがやく海」</title1>
+		<title2>ゆめしまについた。かがやく海をすすむことにした。</title2>
+	</template>
+	<template id="5" shadow="false">
+		<name>ひらけた空</name>
+		<title1>ゆめしま 「ひらけた空」</title1>
+		<title2>ゆめしまについた。ひらけた空をすすむことにした。</title2>
+	</template>
+	</data>
+</xml>

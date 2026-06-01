@@ -1,0 +1,140 @@
+/*the Biginning Cup css*/
+#biginning201208
+{
+	font-size:14px;
+	font-family:sans-serif;
+}
+#biginning201208 a{outline:none;}
+#biginning201208 a:hover{text-decoration: none;}
+
+
+#biginning201208 .alt{
+	visibility:hidden;
+	position:absolute;
+	top:-15000px;
+	left:-15000px;
+	width:1px;
+	display:none;
+	/*?*/
+	display:block;
+	/**/
+	}
+
+#biginning201208 .clearfix:after{
+    content:"."; 
+    display:block; 
+    height:0; 
+    clear:both; 
+    visibility:hidden;
+	}
+	#biginning201208 .clearfix{display:inline-block;}
+	/* Hides from IE-mac ?*/
+	* html #biginning201208 .clearfix{height:1%;}
+	#biginning201208 .clearfix{display:block;}
+	/* End hide from IE-mac */
+
+#biginning201208 #wifimenu{background:url(img/parts.png) no-repeat 0 0; height:61px; width:1003px; position:relative; margin:0; padding:0; text-align:left;}
+#biginning201208 #wifimenu li,#wifimenu li a{position:absolute; text-indent:-50000px; list-style:none;}
+#biginning201208 #wifimenu li.m01 a{
+	display: block;
+	width: 126px;
+	height: 36px;
+	top: 15px;
+	left: 58px;
+}
+#biginning201208 #wifimenu li.m02 a{
+	display: block;
+	width: 115px;
+	height: 36px;
+	top: 15px;
+	left: 208px
+}
+#biginning201208 #wifimenu li.m03 a{
+	display: block;
+	width: 115px;
+	height: 36px;
+	top: 15px;
+	left: 348px
+}
+#biginning201208 #wifimenu li.m04 a{
+	display: block;
+	width: 223px;
+	height: 44px;
+	top: 8px;
+	left: 496px
+}
+#biginning201208 #wifimenu li.m05 a{
+	display: block;
+	width: 223px;
+	height: 43px;
+	top: 9px;
+	left: 729px
+}
+
+#biginning201208 #wifimenu li a:hover{
+filter: alpha(opacity=60);
+background:#ffe100;
+opacity:0.6;}
+
+#biginning201208 a:hover.alphaImg{
+filter: alpha(opacity=60);
+opacity:0.6;}
+
+
+#biginning201208 h2,#biginning201208 h3,#biginning201208 p{ padding:0; margin:0; font-size:12px; text-align:left;
+	line-height:1.5;}
+
+
+#biginning201208 .f12{ font-size:12px;}
+#biginning201208 .orang{color:#F60;}
+
+#biginning201208{background: url(img/bg.png) 0 0 #000; width:1003px; padding-bottom:40px; margin: 0 auto;font:12px;}
+#biginning201208 h1{background:url(img/main_title.jpg) no-repeat; height:466px; padding:0; margin:0;}
+
+#biginning201208 div.unit{width:853px; margin: 0 auto 20px;}
+#biginning201208 .unit .innerBG{background: url(img/bg_ta.png) #fff repeat-y; padding-bottom:10px;}
+
+#biginning201208 table.spectable{ width:100%;}
+#biginning201208 table.spectable th{ background:#efebeb; padding:15px; border-bottom: dotted 1px #c6c1c0;}
+#biginning201208 table.spectable td{text-align:left; font-size:14px; padding:15px;border-bottom: dotted 1px #c6c1c0;}
+
+
+
+#biginning201208 div.rule h2{background: url(img/parts.png) no-repeat 0 -74px; height:52px; text-indent:-5000px;}
+#biginning201208 div.shikaku h2{background: url(img/parts.png) no-repeat 0 -133px; height:52px; text-indent:-5000px;}
+#biginning201208 div.about h2{background: url(img/parts.png) no-repeat 0 -193px; height:52px; text-indent:-5000px;}
+
+#biginning201208 table th{border-left: solid 3px #ffe100;}
+#biginning201208 div.rule table.tb01 .t1 span{background:url(img/parts.png) no-repeat -548px -280px; text-indent:-5000px; width:174px; height:23px; display:block;}
+#biginning201208 div.rule table.tb01 .t2 span{background:url(img/parts.png) no-repeat -548px -311px; text-indent:-5000px; width:174px; height:23px; display:block;}
+#biginning201208 div.rule table.tb01 td{background:url(img/bg_yj.png) no-repeat left center; padding: 15px 10px 15px 30px;}
+#biginning201208 div.unit a.btn01{background:url(img/parts.png) no-repeat 0 -276px; text-indent:-5000px; width:514px; height:43px; display:block; margin: 20px auto 0;}
+#biginning201208 div.unit .f{background:url(img/parts.png) 0 -251px no-repeat; height:15px;}
+
+#biginning201208 .shikaku ul{ text-align:left; padding: 20px 30px 0; margin:0;}
+#biginning201208 .shikaku li{padding-bottom:15px; font-size:14px; list-style: inside circle;}
+#biginning201208 div.unit a.btn02{background:url(img/parts.png) no-repeat 0 -325px; text-indent:-5000px; width:514px; height:43px; display:block; margin: 20px auto 0;}
+
+#biginning201208 div.about table.tb01 .t1 span{background:url(img/parts.png) no-repeat -548px -344px; text-indent:-5000px; width:174px; height:23px; display:block;}
+#biginning201208 div.about table.tb01 .t2 span{background:url(img/parts.png) no-repeat -548px -377px; text-indent:-5000px; width:174px; height:23px; display:block;}
+#biginning201208 div.about table.tb01 .t3 span{background:url(img/parts.png) no-repeat -548px -409px; text-indent:-5000px; width:174px; height:23px; display:block;}
+#biginning201208 div.about table.tb01 .t4 span{background:url(img/parts.png) no-repeat -757px -280px; text-indent:-5000px; width:174px; height:23px; display:block;}
+#biginning201208 div.about table.tb01 .t5 span{background:url(img/parts.png) no-repeat -757px -311px; text-indent:-5000px; width:174px; height:23px; display:block;}
+#biginning201208 div.about table.tb01 .t6 span{background:url(img/parts.png) no-repeat -757px -344px; text-indent:-5000px; width:174px; height:23px; display:block;}
+
+#biginning201208 .otoiawase{background: #fff; padding: 30px 0; }
+#biginning201208 .otoiawase h2{background:url(img/otoiawase.png) no-repeat 0 0; width:854px; height:47px;text-indent:-5000px;}
+#biginning201208 .otoiawase .otoiawasebtn01{background:url(img/otoiawase.png) no-repeat 0 -56px; width:308px; height:56px; display:block; float:left; margin-right:15px; text-indent:-5000px;}
+#biginning201208 .otoiawase .otoiawasebtn02{background:url(img/otoiawase.png) no-repeat -314px -56px; width:308px; height:56px; display:block; float:left; text-indent:-5000px;}
+#biginning201208 .otoiawase .otoiawasebtn03{background:url(img/otoiawase.png) no-repeat -640px -69px; width:160px; height:24px; display:block; margin: 0 auto; text-indent:-5000px;}
+#biginning201208 .otoiawase .otoiawasebtn04{background:url(img/otoiawase.png) no-repeat 0px -123px; width:308px; height:36px; display:block; margin: 0 auto; text-indent:-5000px;}
+
+#biginning201208 .otoiawase div.otoiawasebtn{padding: 20px 0 10px 110px; text-align:center;}
+#biginning201208 .otoiawase p{ padding: 10px; text-align:center;}
+
+#biginning201208 .pagetop{ text-align:right;}
+#biginning201208 .pagetop a{display:block; background:url(img/parts.png) -868px -206px; width:125px; height:23px; margin: 0 0 0 auto;text-indent:-5000px; text-align:left;}
+
+#footer{
+text-align:left;
+}

@@ -1,0 +1,63 @@
+
+.hide {
+    color: #ffffff;
+}
+
+/************************************************************************************
+ * for flash player download
+ *************************************************************************************/
+
+#flash-download-01 {
+    background-repeat: no-repeat;
+    background-image: url("/www.pokemon-gl.com/img/pdc/download_01.jpg");
+    width: 1003px;
+    height: 414px;
+}
+
+#flash-download-02 {
+    float: left;
+    background-repeat: no-repeat;
+    background-image: url("/www.pokemon-gl.com/img/pdc/download_02.jpg");
+    width: 409px;
+    height: 156px;
+}
+
+#flash-download-03 {
+    float: left;
+    width: 186px;
+    height: 61px;
+}
+
+#flash-download-03 a {
+    display: block;
+    background-repeat: no-repeat;
+    background-image: url("/www.pokemon-gl.com/img/pdc/download_03.jpg");
+    width: 186px;
+    height: 61px;
+    background-position: 0 0;
+    text-indent: -9999px;
+}
+
+#flash-download-03 a:hover {
+    background-position: 0 -61px;
+    background-image: url("/www.pokemon-gl.com/img/pdc/download_03.jpg") 0 -61px;
+    width: 186px;
+    height: 61px;
+}
+
+#flash-download-04 {
+    float: right;
+    background-repeat: no-repeat;
+    background-image: url("/www.pokemon-gl.com/img/pdc/download_04.jpg");
+    width: 408px;
+    height: 156px;
+}
+
+#flash-download-05 {
+    float: left;
+    background-repeat: no-repeat;
+    background-image: url("/www.pokemon-gl.com/img/pdc/download_05.jpg");
+    width: 186px;
+    height: 95px;
+}
+

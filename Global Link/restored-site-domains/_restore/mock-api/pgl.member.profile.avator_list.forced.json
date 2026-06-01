@@ -1,0 +1,10 @@
+{
+  "mock": true,
+  "status": "forced-local-avatar-list",
+  "avator_list": [
+    {
+      "avator_id": 1,
+      "avator_name": "Offline Trainer"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+
+/* issue:0001153 */
+[class*="type"]{
+	width:48px;
+	height:17px;
+	padding-top:2px;
+	color:#fff;
+	font-size:10px!important;
+	line-height:17px;
+	text-align:center;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	display:inline-block;
+	margin-right:5px;
+	vertical-align:top;
+	white-space:nowrap;
+}
+
+/*ポケモンタイプ*/
+.typeNormal   { background-color:#B2AC8C;}
+.typeFighting { background-color:#934538;}
+.typeFire     { background-color:#F45C19;}
+.typeIce      { background-color:#4CACC2;}
+.typeElectric { background-color:#EAA317;}
+.typeFlying   { background-color:#7E9ECF;}
+.typeGrass    { background-color:#04A641;}
+.typeGround   { background-color:#967344;}
+.typePoison   { background-color:#8F5B98;}
+.typeBug      { background-color:#989001;}
+.typeDark     { background-color:#7A0049;}
+.typeWater    { background-color:#4392D5;}
+.typePsychic  { background-color:#D7738D;}
+.typeDragon   { background-color:#625EB3;}
+.typeRock     { background-color:#878052;}
+.typeGhost    { background-color:#5563A4;}
+.typeSteel    { background-color:#999999;}
+.typeF        { background-color:#FFBBFF;}
+.typeNone     { background-color:none;}
+
+span[class*="type"]{letter-spacing:-0.1em;}
+span.typeF{ letter-spacing:-0.19em !important;}

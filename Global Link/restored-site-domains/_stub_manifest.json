@@ -1,0 +1,1444 @@
+{
+  "generated_at": "2026-05-02T01:32:34.099444+00:00",
+  "stub_count": 111,
+  "stubs": [
+    {
+      "path": "3ds.pokemon-gl.com/support/1/wp-content/themes/pgl-support/js/base.js",
+      "web_path": "/3ds.pokemon-gl.com/support/1/wp-content/themes/pgl-support/js/base.js",
+      "scope": "",
+      "kind": "script",
+      "stub_type": "generated-js",
+      "referrers": [],
+      "source_links": [],
+      "status": "preexisting_or_detected"
+    },
+    {
+      "path": "3ds.pokemon-gl.com/support/1/wp-content/themes/pgl-support/js/menu.js",
+      "web_path": "/3ds.pokemon-gl.com/support/1/wp-content/themes/pgl-support/js/menu.js",
+      "scope": "",
+      "kind": "script",
+      "stub_type": "generated-js",
+      "referrers": [],
+      "source_links": [],
+      "status": "preexisting_or_detected"
+    },
+    {
+      "path": "3ds.pokemon-gl.com/support/1/wp-content/themes/pgl-support/js/util.js",
+      "web_path": "/3ds.pokemon-gl.com/support/1/wp-content/themes/pgl-support/js/util.js",
+      "scope": "",
+      "kind": "script",
+      "stub_type": "generated-js",
+      "referrers": [],
+      "source_links": [],
+      "status": "preexisting_or_detected"
+    },
+    {
+      "path": "3ds.pokemon-gl.com/support/2/wp-content/themes/pgl-support/js/base.js",
+      "web_path": "/3ds.pokemon-gl.com/support/2/wp-content/themes/pgl-support/js/base.js",
+      "scope": "",
+      "kind": "script",
+      "stub_type": "generated-js",
+      "referrers": [],
+      "source_links": [],
+      "status": "preexisting_or_detected"
+    },
+    {
+      "path": "3ds.pokemon-gl.com/support/2/wp-content/themes/pgl-support/js/menu.js",
+      "web_path": "/3ds.pokemon-gl.com/support/2/wp-content/themes/pgl-support/js/menu.js",
+      "scope": "",
+      "kind": "script",
+      "stub_type": "generated-js",
+      "referrers": [],
+      "source_links": [],
+      "status": "preexisting_or_detected"
+    },
+    {
+      "path": "3ds.pokemon-gl.com/support/2/wp-content/themes/pgl-support/js/util.js",
+      "web_path": "/3ds.pokemon-gl.com/support/2/wp-content/themes/pgl-support/js/util.js",
+      "scope": "",
+      "kind": "script",
+      "stub_type": "generated-js",
+      "referrers": [],
+      "source_links": [],
+      "status": "preexisting_or_detected"
+    },
+    {
+      "path": "3ds.pokemon-gl.com/under_maintenance/share/js/share.base.js",
+      "web_path": "/3ds.pokemon-gl.com/under_maintenance/share/js/share.base.js",
+      "scope": "",
+      "kind": "script",
+      "stub_type": "generated-js",
+      "referrers": [],
+      "source_links": [],
+      "status": "preexisting_or_detected"
+    },
+    {
+      "path": "3ds.pokemon-gl.com/under_maintenance/share/js/share.date.js",
+      "web_path": "/3ds.pokemon-gl.com/under_maintenance/share/js/share.date.js",
+      "scope": "",
+      "kind": "script",
+      "stub_type": "generated-js",
+      "referrers": [],
+      "source_links": [],
+      "status": "preexisting_or_detected"
+    },
+    {
+      "path": "3ds.pokemon-gl.com/under_maintenance/share/js/share.model.api.js",
+      "web_path": "/3ds.pokemon-gl.com/under_maintenance/share/js/share.model.api.js",
+      "scope": "",
+      "kind": "script",
+      "stub_type": "generated-js",
+      "referrers": [],
+      "source_links": [],
+      "status": "preexisting_or_detected"
+    },
+    {
+      "path": "3ds.pokemon-gl.com/under_maintenance/share/js/share.model.error.js",
+      "web_path": "/3ds.pokemon-gl.com/under_maintenance/share/js/share.model.error.js",
+      "scope": "",
+      "kind": "script",
+      "stub_type": "generated-js",
+      "referrers": [],
+      "source_links": [],
+      "status": "preexisting_or_detected"
+    },
+    {
+      "path": "3ds.pokemon-gl.com/under_maintenance/share/js/share.model.text.js",
+      "web_path": "/3ds.pokemon-gl.com/under_maintenance/share/js/share.model.text.js",
+      "scope": "",
+      "kind": "script",
+      "stub_type": "generated-js",
+      "referrers": [],
+      "source_links": [],
+      "status": "preexisting_or_detected"
+    },
+    {
+      "path": "3ds.pokemon-gl.com/under_maintenance/share/js/share.standalone.js",
+      "web_path": "/3ds.pokemon-gl.com/under_maintenance/share/js/share.standalone.js",
+      "scope": "",
+      "kind": "script",
+      "stub_type": "generated-js",
+      "referrers": [],
+      "source_links": [],
+      "status": "preexisting_or_detected"
+    },
+    {
+      "path": "cdn.pokemon-gl.com/src/swf/report/css/report.css",
+      "web_path": "/cdn.pokemon-gl.com/src/swf/report/css/report.css",
+      "scope": "",
+      "referrers": [],
+      "source_links": [
+        "/report/css/report.css"
+      ],
+      "status": "created_this_run",
+      "kind": "style",
+      "stub_type": "generated-report-css-fallback",
+      "source": "generated:report-css-fallback"
+    },
+    {
+      "path": "cdn.pokemon-gl.com/src/swf/report/de/lang.css",
+      "web_path": "/cdn.pokemon-gl.com/src/swf/report/de/lang.css",
+      "scope": "",
+      "referrers": [],
+      "source_links": [
+        "/report/de/lang.css"
+      ],
+      "status": "created_this_run",
+      "kind": "style",
+      "stub_type": "generated-report-lang-css-fallback",
+      "source": "generated:report-lang-css-fallback:de"
+    },
+    {
+      "path": "cdn.pokemon-gl.com/src/swf/report/en/lang.css",
+      "web_path": "/cdn.pokemon-gl.com/src/swf/report/en/lang.css",
+      "scope": "",
+      "referrers": [],
+      "source_links": [
+        "/report/en/lang.css"
+      ],
+      "status": "created_this_run",
+      "kind": "style",
+      "stub_type": "generated-report-lang-css-fallback",
+      "source": "generated:report-lang-css-fallback:en"
+    },
+    {
+      "path": "cdn.pokemon-gl.com/src/swf/report/es/lang.css",
+      "web_path": "/cdn.pokemon-gl.com/src/swf/report/es/lang.css",
+      "scope": "",
+      "referrers": [],
+      "source_links": [
+        "/report/es/lang.css"
+      ],
+      "status": "created_this_run",
+      "kind": "style",
+      "stub_type": "generated-report-lang-css-fallback",
+      "source": "generated:report-lang-css-fallback:es"
+    },
+    {
+      "path": "cdn.pokemon-gl.com/src/swf/report/fr/lang.css",
+      "web_path": "/cdn.pokemon-gl.com/src/swf/report/fr/lang.css",
+      "scope": "",
+      "referrers": [],
+      "source_links": [
+        "/report/fr/lang.css"
+      ],
+      "status": "created_this_run",
+      "kind": "style",
+      "stub_type": "generated-report-lang-css-fallback",
+      "source": "generated:report-lang-css-fallback:fr"
+    },
+    {
+      "path": "cdn.pokemon-gl.com/src/swf/report/it/lang.css",
+      "web_path": "/cdn.pokemon-gl.com/src/swf/report/it/lang.css",
+      "scope": "",
+      "referrers": [],
+      "source_links": [
+        "/report/it/lang.css"
+      ],
+      "status": "created_this_run",
+      "kind": "style",
+      "stub_type": "generated-report-lang-css-fallback",
+      "source": "generated:report-lang-css-fallback:it"
+    },
+    {
+      "path": "cdn.pokemon-gl.com/src/swf/report/ja/lang.css",
+      "web_path": "/cdn.pokemon-gl.com/src/swf/report/ja/lang.css",
+      "scope": "",
+      "referrers": [],
+      "source_links": [
+        "/report/ja/lang.css"
+      ],
+      "status": "created_this_run",
+      "kind": "style",
+      "stub_type": "generated-report-lang-css-fallback",
+      "source": "generated:report-lang-css-fallback:ja"
+    },
+    {
+      "path": "cdn.pokemon-gl.com/src/swf/report/ko/lang.css",
+      "web_path": "/cdn.pokemon-gl.com/src/swf/report/ko/lang.css",
+      "scope": "",
+      "referrers": [],
+      "source_links": [
+        "/report/ko/lang.css"
+      ],
+      "status": "created_this_run",
+      "kind": "style",
+      "stub_type": "generated-report-lang-css-fallback",
+      "source": "generated:report-lang-css-fallback:ko"
+    },
+    {
+      "path": "cdn2.pokemon-gl.com/src/swf/report/css/report.css",
+      "web_path": "/cdn2.pokemon-gl.com/src/swf/report/css/report.css",
+      "scope": "",
+      "referrers": [],
+      "source_links": [
+        "/report/css/report.css"
+      ],
+      "status": "created_this_run",
+      "kind": "style",
+      "stub_type": "generated-report-css-fallback",
+      "source": "generated:report-css-fallback"
+    },
+    {
+      "path": "cdn2.pokemon-gl.com/src/swf/report/de/lang.css",
+      "web_path": "/cdn2.pokemon-gl.com/src/swf/report/de/lang.css",
+      "scope": "",
+      "referrers": [],
+      "source_links": [
+        "/report/de/lang.css"
+      ],
+      "status": "created_this_run",
+      "kind": "style",
+      "stub_type": "generated-report-lang-css-fallback",
+      "source": "generated:report-lang-css-fallback:de"
+    },
+    {
+      "path": "cdn2.pokemon-gl.com/src/swf/report/en/lang.css",
+      "web_path": "/cdn2.pokemon-gl.com/src/swf/report/en/lang.css",
+      "scope": "",
+      "referrers": [],
+      "source_links": [
+        "/report/en/lang.css"
+      ],
+      "status": "created_this_run",
+      "kind": "style",
+      "stub_type": "generated-report-lang-css-fallback",
+      "source": "generated:report-lang-css-fallback:en"
+    },
+    {
+      "path": "cdn2.pokemon-gl.com/src/swf/report/es/lang.css",
+      "web_path": "/cdn2.pokemon-gl.com/src/swf/report/es/lang.css",
+      "scope": "",
+      "referrers": [],
+      "source_links": [
+        "/report/es/lang.css"
+      ],
+      "status": "created_this_run",
+      "kind": "style",
+      "stub_type": "generated-report-lang-css-fallback",
+      "source": "generated:report-lang-css-fallback:es"
+    },
+    {
+      "path": "cdn2.pokemon-gl.com/src/swf/report/fr/lang.css",
+      "web_path": "/cdn2.pokemon-gl.com/src/swf/report/fr/lang.css",
+      "scope": "",
+      "referrers": [],
+      "source_links": [
+        "/report/fr/lang.css"
+      ],
+      "status": "created_this_run",
+      "kind": "style",
+      "stub_type": "generated-report-lang-css-fallback",
+      "source": "generated:report-lang-css-fallback:fr"
+    },
+    {
+      "path": "cdn2.pokemon-gl.com/src/swf/report/it/lang.css",
+      "web_path": "/cdn2.pokemon-gl.com/src/swf/report/it/lang.css",
+      "scope": "",
+      "referrers": [],
+      "source_links": [
+        "/report/it/lang.css"
+      ],
+      "status": "created_this_run",
+      "kind": "style",
+      "stub_type": "generated-report-lang-css-fallback",
+      "source": "generated:report-lang-css-fallback:it"
+    },
+    {
+      "path": "cdn2.pokemon-gl.com/src/swf/report/ja/lang.css",
+      "web_path": "/cdn2.pokemon-gl.com/src/swf/report/ja/lang.css",
+      "scope": "",
+      "referrers": [],
+      "source_links": [
+        "/report/ja/lang.css"
+      ],
+      "status": "created_this_run",
+      "kind": "style",
+      "stub_type": "generated-report-lang-css-fallback",
+      "source": "generated:report-lang-css-fallback:ja"
+    },
+    {
+      "path": "cdn2.pokemon-gl.com/src/swf/report/ko/lang.css",
+      "web_path": "/cdn2.pokemon-gl.com/src/swf/report/ko/lang.css",
+      "scope": "",
+      "referrers": [],
+      "source_links": [
+        "/report/ko/lang.css"
+      ],
+      "status": "created_this_run",
+      "kind": "style",
+      "stub_type": "generated-report-lang-css-fallback",
+      "source": "generated:report-lang-css-fallback:ko"
+    },
+    {
+      "path": "de.pokemon-gl.com/help/assets/js/help.js",
+      "web_path": "/de.pokemon-gl.com/help/assets/js/help.js",
+      "scope": "",
+      "kind": "script",
+      "stub_type": "generated-js",
+      "referrers": [],
+      "source_links": [],
+      "status": "preexisting_or_detected"
+    },
+    {
+      "path": "de.pokemon-gl.com/src/swf/report/css/report.css",
+      "web_path": "/de.pokemon-gl.com/src/swf/report/css/report.css",
+      "scope": "",
+      "referrers": [
+        "de.pokemon-gl.com/report/index.html"
+      ],
+      "source_links": [
+        "/report/css/report.css"
+      ],
+      "status": "created_this_run",
+      "kind": "style",
+      "stub_type": "generated-report-css-fallback",
+      "source": "generated:report-css-fallback"
+    },
+    {
+      "path": "de.pokemon-gl.com/src/swf/report/de/lang.css",
+      "web_path": "/de.pokemon-gl.com/src/swf/report/de/lang.css",
+      "scope": "",
+      "referrers": [
+        "de.pokemon-gl.com/report/index.html"
+      ],
+      "source_links": [
+        "/report/de/lang.css"
+      ],
+      "status": "created_this_run",
+      "kind": "style",
+      "stub_type": "generated-report-lang-css-fallback",
+      "source": "generated:report-lang-css-fallback:de"
+    },
+    {
+      "path": "de.pokemon-gl.com/src/swf/report/en/lang.css",
+      "web_path": "/de.pokemon-gl.com/src/swf/report/en/lang.css",
+      "scope": "",
+      "referrers": [
+        "de.pokemon-gl.com/report/index.html"
+      ],
+      "source_links": [
+        "/report/en/lang.css"
+      ],
+      "status": "created_this_run",
+      "kind": "style",
+      "stub_type": "generated-report-lang-css-fallback",
+      "source": "generated:report-lang-css-fallback:en"
+    },
+    {
+      "path": "de.pokemon-gl.com/src/swf/report/es/lang.css",
+      "web_path": "/de.pokemon-gl.com/src/swf/report/es/lang.css",
+      "scope": "",
+      "referrers": [
+        "de.pokemon-gl.com/report/index.html"
+      ],
+      "source_links": [
+        "/report/es/lang.css"
+      ],
+      "status": "created_this_run",
+      "kind": "style",
+      "stub_type": "generated-report-lang-css-fallback",
+      "source": "generated:report-lang-css-fallback:es"
+    },
+    {
+      "path": "de.pokemon-gl.com/src/swf/report/fr/lang.css",
+      "web_path": "/de.pokemon-gl.com/src/swf/report/fr/lang.css",
+      "scope": "",
+      "referrers": [
+        "de.pokemon-gl.com/report/index.html"
+      ],
+      "source_links": [
+        "/report/fr/lang.css"
+      ],
+      "status": "created_this_run",
+      "kind": "style",
+      "stub_type": "generated-report-lang-css-fallback",
+      "source": "generated:report-lang-css-fallback:fr"
+    },
+    {
+      "path": "de.pokemon-gl.com/src/swf/report/it/lang.css",
+      "web_path": "/de.pokemon-gl.com/src/swf/report/it/lang.css",
+      "scope": "",
+      "referrers": [
+        "de.pokemon-gl.com/report/index.html"
+      ],
+      "source_links": [
+        "/report/it/lang.css"
+      ],
+      "status": "created_this_run",
+      "kind": "style",
+      "stub_type": "generated-report-lang-css-fallback",
+      "source": "generated:report-lang-css-fallback:it"
+    },
+    {
+      "path": "de.pokemon-gl.com/src/swf/report/ja/lang.css",
+      "web_path": "/de.pokemon-gl.com/src/swf/report/ja/lang.css",
+      "scope": "",
+      "referrers": [
+        "de.pokemon-gl.com/report/index.html"
+      ],
+      "source_links": [
+        "/report/ja/lang.css"
+      ],
+      "status": "created_this_run",
+      "kind": "style",
+      "stub_type": "generated-report-lang-css-fallback",
+      "source": "generated:report-lang-css-fallback:ja"
+    },
+    {
+      "path": "de.pokemon-gl.com/src/swf/report/ko/lang.css",
+      "web_path": "/de.pokemon-gl.com/src/swf/report/ko/lang.css",
+      "scope": "",
+      "referrers": [
+        "de.pokemon-gl.com/report/index.html"
+      ],
+      "source_links": [
+        "/report/ko/lang.css"
+      ],
+      "status": "created_this_run",
+      "kind": "style",
+      "stub_type": "generated-report-lang-css-fallback",
+      "source": "generated:report-lang-css-fallback:ko"
+    },
+    {
+      "path": "de.pokemon-gl.com/support/help/custom/assets/js/help.js",
+      "web_path": "/de.pokemon-gl.com/support/help/custom/assets/js/help.js",
+      "scope": "",
+      "kind": "script",
+      "stub_type": "generated-js",
+      "referrers": [],
+      "source_links": [],
+      "status": "preexisting_or_detected"
+    },
+    {
+      "path": "de.pokemon-gl.com/support/help/report/assets/js/help.js",
+      "web_path": "/de.pokemon-gl.com/support/help/report/assets/js/help.js",
+      "scope": "",
+      "kind": "script",
+      "stub_type": "generated-js",
+      "referrers": [],
+      "source_links": [],
+      "status": "preexisting_or_detected"
+    },
+    {
+      "path": "en.pokemon-gl.com/help/assets/js/help.js",
+      "web_path": "/en.pokemon-gl.com/help/assets/js/help.js",
+      "scope": "",
+      "kind": "script",
+      "stub_type": "generated-js",
+      "referrers": [],
+      "source_links": [],
+      "status": "preexisting_or_detected"
+    },
+    {
+      "path": "en.pokemon-gl.com/src/swf/report/css/report.css",
+      "web_path": "/en.pokemon-gl.com/src/swf/report/css/report.css",
+      "scope": "",
+      "referrers": [
+        "en.pokemon-gl.com/report/index.html"
+      ],
+      "source_links": [
+        "/report/css/report.css"
+      ],
+      "status": "created_this_run",
+      "kind": "style",
+      "stub_type": "generated-report-css-fallback",
+      "source": "generated:report-css-fallback"
+    },
+    {
+      "path": "en.pokemon-gl.com/src/swf/report/de/lang.css",
+      "web_path": "/en.pokemon-gl.com/src/swf/report/de/lang.css",
+      "scope": "",
+      "referrers": [
+        "en.pokemon-gl.com/report/index.html"
+      ],
+      "source_links": [
+        "/report/de/lang.css"
+      ],
+      "status": "created_this_run",
+      "kind": "style",
+      "stub_type": "generated-report-lang-css-fallback",
+      "source": "generated:report-lang-css-fallback:de"
+    },
+    {
+      "path": "en.pokemon-gl.com/src/swf/report/en/lang.css",
+      "web_path": "/en.pokemon-gl.com/src/swf/report/en/lang.css",
+      "scope": "",
+      "referrers": [
+        "en.pokemon-gl.com/report/index.html"
+      ],
+      "source_links": [
+        "/report/en/lang.css"
+      ],
+      "status": "created_this_run",
+      "kind": "style",
+      "stub_type": "generated-report-lang-css-fallback",
+      "source": "generated:report-lang-css-fallback:en"
+    },
+    {
+      "path": "en.pokemon-gl.com/src/swf/report/es/lang.css",
+      "web_path": "/en.pokemon-gl.com/src/swf/report/es/lang.css",
+      "scope": "",
+      "referrers": [
+        "en.pokemon-gl.com/report/index.html"
+      ],
+      "source_links": [
+        "/report/es/lang.css"
+      ],
+      "status": "created_this_run",
+      "kind": "style",
+      "stub_type": "generated-report-lang-css-fallback",
+      "source": "generated:report-lang-css-fallback:es"
+    },
+    {
+      "path": "en.pokemon-gl.com/src/swf/report/fr/lang.css",
+      "web_path": "/en.pokemon-gl.com/src/swf/report/fr/lang.css",
+      "scope": "",
+      "referrers": [
+        "en.pokemon-gl.com/report/index.html"
+      ],
+      "source_links": [
+        "/report/fr/lang.css"
+      ],
+      "status": "created_this_run",
+      "kind": "style",
+      "stub_type": "generated-report-lang-css-fallback",
+      "source": "generated:report-lang-css-fallback:fr"
+    },
+    {
+      "path": "en.pokemon-gl.com/src/swf/report/it/lang.css",
+      "web_path": "/en.pokemon-gl.com/src/swf/report/it/lang.css",
+      "scope": "",
+      "referrers": [
+        "en.pokemon-gl.com/report/index.html"
+      ],
+      "source_links": [
+        "/report/it/lang.css"
+      ],
+      "status": "created_this_run",
+      "kind": "style",
+      "stub_type": "generated-report-lang-css-fallback",
+      "source": "generated:report-lang-css-fallback:it"
+    },
+    {
+      "path": "en.pokemon-gl.com/src/swf/report/ja/lang.css",
+      "web_path": "/en.pokemon-gl.com/src/swf/report/ja/lang.css",
+      "scope": "",
+      "referrers": [
+        "en.pokemon-gl.com/report/index.html"
+      ],
+      "source_links": [
+        "/report/ja/lang.css"
+      ],
+      "status": "created_this_run",
+      "kind": "style",
+      "stub_type": "generated-report-lang-css-fallback",
+      "source": "generated:report-lang-css-fallback:ja"
+    },
+    {
+      "path": "en.pokemon-gl.com/src/swf/report/ko/lang.css",
+      "web_path": "/en.pokemon-gl.com/src/swf/report/ko/lang.css",
+      "scope": "",
+      "referrers": [
+        "en.pokemon-gl.com/report/index.html"
+      ],
+      "source_links": [
+        "/report/ko/lang.css"
+      ],
+      "status": "created_this_run",
+      "kind": "style",
+      "stub_type": "generated-report-lang-css-fallback",
+      "source": "generated:report-lang-css-fallback:ko"
+    },
+    {
+      "path": "en.pokemon-gl.com/support/help/custom/assets/js/help.js",
+      "web_path": "/en.pokemon-gl.com/support/help/custom/assets/js/help.js",
+      "scope": "",
+      "kind": "script",
+      "stub_type": "generated-js",
+      "referrers": [],
+      "source_links": [],
+      "status": "preexisting_or_detected"
+    },
+    {
+      "path": "en.pokemon-gl.com/support/help/report/assets/js/help.js",
+      "web_path": "/en.pokemon-gl.com/support/help/report/assets/js/help.js",
+      "scope": "",
+      "kind": "script",
+      "stub_type": "generated-js",
+      "referrers": [],
+      "source_links": [],
+      "status": "preexisting_or_detected"
+    },
+    {
+      "path": "es.pokemon-gl.com/help/assets/js/help.js",
+      "web_path": "/es.pokemon-gl.com/help/assets/js/help.js",
+      "scope": "",
+      "kind": "script",
+      "stub_type": "generated-js",
+      "referrers": [],
+      "source_links": [],
+      "status": "preexisting_or_detected"
+    },
+    {
+      "path": "es.pokemon-gl.com/src/swf/report/css/report.css",
+      "web_path": "/es.pokemon-gl.com/src/swf/report/css/report.css",
+      "scope": "",
+      "referrers": [
+        "es.pokemon-gl.com/report/index.html"
+      ],
+      "source_links": [
+        "/report/css/report.css"
+      ],
+      "status": "created_this_run",
+      "kind": "style",
+      "stub_type": "generated-report-css-fallback",
+      "source": "generated:report-css-fallback"
+    },
+    {
+      "path": "es.pokemon-gl.com/src/swf/report/de/lang.css",
+      "web_path": "/es.pokemon-gl.com/src/swf/report/de/lang.css",
+      "scope": "",
+      "referrers": [
+        "es.pokemon-gl.com/report/index.html"
+      ],
+      "source_links": [
+        "/report/de/lang.css"
+      ],
+      "status": "created_this_run",
+      "kind": "style",
+      "stub_type": "generated-report-lang-css-fallback",
+      "source": "generated:report-lang-css-fallback:de"
+    },
+    {
+      "path": "es.pokemon-gl.com/src/swf/report/en/lang.css",
+      "web_path": "/es.pokemon-gl.com/src/swf/report/en/lang.css",
+      "scope": "",
+      "referrers": [
+        "es.pokemon-gl.com/report/index.html"
+      ],
+      "source_links": [
+        "/report/en/lang.css"
+      ],
+      "status": "created_this_run",
+      "kind": "style",
+      "stub_type": "generated-report-lang-css-fallback",
+      "source": "generated:report-lang-css-fallback:en"
+    },
+    {
+      "path": "es.pokemon-gl.com/src/swf/report/es/lang.css",
+      "web_path": "/es.pokemon-gl.com/src/swf/report/es/lang.css",
+      "scope": "",
+      "referrers": [
+        "es.pokemon-gl.com/report/index.html"
+      ],
+      "source_links": [
+        "/report/es/lang.css"
+      ],
+      "status": "created_this_run",
+      "kind": "style",
+      "stub_type": "generated-report-lang-css-fallback",
+      "source": "generated:report-lang-css-fallback:es"
+    },
+    {
+      "path": "es.pokemon-gl.com/src/swf/report/fr/lang.css",
+      "web_path": "/es.pokemon-gl.com/src/swf/report/fr/lang.css",
+      "scope": "",
+      "referrers": [
+        "es.pokemon-gl.com/report/index.html"
+      ],
+      "source_links": [
+        "/report/fr/lang.css"
+      ],
+      "status": "created_this_run",
+      "kind": "style",
+      "stub_type": "generated-report-lang-css-fallback",
+      "source": "generated:report-lang-css-fallback:fr"
+    },
+    {
+      "path": "es.pokemon-gl.com/src/swf/report/it/lang.css",
+      "web_path": "/es.pokemon-gl.com/src/swf/report/it/lang.css",
+      "scope": "",
+      "referrers": [
+        "es.pokemon-gl.com/report/index.html"
+      ],
+      "source_links": [
+        "/report/it/lang.css"
+      ],
+      "status": "created_this_run",
+      "kind": "style",
+      "stub_type": "generated-report-lang-css-fallback",
+      "source": "generated:report-lang-css-fallback:it"
+    },
+    {
+      "path": "es.pokemon-gl.com/src/swf/report/ja/lang.css",
+      "web_path": "/es.pokemon-gl.com/src/swf/report/ja/lang.css",
+      "scope": "",
+      "referrers": [
+        "es.pokemon-gl.com/report/index.html"
+      ],
+      "source_links": [
+        "/report/ja/lang.css"
+      ],
+      "status": "created_this_run",
+      "kind": "style",
+      "stub_type": "generated-report-lang-css-fallback",
+      "source": "generated:report-lang-css-fallback:ja"
+    },
+    {
+      "path": "es.pokemon-gl.com/src/swf/report/ko/lang.css",
+      "web_path": "/es.pokemon-gl.com/src/swf/report/ko/lang.css",
+      "scope": "",
+      "referrers": [
+        "es.pokemon-gl.com/report/index.html"
+      ],
+      "source_links": [
+        "/report/ko/lang.css"
+      ],
+      "status": "created_this_run",
+      "kind": "style",
+      "stub_type": "generated-report-lang-css-fallback",
+      "source": "generated:report-lang-css-fallback:ko"
+    },
+    {
+      "path": "es.pokemon-gl.com/support/help/custom/assets/js/help.js",
+      "web_path": "/es.pokemon-gl.com/support/help/custom/assets/js/help.js",
+      "scope": "",
+      "kind": "script",
+      "stub_type": "generated-js",
+      "referrers": [],
+      "source_links": [],
+      "status": "preexisting_or_detected"
+    },
+    {
+      "path": "es.pokemon-gl.com/support/help/report/assets/js/help.js",
+      "web_path": "/es.pokemon-gl.com/support/help/report/assets/js/help.js",
+      "scope": "",
+      "kind": "script",
+      "stub_type": "generated-js",
+      "referrers": [],
+      "source_links": [],
+      "status": "preexisting_or_detected"
+    },
+    {
+      "path": "fr.pokemon-gl.com/help/assets/js/help.js",
+      "web_path": "/fr.pokemon-gl.com/help/assets/js/help.js",
+      "scope": "",
+      "kind": "script",
+      "stub_type": "generated-js",
+      "referrers": [],
+      "source_links": [],
+      "status": "preexisting_or_detected"
+    },
+    {
+      "path": "fr.pokemon-gl.com/src/swf/report/css/report.css",
+      "web_path": "/fr.pokemon-gl.com/src/swf/report/css/report.css",
+      "scope": "",
+      "referrers": [
+        "fr.pokemon-gl.com/report/index.html"
+      ],
+      "source_links": [
+        "/report/css/report.css"
+      ],
+      "status": "created_this_run",
+      "kind": "style",
+      "stub_type": "generated-report-css-fallback",
+      "source": "generated:report-css-fallback"
+    },
+    {
+      "path": "fr.pokemon-gl.com/src/swf/report/de/lang.css",
+      "web_path": "/fr.pokemon-gl.com/src/swf/report/de/lang.css",
+      "scope": "",
+      "referrers": [
+        "fr.pokemon-gl.com/report/index.html"
+      ],
+      "source_links": [
+        "/report/de/lang.css"
+      ],
+      "status": "created_this_run",
+      "kind": "style",
+      "stub_type": "generated-report-lang-css-fallback",
+      "source": "generated:report-lang-css-fallback:de"
+    },
+    {
+      "path": "fr.pokemon-gl.com/src/swf/report/en/lang.css",
+      "web_path": "/fr.pokemon-gl.com/src/swf/report/en/lang.css",
+      "scope": "",
+      "referrers": [
+        "fr.pokemon-gl.com/report/index.html"
+      ],
+      "source_links": [
+        "/report/en/lang.css"
+      ],
+      "status": "created_this_run",
+      "kind": "style",
+      "stub_type": "generated-report-lang-css-fallback",
+      "source": "generated:report-lang-css-fallback:en"
+    },
+    {
+      "path": "fr.pokemon-gl.com/src/swf/report/es/lang.css",
+      "web_path": "/fr.pokemon-gl.com/src/swf/report/es/lang.css",
+      "scope": "",
+      "referrers": [
+        "fr.pokemon-gl.com/report/index.html"
+      ],
+      "source_links": [
+        "/report/es/lang.css"
+      ],
+      "status": "created_this_run",
+      "kind": "style",
+      "stub_type": "generated-report-lang-css-fallback",
+      "source": "generated:report-lang-css-fallback:es"
+    },
+    {
+      "path": "fr.pokemon-gl.com/src/swf/report/fr/lang.css",
+      "web_path": "/fr.pokemon-gl.com/src/swf/report/fr/lang.css",
+      "scope": "",
+      "referrers": [
+        "fr.pokemon-gl.com/report/index.html"
+      ],
+      "source_links": [
+        "/report/fr/lang.css"
+      ],
+      "status": "created_this_run",
+      "kind": "style",
+      "stub_type": "generated-report-lang-css-fallback",
+      "source": "generated:report-lang-css-fallback:fr"
+    },
+    {
+      "path": "fr.pokemon-gl.com/src/swf/report/it/lang.css",
+      "web_path": "/fr.pokemon-gl.com/src/swf/report/it/lang.css",
+      "scope": "",
+      "referrers": [
+        "fr.pokemon-gl.com/report/index.html"
+      ],
+      "source_links": [
+        "/report/it/lang.css"
+      ],
+      "status": "created_this_run",
+      "kind": "style",
+      "stub_type": "generated-report-lang-css-fallback",
+      "source": "generated:report-lang-css-fallback:it"
+    },
+    {
+      "path": "fr.pokemon-gl.com/src/swf/report/ja/lang.css",
+      "web_path": "/fr.pokemon-gl.com/src/swf/report/ja/lang.css",
+      "scope": "",
+      "referrers": [
+        "fr.pokemon-gl.com/report/index.html"
+      ],
+      "source_links": [
+        "/report/ja/lang.css"
+      ],
+      "status": "created_this_run",
+      "kind": "style",
+      "stub_type": "generated-report-lang-css-fallback",
+      "source": "generated:report-lang-css-fallback:ja"
+    },
+    {
+      "path": "fr.pokemon-gl.com/src/swf/report/ko/lang.css",
+      "web_path": "/fr.pokemon-gl.com/src/swf/report/ko/lang.css",
+      "scope": "",
+      "referrers": [
+        "fr.pokemon-gl.com/report/index.html"
+      ],
+      "source_links": [
+        "/report/ko/lang.css"
+      ],
+      "status": "created_this_run",
+      "kind": "style",
+      "stub_type": "generated-report-lang-css-fallback",
+      "source": "generated:report-lang-css-fallback:ko"
+    },
+    {
+      "path": "fr.pokemon-gl.com/support/help/custom/assets/js/help.js",
+      "web_path": "/fr.pokemon-gl.com/support/help/custom/assets/js/help.js",
+      "scope": "",
+      "kind": "script",
+      "stub_type": "generated-js",
+      "referrers": [],
+      "source_links": [],
+      "status": "preexisting_or_detected"
+    },
+    {
+      "path": "fr.pokemon-gl.com/support/help/report/assets/js/help.js",
+      "web_path": "/fr.pokemon-gl.com/support/help/report/assets/js/help.js",
+      "scope": "",
+      "kind": "script",
+      "stub_type": "generated-js",
+      "referrers": [],
+      "source_links": [],
+      "status": "preexisting_or_detected"
+    },
+    {
+      "path": "it.pokemon-gl.com/help/assets/js/help.js",
+      "web_path": "/it.pokemon-gl.com/help/assets/js/help.js",
+      "scope": "",
+      "kind": "script",
+      "stub_type": "generated-js",
+      "referrers": [],
+      "source_links": [],
+      "status": "preexisting_or_detected"
+    },
+    {
+      "path": "it.pokemon-gl.com/src/swf/report/css/report.css",
+      "web_path": "/it.pokemon-gl.com/src/swf/report/css/report.css",
+      "scope": "",
+      "referrers": [
+        "it.pokemon-gl.com/report/index.html"
+      ],
+      "source_links": [
+        "/report/css/report.css"
+      ],
+      "status": "created_this_run",
+      "kind": "style",
+      "stub_type": "generated-report-css-fallback",
+      "source": "generated:report-css-fallback"
+    },
+    {
+      "path": "it.pokemon-gl.com/src/swf/report/de/lang.css",
+      "web_path": "/it.pokemon-gl.com/src/swf/report/de/lang.css",
+      "scope": "",
+      "referrers": [
+        "it.pokemon-gl.com/report/index.html"
+      ],
+      "source_links": [
+        "/report/de/lang.css"
+      ],
+      "status": "created_this_run",
+      "kind": "style",
+      "stub_type": "generated-report-lang-css-fallback",
+      "source": "generated:report-lang-css-fallback:de"
+    },
+    {
+      "path": "it.pokemon-gl.com/src/swf/report/en/lang.css",
+      "web_path": "/it.pokemon-gl.com/src/swf/report/en/lang.css",
+      "scope": "",
+      "referrers": [
+        "it.pokemon-gl.com/report/index.html"
+      ],
+      "source_links": [
+        "/report/en/lang.css"
+      ],
+      "status": "created_this_run",
+      "kind": "style",
+      "stub_type": "generated-report-lang-css-fallback",
+      "source": "generated:report-lang-css-fallback:en"
+    },
+    {
+      "path": "it.pokemon-gl.com/src/swf/report/es/lang.css",
+      "web_path": "/it.pokemon-gl.com/src/swf/report/es/lang.css",
+      "scope": "",
+      "referrers": [
+        "it.pokemon-gl.com/report/index.html"
+      ],
+      "source_links": [
+        "/report/es/lang.css"
+      ],
+      "status": "created_this_run",
+      "kind": "style",
+      "stub_type": "generated-report-lang-css-fallback",
+      "source": "generated:report-lang-css-fallback:es"
+    },
+    {
+      "path": "it.pokemon-gl.com/src/swf/report/fr/lang.css",
+      "web_path": "/it.pokemon-gl.com/src/swf/report/fr/lang.css",
+      "scope": "",
+      "referrers": [
+        "it.pokemon-gl.com/report/index.html"
+      ],
+      "source_links": [
+        "/report/fr/lang.css"
+      ],
+      "status": "created_this_run",
+      "kind": "style",
+      "stub_type": "generated-report-lang-css-fallback",
+      "source": "generated:report-lang-css-fallback:fr"
+    },
+    {
+      "path": "it.pokemon-gl.com/src/swf/report/it/lang.css",
+      "web_path": "/it.pokemon-gl.com/src/swf/report/it/lang.css",
+      "scope": "",
+      "referrers": [
+        "it.pokemon-gl.com/report/index.html"
+      ],
+      "source_links": [
+        "/report/it/lang.css"
+      ],
+      "status": "created_this_run",
+      "kind": "style",
+      "stub_type": "generated-report-lang-css-fallback",
+      "source": "generated:report-lang-css-fallback:it"
+    },
+    {
+      "path": "it.pokemon-gl.com/src/swf/report/ja/lang.css",
+      "web_path": "/it.pokemon-gl.com/src/swf/report/ja/lang.css",
+      "scope": "",
+      "referrers": [
+        "it.pokemon-gl.com/report/index.html"
+      ],
+      "source_links": [
+        "/report/ja/lang.css"
+      ],
+      "status": "created_this_run",
+      "kind": "style",
+      "stub_type": "generated-report-lang-css-fallback",
+      "source": "generated:report-lang-css-fallback:ja"
+    },
+    {
+      "path": "it.pokemon-gl.com/src/swf/report/ko/lang.css",
+      "web_path": "/it.pokemon-gl.com/src/swf/report/ko/lang.css",
+      "scope": "",
+      "referrers": [
+        "it.pokemon-gl.com/report/index.html"
+      ],
+      "source_links": [
+        "/report/ko/lang.css"
+      ],
+      "status": "created_this_run",
+      "kind": "style",
+      "stub_type": "generated-report-lang-css-fallback",
+      "source": "generated:report-lang-css-fallback:ko"
+    },
+    {
+      "path": "it.pokemon-gl.com/support/help/custom/assets/js/help.js",
+      "web_path": "/it.pokemon-gl.com/support/help/custom/assets/js/help.js",
+      "scope": "",
+      "kind": "script",
+      "stub_type": "generated-js",
+      "referrers": [],
+      "source_links": [],
+      "status": "preexisting_or_detected"
+    },
+    {
+      "path": "it.pokemon-gl.com/support/help/report/assets/js/help.js",
+      "web_path": "/it.pokemon-gl.com/support/help/report/assets/js/help.js",
+      "scope": "",
+      "kind": "script",
+      "stub_type": "generated-js",
+      "referrers": [],
+      "source_links": [],
+      "status": "preexisting_or_detected"
+    },
+    {
+      "path": "ja.pokemon-gl.com/about/sp/happy/ja/js/DD_belatedPNG_0.0.8a.js",
+      "web_path": "/ja.pokemon-gl.com/about/sp/happy/ja/js/DD_belatedPNG_0.0.8a.js",
+      "scope": "",
+      "kind": "script",
+      "stub_type": "generated-js",
+      "referrers": [],
+      "source_links": [],
+      "status": "preexisting_or_detected"
+    },
+    {
+      "path": "ja.pokemon-gl.com/help/assets/js/help.js",
+      "web_path": "/ja.pokemon-gl.com/help/assets/js/help.js",
+      "scope": "",
+      "kind": "script",
+      "stub_type": "generated-js",
+      "referrers": [],
+      "source_links": [],
+      "status": "preexisting_or_detected"
+    },
+    {
+      "path": "ja.pokemon-gl.com/src/swf/report/css/report.css",
+      "web_path": "/ja.pokemon-gl.com/src/swf/report/css/report.css",
+      "scope": "",
+      "referrers": [
+        "ja.pokemon-gl.com/report/index.html"
+      ],
+      "source_links": [
+        "/report/css/report.css"
+      ],
+      "status": "created_this_run",
+      "kind": "style",
+      "stub_type": "generated-report-css-fallback",
+      "source": "generated:report-css-fallback"
+    },
+    {
+      "path": "ja.pokemon-gl.com/src/swf/report/de/lang.css",
+      "web_path": "/ja.pokemon-gl.com/src/swf/report/de/lang.css",
+      "scope": "",
+      "referrers": [
+        "ja.pokemon-gl.com/report/index.html"
+      ],
+      "source_links": [
+        "/report/de/lang.css"
+      ],
+      "status": "created_this_run",
+      "kind": "style",
+      "stub_type": "generated-report-lang-css-fallback",
+      "source": "generated:report-lang-css-fallback:de"
+    },
+    {
+      "path": "ja.pokemon-gl.com/src/swf/report/en/lang.css",
+      "web_path": "/ja.pokemon-gl.com/src/swf/report/en/lang.css",
+      "scope": "",
+      "referrers": [
+        "ja.pokemon-gl.com/report/index.html"
+      ],
+      "source_links": [
+        "/report/en/lang.css"
+      ],
+      "status": "created_this_run",
+      "kind": "style",
+      "stub_type": "generated-report-lang-css-fallback",
+      "source": "generated:report-lang-css-fallback:en"
+    },
+    {
+      "path": "ja.pokemon-gl.com/src/swf/report/es/lang.css",
+      "web_path": "/ja.pokemon-gl.com/src/swf/report/es/lang.css",
+      "scope": "",
+      "referrers": [
+        "ja.pokemon-gl.com/report/index.html"
+      ],
+      "source_links": [
+        "/report/es/lang.css"
+      ],
+      "status": "created_this_run",
+      "kind": "style",
+      "stub_type": "generated-report-lang-css-fallback",
+      "source": "generated:report-lang-css-fallback:es"
+    },
+    {
+      "path": "ja.pokemon-gl.com/src/swf/report/fr/lang.css",
+      "web_path": "/ja.pokemon-gl.com/src/swf/report/fr/lang.css",
+      "scope": "",
+      "referrers": [
+        "ja.pokemon-gl.com/report/index.html"
+      ],
+      "source_links": [
+        "/report/fr/lang.css"
+      ],
+      "status": "created_this_run",
+      "kind": "style",
+      "stub_type": "generated-report-lang-css-fallback",
+      "source": "generated:report-lang-css-fallback:fr"
+    },
+    {
+      "path": "ja.pokemon-gl.com/src/swf/report/it/lang.css",
+      "web_path": "/ja.pokemon-gl.com/src/swf/report/it/lang.css",
+      "scope": "",
+      "referrers": [
+        "ja.pokemon-gl.com/report/index.html"
+      ],
+      "source_links": [
+        "/report/it/lang.css"
+      ],
+      "status": "created_this_run",
+      "kind": "style",
+      "stub_type": "generated-report-lang-css-fallback",
+      "source": "generated:report-lang-css-fallback:it"
+    },
+    {
+      "path": "ja.pokemon-gl.com/src/swf/report/ja/lang.css",
+      "web_path": "/ja.pokemon-gl.com/src/swf/report/ja/lang.css",
+      "scope": "",
+      "referrers": [
+        "ja.pokemon-gl.com/report/index.html"
+      ],
+      "source_links": [
+        "/report/ja/lang.css"
+      ],
+      "status": "created_this_run",
+      "kind": "style",
+      "stub_type": "generated-report-lang-css-fallback",
+      "source": "generated:report-lang-css-fallback:ja"
+    },
+    {
+      "path": "ja.pokemon-gl.com/src/swf/report/ko/lang.css",
+      "web_path": "/ja.pokemon-gl.com/src/swf/report/ko/lang.css",
+      "scope": "",
+      "referrers": [
+        "ja.pokemon-gl.com/report/index.html"
+      ],
+      "source_links": [
+        "/report/ko/lang.css"
+      ],
+      "status": "created_this_run",
+      "kind": "style",
+      "stub_type": "generated-report-lang-css-fallback",
+      "source": "generated:report-lang-css-fallback:ko"
+    },
+    {
+      "path": "ja.pokemon-gl.com/support/faq/campaign/assets/js/help.js",
+      "web_path": "/ja.pokemon-gl.com/support/faq/campaign/assets/js/help.js",
+      "scope": "",
+      "kind": "script",
+      "stub_type": "generated-js",
+      "referrers": [],
+      "source_links": [],
+      "status": "preexisting_or_detected"
+    },
+    {
+      "path": "ja.pokemon-gl.com/support/faq/friend/assets/js/help.js",
+      "web_path": "/ja.pokemon-gl.com/support/faq/friend/assets/js/help.js",
+      "scope": "",
+      "kind": "script",
+      "stub_type": "generated-js",
+      "referrers": [],
+      "source_links": [],
+      "status": "preexisting_or_detected"
+    },
+    {
+      "path": "ja.pokemon-gl.com/support/faq/login/assets/js/help.js",
+      "web_path": "/ja.pokemon-gl.com/support/faq/login/assets/js/help.js",
+      "scope": "",
+      "kind": "script",
+      "stub_type": "generated-js",
+      "referrers": [],
+      "source_links": [],
+      "status": "preexisting_or_detected"
+    },
+    {
+      "path": "ja.pokemon-gl.com/support/faq/pgl/assets/js/help.js",
+      "web_path": "/ja.pokemon-gl.com/support/faq/pgl/assets/js/help.js",
+      "scope": "",
+      "kind": "script",
+      "stub_type": "generated-js",
+      "referrers": [],
+      "source_links": [],
+      "status": "preexisting_or_detected"
+    },
+    {
+      "path": "ja.pokemon-gl.com/support/faq/world/assets/js/help.js",
+      "web_path": "/ja.pokemon-gl.com/support/faq/world/assets/js/help.js",
+      "scope": "",
+      "kind": "script",
+      "stub_type": "generated-js",
+      "referrers": [],
+      "source_links": [],
+      "status": "preexisting_or_detected"
+    },
+    {
+      "path": "ja.pokemon-gl.com/support/help/custom/assets/js/help.js",
+      "web_path": "/ja.pokemon-gl.com/support/help/custom/assets/js/help.js",
+      "scope": "",
+      "kind": "script",
+      "stub_type": "generated-js",
+      "referrers": [],
+      "source_links": [],
+      "status": "preexisting_or_detected"
+    },
+    {
+      "path": "ja.pokemon-gl.com/support/help/report/assets/js/help.js",
+      "web_path": "/ja.pokemon-gl.com/support/help/report/assets/js/help.js",
+      "scope": "",
+      "kind": "script",
+      "stub_type": "generated-js",
+      "referrers": [],
+      "source_links": [],
+      "status": "preexisting_or_detected"
+    },
+    {
+      "path": "src/swf/report/css/report.css",
+      "web_path": "/src/swf/report/css/report.css",
+      "scope": "",
+      "referrers": [
+        "report/index.html"
+      ],
+      "source_links": [
+        "/report/css/report.css"
+      ],
+      "status": "created_this_run",
+      "kind": "style",
+      "stub_type": "generated-report-css-fallback",
+      "source": "generated:report-css-fallback"
+    },
+    {
+      "path": "src/swf/report/de/lang.css",
+      "web_path": "/src/swf/report/de/lang.css",
+      "scope": "",
+      "referrers": [
+        "report/index.html"
+      ],
+      "source_links": [
+        "/report/de/lang.css"
+      ],
+      "status": "created_this_run",
+      "kind": "style",
+      "stub_type": "generated-report-lang-css-fallback",
+      "source": "generated:report-lang-css-fallback:de"
+    },
+    {
+      "path": "src/swf/report/en/lang.css",
+      "web_path": "/src/swf/report/en/lang.css",
+      "scope": "",
+      "referrers": [
+        "report/index.html"
+      ],
+      "source_links": [
+        "/report/en/lang.css"
+      ],
+      "status": "created_this_run",
+      "kind": "style",
+      "stub_type": "generated-report-lang-css-fallback",
+      "source": "generated:report-lang-css-fallback:en"
+    },
+    {
+      "path": "src/swf/report/es/lang.css",
+      "web_path": "/src/swf/report/es/lang.css",
+      "scope": "",
+      "referrers": [
+        "report/index.html"
+      ],
+      "source_links": [
+        "/report/es/lang.css"
+      ],
+      "status": "created_this_run",
+      "kind": "style",
+      "stub_type": "generated-report-lang-css-fallback",
+      "source": "generated:report-lang-css-fallback:es"
+    },
+    {
+      "path": "src/swf/report/fr/lang.css",
+      "web_path": "/src/swf/report/fr/lang.css",
+      "scope": "",
+      "referrers": [
+        "report/index.html"
+      ],
+      "source_links": [
+        "/report/fr/lang.css"
+      ],
+      "status": "created_this_run",
+      "kind": "style",
+      "stub_type": "generated-report-lang-css-fallback",
+      "source": "generated:report-lang-css-fallback:fr"
+    },
+    {
+      "path": "src/swf/report/it/lang.css",
+      "web_path": "/src/swf/report/it/lang.css",
+      "scope": "",
+      "referrers": [
+        "report/index.html"
+      ],
+      "source_links": [
+        "/report/it/lang.css"
+      ],
+      "status": "created_this_run",
+      "kind": "style",
+      "stub_type": "generated-report-lang-css-fallback",
+      "source": "generated:report-lang-css-fallback:it"
+    },
+    {
+      "path": "src/swf/report/ja/lang.css",
+      "web_path": "/src/swf/report/ja/lang.css",
+      "scope": "",
+      "referrers": [
+        "report/index.html"
+      ],
+      "source_links": [
+        "/report/ja/lang.css"
+      ],
+      "status": "created_this_run",
+      "kind": "style",
+      "stub_type": "generated-report-lang-css-fallback",
+      "source": "generated:report-lang-css-fallback:ja"
+    },
+    {
+      "path": "src/swf/report/ko/lang.css",
+      "web_path": "/src/swf/report/ko/lang.css",
+      "scope": "",
+      "referrers": [
+        "report/index.html"
+      ],
+      "source_links": [
+        "/report/ko/lang.css"
+      ],
+      "status": "created_this_run",
+      "kind": "style",
+      "stub_type": "generated-report-lang-css-fallback",
+      "source": "generated:report-lang-css-fallback:ko"
+    },
+    {
+      "path": "swf/ja/traffic/js/iepngfix.js",
+      "web_path": "/swf/ja/traffic/js/iepngfix.js",
+      "scope": "",
+      "kind": "script",
+      "stub_type": "generated-js",
+      "referrers": [],
+      "source_links": [],
+      "status": "preexisting_or_detected"
+    },
+    {
+      "path": "www.pokemon-gl.com/html/ja/js/iepngfix.js",
+      "web_path": "/www.pokemon-gl.com/html/ja/js/iepngfix.js",
+      "scope": "",
+      "kind": "script",
+      "stub_type": "generated-js",
+      "referrers": [],
+      "source_links": [],
+      "status": "preexisting_or_detected"
+    },
+    {
+      "path": "www.pokemon-gl.com/swf/ja/traffic/js/iepngfix.js",
+      "web_path": "/www.pokemon-gl.com/swf/ja/traffic/js/iepngfix.js",
+      "scope": "",
+      "kind": "script",
+      "stub_type": "generated-js",
+      "referrers": [],
+      "source_links": [],
+      "status": "preexisting_or_detected"
+    }
+  ]
+}

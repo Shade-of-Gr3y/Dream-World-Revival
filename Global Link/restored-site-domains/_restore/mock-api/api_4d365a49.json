@@ -1,0 +1,6 @@
+{
+  "mock": true,
+  "endpoint": "/api/",
+  "status": "missing-archived-response",
+  "message": "No archived API response was available for this endpoint."
+}

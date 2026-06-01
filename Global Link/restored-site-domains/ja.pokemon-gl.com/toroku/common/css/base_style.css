@@ -1,0 +1,148 @@
+@charset "Shift-JIS";
+
+body {
+	background-color: #E6F9FF;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	color: #333333;
+	font-family:"ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3";
+	font-size: 12px !important;
+}
+
+body.PopWin {
+	background-color: #FFFFFF;
+	text-align:center;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	color: #333333;
+	font-family:"ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3";
+	font-size: 12px;
+}
+
+img {
+	border:none;
+	vertical-align:top;
+}
+
+
+p {
+	margin:0 !important;
+	padding:10px 0 0 0 !important;
+}
+
+/*フロート定義*/
+.fLeft{
+	float:left;
+}
+.fRight{
+	float:right;
+}
+
+/*
+  .align
+-------------------------------------------------------
+*/
+
+.alignC {text-align:center !important;}
+.alignL {text-align:left !important;}
+.alignR {text-align:right !important;}
+
+/*
+  .margin
+-------------------------------------------------------
+*/
+.adm-t15 {margin-top:15px !important;}
+
+.adm-b15 {margin-bottom:15px !important;}
+
+.adm-r15 {margin-right:15px !important;}
+
+.adm-l35 {margin-left:35px !important;}
+
+	
+/*レイアウト定義*/
+.MailmagBox{
+	border-top:#CBE7F6 solid 1px;
+	width :600px;
+	margin :5px auto 10px auto;
+	text-align:center;
+}
+
+/*マガジンレイアウト定義*/
+#wrapper{
+	width :700px;
+	margin :0 auto auto auto;
+	padding-bottom:15px;
+	text-align:right;
+}
+
+/*プライバシーレイアウト定義*/
+
+#Privacy{
+	width :643px;
+	margin :0 auto auto auto;
+	padding-bottom:15px;
+	text-align:left;
+	font-size: 12px !important;
+	line-height:150%;
+}
+
+#Privacy h1{
+	padding:0px; 
+	margin:0px; 
+	font-size: 100%;
+}
+
+#Privacy h2{
+	padding:15px 0 0 0; 
+	margin:0px; 
+	font-size: 100%;
+}
+
+/*サンキュー画面レイアウト定義*/
+#Thankswrap{
+	width :783px;
+	margin :0 auto auto auto;
+	background:url(../../imgs/bg_main.gif) repeat-y;
+}
+
+.MainCont{
+	width:778px;
+	margin:0 4px 0 1px;
+	text-align:left;
+	padding-bottom:25px;
+}
+
+.MainCont h1{ 
+	padding:0px; 
+	margin:0px; 
+	font-size: 100%;
+}
+
+.ThanksBox{
+	width:684px;
+	background:url(../../imgs/img_bg_thanks.gif) repeat-y;
+	margin:0 0 0 49px;
+	text-align:center;
+}
+
+.ThanksBox p{
+	padding-top:5px !important;
+}
+
+.ThanksBoxFot{
+	width:684px;
+	height:20px;
+	background:url(../../imgs/img_thanks_fot.gif) no-repeat;
+	margin:0;
+}
+
+.LoginFlaBox{
+	width:602px;
+	margin:35px auto 25px auto;
+}
+

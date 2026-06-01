@@ -1,0 +1,81 @@
+/*===========================
+kinomi
+===========================*/
+
+#pgl #kinomi {
+	margin:0 35px 0 35px;
+}
+
+#pgl #kinomi h3 {
+	margin:0 0 0 0;
+	padding: 0 0 0 0;
+}
+
+#pgl #kinomi h4 {
+	margin:0;
+	padding:0;
+}
+
+#pgl #kinomi p{
+	margin:0;
+	padding:0;
+}
+
+
+#pgl #kinomi .kinomi_message_top{
+	margin:30px 0 0 0;
+	padding:0;
+	width:797px;
+	height:40px;
+	font-size:0em;
+}
+
+#pgl #kinomi .kinomi_message_box {
+	margin:0;
+	padding:10px 20px 10px 20px;
+	width:757px;
+	background:url(../img/kinomi_bg_fill.gif) repeat-y top left;
+}
+
+#pgl #kinomi .kinomi_message_box .kinomi_message_left{
+	margin:0;
+	padding:24px 0 0 28px;
+	float:left;
+
+}
+#pgl #kinomi .kinomi_message_box .kinomi_message_left p{
+	width:485px;
+	margin:0 0 7px 0;
+	padding:0;
+	color:#404040;
+	font-size:100%;
+}
+
+
+#pgl #kinomi .kinomi_message_box .kinomi_image_set {
+	margin:24px 0 0 0;
+	padding:0 0 0 20px;
+	width:366px;
+	float:left;
+
+}
+
+#pgl #kinomi .kinomi_message_box .kinomi_image_set p{
+	margin:10px 0 0 0;
+	padding:0;
+	color:#404040;
+	font-size:90%;
+}
+
+#pgl #kinomi .kinomi_message_box .kinomi_image_set img{
+	margin:0 0 10px 0;
+	padding:0;
+}
+
+#pgl #kinomi .kinomi_message_bottom{
+	margin:0 0 25px 0;
+	padding:0;
+	width:797px;
+	height:6px;
+	background:url(../img/kinomi_bottom.gif) no-repeat;
+}

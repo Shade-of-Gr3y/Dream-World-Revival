@@ -1,0 +1,147 @@
+@charset "UTF-8";
+/* CSS Document */
+
+table{ max-width:100%;}
+th,td{ padding:10px; text-align:left; background:#FFFFFF;}
+th{ font-weight:bold;}
+
+/* ================= tyoe default ================= */
+
+.tableTypeDefault{ margin-bottom:0px;}
+.tableTypeDefault table { width: 100%;}
+.tableTypeDefault table th,
+.tableTypeDefault table td{
+	box-shadow: 1px 1px 0px 0px rgba(255,255,255,1) inset,-1px -1px 0px 0px rgba(255,255,255,1) inset;
+	-moz-box-shadow: 1px 1px 0px 0px rgba(255,255,255,1) inset,-1px -1px 0px 0px rgba(255,255,255,1) inset;
+	-webkit-box-shadow: 1px 1px 0px 0px rgba(255,255,255,1) inset,-1px -1px 0px 0px rgba(255,255,255,1) inset;
+}
+.tableTypeDefault thead th{ 
+	box-shadow:none;
+	-moz-box-shadow:none;
+	-webkit-box-shadow:none;
+	color:#fff;
+	font-weight:bold;
+	padding:5px 10px;
+}
+
+/* 対戦ルール */
+.sakasaBattle { 
+	color:#FFFFFF; 
+	background:#FD7101; 
+	margin:0 0 0 10px; 
+	border-radius:3px; 
+	font-size: 10px; 
+	padding:2px 5px;
+}
+
+.regulation .txtBox .tableTypeDefault th, .regulation .txtBox .tableTypeDefault td {
+	padding: 8px 10px;
+	
+}
+
+.regulation .txtBox .tableTypeDefault th {
+	width: 90px;
+	
+}
+
+.regulation .txtBox .tableTypeDefault td .utc dt {
+	margin: 0;
+}
+
+.regulation_ttl {
+	font-size: 17px !important;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-bottom: 1px dotted #CCCCCC;
+	padding-bottom: 5px;
+}
+
+.tab03Regulation li a {
+	width: 25%;	
+}
+
+.tab03Container .tableTypeDefault th, .tab03Container .tableTypeDefault td {
+	padding: 20px 25px;
+	
+	font-size: 13px;
+	
+}
+
+.tab03Container .tableTypeDefault th {
+	width: 219px;
+	padding: 20px 10px;	
+}
+
+span.caution {
+	display: block;
+	margin-top: 5px;
+	font-size: 11px !important;
+	font-weight: 100 !important;
+}
+
+.tab03Container .tableTypeDefault td .btnCrLarge {
+	margin-top: 15px;
+	min-width: 190px;	
+	
+}
+
+.btnGrLarge.regulation  {
+	min-width: 170px;
+	padding: 10px;
+	
+}
+
+.boxLayout01 {
+	border: 1px solid #CCCCCC;	
+	margin: 1px 0 0;
+	padding: 20px 25px;
+	font-size: 13px;
+	
+	color: #333333;
+}
+
+.icon-ttl-01 {
+	padding: 0 0 0 20px;
+	font-size: 13px;
+	
+	background-position: 0 4px;
+	background-repeat: no-repeat;
+
+}
+
+.icon-ttl-02 {
+	padding: 0 0 0 20px;
+	font-size: 13px;
+	
+	background: url(/3ds.pokemon-gl.com/under_maintenance/pc/common/images/icon/icon_ttl_nonlogin.png) 0 4px no-repeat;
+	color: #FD7100;
+}
+
+.regulation-subttl {
+	color: #FD7100;
+}
+
+#connectionImg li {
+	float: left;
+	border: #CCCCCC 5px solid;
+	margin-right: 14px;
+}
+
+#connectionImg li:last-child {
+	margin-right: 0;
+}
+
+#connectionDesc {
+	margin: 10px 0 20px;
+	text-align: center;
+	background: url(/3ds.pokemon-gl.com/under_maintenance/pc/common/images/competitions/bg_regulation.jpg) center center no-repeat;
+	color: #FD7100;
+	
+}
+
+#connectionDesc span {
+	display: inline-block;
+	padding: 5px 20px;
+	background: #FFFFFF;
+	font-size: 14px;
+}

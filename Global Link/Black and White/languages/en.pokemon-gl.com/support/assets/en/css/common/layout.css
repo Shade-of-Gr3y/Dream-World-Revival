@@ -1,0 +1,181 @@
+@charset "utf-8";
+/*------------------------------------------------------------
+	デフォルトスタイル
+------------------------------------------------------------*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	background: transparent;
+	border: 0;
+	outline: 0;
+}
+html
+{
+	background: #BDBDBD url(/en.pokemon-gl.com/src/swf/assets/global/images/body-bg.png) center top repeat;
+}
+
+body {
+	font-size: 70%;
+}
+
+body,
+table,
+input, textarea, select, option {
+	font-family: MS PGothic, "ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3";
+	line-height: 1.1;
+}
+
+table,
+input, textarea, select, option {
+	line-height: 1.1;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+.section ol {
+	list-style-position: outside;
+	list-style-type: decimal;
+	margin-top: 22px;
+	margin-bottom: 22px;
+	margin-left: 30px;
+}
+.section ul {
+	list-style-position: outside;
+	list-style-type: disc;
+	margin-top: 22px;
+	margin-bottom: 22px;
+	margin-left: 30px;
+}
+
+.section li {
+	font-size: medium;
+}
+
+.section p {
+	margin-bottom:10px !important;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+:focus {
+	outline: 0;
+}
+
+ins {
+	text-decoration: none;
+}
+
+del {
+	text-decoration: line-through;
+}
+
+a:link {
+	text-decoration: none;
+	color:#333;
+}
+
+a:visited {
+	color: #A31835;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:active {
+	color: #00A7DD;
+	text-decoration: underline;
+}
+
+a:hover img.imgHover {
+	filter: alpha(opacity=70);
+	opacity: 0.7;
+	-moz-opacity: 0.7;
+}
+
+
+/*------------------------------------------------------------
+	レイアウト
+------------------------------------------------------------*/
+body {
+	color: #333;
+	text-align:center;
+	line-height: 1.5;
+}
+
+#container{
+	margin: 0 auto;
+	text-align: left;
+	background-color:#ffffff;
+
+}
+
+#main {
+	width: 951px;
+	background-color:#FFF;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-bottom: 20px;
+	margin-left: auto;
+	text-align:left;
+}
+
+	* html #main {
+		zoom: 1;
+	}
+
+	*+html #main {
+		zoom: 1;
+	}
+
+#main:after {
+	height: 0;
+	visibility: hidden;
+	content: ".";
+	display: block;
+	clear: both;
+}
+
+.indent {
+	margin-left:12px;
+}
+
+/*------------------------------------------------------------
+	パンクズリスト
+------------------------------------------------------------*/
+#supprot_pagePath {
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 10px;
+	margin-left: 13px;
+}
+
+#supprot_pagePath li {
+}
+
+#supprot_pagePath li.supprot_none {
+	background: none;
+}
+
+#supprot_pagePath li a,
+#supprot_pagePath li img,
+#main .supprot_section ul li a {
+	display: block;
+}
+
+#supprot_pagePath .none {
+	background: none;
+} 

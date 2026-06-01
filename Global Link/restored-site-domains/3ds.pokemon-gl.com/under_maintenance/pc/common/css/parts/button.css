@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+a[class*="btnCr"]{
+	display:inline-block;
+	text-align:center;
+	border-radius:3px;
+	margin-right:5px;
+	box-shadow: 0px 3px 3px #ccc;
+	-moz-box-shadow: 0px 3px 3px #ccc;
+	-webkit-box-shadow: 0px 3px 3px #ccc;
+}
+
+a[class*="btnGr"]{
+	display:inline-block;
+	background: #f9f9f9; /* Old browsers */
+	background: -moz-linear-gradient(top, #f9f9f9 0%, #f0f0f0 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f9f9f9), color-stop(100%,#f0f0f0)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #f9f9f9 0%,#f0f0f0 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #f9f9f9 0%,#f0f0f0 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #f9f9f9 0%,#f0f0f0 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #f9f9f9 0%,#f0f0f0 100%); /* W3C */
+	text-align:center;
+	border-radius:3px;
+	margin-right:5px;
+	border:#C8C9CE 1px solid;
+	box-shadow: 0px 3px 3px #ccc,1px 1px 0px 0px rgba(255,255,255,1) inset,-1px -1px 0px 0px rgba(255,255,255,1) inset;
+	-moz-box-shadow: 0px 3px 3px #ccc,1px 1px 0px 0px rgba(255,255,255,1) inset,-1px -1px 0px 0px rgba(255,255,255,1) inset;
+	-webkit-box-shadow: 0px 3px 3px #ccc,1px 1px 0px 0px rgba(255,255,255,1) inset,-1px -1px 0px 0px rgba(255,255,255,1) inset;
+	font-weight:bold;
+}
+
+
+/* バナーサイズ小 */
+a[class*="btnCrSmall"]{
+	min-width:110px;
+	padding:5px 10px;
+}
+
+/* バナーサイズ大 */
+a[class*="btnCrLarge"]{
+	min-width:180px;
+	padding:7px 10px;
+}
+
+/* グレーバナーサイズ小 */
+a[class*="btnGrSmall"]{
+	min-width:80px;
+	padding:3px 10px 1px;
+}
+
+/* グレーバナーサイズ大 */
+a[class*="btnGrLarge"]{
+	min-width:120px;
+	padding:5px 10px;
+	font-size:14px;
+}
+
+/* グレーバナーサイズ大_影なし*/
+a[class*="btnGrLarge_no"]{
+	box-shadow: -1px -1px 0px 0px rgba(255,255,255,1) inset !important;
+	-moz-box-shadow: -1px -1px 0px 0px rgba(255,255,255,1) inset !important;
+	-webkit-box-shadow: -1px -1px 0px 0px rgba(255,255,255,1) inset !important;
+}
+/* グレーバナーサイズ大_矢印 */
+span[class*="arrow"]{
+	background:url(/3ds.pokemon-gl.com/under_maintenance/pc/common/images/parts/bg_arrow_01.gif) no-repeat right 3px; cursor:default;
+	padding:0 10px 0 0;
+}
+/* グレーバナーサイズ小_影なし */
+a[class*="btnGrSmall_no"]{
+	box-shadow: -1px -1px 0px 0px rgba(255,255,255,1) inset !important;
+	-moz-box-shadow: -1px -1px 0px 0px rgba(255,255,255,1) inset !important;
+	-webkit-box-shadow: -1px -1px 0px 0px rgba(255,255,255,1) inset !important;
+}
+
+/* ホバー時 */
+a[class*="btn"]:hover{ text-decoration:none !important;}
+
+
+/* 非アクティブ */
+a[class*="btnCr"][class*="disabled"]{
+	background:#DFDFDF !important;
+	color:#ffffff !important;
+	box-shadow: none !important;
+	-moz-box-shadow: none !important;
+	-webkit-box-shadow: none !important;
+	cursor:default !important;
+}
+
+.footerBox a[class*="btnCr"][class*="disabled"]{
+	color: #aaa;
+	background: #ccc;
+}
+
+
+.btnArrowLeft,
+.btnArrowRight{ width:16px; height:18px; cursor:pointer;}
+
+
+
+.btnArrowLeftL,
+.btnArrowRightL{ width:25px; height:30px; cursor:pointer;}
+
+
+.snsButtons li {
+	display: inline;
+	margin-right: 7px;
+}
+.snsButtons li:last-child {
+	margin-right: 0;
+}
+.snsButtons li a {
+	display: inline-block;
+	width: 25px;
+	height: 24px;
+	cursor: pointer;
+	background-repeat: no-repeat;
+}
+.snsButtons li.sns-0 a {
+	background-image: url(/3ds.pokemon-gl.com/under_maintenance/pc/common/images/icon/icon_fb.png);
+}
+.snsButtons li.sns-1 a {
+	background-image: url(/3ds.pokemon-gl.com/under_maintenance/pc/common/images/icon/icon_tw.png);
+}
+
+

@@ -1,0 +1,210 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=1024" />
+  <title>Pokémon Global Link</title>
+  <link rel="stylesheet" type="text/css" href="/cdn2.pokemon-gl.com/src/swf/assets/global/css/theme.css" />
+  <link rel="stylesheet" type="text/css" href="/cdn2.pokemon-gl.com/src/swf/assets/global/fr/css/lang.css" />
+  <script src="/fr.pokemon-gl.com/assets/global/js/jquery-1.7.min.js"></script>
+  <script src="/fr.pokemon-gl.com/assets/global/js/jquery.blockUI.js"></script>
+  <script src="/fr.pokemon-gl.com/assets/global/js/jquery.corner.js"></script>
+  <script src="/fr.pokemon-gl.com/assets/global/js/swfobject.js"></script>
+  <script src="/fr.pokemon-gl.com/assets/global/js/pgl.js"></script>
+  <script src="/fr.pokemon-gl.com/assets/global/js/text.js"></script>
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-17682532-2']);
+    _gaq.push(['_setDomainName', '.pokemon-gl.com']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+<script src="../../_restore/mock-api-interceptor.js" data-pgl-restore="mock-api-interceptor.js"></script>
+<script src="../../_restore/plugin-guards.js" data-pgl-restore="plugin-guards.js"></script>
+<script src="../../_restore/runtime-fixes.js" data-pgl-restore="runtime-fixes.js"></script>
+</head>
+<body id="wrapper" oncontextmenu="return false" ondragstart="return false" onselectstart="return false">
+  <div id="container">
+    <div id="header">
+      <div id="logo">
+        <a href="/fr.pokemon-gl.com/">Pokémon Global Link</a>
+      </div>
+      <div id="logged-in-info">
+        <div id="header-avatar" class="logged-in"></div>
+        <div id="header-pgln" class="logged-in">
+          <span id="header-pglname"></span>
+        </div>
+        <div id="header-rom" class="logged-in">
+          <span id="header-romname" class="game-card-name"></span>
+        </div>
+        <div id="header-volume"><div id="header-volume-swf"></div></div>
+        <div id="header-rom-change" class="logged-in"></div>
+        <div id="header-logout" class="logged-in"><a href="/fr.pokemon-gl.com/?p=logout">Déconnecter</a></div>
+        <div id="header-back-to-top" class="logged-out"><a href="/fr.pokemon-gl.com/"></a></div>
+      </div>
+      <div id="head-menu">
+        <ul>
+          <li id="head-menu-profile"><a href="/fr.pokemon-gl.com/profile">Profil</a></li>
+          <li id="head-menu-campaign"><a href="/fr.pokemon-gl.com/campaign/">Offres</a></li>
+          <li id="head-menu-customize"><a href="/fr.pokemon-gl.com/customize">Personnaliser</a></li>
+          <li id="head-menu-pdw"><a href="/fr.pokemon-gl.com/pdw/">Pokémon Dream World</a></li>
+          <li id="head-menu-report"><a href="/fr.pokemon-gl.com/report/">Données</a></li>
+          <li id="head-menu-wifi"><a href="/fr.pokemon-gl.com/wifi/">Compétitions Wi-Fi</a></li>
+          <li id="head-menu-support"><a href="/fr.pokemon-gl.com/support/">Mode d'emploi</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="main">
+<style type="text/css">
+.logged-in-black #container {
+  background-repeat: no-repeat;
+  background-color:#ffffff;
+}
+#container {
+  background-repeat: no-repeat;
+  background-color:#ffffff;
+}
+</style>
+
+<div style="width:1003px;margin:0;padding:40px 0 20px 0;background:#ffffff top no-repeat;" id="flashcontent">
+
+<style type="text/css">
+.finside {
+	width:1003px;
+	text-align:center;
+	height:570px;
+	margin: 0 auto;
+	padding:16px 0 0 0;
+	background:url(/fr.pokemon-gl.com/src/swf/introduction/fr/img/bg.jpg) top no-repeat;
+	margin:0 auto;
+	font-size:15px;
+}
+.inside {
+	width:745px;
+	text-align:center;
+	margin:0 auto;
+	color:#ffffff;
+	font-size:85%;
+	line-height:1.4em;
+	font-weight:bold;
+}
+.inside img {
+	border:0;
+}
+.topimg {
+	width:671px;
+	margin:0 auto;
+}
+.sttl {
+	width:700px;
+	letter-spacing:0.1em;
+	text-align:center;
+	margin:0px auto 10px auto;
+}
+.mainimg {
+	margin:0;padding:0;font-size:0px;
+	height:205px;
+
+}
+.bar {
+	margin:0;padding:0;
+	padding-top:8px;
+	height:1px;
+	font-size:0px;
+
+}
+.bar img{
+	display:block;	
+	padding:0;height:1px;
+	margin:0 auto;
+}
+.mini {
+	color:#cccccc;
+	width:410px;
+	text-align:left;
+	font-size:85%;
+	margin:13px 0 10px 22px;
+	padding:0px;
+	float:left;
+}
+.bar2 {
+	margin:0;
+	padding:0;
+	height:1px;
+	font-size:0px;
+}
+.bar2 img{
+	display:block;	
+	padding:0;height:1px;
+	margin:0 auto;
+	padding-bottom:8px;
+}
+
+
+.button_panel{
+	margin:0;
+	padding:0;
+	padding-top:5px;
+	padding-bottom:2px;
+	font-size:0px;
+}
+
+.top_button{
+	maring:0;
+	padding:0;
+	padding-top:18px;
+
+}
+
+</style>
+
+<div class="finside">
+
+<div class="inside">
+<p class="topimg"><img src="/fr.pokemon-gl.com/src/swf/introduction/fr/img/000.png"></p>
+<p class="sttl">Le Pokémon Global Link est un site Web qui fonctionne de concert avec les données sauvegardées des jeux pour consoles de la famille Nintendo DS™ <i>Pokémon Version Noire</i> et <i>Pokémon Version Blanche.</i></p>
+<p class="mainimg"><img src="/fr.pokemon-gl.com/src/swf/introduction/fr/img/001.png"></p>
+<p class="bar"><img src="/fr.pokemon-gl.com/src/swf/introduction/fr/img/bar.png"></p>
+<p class="mini">Pour profiter du PGL, vous devez obligatoirement avoir un compte
+au Club des Dresseurs Pokémon.</p>
+<img class="button_panel" src="/fr.pokemon-gl.com/src/swf/introduction/fr/img/002.gif" width="269px" height="65px" usemap="#Map">
+<map name="Map"><area shape="rect" coords="43,27,228,55" href="https://www.pokemon.com/fr/account/pgl/signup/" alt="Création d'un nouveau compte"></map>
+<p class="bar2"><img src="/fr.pokemon-gl.com/src/swf/introduction/fr/img/bar.png" float="clear"></p>
+<div class="top_button"><a  href="/fr.pokemon-gl.com/"><img src="/fr.pokemon-gl.com/src/swf/introduction/fr/img/003.png"></a></div>
+</div>
+</div>
+    </div>
+    <div id="footer">
+      <ul id="footer-links">
+        <li><a href="http://www.pokemon.com/fr/terms-of-use/">Conditions d'utilisation</a></li>
+        <li><a href="/fr.pokemon-gl.com/maintenance/">Maintenance</a></li>
+        <li><a href="http://www.pokemon.com/fr/pgl/requirements/">Configuration requise</a></li>
+        <li><a href="http://www.pokemon.com/fr/privacy-policy/">Politique de confidentialité </a></li>
+        <li><a href="http://www.pokemon.com/fr/about/legal/">Infos juridiques</a></li>
+        <li><a href="" class="trafficy">Trafic du Pokémon DW</a></li>
+      </ul>
+      <ul id="select-language">
+        <li>Choix de la LANGUE (Language) : &nbsp;&nbsp;&nbsp;</li>
+        <li><a href="/ja.pokemon-gl.com/">日本語</a></li>
+        <li><a href="/en.pokemon-gl.com/">English</a></li>
+        <li><a href="/fr.pokemon-gl.com/">Français</a></li>
+        <li><a href="/it.pokemon-gl.com/">Italiano</a></li>
+        <li><a href="/de.pokemon-gl.com/">Deutsch</a></li>
+        <li><a href="/es.pokemon-gl.com/">Español</a></li>
+        <li><a href="/ko.pokemon-gl.com/">한국어</a></li>
+      </ul>
+      <div id="copyright">
+        <p>©2011-2012 Pokémon. © 1995-2012 Nintendo/Creatures Inc./GAME FREAK inc. Pokémon, les noms des Pokémon et Nintendo DS sont des marques de Nintendo.</p>
+        <p class="maintenance"><a href="" target="_blank"></a></p>
+      </div>
+      <div id="badges"><a class="footer-badges-com" href="http://www.pokemon.com/" target="_blank"><img src="/fr.pokemon-gl.com/assets/global/fr/images/footer/com.png"/></a><a class="footer-badges-nintendo" href="http://www.nintendo.fr/" target="_blank"><img src="/fr.pokemon-gl.com/assets/global/fr/images/footer/nintendo.png"/></a><a class="footer-badges-ds" href="http://www.nintendo.fr/" target="_blank"><img src="/fr.pokemon-gl.com/assets/global/fr/images/footer/ds.png"/></a><a class="footer-badges-wifi" href="http://www.nintendo.fr/NOE/fr_FR/connexion_wi-fi_nintendo_5025.html" target="_blank"><img src="/fr.pokemon-gl.com/assets/global/fr/images/footer/wifi.png"/></a><a class="footer-badges-esrb" href="http://www.esrb.org/index-js.jsp" target="_blank"><img src="/fr.pokemon-gl.com/assets/global/fr/images/footer/esrb.png"/></a><a class="footer-badges-pegi" href="http://www.pegi.info" target="_blank"><img src="/fr.pokemon-gl.com/assets/global/fr/images/footer/pegi.png"/></a></div>
+    </div>
+  </div>
+</body>
+</html>

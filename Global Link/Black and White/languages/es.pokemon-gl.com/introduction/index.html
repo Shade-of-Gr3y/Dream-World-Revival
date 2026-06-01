@@ -1,0 +1,114 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Pok&eacute;mon Global Link</title>
+	<script type="text/javascript" src="/es.pokemon-gl.com/theme/assets/js/jquery-1.4.3.min.js"></script>
+	<script type="text/javascript" src="/es.pokemon-gl.com/theme/assets/js/swfobject.js"></script>
+	<script type="text/javascript" src="/es.pokemon-gl.com/theme/assets/js/theme.js"></script>
+	<script type="text/javascript">
+		$.each(['/theme/assets/css/theme.css', '/theme/assets/' + theme.language + '/css/lang.css'], function (index, path) {
+			var link = document.createElement('link');
+			link.href = '/es.pokemon-gl.com/src/swf' + path;
+			link.type = 'text/css';
+			link.rel = 'stylesheet';
+			document.getElementsByTagName('head').item(0).appendChild(link);
+		});
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-17682532-2']);
+		_gaq.push(['_setDomainName', '.pokemon-gl.com']);
+		_gaq.push(['_trackPageview']);
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
+	<style type="text/css">body { margin-top: 56px; }</style>
+<script src="../../_restore/mock-api-interceptor.js" data-pgl-restore="mock-api-interceptor.js"></script>
+<script src="../../_restore/plugin-guards.js" data-pgl-restore="plugin-guards.js"></script>
+<script src="../../_restore/runtime-fixes.js" data-pgl-restore="runtime-fixes.js"></script>
+</head>
+<body oncontextmenu="return false" ondragstart="return false">
+<iframe id="gus" src="/gus.pokemon.com/es/" border="0" frameborder="0" allowtransparency="true" scrolling="no" marginwidth="0" marginheight="0"></iframe>
+<div id="wrapper">
+	<div id="wrapper-bg"><div id="wrapper-bg-inner"></div></div>
+	<div id="content-block">
+		<div id="content-block-bg"></div>
+		<div id="content">
+			<div id="header">
+				<h1><a href="/es.pokemon-gl.com/"><span>Pok&eacute;mon GLOBAL LINK</span></a></h1>
+				<div id="header-pglname"></div>
+				<div id="header-romname"></div>
+				<div id="header-volume"></div>
+				<a id="header-toplink" href="/es.pokemon-gl.com/"></a>
+			</div>
+
+<link rel="stylesheet" type="text/css" href="assets/css/introduction.css"/>
+<script type="text/javascript">
+	theme.bind('initialize', function () {
+		if (theme.level != theme.NOT_LOGGED_IN) {
+			location = '/';
+		}
+		var href = $('#signup-link').attr('href');
+		if (href) {
+			href = href.replace(/(https?:\/\/)[\w\.\-]+/, '$1' + theme.get_com_domain());
+			$('#signup-link').attr({ href:href });
+		}
+	});
+</script>
+<div id="introduction">
+	<h2><img src="assets/es/images/title.png" width="742" height="88" alt="¡Te damos la bienvenida a Pokémon Global Link!"/></h2>
+	<div id="pgl-desc"></div>
+	<img src="assets/es/images/pgl.jpg" width="715" height="200" style="position:absolute;left:23px;top:122px;"/>
+	<div id="notes">Para disfrutar de Pokémon Global Link, debes ser miembro del Club de Entrenadores Pokémon. </div>
+	<div id="signup" class="signup-ui">
+		<span>Para usuarios nuevos</span>
+		<a id="signup-link" class="signup-ui" href="https://www.pokemon.com/es/account/pgl/signup/"><span>Registrarse</span></a>
+	</div>
+	<a id="top-link" href="/es.pokemon-gl.com/"><span>Ir al inicio</span></a>
+</div>
+
+		</div>
+	</div>
+	<div id="footer-block">
+		<div id="footer">
+			<div id="footer-menu-row">
+				<script type="text/javascript">
+					document.write('<img src="http://' + theme.get_page_asset_host() + '/src/swf/theme/assets/' + theme.language + '/images/footer-menu.png" width="700" height="31" usemap="#footer-menu-map"/>');
+				</script>
+				<map name="footer-menu-map" id="footer-menu-map">
+					<area shape="rect" coords="0,1,130,14" href="/es.pokemon-gl.com/about/" />
+					<area shape="rect" coords="136,1,274,14" href="/es.pokemon-gl.com/maintenance/" />
+					<area shape="rect" coords="285,1,391,14" href="http://www.pokemon.com/es/terms-of-use/" />
+					<area shape="rect" coords="338,18,526,31" />
+					<area shape="rect" coords="399,1,514,14" href="http://www.pokemon.com/es/privacy-policy/" />
+					<area shape="rect" coords="0,18,97,31" href="http://www.pokemon.com/es/about/legal/" />
+					<area shape="rect" coords="101,18,222,31" href="http://www.pokemon.com/es/pgl/requirements/" />
+					<area shape="rect" coords="229,18,328,31" href="http://support-es.pokemon.com" />
+				</map>
+				<a id="footer-about-campaign-link" class="footer-buttons" href="http://pglhelp.pokemon.com/es/"></a>
+				<a id="footer-manual-link" class="footer-buttons" href="/es.pokemon-gl.com/help/"></a>
+				<a id="footer-language-selector" class="footer-buttons" href="/www.pokemon-gl.com/languages/"></a>
+			</div>
+			<div id="footer-copy-row">
+				<p>© 2011 Pokémon. © 1995-2011 Nintendo/Creatures Inc./GAME FREAK inc. Pokémon, Pokémon character names and Nintendo DS are trademarks of Nintendo.</p>
+			</div>
+			<div id="footer-badges-row">
+				<script type="text/javascript">
+					document.write('<img src="http://' + theme.get_page_asset_host() + '/src/swf/theme/assets/' + theme.language + '/images/footer-badges.png" width="973" height="101" usemap="#footer-badges-map"/>');
+				</script>
+				<map name="footer-badges-map" id="footer-badges-map">
+					<area shape="rect" coords="162,30,307,56" href="http://www.pokemon.com/" />
+					<area shape="rect" coords="320,30,405,56" target="_blank" href="http://www.nintendo.es/" />
+					<area shape="rect" coords="417,28,529,57" target="_blank" href="http://www.nintendo.es/" />
+					<area shape="circle" coords="572,43,32" target="_blank" href="http://www.nintendo.es/NOE/es_ES/conexin_wi-fi_de_nintendo_5025.html" />
+					<area shape="rect" coords="617,16,738,72" target="_blank" href="http://www.esrb.org/index-js.jsp" />
+					<area shape="rect" coords="755,8,809,78" target="_blank" href="http://www.pegi.info" />
+				</map>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>

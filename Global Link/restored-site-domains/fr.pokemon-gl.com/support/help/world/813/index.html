@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=1024" />
+  <title>Pokémon Global Link</title>
+  <link rel="stylesheet" type="text/css" href="/cdn2.pokemon-gl.com/src/swf/assets/global/css/theme.css" />
+  <link rel="stylesheet" type="text/css" href="/cdn2.pokemon-gl.com/src/swf/assets/global/fr/css/lang.css" />
+  <script src="/fr.pokemon-gl.com/assets/global/js/jquery-1.7.min.js"></script>
+  <script src="/fr.pokemon-gl.com/assets/global/js/jquery.blockUI.js"></script>
+  <script src="/fr.pokemon-gl.com/assets/global/js/jquery.corner.js"></script>
+  <script src="/fr.pokemon-gl.com/assets/global/js/swfobject.js"></script>
+  <script src="/fr.pokemon-gl.com/assets/global/js/pgl.js"></script>
+  <script src="/fr.pokemon-gl.com/assets/global/js/text.js"></script>
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-17682532-2']);
+    _gaq.push(['_setDomainName', '.pokemon-gl.com']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+<link href="/fr.pokemon-gl.com/support/assets/fr/css/common/layout.css" rel="stylesheet" type="text/css" />
+<link href="/fr.pokemon-gl.com/support/assets/fr/css/common/general.css" rel="stylesheet" type="text/css" />
+<link href="/fr.pokemon-gl.com/support/assets/fr/css/manual.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/fr.pokemon-gl.com/support/assets/fr/js/jquery.min.js"></script>
+<script type="text/javascript" src="/fr.pokemon-gl.com/support/assets/fr/js/jquery.ez-bg-resize.min.js"></script>
+<script type="text/javascript" src="/fr.pokemon-gl.com/support/assets/fr/js/local.min.js"></script>
+<script type="text/javascript">
+
+$(document).ready(function(){
+ $(".navi02").hover(function(){
+  $(".navi02 ul").css("display","block");
+ },function() {
+$(".navi02 ul").css("display","none");
+});
+
+var h2=$('.supprot_rContents h2').text();
+$('.supprot_lContents ul li a').each(function(index, element) {
+      if($(this).text()==h2){
+$(this).parent().addClass('on');
+}
+});
+
+var title=$('#supprot_pagePath li img').attr('alt');
+$('.supprot_section ul li a img').each(function(index, element) {
+if($(this).attr('alt')==title){
+  var src=$(this).attr('src');
+  if(src.indexOf('_on')==-1){
+    src=src.replace('.jpg','_on.jpg');
+  }
+  $(this).attr('src',src);
+}
+});
+
+});
+
+</script>
+    
+<script src="../../../../../_restore/mock-api-interceptor.js" data-pgl-restore="mock-api-interceptor.js"></script>
+<script src="../../../../../_restore/plugin-guards.js" data-pgl-restore="plugin-guards.js"></script>
+<script src="../../../../../_restore/runtime-fixes.js" data-pgl-restore="runtime-fixes.js"></script>
+</head>
+<body id="wrapper" oncontextmenu="return false" ondragstart="return false" onselectstart="return false">
+  <div id="container">
+    <div id="header">
+      <div id="logo">
+        <a href="/fr.pokemon-gl.com/">Pokémon Global Link</a>
+      </div>
+      <div id="logged-in-info">
+        <div id="header-avatar" class="logged-in"></div>
+        <div id="header-pgln" class="logged-in">
+          <span id="header-pglname"></span>
+        </div>
+        <div id="header-rom" class="logged-in">
+          <span id="header-romname" class="game-card-name"></span>
+        </div>
+        <div id="header-volume"><div id="header-volume-swf"></div></div>
+        <div id="header-rom-change" class="logged-in"></div>
+        <div id="header-logout" class="logged-in"><a href="/fr.pokemon-gl.com/?p=logout">Déconnecter</a></div>
+        <div id="header-back-to-top" class="logged-out"><a href="/fr.pokemon-gl.com/"></a></div>
+      </div>
+      <div id="head-menu">
+        <ul>
+          <li id="head-menu-profile"><a href="/fr.pokemon-gl.com/profile">Profil</a></li>
+          <li id="head-menu-campaign"><a href="/fr.pokemon-gl.com/campaign/">Offres</a></li>
+          <li id="head-menu-customize"><a href="/fr.pokemon-gl.com/customize">Personnaliser</a></li>
+          <li id="head-menu-pdw"><a href="/fr.pokemon-gl.com/pdw/">Pokémon Dream World</a></li>
+          <li id="head-menu-report"><a href="/fr.pokemon-gl.com/report/">Données</a></li>
+          <li id="head-menu-wifi"><a href="/fr.pokemon-gl.com/wifi/">Compétitions Wi-Fi</a></li>
+          <li id="head-menu-support"><a href="/fr.pokemon-gl.com/support/">Mode d'emploi</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="main">
+
+	<!-- 上記コメント部分はindex.phpで利用しているので消さないで下さい（このコメントは削除して問題ありません） -->
+	
+	<!-- 
+		このコメント以下から../assets/template.[lang].htmlの
+		    <div id="main">
+		%s
+		    </div>
+		%sの部分にあてこまれます。
+	  -->
+	<div id="main">
+		<div id="supprot_gNavi" class="clearfix">
+			<h1><p><img src="/fr.pokemon-gl.com/support/assets/fr/images/manual/imgtext01.jpg" alt="Mode d'emploi " /></p></h1>
+			<ul class="clearfix">
+				<li class="navi01"><a href="/fr.pokemon-gl.com/support/"><img src="/fr.pokemon-gl.com/support/assets/fr/images/manual/g_navi01.jpg" alt="Support Home" width="172" height="40" /></a></li>
+				<li class="navi02"><a href="/fr.pokemon-gl.com/support/help/"><img src="/fr.pokemon-gl.com/support/assets/fr/images/manual/g_navi02_on.jpg" alt="How to Play" width="172" height="40" /></a>
+					<ul class="clearfix">
+						<li><a href="/fr.pokemon-gl.com/support/help/about/000/">Au sujet de ce site</a></li>
+						<li><a href="/fr.pokemon-gl.com/support/help/cooperation/100/">Connectivité avec les jeux vidéo</a></li>
+						<li><a href="/fr.pokemon-gl.com/support/help/friend/200/">Contacts et Rêvamis</a></li>
+						<li><a href="/fr.pokemon-gl.com/support/help/page/300/">Page d'accueil et profil</a></li>
+						<li><a href="/fr.pokemon-gl.com/support/help/report/400/">Données</a></li>
+						<li><a href="/fr.pokemon-gl.com/support/help/custom/500/">Personnaliser</a></li>
+						<li><a href="/fr.pokemon-gl.com/support/help/mail/600/">Faciméls</a></li>
+						<li><a href="/fr.pokemon-gl.com/support/help/campaign/700/">Offres</a></li>
+						<li><a href="/fr.pokemon-gl.com/support/help/world/800/">Pokémon Dream World</a></li>
+						<li class="mb0"><a href="/fr.pokemon-gl.com/support/help/wi-fi/900/">Compétitions Wi-Fi</a></li>
+					</ul>
+				</li>
+				<li class="navi03"><a href="http://support-fr.pokemon.com/" target="_blank"><img src="/fr.pokemon-gl.com/support/assets/fr/images/manual/g_navi03.jpg" alt="Customer Service" width="170" height="40" /></a></li>
+			</ul>
+		</div>
+        
+		<ul id="supprot_pagePath" class="clear clearfix">
+			<li><img src="/fr.pokemon-gl.com/support/assets/fr/images/manual/world.gif" alt="Pokémon Dream World" /></li>
+		</ul>
+		
+        <!--▼コンテンツエリア-->
+        <div class="supprot_contents clear clearfix">
+	    <div class="supprot_rContents">
+		<h2>Le Catalogue des Rêves</h2>
+                
+                
+                <!--▼各section-->
+                
+                <div class="section" onContextmenu="return false">
+              
+                <a name="lay1" id="lay1"></a>
+
+
+
+
+
+
+<div class="indent">
+
+    <div class="supprot_inner clearfix">
+    
+    
+    <img class="layImg" src="/fr.pokemon-gl.com/support/help/fr/813a.png" />
+    
+    
+    
+    <p>Vous pouvez acqu&eacute;rir des articles pour d&eacute;corer votre maison gr&acirc;ce au Catalogue des r&ecirc;ves. Cliquez sur "Catalogue des r&ecirc;ves" dans la maison, en haut &agrave; gauche, et le Catalogue des r&ecirc;ves s'ouvrira.<br />Gr&acirc;ce au Catalogue, vous pourrez non seulement changer l'ameublement de votre maison, mais aussi l'apparence m&ecirc;me de votre maison et de votre &icirc;le, en &eacute;change contre des Baies.</p>
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a name="lay2" id="lay2"></a>
+
+
+
+
+
+<h3>Réarranger</h3>
+
+
+<div class="indent">
+    
+    <div class="supprot_inner clearfix">
+    
+    
+    <img class="layImg" src="/fr.pokemon-gl.com/support/help/fr/813b.png" />
+    
+    
+    
+    <p>Vous pouvez installer les articles acquis gr&acirc;ce au Catalogue des r&ecirc;ves l&agrave; o&ugrave; il y a de la place dans votre maison.<br />Cliquez en haut &agrave; gauche sur "R&eacute;arranger" pour d&eacute;placer un article &agrave; l'emplacement de votre choix.</p>
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a name="lay3" id="lay3"></a>
+
+
+
+
+<h3>Ranger les articles</h3>
+
+
+<div class="indent">
+
+    <div class="supprot_inner clearfix">
+    
+    
+    <img class="layImg" src="/fr.pokemon-gl.com/support/help/fr/813c.png" />
+    
+    
+    
+    <p>Pour ranger les articles, cliquez sur "Catalogue des r&ecirc;ves" dans la maison, en haut &agrave; gauche, pour ouvrir le Catalogue. Puis, cliquez sur "Ranger" afin de ranger les articles souhait&eacute;s.<br />Autrement, cliquez en haut &agrave; gauche sur "R&eacute;arranger", passez le curseur de votre souris sur un article et faites votre rangement depuis le ballon qui appara&icirc;t. Les articles rang&eacute;s peuvent &ecirc;tre utilis&eacute;s &agrave; nouveau depuis le Catalogue des r&ecirc;ves.</p>
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a name="lay4" id="lay4"></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a name="lay5" id="lay5"></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a name="lay6" id="lay6"></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a name="lay7" id="lay7"></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a name="lay8" id="lay8"></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                
+                
+                </div>
+                
+                
+
+       
+            
+                
+                
+	    </div>
+            
+            
+            <!--▼サイドナビ-->
+            
+            <div class="supprot_lContents">
+
+<p>Le Pokémon Dream World</p>
+
+<ul class="clearfix">
+<li><a href="/fr.pokemon-gl.com/support/help/world/800/">Le Pokémon Dream World</a></li>
+<li><a href="/fr.pokemon-gl.com/support/help/world/801/">L'écran</a></li>
+<li><a href="/fr.pokemon-gl.com/support/help/world/802/">Ce qu'on peut faire pendant le rêve du Pokémon</a></li>
+<li><a href="/fr.pokemon-gl.com/support/help/world/803/">Recevoir des objets ou des Pokémon</a></li>
+<li><a href="/fr.pokemon-gl.com/support/help/world/804/">Quitter le Pokémon Dream World</a></li>
+</ul>
+
+<p>LA MAISON</p>
+
+<ul class="clearfix">
+<li><a href="/fr.pokemon-gl.com/support/help/world/805/">Votre maison</a></li>
+<li><a href="/fr.pokemon-gl.com/support/help/world/806/">Votre Pokémon</a></li>
+<li><a href="/fr.pokemon-gl.com/support/help/world/807/">Le Mémotapis</a></li>
+<li><a href="/fr.pokemon-gl.com/support/help/world/808/">La Carte des Rêvamis</a></li>
+<li><a href="/fr.pokemon-gl.com/support/help/world/809/">Les maisons spéciales</a></li>
+</ul>
+
+<p>DANS LA MAISON</p>
+
+<ul class="clearfix">
+<li><a href="/fr.pokemon-gl.com/support/help/world/810/">Dans la maison</a></li>
+<li><a href="/fr.pokemon-gl.com/support/help/world/811/">Le panneau des compagnons</a></li>
+<li><a href="/fr.pokemon-gl.com/support/help/world/812/">Le coffre</a></li>
+<li><a href="/fr.pokemon-gl.com/support/help/world/813/">Le Catalogue des Rêves</a></li>
+</ul>
+
+<p>LE JARDIN</p>
+
+<ul class="clearfix">
+<li><a href="/fr.pokemon-gl.com/support/help/world/814/">Le jardin</a></li>
+<li><a href="/fr.pokemon-gl.com/support/help/world/815/">Les sillons</a></li>
+<li><a href="/fr.pokemon-gl.com/support/help/world/816/">Cultiver des Baies</a></li>
+</ul>
+
+<p>LE SURPLUS</p>
+
+<ul class="clearfix">
+<li><a href="/fr.pokemon-gl.com/support/help/world/817/">Le surplus</a></li>
+</ul>
+
+<p>LES INTERACTIONS ENTRE UTILISATEURS</p>
+
+<ul class="clearfix">
+<li><a href="/fr.pokemon-gl.com/support/help/world/818/">Les interactions</a></li>
+<li><a href="/fr.pokemon-gl.com/support/help/world/819/">Les Rêvamis</a></li>
+<li><a href="/fr.pokemon-gl.com/support/help/world/820/">Interagir avec les Rêvamis et les autres</a></li>
+</ul>
+
+<p>L'ÎLE DES RÊVES</p>
+
+<ul class="clearfix">
+<li><a href="/fr.pokemon-gl.com/support/help/world/821/">L'Île des Rêves</a></li>
+<li><a href="/fr.pokemon-gl.com/support/help/world/822/">L'Arbre des Rêves</a></li>
+</ul>
+
+<p>LES POINTS RÊVE</p>
+
+<ul class="clearfix">
+<li><a href="/fr.pokemon-gl.com/support/help/world/823/">Les Points Rêve</a></li>
+</ul>
+
+<p>RESTRICTIONS D'UTILISATION</p>
+
+<ul class="clearfix">
+<li><a href="/fr.pokemon-gl.com/support/help/world/824/">Limitation d'accès en cas de fort trafic</a></li>
+<li><a href="/fr.pokemon-gl.com/support/help/world/825/">À propos de la durée de jeu quotidienne</a></li>
+<li><a href="/fr.pokemon-gl.com/support/help/world/826/">Période d'accès</a></li>
+</ul>
+
+</div>
+            
+            
+            
+		</div>
+        
+        
+		<p class="supprot_title"><img src="/fr.pokemon-gl.com/support/assets/fr/images/manual/title.jpg" alt="Mode d'emploi (comment jouer)" /></p>
+        
+        
+        <!--▼サブナビエリア-->
+		<div class="supprot_section clear">
+				<ul class="clearfix">
+					<li class="list01"><a href="/fr.pokemon-gl.com/support/help/about/000/"><img src="/fr.pokemon-gl.com/support/assets/fr/images/manual/list_photo01.jpg" alt="Au sujet de ce site" /></a></li>
+					<li class="list02"><a href="/fr.pokemon-gl.com/support/help/cooperation/100/"><img src="/fr.pokemon-gl.com/support/assets/fr/images/manual/list_photo02.jpg" alt="Connectivité avec les jeuxvidéo" /></a></li>
+					<li class="list03"><a href="/fr.pokemon-gl.com/support/help/friend/200/"><img src="/fr.pokemon-gl.com/support/assets/fr/images/manual/list_photo03.jpg" alt="Contacts et Rêvamis" /></a></li>
+					<li class="list04"><a href="/fr.pokemon-gl.com/support/help/page/300/"><img src="/fr.pokemon-gl.com/support/assets/fr/images/manual/list_photo04.jpg" alt="Page d'accueil et profil" /></a></li>
+					<li class="list05"><a href="/fr.pokemon-gl.com/support/help/report/400/"><img src="/fr.pokemon-gl.com/support/assets/fr/images/manual/list_photo05.jpg" alt="Données" /></a></li>
+				</ul>
+				<ul class="clearfix mb0">
+					<li class="list06"><a href="/fr.pokemon-gl.com/support/help/custom/500/"><img src="/fr.pokemon-gl.com/support/assets/fr/images/manual/list_photo06.jpg" alt="Personnaliser" /></a></li>
+					<li class="list07"><a href="/fr.pokemon-gl.com/support/help/mail/600/"><img src="/fr.pokemon-gl.com/support/assets/fr/images/manual/list_photo07.jpg" alt="Faciméls" /></a></li>
+					<li class="list08"><a href="/fr.pokemon-gl.com/support/help/campaign/700/"><img src="/fr.pokemon-gl.com/support/assets/fr/images/manual/list_photo08.jpg" alt="Offres" /></a></li>
+					<li class="list09"><a href="/fr.pokemon-gl.com/support/help/world/800/"><img src="/fr.pokemon-gl.com/support/assets/fr/images/manual/list_photo09.jpg" alt="Pokémon Dream World" /></a></li>
+					<li class="list10"><a href="/fr.pokemon-gl.com/support/help/wi-fi/900/"><img src="/fr.pokemon-gl.com/support/assets/fr/images/manual/list_photo10.jpg" alt="Compétitions Wi-Fi" /></a></li>
+				</ul>
+			</div>
+        
+	</div>
+    </div>
+    <div id="footer">
+      <ul id="footer-links">
+        <li><a href="http://www.pokemon.com/fr/terms-of-use/">Conditions d'utilisation</a></li>
+        <li><a href="/fr.pokemon-gl.com/maintenance/">Maintenance</a></li>
+        <li><a href="http://www.pokemon.com/fr/pgl/requirements/">Configuration requise</a></li>
+        <li><a href="http://www.pokemon.com/fr/privacy-policy/">Politique de confidentialité </a></li>
+        <li><a href="http://www.pokemon.com/fr/about/legal/">Infos juridiques</a></li>
+        <li><a href="" class="trafficy">Trafic du Pokémon DW</a></li>
+      </ul>
+      <ul id="select-language">
+        <li>Choix de la LANGUE (Language) : &nbsp;&nbsp;&nbsp;</li>
+        <li><a href="/ja.pokemon-gl.com/">日本語</a></li>
+        <li><a href="/en.pokemon-gl.com/">English</a></li>
+        <li><a href="/fr.pokemon-gl.com/">Français</a></li>
+        <li><a href="/it.pokemon-gl.com/">Italiano</a></li>
+        <li><a href="/de.pokemon-gl.com/">Deutsch</a></li>
+        <li><a href="/es.pokemon-gl.com/">Español</a></li>
+        <li><a href="/ko.pokemon-gl.com/">한국어</a></li>
+      </ul>
+      <div id="copyright">
+        <p>©2011-2013 Pokémon. © 1995-2013 Nintendo/Creatures Inc./GAME FREAK inc. Pokémon, les noms des Pokémon et Nintendo DS sont des marques de Nintendo.</p>
+        <p class="maintenance"><a href="" target="_blank"></a></p>
+      </div>
+      <div id="badges"><a class="footer-badges-com" href="http://www.pokemon.com/" target="_blank"><img src="/fr.pokemon-gl.com/assets/global/fr/images/footer/com.png"/></a><a class="footer-badges-nintendo" href="http://www.nintendo.fr/" target="_blank"><img src="/fr.pokemon-gl.com/assets/global/fr/images/footer/nintendo.png"/></a><a class="footer-badges-ds" href="http://www.nintendo.fr/" target="_blank"><img src="/fr.pokemon-gl.com/assets/global/fr/images/footer/ds.png"/></a><a class="footer-badges-wifi" href="http://www.nintendo.fr/NOE/fr_FR/connexion_wi-fi_nintendo_5025.html" target="_blank"><img src="/fr.pokemon-gl.com/assets/global/fr/images/footer/wifi.png"/></a><a class="footer-badges-esrb" href="http://www.esrb.org/index-js.jsp" target="_blank"><img src="/fr.pokemon-gl.com/assets/global/fr/images/footer/esrb.png"/></a><a class="footer-badges-pegi" href="http://www.pegi.info" target="_blank"><img src="/fr.pokemon-gl.com/assets/global/fr/images/footer/pegi.png"/></a></div>
+    </div>
+  </div>
+</body>
+</html>

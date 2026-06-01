@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=1024" />
+  <title>Pokémon Global Link</title>
+  <link rel="stylesheet" type="text/css" href="/cdn2.pokemon-gl.com/src/swf/assets/global/css/theme.css" />
+  <link rel="stylesheet" type="text/css" href="/cdn2.pokemon-gl.com/src/swf/assets/global/it/css/lang.css" />
+  <script src="/it.pokemon-gl.com/assets/global/js/jquery-1.7.min.js"></script>
+  <script src="/it.pokemon-gl.com/assets/global/js/jquery.blockUI.js"></script>
+  <script src="/it.pokemon-gl.com/assets/global/js/jquery.corner.js"></script>
+  <script src="/it.pokemon-gl.com/assets/global/js/swfobject.js"></script>
+  <script src="/it.pokemon-gl.com/assets/global/js/pgl.js"></script>
+  <script src="/it.pokemon-gl.com/assets/global/js/text.js"></script>
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-17682532-2']);
+    _gaq.push(['_setDomainName', '.pokemon-gl.com']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+  <script src="/it.pokemon-gl.com/assets/global/js/jquery.transit.min.js"></script>
+  <script src="/it.pokemon-gl.com/assets/global/js/jquery.ba-hashchange.min.js"></script>
+  <script src="/it.pokemon-gl.com/assets/global/js/jquery.belatedPNG.min.js"></script>
+  <script src="assets/js/jquery.easing.1.3.js"></script>
+  <script src="assets/js/report-utils.js"></script>
+  <script src="assets/js/pokemons.js"></script>
+  <script src="assets/js/areas.js"></script>
+  <script src="assets/js/text.js"></script>
+  <script src="assets/js/report.js"></script>
+  <script src="assets/js/raphael-min.js"></script>
+  <script type="text/javascript">
+    var host = new PGL.Host();
+    $.each(['/report/css/report.css', '/report/it/lang.css'], function (index, path) {
+      var link = document.createElement('link');
+      link.href = '/it.pokemon-gl.com/src/swf' + path;
+      link.type = 'text/css';
+      link.rel = 'stylesheet';
+      document.getElementsByTagName('head').item(0).appendChild(link);
+    });
+  </script>
+    
+<script src="../../_restore/mock-api-interceptor.js" data-pgl-restore="mock-api-interceptor.js"></script>
+<script src="../../_restore/plugin-guards.js" data-pgl-restore="plugin-guards.js"></script>
+<script src="../../_restore/runtime-fixes.js" data-pgl-restore="runtime-fixes.js"></script>
+</head>
+<body id="wrapper" oncontextmenu="return false" ondragstart="return false" onselectstart="return false">
+  <div id="container">
+    <div id="header">
+      <div id="logo">
+        <a href="/it.pokemon-gl.com/">Pokémon Global Link</a>
+      </div>
+      <div id="logged-in-info">
+        <div id="header-avatar" class="logged-in"></div>
+        <div id="header-pgln" class="logged-in">
+          <span id="header-pglname"></span>
+        </div>
+        <div id="header-rom" class="logged-in">
+          <span id="header-romname" class="game-card-name"></span>
+        </div>
+        <div id="header-volume"><div id="header-volume-swf"></div></div>
+        <div id="header-rom-change" class="logged-in"></div>
+        <div id="header-logout" class="logged-in"><a href="/it.pokemon-gl.com/?p=logout">Disconnetti</a></div>
+        <div id="header-back-to-top" class="logged-out"><a href="/it.pokemon-gl.com/"></a></div>
+      </div>
+      <div id="head-menu">
+        <ul>
+          <li id="head-menu-profile"><a href="/it.pokemon-gl.com/profile">Il mio profilo</a></li>
+          <li id="head-menu-campaign"><a href="/it.pokemon-gl.com/campaign/">Iniziative</a></li>
+          <li id="head-menu-customize"><a href="/it.pokemon-gl.com/customize">Personalizzazione</a></li>
+          <li id="head-menu-pdw"><a href="/it.pokemon-gl.com/pdw/">Pokémon Dream World</a></li>
+          <li id="head-menu-report"><a href="/it.pokemon-gl.com/report/">Dati</a></li>
+          <li id="head-menu-wifi"><a href="/it.pokemon-gl.com/wifi/">Gare Wi-Fi</a></li>
+          <li id="head-menu-support"><a href="/it.pokemon-gl.com/support/">Aiuto</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="main">
+
+
+    <div id="report">
+      <div id="report-header">
+        <h1>レポート</h1>
+        <div class="nav">
+          <a id="report-header-gts" href="#/gts/">Global Trade Station</a>
+          <a id="report-header-gbu" href="#/gbu/">Global Battle Union</a>
+          <a id="report-header-wifi-competitions" href="#/wifi-competitions">Gare Wi-Fi</a>
+          <a id="report-header-global-records" href="#/global-records">Sondaggi Sincrogioco</a>
+        </div>
+      </div>
+      <div id="report-contents">
+        <!-- GTS -->
+        <div id="gts">
+          <div id="gts-top">
+            <div class="updated-at">
+              <span class="label">Aggiornamento: </span>
+              <span class="value"></span>
+              <span class="label"></span>
+            </div>
+            <h2>Global Trade Station</h2>
+            <div class="nav">
+              <a class="gts-nav-ranking" href="#/gts/ranking/">Classifiche GTS</a>
+              <a class="gts-nav-pokemon" href="#/gts/pokemon/">Info Pokémon</a>
+              <a class="gts-nav-area" href="#/gts/area/">Info aree</a>
+            </div>
+            <div class="map scroll-map"></div>
+            <div id="gts-top-trade">
+              <div class="gts-top-trade-deposit" id="gts-top-trade-deposit-1">
+                <div class="pokemon">
+                  <div class="name"></div>
+                  <div class="level"><span class="label">L. </span><span class="value"></span></div>
+                  <div class="sex">？</div>
+                  <div class="types"><ol></ol></div>
+                  <ol class="moves"></ol>
+                  <div class="nickname"><span class="label squeeze">Soprannome</span><span class="value"></span></div>
+                  <div class="nature"><span class="label">Natura</span><span class="value"></span></div>
+                  <div class="image"></div>
+                </div>
+                <div class="user">
+                  <div class="name"><span class="label squeeze">A.O.</span><span class="value"></span></div>
+                  <div class="area"><span class="label">Provenienza (paese)</span><span class="value"></span><span class="value"></span></div>
+                </div>
+                <div class="deposited-at"><span class="label">Data di invio alla GTS</span><span class="value"></span></div>
+              </div>
+              <div class="gts-top-trade-deposit" id="gts-top-trade-deposit-2">
+                <div class="pokemon">
+                  <div class="name"></div>
+                  <div class="level"><span class="label">L. </span><span class="value"></span></div>
+                  <div class="sex">？</div>
+                  <div class="types"><ol></ol></div>
+                  <ol class="moves"></ol>
+                  <div class="nickname"><span class="label squeeze">Soprannome</span><span class="value"></span></div>
+                  <div class="nature"><span class="label">Natura</span><span class="value"></span></div>
+                  <div class="image"></div>
+                </div>
+                <div class="user">
+                  <div class="name"><span class="label squeeze">A.O.</span><span class="value"></span></div>
+                  <div class="area"><span class="label">Provenienza (paese)</span><span class="value"></span><span class="value"></span></div>
+                </div>
+                <div class="deposited-at"><span class="label">Data di invio alla GTS</span><span class="value"></span></div>
+              </div>
+            </div>
+            <div id="gts-top-stats">
+              <div id="gts-top-stats-travel">
+                <div class="label squeeze">Distanza percorsa dai Pokémon</div>
+                <div class="unit"></div>
+                <div class="value"></div>
+                <div class="unit"> km</div>
+              </div>
+              <div id="gts-top-stats-travel-earth">
+                <div class="unit">Giro del mondo N°: </div>
+                <div class="value"></div>
+                <div class="unit"></div>
+              </div>
+              <div id="gts-top-stats-deposited">
+                <div class="label squeeze">Pokémon inviati alla GTS</div>
+                <div class="value"></div>
+              </div>
+              <div id="gts-top-stats-traded">
+                <div class="label">Pokémon scambiati</div>
+                <div class="value"></div>
+              </div>
+              <div class="date-from"></div>
+            </div>
+          </div>
+          <div id="gts-ranking">
+            <h2>GTSランキング</h2>
+            <div id="gts-ranking-selector">
+              <a id="gts-ranking-selector-traded" href="#/gts/ranking/traded">トレードの多いポケモン トップ30</a>
+              <a id="gts-ranking-selector-wanted" href="#/gts/ranking/wanted">希望の多いポケモン トップ30</a>
+              <a id="gts-ranking-selector-deposited" href="#/gts/ranking/deposited">あずけられている数の多いポケモン トップ30</a>
+            </div>
+            <ol class="pokemon-ranking"></ol>
+            <div class="nav-back">
+              <a href="#/gts/">Topへ戻る</a>
+            </div>
+          </div>
+          <div id="gts-pokemon">
+            <h2>ポケモン情報</h2>
+            <div class="nav">
+              <a class="gts-nav-pokemon-select" href="#/gts/pokemon/">ポケモンを選ぶ</a>
+            </div>
+            <div id="gts-pokemon-pokemon">
+              <div class="pokedex-nav">
+                <a class="prev" href=""></a>
+                <span class="current"></span>
+                <a class="next" href=""></a>
+              </div>
+              <div class="image">
+                <img/>
+              </div>
+              <div class="pokemon-spec">
+                <div class="name"><span class="value"></span></div>
+                <div class="types">
+                  <div class="label">Tipo</div>
+                  <ol></ol>
+                </div>
+                <div class="height">
+                  <div class="label">Altezza</div>
+                  <div class="value"></div>
+                </div>
+                <div class="weight">
+                  <div class="label">Peso</div>
+                  <div class="value"></div>
+                </div>
+              </div>
+              <div class="names">
+                <dl></dl>
+              </div>
+            </div>
+            <div id="gts-pokemon-deposited-count">
+              <div class="label"><span class="name"></span> inviati alla GTS</div>
+              <div class="value"></div>
+            </div>
+            <div id="gts-pokemon-deposited-list" class="deposited-list">
+              <div class="leadline"></div>
+              <div class="map"></div>
+              <ul class="deposits"></ul>
+              <ul class="pager"></ul>
+            </div>
+            <div id="gts-pokemon-ranking">
+              <div class="leadline"></div>
+              <h3>Più scambiati</h3>
+              <a class="gts-pokemon-ranking-switch">切り替え</a>
+              <div id="gts-pokemon-ranking-traded">
+                <h4 class="squeeze">Più scambiati con questo Pokémon</h4>
+                <ol class="pokemon-ranking"></ol>
+              </div>
+              <div id="gts-pokemon-ranking-wanted">
+                <h4 class="squeeze">Più offerti per questo Pokémon</h4>
+                <ol class="pokemon-ranking"></ol>
+              </div>
+            </div>
+            <div id="gts-pokemon-bookmark">
+              <a id="gts-pokemon-bookmark-add">Aggiungi ai preferiti</a>
+              <a id="gts-pokemon-bookmark-remove">Togli dai preferiti</a>
+            </div>
+            <div class="nav-back">
+              <a href="#/gts/">Topへ戻る</a>
+            </div>
+          </div>
+          <div id="gts-area">
+            <h2>地域情報</h2>
+            <div class="nav">
+              <a class="gts-nav-area-select" href="#/gts/area/">地域を選ぶ</a>
+            </div>
+            <div class="local-info">
+              <div class="map">
+                <div class="map-center">
+                  <div class="canvas"></div>
+                  <div class="time"></div>
+                  <div class="area">
+                    <div class="country-name"></div>
+                    <div class="capital-name"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="area">
+                <div class="name"></div>
+                <div class="iso-3166-1"></div>
+                <div class="spec">
+                  <dl>
+                    <dt>Capitale</dt>
+                    <dd><span class="value"></span></dd>
+                    <dt>Superficie</dt>
+                    <dd><span class="value"></span><span class="unit"> km²</span></dd>
+                    <dt>Popolazione</dt>
+                    <dd><span class="value"></span><span class="unit"></span></dd>
+                    <dt>Utenti Internet</dt>
+                    <dd><span class="value"></span><span class="unit"></span></dd>
+                    <dt>Turisti (per anno)</dt>
+                    <dd><span class="value"></span><span class="unit"></span></dd>
+                  </dl>
+                </div>
+                <div class="gamesoft">
+                  <h3>Versione usata</h3>
+                </div>
+              </div>
+              <div class="gts-record-switcher">
+                <a class="gts-record-switcher-gts" href="">GTS情報を見る</a>
+                <a class="gts-record-switcher-record" href="">調査隊情報を見る</a>
+              </div>
+              <div class="gts-area-info">
+                <div class="number-of-users">
+                  <h3>Utenti della GTS</h3>
+                  <div class="value"></div>
+                </div>
+                <div class="deposited-count">
+                  <h3>Pokémon inviati alla GTS</h3>
+                  <div class="value"></div>
+                </div>
+                <div class="trade-ranking">
+                  <h3>I 5 Pokémon più scambiati</h3>
+                  <ol></ol>
+                </div>
+                <div class="deposited-list">
+                  <h3>Pokémon inviati alla GTS in quest'area</h3>
+                  <ul class="deposits"></ul>
+                  <ul class="pager"></ul>
+                </div>
+              </div>
+              <div class="global-records-info">
+                <div class="census-list">
+                  <div class="census">
+                    <h3></h3>
+                    <div class="ranking"><span class="value"></span></div>
+                    <div class="result"></div>
+                  </div>
+                </div>
+                <div class="most-slept-pokemon">
+                  <h3>I 3 Pokémon messi più spesso a dormire in quest'area</h3>
+                  <ol></ol>
+                </div>
+              </div>
+            </div>
+            <div class="nav-back">
+              <a href="#/gts/">Topへ戻る</a>
+            </div>
+          </div>
+        </div>
+        <!-- /GTS -->
+        <!-- GBU -->
+        <div id="gbu">
+          <h2>GBU</h2>
+          <div class="nav">
+            <a class="gbu-nav-ranking" href="#/gbu/ranking/">GBUランキング</a>
+            <a class="gbu-nav-trend" href="#/gbu/trend/">ポケモン情報</a>
+          </div>
+          <div id="gbu-top">
+            <div class="map scroll-map">
+              <div id="gbu-battle-summary">
+                <div class="regulation"></div>
+                <div class="areas"></div>
+                <div class="date"></div>
+              </div>
+            </div>
+            <div id="gbu-battle-record-1" class="gbu-battle-record">
+              <div class="battle-user">
+                <div class="avatar"><img/></div>
+                <div class="pglname"></div>
+                <div class="country"></div>
+                <div class="rating">
+                  <span class="label">Punteggio</span>
+                  <span class="unit"></span>
+                  <span class="value"></span>
+                  <span class="unit"> punti</span>
+                </div>
+                <div class="ranking">
+                  <span class="label">Posizione</span>
+                  <span class="unit"></span>
+                  <span class="value"></span>
+                  <span class="unit"></span>
+                </div>
+                <div class="trainername">
+                  <span class="label">Allenatore</span>
+                  <span class="value"></span>
+                </div>
+              </div>
+              <div class="battle-result"></div>
+            </div>
+            <div id="gbu-battle-record-2" class="gbu-battle-record">
+              <div class="battle-user">
+                <div class="avatar"><img/></div>
+                <div class="pglname"></div>
+                <div class="country"></div>
+                <div class="rating">
+                  <span class="label">Punteggio</span>
+                  <span class="unit"></span>
+                  <span class="value"></span>
+                  <span class="unit"> punti</span>
+                </div>
+                <div class="ranking">
+                  <span class="label">Posizione</span>
+                  <span class="unit"></span>
+                  <span class="value"></span>
+                  <span class="unit"></span>
+                </div>
+                <div class="trainername">
+                  <span class="label">Allenatore</span>
+                  <span class="value"></span>
+                </div>
+              </div>
+              <div class="battle-result"></div>
+            </div>
+            <div id="gbu-battle-result-effect-1" class="gbu-battle-result-effect">
+              <span class="value"></span>
+            </div>
+            <div id="gbu-battle-result-effect-2" class="gbu-battle-result-effect">
+              <span class="value"></span>
+            </div>
+          </div>
+          <div id="gbu-season">
+            <div id="gbu-season-ranking">
+              <div class="updated-at">
+                <span class="label">Aggiornamento: </span>
+                <span class="value"></span>
+                <span class="label"></span>
+              </div>
+              <h2>Classifica per tipo di lotta</h2>
+              <a id="gbu-ranking-help-link" href="/it.pokemon-gl.com/support/help/report/402/#lay3">Altre informazioni sui punteggi</a>
+              <div class="gbu-season-selector">
+                <h3>シーズンを選択</h3>
+                <div class="gbu-season-selector-frame"><select></select></div>
+              </div>
+              <a id="gbu-ranking-area-filter">
+                <span class="label">地域で絞り込む</span>
+                <span class="value"></span>
+              </a>
+              <div class="gbu-regulation-selector">
+                <div class="regulation-overall" data-value="overall">総合</div>
+                <div class="regulation-single" data-value="single">シングル</div>
+                <div class="regulation-double" data-value="double">ダブル</div>
+                <div class="regulation-triple" data-value="triple">トリプル</div>
+                <div class="regulation-shooter" data-value="shooter">シューター</div>
+                <div class="regulation-rotation" data-value="rotation">ローテーション</div>
+              </div>
+              <ol class="gbu-ranking"></ol>
+              <button class="prev">Indietro</button>
+              <button class="next">Avanti</button>
+              <button class="myranking">La mia posizione</button>
+              <a class="gbu-nav-yourrecords" href="/it.pokemon-gl.com/profile/#/gbu/">あなたの対戦成績を見る</a>
+              <div class="nav-back">
+                <a href="#/gbu/">Topへ戻る</a>
+              </div>
+            </div>
+            <div id="gbu-season-trend">
+              <h2>よく手持ちに入れられているポケモン</h2>
+              <div class="gbu-season-selector">
+                <h3>シーズンを選択</h3>
+                <div class="gbu-season-selector-frame"><select></select></div>
+              </div>
+              <div class="gbu-regulation-selector">
+                <div class="regulation-single" data-value="single">シングル</div>
+                <div class="regulation-double" data-value="double">ダブル</div>
+                <div class="regulation-triple" data-value="triple">トリプル</div>
+                <div class="regulation-shooter" data-value="shooter">シューター</div>
+                <div class="regulation-rotation" data-value="rotation">ローテーション</div>
+              </div>
+              <ol class="pokemon-ranking"></ol>
+              <a id="gbu-season-trend-pokemon-select">ポケモンを選ぶ</a>
+              <div id="gbu-season-trend-pokemon" class="gbu-pokemon-dialog">
+                <a class="close">閉じる</a>
+                <div class="pokemon">
+                  <div class="pokedex-nav">
+                    <a class="prev" href=""></a>
+                    <span class="current"></span>
+                    <a class="next" href=""></a>
+                  </div>
+                  <div class="image"><img/></div>
+                  <div class="pokemon-spec">
+                    <div class="name"><span class="value"></span></div>
+                    <div class="types">
+                      <div class="label">Tipo</div>
+                      <ol></ol>
+                    </div>
+                    <div class="height">
+                      <div class="label">Altezza</div>
+                      <div class="value"></div>
+                    </div>
+                    <div class="weight">
+                      <div class="label">Peso</div>
+                      <div class="value"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="gbu-combination-ranking">
+                  <h3>Pokémon più scelti in squadra con <span class="value"></span></h3>
+                  <div class="leadline"></div>
+                  <ol></ol>
+                </div>
+              </div>
+              <div class="nav-back">
+                <a href="#/gbu/">Topへ戻る</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /GBU -->
+        <!-- Wi-Fi大会 -->
+        <div id="wifi-competitions">
+          <div id="wifi-comp-list">
+            <h2>過去の大会一覧</h2>
+            <div class="pager">
+              <a class="prev">前へ</a>
+              <a class="next">次へ</a>
+            </div>
+            <ul></ul>
+          </div>
+          <div id="wifi-comp-detail">
+            <div class="nav">
+              <a class="wifi-competitions-nav-wifi" href="/it.pokemon-gl.com/wifi/">Wi-Fi大会一覧へ</a>
+            </div>
+            <h2>大会の情報</h2>
+            <div class="comp-spec">
+              <div class="name"></div>
+              <div class="span">
+                <span class="label">Date della gara</span>
+                <span class="value"></span>
+                <span class="label">-</span>
+                <span class="value"></span>
+              </div>
+              <table>
+                <tr class="regulation">
+                  <th class="squeeze">Tipo di lotta</th>
+                  <td></td>
+                </tr>
+                <tr class="desc">
+                  <th>Descrizione</th>
+                  <td></td>
+                </tr>
+                <tr class="gamesoft">
+                  <th class="squeeze">Schede di gioco in uso</th>
+                  <td></td>
+                </tr>
+                <tr class="number-of-users">
+                  <th class="squeeze">Partecipanti</th>
+                  <td></td>
+                </tr>
+              </table>
+              <a class="pdf" target="_blank">Regolamento (PDF)</a>
+              <div class="areas">
+                <h3>Aree in cui si svolge</h3>
+                <ul></ul>
+              </div>
+            </div>
+            <div id="wifi-comp-detail-ranking">
+              <button class="prev">Indietro</button>
+              <button class="next">Avanti</button>
+              <button class="myranking">La mia posizione</button>
+              <ol class="gbu-ranking"></ol>
+            </div>
+            <div id="wifi-comp-detail-pokemons">
+              <h3>I 10 Pokémon più usati da giocatori forti</h3>
+              <ol class="pokemon-ranking"></ol>
+            </div>
+            <div id="wifi-comp-detail-pokemon" class="gbu-pokemon-dialog">
+              <a class="close">閉じる</a>
+              <div class="pokemon">
+                <div class="pokedex-nav">
+                  <span class="current"></span>
+                </div>
+                <div class="image"><img/></div>
+                <div class="pokemon-spec">
+                  <div class="name"><span class="value"></span></div>
+                  <div class="types">
+                    <div class="label">Tipo</div>
+                    <ol></ol>
+                  </div>
+                  <div class="height">
+                    <div class="label">Altezza</div>
+                    <div class="value"></div>
+                  </div>
+                  <div class="weight">
+                    <div class="label">Peso</div>
+                    <div class="value"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="gbu-combination-ranking">
+                <h3>Pokémon più scelti in squadra con <span class="value"></span></h3>
+                <div class="leadline"></div>
+                <ol></ol>
+              </div>
+              <div class="wifi-pokemon-trend-list">
+                <div class="leadline"></div>
+                <h3>
+                  <span class="label">Dati statistici su </span>
+                  <span class="value"></span>
+                  <span class="label"></span>
+                </h3>
+                <div class="accordion">
+                  <div class="wifi-pokemon-trend">
+                    <div class="label">Mosse</div>
+                    <div class="content">
+                      <div class="graph"></div>
+                      <ol></ol>
+                    </div>
+                  </div>
+                  <div class="wifi-pokemon-trend">
+                    <div class="label">Abilità</div>
+                    <div class="content">
+                      <div class="graph"></div>
+                      <ol></ol>
+                    </div>
+                  </div>
+                  <div class="wifi-pokemon-trend">
+                    <div class="label">Natura</div>
+                    <div class="content">
+                      <div class="graph"></div>
+                      <ol></ol>
+                    </div>
+                  </div>
+                  <div class="wifi-pokemon-trend">
+                    <div class="label">Strumenti</div>
+                    <div class="content">
+                      <div class="graph"></div>
+                      <ol></ol>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="nav-back">
+              <a href="#/wifi-competitions/">Topへ戻る</a>
+            </div>
+          </div>
+        </div>
+        <!-- /Wi-Fi大会 -->
+        <!-- ゲームシンク調査隊 -->
+        <div id="global-records">
+          <h2>Sondaggi Sincrogioco</h2>
+          <div class="nav">
+            <a class="global-records-nav-area">地域を選ぶ</a>
+          </div>
+          <div class="updated-at">
+            <span class="label">Aggiornamento: </span>
+            <span class="value"></span>
+            <span class="label"></span>
+          </div>
+          <div class="map scroll-map"></div>
+          <div id="global-records-control">
+            <div class="label"></div>
+            <ul class="record-selector"></ul>
+            <div class="dropdown"><ul></ul></div>
+            <div class="dropdown-button"></div>
+          </div>
+          <div id="global-records-general">
+            <div class="area">
+              <div class="iso-3166-1"></div>
+              <div class="name"></div>
+              <div class="tzname"></div>
+              <div class="time"></div>
+              <div class="clock"></div>
+            </div>
+            <div class="census-result"></div>
+            <div class="most-slept-pokemon">
+              <h3><span class="label">Pokémon che i giocatori fanno addormentare di più in questa zona.</span></h3>
+              <div class="image"><img/></div>
+              <div class="pokedex"><span class="label">N° </span><span class="value"></span></div>
+              <div class="name"><span class="value"></span></div>
+              <div class="types"><ol></ol></div>
+              <div class="height">
+                <span class="label">Altezza</span>
+                <span class="value"></span>
+              </div>
+              <div class="weight">
+                <span class="label">Peso</span>
+                <span class="value"></span>
+              </div>
+              <div class="footprint"><img/></div>
+            </div>
+            <a id="global-records-general-more">Ulteriori informazioni su quest'area</a>
+          </div>
+          <div id="global-records-list"></div>
+          <div class="nav-back">
+            <a href="#/global-records/">Topへ戻る</a>
+          </div>
+          <div id="global-records-detail">
+            <a class="close">閉じる</a>
+            <div class="local-info">
+              <div class="map">
+                <div class="map-center">
+                  <div class="canvas"></div>
+                  <div class="time"></div>
+                  <div class="area">
+                    <div class="country-name"></div>
+                    <div class="capital-name"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="area">
+                <div class="name"></div>
+                <div class="iso-3166-1"></div>
+                <div class="spec">
+                  <dl>
+                    <dt>Capitale</dt>
+                    <dd><span class="value"></span></dd>
+                    <dt>Superficie</dt>
+                    <dd><span class="value"></span><span class="unit"> km²</span></dd>
+                    <dt>Popolazione</dt>
+                    <dd><span class="value"></span><span class="unit"></span></dd>
+                    <dt>Utenti Internet</dt>
+                    <dd><span class="value"></span><span class="unit"></span></dd>
+                    <dt>Turisti (per anno)</dt>
+                    <dd><span class="value"></span><span class="unit"></span></dd>
+                  </dl>
+                </div>
+                <div class="gamesoft">
+                  <h3>Versione usata</h3>
+                </div>
+              </div>
+              <div class="gts-record-switcher">
+                <a class="gts-record-switcher-gts" href="">GTS情報を見る</a>
+                <a class="gts-record-switcher-record" href="">調査隊情報を見る</a>
+              </div>
+              <div class="gts-area-info">
+                <div class="number-of-users">
+                  <h3>Utenti della GTS</h3>
+                  <div class="value"></div>
+                </div>
+                <div class="deposited-count">
+                  <h3>Pokémon inviati alla GTS</h3>
+                  <div class="value"></div>
+                </div>
+                <div class="trade-ranking">
+                  <h3>I 5 Pokémon più scambiati</h3>
+                  <ol></ol>
+                </div>
+                <div class="deposited-list">
+                  <h3>Pokémon inviati alla GTS in quest'area</h3>
+                  <ul class="deposits"></ul>
+                  <ul class="pager"></ul>
+                </div>
+              </div>
+              <div class="global-records-info">
+                <div class="census-list">
+                  <div class="census">
+                    <h3></h3>
+                    <div class="ranking"><span class="value"></span></div>
+                    <div class="result"></div>
+                  </div>
+                </div>
+                <div class="most-slept-pokemon">
+                  <h3>I 3 Pokémon messi più spesso a dormire in quest'area</h3>
+                  <ol></ol>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /ゲームシンク調査隊 -->
+      </div>
+    </div>
+    <div id="dialog-pokemon-selector">
+      <div class="tabs">
+        <a id="dialog-pokemon-selector-by-name">Per nome</a>
+        <a id="dialog-pokemon-selector-by-pokedex">Per N° Pokédex</a>
+        <a id="dialog-pokemon-selector-from-bookmark">Dai preferiti</a>
+      </div>
+      <a class="close">閉じる</a>
+      <ul class="index"></ul>
+      <div class="scroller">
+        <ul></ul>
+        <div class="empty">Dati non disponibili.</div>
+      </div>
+    </div>
+    <div id="dialog-area-selector">
+      <a class="close">閉じる</a>
+      <div class="map"></div>
+      <div class="scroller">
+        <ul></ul>
+      </div>
+    </div>
+    <div class="balloon gbu-user-balloon">
+      <div class="trainername">
+        <span class="label">Allenatore: </span>
+        <span class="value"></span>
+      </div>
+      <div class="rating">
+        <span class="label">Punteggio: </span>
+        <span class="unit"></span>
+        <span class="value"></span>
+        <span class="unit"> punti</span>
+      </div>
+    </div>
+    <div id="dialog-gbu-records">
+      <h3>Registro lotte di <span class="value"></span></h3>
+      <a class="close">閉じる</a>
+      <table>
+        <tr>
+          <th></th>
+          <th>Totale</th>
+          <th>Singolo</th>
+          <th>Doppio</th>
+          <th>Triplo</th>
+          <th>Lancio</th>
+          <th>Rotazione</th>
+        </tr>
+        <tr class="rating">
+          <th>Punteggio</th>
+          <td><span class="value"></span> punti</td>
+          <td><span class="value"></span> punti</td>
+          <td><span class="value"></span> punti</td>
+          <td><span class="value"></span> punti</td>
+          <td><span class="value"></span> punti</td>
+          <td><span class="value"></span> punti</td>
+        </tr>
+        <tr class="ranking">
+          <th>Posizione</th>
+          <td><span class="value"></span></td>
+          <td><span class="value"></span></td>
+          <td><span class="value"></span></td>
+          <td><span class="value"></span></td>
+          <td><span class="value"></span></td>
+          <td><span class="value"></span></td>
+        </tr>
+        <tr class="win">
+          <th rowspan="2">Numero di lotte</th>
+          <td>Vittorie: <span class="value"></span></td>
+          <td>Vittorie: <span class="value"></span></td>
+          <td>Vittorie: <span class="value"></span></td>
+          <td>Vittorie: <span class="value"></span></td>
+          <td>Vittorie: <span class="value"></span></td>
+          <td>Vittorie: <span class="value"></span></td>
+        </tr>
+        <tr class="lose">
+          <td>Sconfitte: <span class="value"></span></td>
+          <td>Sconfitte: <span class="value"></span></td>
+          <td>Sconfitte: <span class="value"></span></td>
+          <td>Sconfitte: <span class="value"></span></td>
+          <td>Sconfitte: <span class="value"></span></td>
+          <td>Sconfitte: <span class="value"></span></td>
+        </tr>
+      </table>
+    </div>
+
+
+
+
+
+    </div>
+    <div id="footer">
+      <ul id="footer-links">
+        <li><a href="http://www.pokemon.com/it/terms-of-use/">Termini di utilizzo</a></li>
+        <li><a href="/it.pokemon-gl.com/maintenance/">Manutenzione</a></li>
+        <li><a href="http://www.pokemon.com/it/pgl/requirements/">Requisiti di sistema</a></li>
+        <li><a href="http://www.pokemon.com/it/privacy-policy/">Informativa sulla privacy </a></li>
+        <li><a href="http://www.pokemon.com/it/about/legal/">Informazioni legali</a></li>
+        <li><a href="" class="trafficy">Traffico attuale nel Pokémon DW</a></li>
+      </ul>
+      <ul id="select-language">
+        <li>Lingua (Language): &nbsp;&nbsp;&nbsp;</li>
+        <li><a href="/ja.pokemon-gl.com/">日本語</a></li>
+        <li><a href="/en.pokemon-gl.com/">English</a></li>
+        <li><a href="/fr.pokemon-gl.com/">Français</a></li>
+        <li><a href="/it.pokemon-gl.com/">Italiano</a></li>
+        <li><a href="/de.pokemon-gl.com/">Deutsch</a></li>
+        <li><a href="/es.pokemon-gl.com/">Español</a></li>
+        <li><a href="/ko.pokemon-gl.com/">한국어</a></li>
+      </ul>
+      <div id="copyright">
+        <p>©2011-2013 Pokémon. ©1995-2013 Nintendo/Creatures Inc./GAME FREAK inc. Pokémon, Pokémon character names and Nintendo DS are trademarks of Nintendo.</p>
+        <p class="maintenance"><a href="" target="_blank"></a></p>
+      </div>
+      <div id="badges"><a class="footer-badges-com" href="http://www.pokemon.com/" target="_blank"><img src="/it.pokemon-gl.com/assets/global/it/images/footer/com.png"/></a><a class="footer-badges-nintendo" href="http://www.nintendo.it/" target="_blank"><img src="/it.pokemon-gl.com/assets/global/it/images/footer/nintendo.png"/></a><a class="footer-badges-ds" href="http://www.nintendo.it/" target="_blank"><img src="/it.pokemon-gl.com/assets/global/it/images/footer/ds.png"/></a><a class="footer-badges-wifi" href="http://www.nintendo.it/NOE/it_IT/nintendo_wi-fi_5025.html" target="_blank"><img src="/it.pokemon-gl.com/assets/global/it/images/footer/wifi.png"/></a><a class="footer-badges-pegi" href="http://www.pegi.info" target="_blank"><img src="/it.pokemon-gl.com/assets/global/it/images/footer/pegi.png"/></a></div>
+    </div>
+  </div>
+</body>
+</html>

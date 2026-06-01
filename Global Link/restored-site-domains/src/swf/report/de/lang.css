@@ -1,0 +1,11 @@
+/* AUTO-GENERATED PGL STUB: /src/swf/report/de/lang.css */
+/* offline report language fallback (de) for missing asset /src/swf/report/de/lang.css */
+#report .label {
+  font-weight: 600;
+}
+#report .unit {
+  color: #4f4f4f;
+}
+#report .squeeze {
+  letter-spacing: 0;
+}

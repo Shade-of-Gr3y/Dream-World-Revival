@@ -1,0 +1,66 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#headerNavigation{
+	display:none !important;
+}
+
+#errorContainer{
+	width:650px;
+	margin:0 auto;
+	padding:50px;
+	border-radius:5px;
+	border:1px solid #CCCCCC;
+	margin-bottom:20px;
+	background: #ebebeb; /* Old browsers */
+	background: -moz-linear-gradient(top,  #ebebeb 0%, #ffffff 98%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ebebeb), color-stop(98%,#ffffff)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #ebebeb 0%,#ffffff 98%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #ebebeb 0%,#ffffff 98%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #ebebeb 0%,#ffffff 98%); /* IE10+ */
+	background: linear-gradient(to bottom,  #ebebeb 0%,#ffffff 98%); /* W3C */
+	box-shadow: 2px 2px 3px 0px rgba(0,0,0,0.1) inset;
+	-moz-box-shadow: 2px 2px 3px 0px rgba(0,0,0,0.1) inset;
+	-webkit-box-shadow: 2px 2px 3px 0px rgba(0,0,0,0.1) inset;
+}
+
+#errorContainer>h2{ 
+	font-size:34px; 
+	padding:5px 0px 0 85px;
+	line-height:160%; 
+	min-height:65px;
+	border-bottom:3px solid #D6D8DA;
+	padding-bottom:25px;
+	margin-bottom:20px;
+}
+
+
+#errorContainer>h2.e404{ background:url(/3ds.pokemon-gl.com/under_maintenance/pc/common/images/error/bg_h2_404.png) no-repeat left top; color:#F38C41;}
+#errorContainer>h2.e503_1{ background:url(/3ds.pokemon-gl.com/under_maintenance/pc/common/images/error/bg_h2_503_01.png) no-repeat left top; color:#84CD5A;}
+#errorContainer>h2.e503_2{ background:url(/3ds.pokemon-gl.com/under_maintenance/pc/common/images/error/bg_h2_503_02.png) no-repeat left top; color:#E585B0;}
+#errorContainer>h2.e503_3{ background:url(/3ds.pokemon-gl.com/under_maintenance/pc/common/images/error/bg_h2_503_03.png) no-repeat left top; color:#52C1B2;}
+#errorContainer>h2.e503_4{ background:url(/3ds.pokemon-gl.com/under_maintenance/pc/common/images/error/bg_h2_503_04.png) no-repeat left top; color:#4CC3D1;}
+#errorContainer>h2.e500{ background:url(/3ds.pokemon-gl.com/under_maintenance/pc/common/images/error/bg_h2_500.png) no-repeat left top; color:#92AAF3;}
+
+
+#errorContainer>h3{
+	font-weight:bold;
+	background:none;
+	border:none;
+	box-shadow:none;
+	color:#333;
+	padding:0;
+	margin:0 0 10px;
+	font-size:16px;
+}
+#errorContainer>h4{ background:url(../images/icon/icon_mb_or.png) no-repeat left top; padding:0 0px 0 25px; color:#F28C40; margin-bottom:10px;}
+#errorContainer>h2.e503_3+h3{ border-bottom:1px solid #ccc; padding-bottom:10px; margin-bottom:15px;}
+#errorContainer>h3+p{ margin-bottom:20px; font-size:14px !important; line-height:180%;}
+[class*="btn"]{ box-shadow:none !important;}
+
+#errorContainer>dl>dt{ font-size:16px; border-left:5px solid #828282; padding-left:10px; margin-bottom:10px;}
+#errorContainer>dl>dd{ margin-bottom:20px;}
+
+#errorContainer>.time{ text-align:center; border:1px solid #D6D8DA; padding:15px; margin-bottom:5px; font-size:16px !important; font-weight:bold; color:#F28C40;}
+#errorContainer>.time+p{ font-size:10px !important;}
+#errorContainer>.time+p+p{ font-size:10px !important; margin-top:20px;}

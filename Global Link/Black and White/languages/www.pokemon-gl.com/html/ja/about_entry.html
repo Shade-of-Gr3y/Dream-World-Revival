@@ -1,0 +1,274 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html lang="ja-JP">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta name="robots" content="index,follow" />
+<meta name="keywords" content="ポケモン,ぽけもん,ポケットモンスター,ブラック,ホワイト,黒,白,新作,BW,pokemon,DS,PGL,PDW,Black,White,ポケモンドリームワールド, グローバルバトルユニオン,イッシュ地方" />
+<meta name="description" content="「ポケモングローバルリンク」は、ニンテンドーDSソフト「ポケットモンスターブラック・ホワイト」と連動したWEBサイトです。" />
+<meta name="copyright" content="(C)2010 Pokemon. (C)1995-2010 Nintendo/Creatures Inc. /GAME FREAK inc. ポケットモンスター・ポケモン・Pokemon は任天堂・クリーチャーズ・ゲームフリークの登録商標です。" />
+<title>ポケモングローバルリンク | Pok&eacute;mon GLOBAL LINK</title>
+<link rel="stylesheet" type="text/css" media="screen" href="./css/style.css">
+<script type="text/javascript" src="./js/common.js"></script>
+<script type="text/javascript" language="javascript">
+
+var loc = window.location.hostname;
+
+function pop_guide(url) {
+	sealWin=window.open(url,"win",'toolbar=0,location=0,directories=0,status=1,menubar=0,scrollbars=1,resizable=1,width=730,height=520');
+	self.name = "mainWin";
+}
+
+function pop_guide2(url) {
+	sealWin=window.open(url,"win",'toolbar=0,location=0,directories=0,status=1,menubar=0,scrollbars=1,resizable=1,width=750,height=520');
+	self.name = "mainWin";
+}
+
+function pop_guide3(url) {
+	sealWin=window.open(url,"win",'toolbar=0,location=0,directories=0,status=1,menubar=0,scrollbars=1,resizable=1,width=750,height=520');
+	self.name = "mainWin";
+}
+
+function change_button(obj) {
+	if (obj.checked) {
+		var e = document.createElement("a");
+		if(loc == "www.pokemon-gl.com") {
+		e.setAttribute("href", "https://www.pokemon.jp/portal/toroku/index.cfm?PGLENTRY=YES");
+		} else if(loc == "stg.pokemon-gl.com") {
+		e.setAttribute("href", "https://preview.pokemon.jp/portal/toroku/index.cfm?PGLENTRY=YES");
+		} else if(loc == "test.pokemon-gl.com") {
+		e.setAttribute("href", "https://test1.pokemon.jp/portal/toroku/index.cfm?PGLENTRY=YES");
+		} else if(loc == "pokemon-www.basementfactorysystems.com") {
+		e.setAttribute("href", "https://dev4pdc.pokemon.jp/portal/toroku/index.cfm?PGLENTRY=YES");
+		} else {
+		e.setAttribute("href", "https://www.pokemon.jp/portal/toroku/index.cfm?PGLENTRY=YES");
+		}
+		var e_img = document.createElement("img");
+		e_img.setAttribute("src", "./img/abt_btn_regist.jpg");
+		e_img.setAttribute("width", "332");
+		e_img.setAttribute("height", "47");
+		e_img.setAttribute("alt", "今すぐポケモンだいすきクラブのメンバー登録をする");
+		e.appendChild(e_img);
+	} else {
+		var e = document.createElement("img");
+		e.setAttribute("src", "./img/abt_btn_regist_.jpg");
+		e.setAttribute("alt", "今すぐポケモンだいすきクラブのメンバー登録をする");
+	}
+	var btn = document.getElementById("btn");
+	btn.removeChild(btn.firstChild);
+	btn.appendChild(e);
+}
+
+
+
+</script>
+<script src="../../../_restore/mock-api-interceptor.js" data-pgl-restore="mock-api-interceptor.js"></script>
+<script src="../../../_restore/plugin-guards.js" data-pgl-restore="plugin-guards.js"></script>
+<script src="../../../_restore/runtime-fixes.js" data-pgl-restore="runtime-fixes.js"></script>
+</head>
+<body topmargin="0" leftmargin="0" marginwidth="0" marginheight="0" id="about" oncontextmenu="alert('右クリック禁止になっています。\n画像のコピーはしないでね！');return false;">
+
+<div id="container">
+
+<table width="778" cellpadding="0" cellspacing="0" border="0" style="margin:0 0 0 1px;">
+<tr>
+<td valign="top"><a href="/www.pokemon-gl.com/"><img src="./img/hdr_logo.gif" alt="ポケモングローバルリンク" width="120" height="74"></a></td>
+<td valign="top"><img src="./img/hdr_img02.gif" alt="ポケモンだいすきクラブ" width="87" height="74"></td>
+<td valign="top"><img src="./img/hdr_bg.gif" alt="" width="434" height="64"></td>
+<td valign="top"><a href="/www.pokemon-gl.com/"><img src="./img/hdr_bg2.gif" alt="トップにもどる" width="137" height="64"></a></td>
+</tr>
+</table>
+
+<table width="778" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td align="center">
+    <table width="763" cellpadding="0" cellspacing="0" border="0" class="main">
+    <tr>
+    <td align="center" colspan="7"><img src="./img/abt_h1.jpg" alt="【ポケモンだいすきクラブメンバー登録】ポケモンだいすきクラブは登録・年会費無料のポケモン公式ファンクラブです おうちの方へ：ポケモンだいすきクラブは、ポケモンのファンを対象としたミニゲームや、プレゼント企画、ポケモンのゲームソフト・ポケモンカードゲームをよりお楽しみいただける企画や、イベントやオリジナルグッズなどの最新情報をお届けする、ポケモン公式のファンクラブです。登録・年会費は無料でお楽しみいただけます。" width="743" height="216"></td>
+    </tr>
+    <tr>
+    <td><img src="./img/abt_img01.gif" alt="" width="52" height="40"></td>
+    <td><a href="javascript:pop_guide('http://www.pokemon.jp/portal/renewal/guide.html');"><img src="./img/abt_btn_club.gif" alt="ポケモンだいすきクラブでできることをご案内します【だいすきクラブガイド】" width="210" height="40"></a></td>
+    <td><img src="./img/abt_img02.gif" alt="" width="15" height="40"></td>
+    <td><a href="javascript:pop_guide2('http://www.pokemon.jp/portal/toroku/pop/privacy_pgl.html');"><img src="./img/abt_btn_privacy.gif" alt="安全・安心なウェブサイト運営を心がけております【プライバシーポリシー】" width="210" height="40"></a></td>
+    <td><img src="./img/abt_img03.gif" alt="" width="15" height="40"></td>
+    <td><a href="javascript:pop_guide2('http://www.pokemon.jp/portal/toroku/pop/browser_pgl.html');"><img src="./img/abt_btn_init.gif" alt="お楽しみいただける環境をご案内します【パソコンの設定】" width="210" height="40"></a></td>
+    <td><img src="./img/abt_img04.gif" alt="" width="51" height="40"></td>
+    </tr>
+    <tr>
+    <td align="center" colspan="7"><img src="./img/abt_img05.gif" alt="" width="763" height="15"></td>
+    </tr>
+    </table>
+</td></tr>
+</table>
+
+<table width="778" cellpadding="0" cellspacing="0" border="0" class="detail">
+<tr>
+<td align="center">
+    <table width="743" cellpadding="0" cellspacing="0" border="0">
+    <tr>
+    <td><img src="./img/abt_insidetop.gif" alt="" width="743" height="20"></td></tr>
+    <tr>
+    <td align="center" background="./img/abt_detailbg.gif">
+        <table width="703" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+        <td height="48" valign="top"><img src="./img/abt_h2.gif" alt="ポケモングローバルリンクについて" width="703" height="30"></td></tr>
+        <tr>
+        <td height="47" valign="top" align="center"><p>「ポケモングローバルリンク」は、ポケットモンスターブラック・ホワイトと連動（れんどう）したWEBサイトです。</p></td></tr>
+        <tr>
+        <td valign="top" align="center">
+            <table width="682" cellpadding="0" cellspacing="0" border="0">
+            <tr>
+            <td height="48" valign="top" colspan="3"><img src="./img/abt_h3_dw.gif" alt="ポケモンドリームワールド" width="682" height="28"></td></tr>
+            <tr>
+            <td valign="top">
+                <table width="448" cellpadding="0" cellspacing="0" border="0">
+                <tr>
+                <td height="100" valign="top"><p>ポケモンドリームワールドは、ポケモングローバルリンクに広がるポケモンの夢（ゆめ）の世界です。イッシュ地方以外（いがい）のポケモンと一緒（いっしょ）にミニゲームを遊ぶことが出来たり、他のプレイヤーとコミュニケーションをしたりすることが出来ます。</p></td></tr>
+                <tr>
+                <td valign="top"><img src="./img/abt_gbu_h4.gif" alt="ポケットモンスターブラック・ホワイトをもっていると！" width="448" height="35"></td></tr>
+                <tr>
+                <td valign="top" background="./img/abt_gbu_h4_bg.gif">
+                <p style="margin:0 15px 0 15px;">さらに、ポケットモンスターブラック・ホワイトを持っているユーザーは、仲良（なかよ）くなったポケモンや、手に入れたどうぐを、「ポケットモンスター　ブラック・ホワイト」に登場させることが出来るようになります。</p>
+                </td></tr>
+                <tr>
+                <td valign="top" class="narrow"><img src="./img/abt_gbu_h4_btm.gif" alt="" width="448" height="10"></td></tr>
+				</table> 
+                        
+                <table width="1" cellpadding="0" cellspacing="0" border="0">
+                <tr>
+                <td height="40" valign="top"></td></tr>
+				</table>
+                        
+                <table width="448" cellpadding="0" cellspacing="0" border="0">
+                <tr>
+                <td height="36" valign="top"><img src="./img/abt_dw_img02.gif" alt="他にも楽しいことがいっぱいあります！" width="395" height="28"></td></tr>
+                <tr>
+                <td height="182" valign="top"><img src="./img/abt_dw_img03.jpg" alt="畑できのみを育てたり　プレイヤー同士（どうし）でどうぐを交換（こうかん）！" width="447" height="156"></td></tr>
+				</table> 
+            </td>
+            <td width="18" valign="top"></td>
+            <td valign="top"><img src="./img/abt_dw_img01.jpg" alt="" width="215" height="270"></td></tr>
+            </table>
+        
+            <table width="682" cellpadding="0" cellspacing="0" border="0">
+            <tr>
+            <td height="49" valign="top" colspan="3"><img src="./img/abt_h3_gbu.gif" alt="グローバルバトルユニオン" width="682" height="28"></td></tr>
+            <tr>
+            <td width="448" valign="top">
+                <table width="448" cellpadding="0" cellspacing="0" border="0">
+                <tr>
+                <td height="95" valign="top"><p>グローバルバトルユニオンでは、全国のトレーナーがWi-Fiで対戦した対戦ランキングや、レーティングを確認（かくにん）することが出来ます。ランキングをみることで、どんなプレイヤーが強いのか、どんな対戦が行われたのかを見ることができます。</p></td></tr>
+                <tr>
+                <td valign="top"><img src="./img/abt_gbu_h4.gif" alt="ポケットモンスターブラック・ホワイトをもっていると！" width="448" height="35"></td></tr>
+                <tr>
+                <td valign="top" background="./img/abt_gbu_h4_bg.gif">
+                <p style="margin:0 15px 0 15px;">Wi-Fiランダムマッチの「レーティングモード」で対戦した、自分の対戦（たいせん）データもランキングの中に登場するため、自分がどれくらい強いのかなどを知ることができます。また、Wi-Fi大会が行われているときは、大会にエントリーも行うことが出来ます。</p>
+                </td></tr>
+                <tr>
+                <td valign="top" class="narrow"><img src="./img/abt_gbu_h4_btm.gif" alt="" width="448" height="10"></td>
+                </tr>
+				</table> 
+            </td>
+            <td width="20" valign="top"></td>
+            <td valign="top" width="215" height="283"><img src="./img/abt_gbu_img01.jpg" alt="" width="215" height="260"></td></tr>
+			</table>
+        
+            <table width="682" cellpadding="0" cellspacing="0" border="0">
+            <tr>
+            <td height="57" valign="top" colspan="3"><img src="./img/abt_h3_fnc.gif" alt="その他の機能（きのう）" width="682" height="38"></td></tr>
+            <tr>
+            <td valign="top">
+                <table width="682" cellpadding="0" cellspacing="0" border="0">
+                <tr>
+                <td height="198" valign="top" width="281"><img src="./img/abt_fnc_img01.jpg" alt="仲良（なかよ）くなった人同士（どうし）で簡単（かんたん）なコミュニケーションを楽しめる「あんしんメール」" width="214" height="166"></td>
+                <td height="198" valign="top" width="401"><img src="./img/abt_fnc_img02.jpg" alt="ポケットモンスターブラック・ホワイトの「Cギア」、「ずかん」のスキン、「ミュージカル」の演目をダウンロードすることができる「カスタマイズ」" width="352" height="166"></td></tr>
+                <tr>
+                <td valign="top" colspan="2"><img src="./img/abt_fnc_desc01.gif" alt="その他にも「ポケットモンスターブラック・ホワイト」をもっと楽しむことが出来るコーナーを多数ご用意しています。" width="640" height="28">
+              <p class="att">※ポケモングローバルリンクは、ポケットモンスターブラック・ホワイトをより楽しんでいただくための追加要素（ついかようそ）です。ゲーム本編（ほんぺん）の進行には影響（えいきょう）ありません。</p></td>
+                </tr>
+				</table>
+            </td></tr>
+			</table>
+
+			<!-- nextStep -->
+            <form action="https://test1.pokemon.jp/portal/toroku/index.cfm?PGLENTRY=YES" method="post">
+            <table width="682" cellpadding="0" cellspacing="0" border="0">
+            <tr>
+            <td valign="top">
+                <table width="682" cellpadding="0" cellspacing="0" border="0">
+                <tr>
+                <td valign="top"><img src="./img/abt_bdr.gif" alt="" width="682" height="48"></td></tr>
+                <tr>
+                <td valign="top" height="22"><img src="./img/abt_fnc_stitle01.gif" alt="以下に内容を同意の上、次のステップにお進みください。" width="345" height="15"></td></tr>
+                <tr>
+                <td valign="top" height="36"><img src="./img/abt_fnc_stitle0101.gif" alt="小さいお子さまは、おうちのかたといっしょにかくにんしてください。" width="345" height="15"></td></tr>
+                <tr>
+                <td valign="top" height="70"><img src="./img/abt_fnc_stitle0102.gif" alt="ポケモングローバルリンクをご利用いただくには「ポケモンだいすきクラブ」（登録・年会費無料）へのメンバー登録が必要です。ポケモングローバルリンクでは、「ポケモンだいすきクラブ」メンバー登録の際にご記入いただいた、以下の情報を利用します。" width="683" height="38"></td></tr>
+                <tr>
+                <td valign="top" height="52" align="center"><img src="./img/abt_fnc_info.gif" alt="せいべつ・たんじょう日・住んでいるところ" width="437" height="21"></td></tr>
+                <tr>
+                <td valign="top" height="89" align="center"><img src="./img/abt_fnc_stitle0103.gif" alt="ポケモングローバルリンクをお楽しみいただくためには、PGLニックネーム、ゲームシンクIDコードを登録していただく必要があります。ゲームシンクIDコードを登録すると、全国のトレーナーの対戦ランキングやレーティングを確認することができます。ポケモングローバルリンクにおける「ポケットモンスター」関連のゲームソフトとの連動によるコンテンツ提供にあたっては、当該ゲームソフトにおけるセーブデータを利用します。" width="682" height="79"></td></tr>
+                <tr>
+                <td valign="top" height="42" align="center"><img src="./img/abt_fnc_stitle0104.gif" alt="※ゲームシンクIDコードの登録は必須ではありません。また、ゲームシンクIDコードは後から登録することも可能です。" width="578" height="17" border="0"></td>
+                </tr>
+                <tr>
+                <td valign="top" height="24" align="center"><label><input type="checkbox" onClick="change_button(this);"><img src="./img/abt_agree.gif" width="124" height="15" alt="上記内容に同意する" style="margin:0 0 0 10px;"></label></td></tr>
+                <tr>
+                <td valign="top" height="60" align="center"><span id="btn"><img src="./img/abt_btn_regist_.jpg" width="327" height="42" alt="今すぐポケモンだいすきクラブのメンバー登録をする"></span></td>
+                </tr>
+                
+				</table>
+            </td></tr>
+			</table>
+			<input type="hidden" name="PGLENTRY" value="YES">
+            </form>
+			<!-- //nextStep -->
+        
+        </td></tr>
+		</table>    
+    </td></tr>
+    <tr>
+    <td><img src="./img/abt_insidebtm.gif" alt="" width="743" height="48"></td>
+    </tr>
+    </table>
+</td></tr>
+</table>
+
+
+<div id="footer">
+<div id="footerInside">
+<img src="./img/footer.gif" alt="&copy;Pok&eacute;mon.&nbsp;&copy;1995-2010&nbsp;Nintendo/Creatures Inc. / GAME FREAK inc.&nbsp;&nbsp;ポケットモンスター・ポケモン・Pok&eacute;mon&nbsp;は任天堂・クリーチャーズ・ゲームフリークの登録商標です。" width="778" height="61" border="0" usemap="#Map2">
+<map name="Map2">
+<area shape="rect" coords="19,11,125,27" href="javascript:pop_guide3('./about.html');" alt="このサイトについて">
+<area shape="rect" coords="144,12,261,27" href="javascript:pop_guide3('./maintenance.html');" alt="メンテナンスについて">
+<area shape="rect" coords="282,12,319,27" href="javascript:pop_guide3('./oyakusoku.html');" alt="お約束">
+<area shape="rect" coords="340,12,455,27" href="javascript:pop_guide2('http://www.pokemon.jp/portal/toroku/pop/privacy_pgl.html');" alt="プライバシーについて">
+<area shape="rect" coords="478,12,546,26" href="javascript:pop_guide2('http://www.pokemon.jp/portal/toroku/pop/copyright_pgl.html');" alt="コピーライト">
+<area shape="rect" coords="563,12,652,26" href="javascript:pop_guide2('http://www.pokemon.jp/portal/toroku/pop/browser_pgl.html');" alt="パソコンの設定">
+<area shape="rect" coords="670,13,761,27" href="http://www.pokemon.jp/portal/html/faq/faq.cfm?PGL=YES" alt="よくあるしつもん">
+</map>
+</div>
+</div>
+
+</div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-17682532-1']);
+  _gaq.push(['_setDomainName', '.pokemon-gl.com']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</body>
+</html>

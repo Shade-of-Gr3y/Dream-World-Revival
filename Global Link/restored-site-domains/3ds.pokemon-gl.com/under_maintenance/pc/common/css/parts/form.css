@@ -1,0 +1,16 @@
+@charset "UTF-8";
+/* CSS Document */
+
+select{
+  padding:5px;
+  border-radius:3px;
+  border:1px solid #C8C9CE;
+  font-weight: normal;
+  background: -moz-linear-gradient(top, rgba(249,249,249,1) 0%, rgba(240,240,240,1) 100%);
+  background: -webkit-linear-gradient(top, rgba(249,249,249,1) 0%, rgba(240,240,240,1) 100%); 
+  background: -ms-linear-gradient(top, rgba(249,249,249,1) 0%,rgba(240,240,240,1) 100%);
+}
+
+select.season{ min-width:450px; padding-bottom:7px; border-radius:1px; padding-top:7px;}
+select>option{ line-height:120%; padding:0px 0;}
+select,  x:-moz-any-link  { padding: 2px;}

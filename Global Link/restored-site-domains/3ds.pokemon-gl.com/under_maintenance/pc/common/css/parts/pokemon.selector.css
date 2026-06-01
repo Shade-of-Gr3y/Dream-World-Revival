@@ -1,0 +1,354 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#searchOverlay{
+	width:100%;
+	height:100%;
+	position:fixed;
+	top:0;
+	left:0;
+	background-color:rgba(0,0,0,0.5);
+	z-index:1000;
+	text-align:left;
+}
+
+#searchOverlay #pokemonWrapper{
+	width:840px;
+	background-color:#FFFFFF;
+	padding-bottom:5px;
+	position:absolute;	
+}
+
+#searchOverlay #pokemonWrapper .headBox{
+	min-height: 18px;
+	margin:0px 0 10px;
+	padding:7px 10px;
+	font-size: 14px;
+	color:#FFFFFF;
+	box-shadow: 0px 3px 5px rgba(0,0,0,0.4);
+	-moz-box-shadow: 0px 3px 5px rgba(0,0,0,0.4);
+	-webkit-box-shadow: 0px 3px 5px rgba(0,0,0,0.4);
+}
+
+#searchOverlay #pokemonWrapper .headBox>.popClose a{ position:absolute; top:12px; right:10px; width:15px; height:15px; background:#FFFFFF;}
+
+
+/* ポケモン詳細 */
+.DIALGO_POKEMON_SELECT #pokemonWrapper{ width:930px !important;height: 524px;}
+.DIALGO_POKEMON_SELECT .contentBox{ padding:0px 30px 0px;}
+
+/*#overlay #pokemonWrapper .closeButton{ 
+position:absolute;
+ top:12px; 
+ right:10px; 
+ width:15px; 
+ height:15px; 
+ background:#cc0000; 
+ cursor:pointer;
+}*/
+
+/* tab */
+.rankingTabUI{
+	height:35px;
+	border-bottom:3px solid #004486;
+	margin:15px 0;
+}
+.rankingTabUI li.tab{
+	float:left;
+}
+.rankingTabUI li.tab a{
+	width:218px;
+	background:#EFEFEF;
+	color:#004486;
+	border:solid #E0E0E0;
+	border-width:1px 1px 0 1px;
+	font-size:14px;
+	float:left;
+	text-decoration:none !important;
+	margin-right:12px;
+	text-align:center;
+	padding:7px 0;
+	border-top-left-radius: 5px;
+   	border-top-right-radius: 5px;
+	-webkit-border-top-left-radius: 5px;  
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;  
+    -moz-border-radius-topright: 5px;
+	-moz-box-shadow:
+		inset 2px 2px 0px rgba(255,255,255,0.3);
+	-webkit-box-shadow:
+		inset 2px 2px 0px rgba(255,255,255,0.3);
+	box-shadow:
+		inset 2px 2px 0px rgba(255,255,255,0.3);
+}
+.rankingTabUI li.tab a:hover,
+.rankingTabUI li.tab a.active{
+	background:#004486;
+	border:none;
+	color:#fff;
+	cursor:pointer;
+	padding:8px 0 8px 2px;
+}
+
+
+
+/*--window-------------------------*/
+#pokemonWindow{
+	/* border:10px solid #d9d9d9; */
+	background:#fff;
+	/* width:950px; */
+	/* height:500px; */
+	position:relative;
+}
+
+.closeButton{
+	position:absolute;
+	height:31px;
+	width:31px;
+	background:url(/3ds.pokemon-gl.com/under_maintenance/pc/common/images/gbu/closeBtn.png) center center no-repeat;
+	right:0;
+	top:0;
+	margin:5px;
+	display:block;
+}
+
+/*--searchBox--*/
+#pokemonWindow #pokemonSearchBox{
+	border:1px solid #ccc;
+	padding:0px 23px;
+	/* height:498px; */
+}
+
+#pokemonWindow #searchArea{
+	border:1px solid #ccc;
+	width:100%;
+}
+
+#pokemonWindow #searchTypeBox{
+	width:100px;
+	float:left;
+	display:block;
+	padding-top:12px;
+	/* padding-bottom:100px; */
+	background:#e6edf3;
+}
+
+#pokemonWindow #searchTypeBox li{
+	text-align:center;
+	width:80px;
+	margin:0 10px;
+}
+#pokemonWindow #searchTypeBox li a{
+	padding-top:7px;
+	display:block;
+	height:22px;
+	font-size:14px!important;
+	text-decoration:none !important;
+}
+
+#pokemonWindow #searchTypeBox li a:hover{
+	background:#fdd000;
+	color:#fff;
+	width:100px;
+	padding-right:10px;
+	margin-left:-10px;
+}
+
+/* searchPanelBoxの幅 */
+
+
+/*--detailBox--*/
+#pokemonWindow #pokemonDetailBox{
+	border:1px solid #ccc;
+	padding:20px 23px;
+	/* height:458px; */
+}
+
+#pokemonDetailBox .rankingTabUI{
+	height:65px;
+	border-bottom:3px solid #004486;
+	margin:15px 0;
+}
+
+#pokemonDetailBox .rankingTabUI li.tab a{
+	width:95px;
+	height:49px;
+	background:#EFEFEF;
+	color:#004486;
+	border:solid #E0E0E0;
+	border-width:1px 1px 0 1px;
+	font-size:12px;
+	line-height:14px;
+	float:left;
+	text-decoration:none !important;
+	margin-right:6px;
+	text-align:center;
+	padding:5px 0 10px 0;
+}
+#pokemonDetailBox .rankingTabUI li.tab a:hover,
+#pokemonDetailBox .rankingTabUI li.tab a.active{
+	padding:6px 0 11px 2px;
+	background:#004486;
+	border:none;
+	color:#fff;
+	cursor:pointer;
+}
+
+#pokemonWindow .trendType{
+	width:100px;
+	border:1px solid #fff;
+	float:left;
+	display:block;
+	padding-bottom:180px;
+	background:#e6edf3;
+}
+
+#pokemonWindow .trendType li a{
+	padding-top:12px;
+	display:block;
+	height:28px;
+	font-size:12px!important;
+	text-decoration:none !important;
+}
+
+#pokemonWindow .trendType li a:hover{
+	background:#fdd000;
+	color:#fff;
+	width:100px;
+	padding-right:10px;
+	margin-left:-10px;
+}
+
+#pokemonWindow #graphArea{
+	/* width:135px; */
+	margin-left:20px;
+	float:left;
+}
+
+#pokemonWindow #graphArea ul{
+	width:240px;
+	margin-top:20px;
+}
+
+#pokemonWindow #graphArea li{
+	height:17px;
+	width:240px;
+	margin:2px 0;
+}
+
+#pokemonWindow #graphArea li p{
+	float:left;
+	font-size:12px;
+	line-height:17px;
+	background:none;
+}
+
+#pokemonWindow #graphArea p.num{text-align:center; width:55px;}
+#pokemonWindow #graphArea p.skill{text-align:left; width:120px;}
+#pokemonWindow #graphArea p.per{text-align:left; width:65px; color:#ff6600;}
+
+
+#pokemonImage{
+	width:340px;
+	/* margin-left:30px; */
+	/* margin-top:100px; */
+}
+
+#pImage{
+	/* height:260px; */
+	width:340px;
+	display:table-cell;
+    text-align:center;
+    vertical-align:top;
+}
+#pImage img{
+	vertical-align:top;
+}
+
+#pName{
+	font-size:20px!important;
+}
+#pName span{
+	font-size:40px!important;
+	font-weight:bold;
+}
+
+#pokemonImage table{
+	border-bottom:1px solid #646464;
+}
+
+#pokemonImage table th{
+	background:#f5f5f5;
+	border-top:1px solid #646464;
+	padding:2px 12px;
+	width:60px;
+}
+
+#pokemonImage table td{
+	height:23px;
+	border-top:1px solid #646464;
+	padding:2px 12px;
+}
+
+#pType{
+	color:#fff;
+	text-align:center;
+	width:50px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	display:inline-block;
+	margin-right:5px;
+}
+
+/* type */
+#pType.insect{ background:#989000;}
+#pType.iron{ background:#999;}
+#pType.fire{ background:#F35C19;}
+#pType.fight{ background:#944538;}
+#pType.earth{ background:#977344;}
+
+
+#pokemonWindow #ranking{
+	height:120px;
+	width:45px;
+	float:left;
+}
+
+#pokemonWindow #ranking > *{
+	float:left;
+	display:block;
+}
+
+#pokemonWindow #ranking .rank{
+	text-align:center;
+	font-weight:bold;
+	font-size:16px!important;
+	padding-top:5px;
+	float:left;
+}
+
+#pokemonWindow #ranking .crown{
+	width:25px;
+	height:120px;
+	float:left;
+}
+
+#skillList table{
+	border-top:1px solid #646464;
+	vertical-align:middle;
+	margin:20px auto 0 auto;
+}
+
+#skillList table td{
+	border-bottom:1px solid #646464;
+	vertical-align:middle;
+	padding:6px;
+}
+
+#skillList table td.crown{width:25px; text-align:center;}
+#skillList table td.num{width:25px; text-align:center;}
+#skillList table td.skill{width:200px; text-align:left;}
+#skillList table td #pType{font-size:10px!important;}
+
+

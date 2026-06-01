@@ -1,0 +1,544 @@
+@charset "UTF-8";
+
+
+/* Common Setting (ver 1.0) 12/02/24
+==================================================*/
+	
+	/* body
+	------------------------------------------------*/
+	html{ width:100%; /*height:100%;*/ margin:0; padding:0; font-size:100%;}
+	body{ 
+		width:100%;
+		margin:0;
+		padding:0; 
+		text-align:left;
+		font-size:78% !important;
+		line-height:160%;
+		height:100%;
+		font-family: "webfont","メイリオ", Meiryo, "ＭＳ Ｐゴシック", sans-serif;
+		color:#333;
+		position:relative;
+		background:#fff;
+	}
+	
+	img{ vertical-align:bottom; border:none; margin:0; padding:0;}
+	dl,dt,dd,ul,li{ list-style-type:none; margin:0; padding:0; font-size:100%;}
+	p{ margin:0 0 5px 0; padding:0; font-size:100%;}
+	h1,h2,h3,h4,h5{	margin:0;	padding:0; font-size:100%; line-height:150%; font-weight:normal;}
+	input,textarea{ padding:3px !important; margin:0 5px 0px 0 !important;}
+	
+	/*th,td{word-break:break-all !important; word-wrap:break-word !important;}*/
+	td{ position:relative;}
+	
+	/* ----- ここから HTML5 リセット追加  ----------*/
+	html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, img,
+	dl, dt, dd, ol, ul, li, form, label, table, tr, th, td,
+	article, aside, canvas, details, figcaption, figure,
+	footer, header, hgroup, menu, nav, section, summary {
+		margin: 0px;
+		padding: 0px;
+		border: 0px;
+		font-weight: inherit;
+		font-style: inherit;
+		outline: none;
+	}
+	
+	article, aside, canvas, details, figcaption, figure,
+	footer, header, hgroup, menu, nav, section, summary {
+		display: block;
+	}
+	
+	table {
+		border-spacing: 0px;
+		empty-cells: show;
+	}
+	
+	a{ color:#333; text-decoration:none;}
+	a:hover{ text-decoration:none;}
+	
+	/*img{
+		max-width: 50%;
+	}*/
+	
+	/* ----- ここまで html5 リセット追加  ----------*/
+	
+
+/* Universal Class (ver 1.0) 12/02/24
+==================================================*/
+
+	/* box
+	------------------------------------------------*/
+	.box{
+		display: -webkit-box; /* Safari,Google Chrome用 */  
+	  display: -ms-box; /* IE10用 */  
+	}
+	
+	.box div, .box section, .box article, .box p, .box li{
+		-ms-box-flex:1;
+		-webkit-box-flex:1;
+	}
+	
+	.boxFlex{
+		-ms-box-flex:1 !important;
+		-webkit-box-flex:1 !important;
+	}
+	
+	.boxFlex0{
+		-ms-box-flex:0 !important;
+		-webkit-box-flex:0 !important;
+	}
+	
+	.group1{
+		-webkit-box-ordinal-group: 1; /* Safari,Google Chrome用 */
+		-ms-box-ordinal-group: 1; /* IE10用 */
+	}
+	
+	.group2{
+		-webkit-box-ordinal-group: 2; /* Safari,Google Chrome用 */
+		-ms-box-ordinal-group: 2; /* IE10用 */
+	}
+	
+	.group3{
+		-webkit-box-ordinal-group: 3; /* Safari,Google Chrome用 */
+		-ms-box-ordinal-group: 3; /* IE10用 */
+	}
+	
+	.group4{
+		-webkit-box-ordinal-group: 4; /* Safari,Google Chrome用 */
+		-ms-box-ordinal-group: 4; /* IE10用 */
+	}
+	
+	.columnCount1{
+		-ms-column-count: 1 !important;
+		-webkit-column-count: 1 !important;
+		column-count: 1 !important;
+		column-gap:0;
+	}
+	
+	.columnCount2{
+		-ms-column-count: 2 !important;
+		-webkit-column-count: 2 !important;
+		column-count: 2 !important;
+	}
+	
+	.columnCount3{
+		-ms-column-count: 3 !important;
+		-webkit-column-count: 3 !important;
+		column-count: 3 !important;
+	}
+	
+	.columnCount4{
+		-ms-column-count: 4 !important;
+		-webkit-column-count: 4 !important;
+		column-count: 4 !important;
+	}
+	
+	.inline-block p,.inline-block div{ display:inline-block !important; vertical-align:top;}
+		
+	/* float
+	------------------------------------------------*/
+	.floatL  {float:left;}
+	.floatR {float:right;}
+	.clear { clear:both;}	
+	
+	.clearFix:after {
+			content: "."; 
+			display: block; 
+			height: 0; 
+			clear: both; 
+			visibility: hidden;
+	}
+	.clearFix {
+			display: inline-table;
+			min-height: 1%;
+			position:relative;
+	}
+	/* Hides from IE-mac \*/
+	* html .clearFix { height: 1%; }
+	.clearFix { display: block; }
+	/* End hide from IE-mac */
+	
+	
+	/* align
+	------------------------------------------------*/	
+	.alingL{ text-align:left !important;}
+	.alingR{ text-align:right !important;}
+	.alingC{ text-align:center !important;}
+	.inlineC{ text-align:center !important;}
+	.inlineC div, .inlineC a{ margin-left:auto !important; margin-right:auto !important;}	
+	.alignVM{	vertical-align:middle !important;}
+	.alignVT{	vertical-align:top !important;}
+	.alignVB{	vertical-align:bottom !important;}
+	
+	
+	/* position
+	------------------------------------------------*/	
+	.relative{ position:relative !important;}
+	.absolute{ position:absolute !important;}
+	.static{ position:static !important;}	
+	
+	
+	/* display
+	------------------------------------------------*/	
+	.displayNone{ display:none !important;}
+	.displayBlock{ display:block !important;}
+	.displayInline{ display:inline !important;}
+	.displayInlineBlock{ display:inline-block !important;}
+	
+	
+	/* border
+	------------------------------------------------*/	
+	.borderReset{ border: none !important;}
+	.btReset{ border-top: none !important;}
+	.brReset{ border-right: none !important;}
+	.bbReset{ border-bottom: none !important;}
+	.blReset{ border-left: none !important;}
+	
+	.borderBtmDotGray{border-bottom: 1px dotted #CCCCCC !important;}
+	.borderBtmSldGray{border-bottom: 1px solid #CCCCCC !important;}
+	
+	.addBorder{ border:1px solid #e4e4e4 !important;}
+	.addBorderTop{ border-top:1px solid #e4e4e4 !important;}
+	.addBorderBtm{ border-bottom:1px solid #e4e4e4 !important;}
+	.addBorderLft{ border-left:1px solid #e4e4e4 !important;}
+	.addBorderRgt{ border-right:1px solid #e4e4e4 !important;}
+	
+	.addBorderTop999{ border-top:1px solid #999 !important;}
+	.addBorderBtm999{ border-bottom:1px solid #999 !important;}
+	.addBorderLft999{ border-left:1px solid #999 !important;}
+	.addBorderRgt999{ border-right:1px solid #999 !important;}
+			
+	/* font
+	------------------------------------------------*/		
+/*
+	.fontSS{ font-size:75% !important;	line-height:120%;}
+	.fontS{	font-size:90% !important; line-height:140%;}
+	.fontM{	font-size:100% !important;	line-height:140%;}
+	.fontL{	font-size:135% !important;	line-height:160%;}
+	
+*/
+	.fontSS{ font-size:72% !important;	line-height:120%;}
+	.fontS{	font-size:86% !important; line-height:140%;}
+	.fontM{	font-size:100% !important;	line-height:140%;}
+	.fontL{	font-size:115% !important;	line-height:160%;}
+	
+	.font10{font-size: 10px !important; line-height: 120%;}
+	.font11{font-size: 11px !important; line-height: 130%;}
+	.font12{font-size: 12px !important; line-height: 140%;}
+	.font13{font-size: 13px !important; line-height: 150%;}
+	.font15{font-size: 15px !important; line-height: 160%;}
+	.font20{font-size: 20px !important; line-height: 100%;}
+	
+	.fontB{font-weight: bold !important;}
+	.fontRed{color:#FF0000 !important;}
+	.fontOrange{color:#D25E2B !important;}
+	
+	/* form
+	------------------------------------------------*/		
+	button, fieldset, form, input, label, legend, select, textarea {
+		font-family:inherit;
+		font-size:100%;
+		font-style:inherit;
+		font-weight:inherit;
+		margin:0;
+		padding:0;
+		vertical-align:baseline;
+	}
+	
+	/* text
+	------------------------------------------------*/
+	
+
+	
+	/* color
+	------------------------------------------------*/
+	.colorOrange{ color:#D25E2B;}
+	.colorRed{ color:#FF0000;}
+	
+	
+	/* margin set
+	------------------------------------------------*/
+		/*reset*/
+		.mreset {margin:0px !important;}
+		/*0px*/
+		.mt00 {margin-top   :0px !important;}
+		.mr00 {margin-right :0px !important;}
+		.mb00 {margin-bottom:0px !important;}
+		.ml00 {margin-left  :0px !important;}
+		/*5px*/
+		.mt05 {margin-top   :5px !important;}
+		.mr05 {margin-right :5px !important;}
+		.mb05 {margin-bottom:5px !important;}
+		.ml05 {margin-left  :5px !important;}
+		/*10px*/
+		.mt10 {margin-top   :10px !important;}
+		.mr10 {margin-right :10px !important;}
+		.mb10 {margin-bottom:10px !important;}
+		.ml10 {margin-left  :10px !important;}
+		/*15px*/
+		.mt15 {margin-top   :15px !important;}
+		.mr15 {margin-right :15px !important;}
+		.mb15 {margin-bottom:15px !important;}
+		.ml15 {margin-left  :15px !important;}
+		/*20px*/
+		.mt20 {margin-top   :20px !important;}
+		.mr20 {margin-right :20px !important;}
+		.mb20 {margin-bottom:20px !important;}
+		.ml20 {margin-left  :20px !important;}
+		/*25px*/
+		.mt25 {margin-top   :25px !important;}
+		.mr25 {margin-right :25px !important;}
+		.mb25 {margin-bottom:25px !important;}
+		.ml25 {margin-left  :25px !important;}
+		/*30px*/
+		.mt30 {margin-top   :30px !important;}
+		.mr30 {margin-right :30px !important;}
+		.mb30 {margin-bottom:30px !important;}
+		.ml30 {margin-left  :30px !important;}		
+		/*35px*/
+		.mt35 {margin-top   :35px !important;}
+		.mr35 {margin-right :35px !important;}
+		.mb35 {margin-bottom:35px !important;}
+		.ml35 {margin-left  :35px !important;}		
+		/*40px*/
+		.mt40 {margin-top   :40px !important;}
+		.mr40 {margin-right :40px !important;}
+		.mb40 {margin-bottom:40px !important;}
+		.ml40 {margin-left  :40px !important;}
+		
+		/*50px*/
+		.mt50 {margin-top   :50px !important;}
+		.mr50 {margin-right :50px !important;}
+		.mb50 {margin-bottom:50px !important;}
+		.ml50 {margin-left  :50px !important;}
+		
+		/*60px*/
+		.mt60 {margin-top   :60px !important;}
+		.mr60 {margin-right :60px !important;}
+		.mb60 {margin-bottom:60px !important;}
+		.ml60 {margin-left  :60px !important;}
+		
+		/*70px*/
+		.mt70 {margin-top   :70px !important;}
+		.mr70 {margin-right :70px !important;}
+		.mb70 {margin-bottom:70px !important;}
+		.ml70 {margin-left  :70px !important;}
+		
+		
+		/*80px*/
+		.mt80 {margin-top   :80px !important;}
+		.mr80 {margin-right :80px !important;}
+		.mb80 {margin-bottom:80px !important;}
+		.ml80 {margin-left  :80px !important;}
+
+		/*140px*/
+		.mt140 {margin-top   :140px !important;}
+		.mr140 {margin-right :140px !important;}
+		.mb140 {margin-bottom:140px !important;}
+		.ml140 {margin-left  :140px !important;}
+		
+		/*220px*/
+		.mt220 {margin-top   :220px !important;}
+		.mr220 {margin-right :220px !important;}
+		.mb220 {margin-bottom:220px !important;}
+		.ml220 {margin-left  :220px !important;}
+
+	/* padding set
+	------------------------------------------------*/
+		
+		/*reset*/
+		.preset {padding:0px !important;}
+		
+		/*0px*/
+		.pt00 {padding-top   :0px !important;}
+		.pr00 {padding-right :0px !important;}
+		.pb00 {padding-bottom:0px !important;}
+		.pl00 {padding-left  :0px !important;}
+		/*5px*/
+		.pt05 {padding-top   :5px !important;}
+		.pr05 {padding-right :5px !important;}
+		.pb05 {padding-bottom:5px !important;}
+		.pl05 {padding-left  :5px !important;}
+		/*10px*/
+		.pt10 {padding-top   :10px !important;}
+		.pr10 {padding-right :10px !important;}
+		.pb10 {padding-bottom:10px !important;}
+		.pl10 {padding-left  :10px !important;}
+		/*15px*/
+		.pt15 {padding-top   :15px !important;}
+		.pr15 {padding-right :15px !important;}
+		.pb15 {padding-bottom:15px !important;}
+		.pl15 {padding-left  :15px !important;}
+		/*20px*/
+		.pt20 {padding-top   :20px !important;}
+		.pr20 {padding-right :20px !important;}
+		.pb20 {padding-bottom:20px !important;}
+		.pl20 {padding-left  :20px !important;}
+		/*25px*/
+		.pt25 {padding-top   :25px !important;}
+		.pr25 {padding-right :25px !important;}
+		.pb25 {padding-bottom:25px !important;}
+		.pl25 {padding-left  :25px !important;}
+		/*30px*/
+		.pt30 {padding-top   :30px !important;}
+		.pr30 {padding-right :30px !important;}
+		.pb30 {padding-bottom:30px !important;}
+		.pl30 {padding-left  :30px !important;}		
+		/*35px*/
+		.pt35 {padding-top   :35px !important;}
+		.pr35 {padding-right :35px !important;}
+		.pb35 {padding-bottom:35px !important;}
+		.pl35 {padding-left  :35px !important;}		
+		/*40px*/
+		.pt40 {padding-top   :40px !important;}
+		.pr40 {padding-right :40px !important;}
+		.pb40 {padding-bottom:40px !important;}
+		.pl40 {padding-left  :40px !important;}
+		/*45px*/
+		.pt45 {padding-top   :45px !important;}
+		.pr45 {padding-right :45px !important;}
+		.pb45 {padding-bottom:45px !important;}
+		.pl45 {padding-left  :45px !important;}
+	
+	
+	/* width set
+	------------------------------------------------*/
+	
+	.width10{ width:10px !important;}
+	.width20{ width:20px !important;}
+	.width30{ width:30px !important;}
+	.width40{ width:40px !important;}
+	.width50{ width:50px !important;}
+	.width60{ width:60px !important;}
+	.width70{ width:70px !important;}
+	.width80{ width:80px !important;}
+	.width90{ width:90px !important;}
+	.width100{ width:100px !important;}
+	.width110{ width:110px !important;}
+	.width120{ width:120px !important;}
+	.width130{ width:130px !important;}
+	.width140{ width:140px !important;}
+	.width150{ width:150px !important;}
+	.width160{ width:160px !important;}
+	.width170{ width:170px !important;}
+	.width180{ width:180px !important;}
+	.width190{ width:190px !important;}
+	.width200{ width:200px !important;}
+	.width210{ width:210px !important;}
+	.width220{ width:220px !important;}
+	.width230{ width:230px !important;}
+	.width240{ width:240px !important;}
+	.width250{ width:250px !important;}
+	.width260{ width:260px !important;}
+	.width270{ width:270px !important;}
+	.width280{ width:280px !important;}
+	.width290{ width:290px !important;}
+	.width300{ width:300px !important;}
+	.width310{ width:310px !important;}
+	.width320{ width:320px !important;}
+	.width330{ width:330px !important;}
+	.width340{ width:340px !important;}
+	.width350{ width:350px !important;}
+	.width360{ width:360px !important;}
+	.width370{ width:370px !important;}
+	.width380{ width:380px !important;}
+	.width390{ width:390px !important;}
+	.width400{ width:400px !important;}
+	.width410{ width:410px !important;}
+	.width420{ width:420px !important;}
+	.width430{ width:430px !important;}
+	.width440{ width:440px !important;}
+	.width450{ width:450px !important;}
+	.width460{ width:460px !important;}
+	.width470{ width:470px !important;}
+	.width480{ width:480px !important;}
+	.width490{ width:490px !important;}
+	.width500{ width:500px !important;}
+	.width510{ width:510px !important;}
+	.width520{ width:520px !important;}
+	.width530{ width:530px !important;}
+	.width540{ width:540px !important;}
+	.width550{ width:550px !important;}
+	.width560{ width:560px !important;}
+	.width570{ width:570px !important;}
+	.width580{ width:580px !important;}
+	.width590{ width:590px !important;}
+	.width600{ width:600px !important;}
+	.width610{ width:610px !important;}
+	.width620{ width:620px !important;}
+	
+	.width5p{ width:5% !important;}
+	.width10p{ width:10% !important;}
+	.width15p{ width:15% !important;}
+	.width20p{ width:20% !important;}
+	.width25p{ width:25% !important;}
+	.width30p{ width:30% !important;}
+	.width40p{ width:40% !important;}
+	.width50p{ width:50% !important;}
+	.width60p{ width:60% !important;}
+	.width70p{ width:70% !important;}
+	.width75p{ width:75% !important;}
+	.width80p{ width:80% !important;}
+	.width90p{ width:90% !important;}
+	.width100p{ width:100% !important;}
+
+	/* word set
+		------------------------------------------------*/
+	.wordEllipsis {
+		overflow: hidden;
+		-webkit-text-overflow: ellipsis;
+		-o-text-overflow: ellipsis;
+		text-overflow: ellipsis;
+	}
+	.wordNowrap {
+		white-space: nowrap;
+	}
+	.wordBreak {
+		word-break: break-all;
+		word-wrap: break-word;
+	}
+	
+	.indent{
+		text-indent:-1em;
+		margin-left:1em;
+	}
+
+	span em{
+		font-style:normal;
+	}
+	
+	
+	/* display
+		------------------------------------------------*/
+	.inline{ display:inline !important;}
+	.inlineB{ display:inline-block !important;}
+	.block{ display:block !important;}
+	
+	
+	
+	/* font-face
+	------------------------------------------------*/
+	
+@font-face { font-family: helvetica; src: url(../font/HelveticaCdBd.ttf);}
+.helvetica{ font-family:helvetica;}
+
+@font-face { font-family: hiragino; src: url(../font/dshirkg7.ttf);}
+.hiragino{ font-family:hiragino;}
+
+@font-face {
+	font-family:"04b03b";
+	src:url("/3ds.pokemon-gl.com/under_maintenance/share/fonts/04B_03B_.eot?") format("eot"),
+	url("/3ds.pokemon-gl.com/under_maintenance/share/fonts/04B_03B_.woff") format("woff"),
+	url("/3ds.pokemon-gl.com/under_maintenance/share/fonts/04B_03B_.ttf") format("truetype"),
+	url("/3ds.pokemon-gl.com/under_maintenance/share/fonts/04B_03B_.svg#04b03b") format("svg");
+	font-weight:normal;
+	font-style:normal;
+}
+
+@font-face {
+  font-family: "webfont";
+  src: url("/3ds.pokemon-gl.com/under_maintenance/share/fonts/PGLDings.woff") format('woff'),
+	url("/3ds.pokemon-gl.com/under_maintenance/share/fonts/PGLDings.ttf") format('truetype');
+	/* issue:0001698 */
+	unicode-range: U+25A1-266A, U+E081-E0A8, U+FF65;
+}

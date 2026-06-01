@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<swf lang="ja">
+	<main>
+		<loading>2.0</loading>
+		<language>2.0</language>
+		<language_bg>2.0</language_bg>
+		<se>2.0</se>
+		<poke>2.0</poke>
+	</main>
+	<pgl>
+		<pgl>2.2</pgl>
+		<top>2.2</top>
+		<campaign>2.2</campaign>
+		<present>2.2</present>
+		<sound>2.0</sound>
+	</pgl>
+	<pdw>
+		<pdw>2.2</pdw>
+	</pdw>
+	<gts>
+		<gts>0.0</gts>
+	</gts>
+	<gbu>
+		<gbu>2.0</gbu>
+	</gbu>
+	<help>
+		<help>2.0</help>
+	</help>
+	<common>
+		<font>2.0</font>
+		<mypage>2.2</mypage>
+		<mailer>2.0</mailer>
+	</common>
+</swf>

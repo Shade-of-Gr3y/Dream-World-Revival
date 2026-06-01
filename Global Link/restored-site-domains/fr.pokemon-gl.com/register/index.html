@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=1024" />
+  <title>Pokémon Global Link</title>
+  <link rel="stylesheet" type="text/css" href="/cdn2.pokemon-gl.com/src/swf/assets/global/css/theme.css" />
+  <link rel="stylesheet" type="text/css" href="/cdn2.pokemon-gl.com/src/swf/assets/global/fr/css/lang.css" />
+  <script src="/fr.pokemon-gl.com/assets/global/js/jquery-1.7.min.js"></script>
+  <script src="/fr.pokemon-gl.com/assets/global/js/jquery.blockUI.js"></script>
+  <script src="/fr.pokemon-gl.com/assets/global/js/jquery.corner.js"></script>
+  <script src="/fr.pokemon-gl.com/assets/global/js/swfobject.js"></script>
+  <script src="/fr.pokemon-gl.com/assets/global/js/pgl.js"></script>
+  <script src="/fr.pokemon-gl.com/assets/global/js/text.js"></script>
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-17682532-2']);
+    _gaq.push(['_setDomainName', '.pokemon-gl.com']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+      <link rel="stylesheet" type="text/css" href="../assets/global/css/dialog.css" />
+      <link rel="stylesheet" type="text/css" href="assets/css/register.css" />
+      <link rel="stylesheet" type="text/css" href="assets/fr/css/lang.css" />
+      <script src="assets/js/register.js"></script>
+
+
+<script src="../../_restore/mock-api-interceptor.js" data-pgl-restore="mock-api-interceptor.js"></script>
+<script src="../../_restore/plugin-guards.js" data-pgl-restore="plugin-guards.js"></script>
+<script src="../../_restore/runtime-fixes.js" data-pgl-restore="runtime-fixes.js"></script>
+</head>
+<body id="wrapper" oncontextmenu="return false" ondragstart="return false" onselectstart="return false">
+  <div id="container">
+    <div id="header">
+      <div id="logo">
+        <a href="/fr.pokemon-gl.com/">Pokémon Global Link</a>
+      </div>
+      <div id="logged-in-info">
+        <div id="header-avatar" class="logged-in"></div>
+        <div id="header-pgln" class="logged-in">
+          <span id="header-pglname"></span>
+        </div>
+        <div id="header-rom" class="logged-in">
+          <span id="header-romname" class="game-card-name"></span>
+        </div>
+        <div id="header-volume"><div id="header-volume-swf"></div></div>
+        <div id="header-rom-change" class="logged-in"></div>
+        <div id="header-logout" class="logged-in"><a href="/fr.pokemon-gl.com/?p=logout">Déconnecter</a></div>
+        <div id="header-back-to-top" class="logged-out"><a href="/fr.pokemon-gl.com/"></a></div>
+      </div>
+      <div id="head-menu">
+        <ul>
+          <li id="head-menu-profile"><a href="/fr.pokemon-gl.com/profile">Profil</a></li>
+          <li id="head-menu-campaign"><a href="/fr.pokemon-gl.com/campaign/">Offres</a></li>
+          <li id="head-menu-customize"><a href="/fr.pokemon-gl.com/customize">Personnaliser</a></li>
+          <li id="head-menu-pdw"><a href="/fr.pokemon-gl.com/pdw/">Pokémon Dream World</a></li>
+          <li id="head-menu-report"><a href="/fr.pokemon-gl.com/report/">Données</a></li>
+          <li id="head-menu-wifi"><a href="/fr.pokemon-gl.com/wifi/">Compétitions Wi-Fi</a></li>
+          <li id="head-menu-support"><a href="/fr.pokemon-gl.com/support/">Mode d'emploi</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="main">
+
+
+      <h2>S'inscrire au Pokémon Global Link</h2>
+
+      <div id="step1" class="step">
+        <h3>Enregistrer un Surnom PGL / l'ID de Synchro-Jeu</h3>
+        <div class="step-content">
+          <div id="step1-3">
+            <div class="item">
+              <p><span>Surnom PGL</span> <span style="font-size:85%;">(Veuillez inscrire entre 4 et 15 caractères alphanumériques : A-Z a-z 0-9.)</span></p>
+              <p><span style="color:#F5392F;">Ce champ est obligatoire.</span></p>
+              <input type="text" name="pgl_name" maxlength="15"/>
+            </div>
+            <div class="item">
+              <p><span>ID de Synchro-Jeu</span></p>
+              <p><span style="color:#EA9835;"><span>Vous pourrez enregistrer ces informations plus tard.</span> <a style="font-size:85%;color:#EA9835;" href="/fr.pokemon-gl.com/support/help/about/002/#lay2">Pour plus de détails</a></span></p>
+              <input type="text" name="gscd" maxlength="10"/>
+            </div>
+            <div class="about-gsid"><img src="assets/images/about-gsid.png"/> <a href="/fr.pokemon-gl.com/support/help/cooperation/100/#lay4">Si vous avez du mal à lire votre ID de Synchro-Jeu</a></div>
+          </div>
+          <div id="step1-1">
+            <p>● Pour profiter du PGL, vous avez besoin d'un Surnom PGL différent de celui de votre compte au Club des Dresseurs Pokémon.</p>
+            <p>● Le PGL utilisera les informations de sexe, anniversaire et lieu de résidence de votre compte au Club des Dresseurs Pokémon.</p>
+            <p>● Pour profiter des contenus du Pokémon Global Link en rapport avec les jeux vidéo Pokémon, il vous faudra effectuer des sauvegardes de vos jeux.</p>
+          </div>
+          <div id="step1-2">
+            <p>Pour profiter pleinement du Pokémon Global Link, il vous faut y enregistrer votre ID de Synchro-Jeu.
+Vous pourrez vérifier cet ID de Synchro-Jeu dans le menu principal, sous PARAMÈTRES SYNCHRO-JEU, une fois que vous aurez atteint un certain point dans l'aventure de <span class="game-card-name">Pokémon Version Noire</span> ou <span class="game-card-name">Pokémon Version Blanche</span>.</p>
+            <p>Vous ne pouvez associer à un compte du Club des Dresseurs Pokémon qu'un seul ID de Synchro-Jeu pour chaque version du jeu.</p>
+            <p style="color:#F00;">* Une fois l'ID de Synchro-Jeu enregistré, il ne pourra plus être changé.</p>
+            <p style="color:#F00;">Vous pouvez enregistrer un ID de Synchro-Jeu de <span class="game-card-name">Pokémon Version Noire</span> et <span class="game-card-name">Pokémon Version Blanche</span> en anglais, français, italien, allemand ou espagnol sur les sites Web du Pokémon Global Link en anglais, français, italien, allemand ou espagnol. Vous ne pouvez cependant pas enregistrer un ID de Synchro-Jeu de la version japonaise ou coréenne du jeu sur ces versions du Pokémon Global Link.</p>
+          </div>
+          <div class="button-container">
+            <a id="step1-next-button" class="buttons"></a>
+          </div>
+        </div>
+      </div>
+
+      <div id="step2" class="step">
+        <h3>Vérifier un Surnom PGL / l'ID de Synchro-Jeu</h3>
+        <div class="step-content">
+          <div id="step2-1">
+            <div>Les informations suivantes seront enregistrées.
+Vérifiez qu'elles sont exactes puis appuyez sur le bouton "Enregistrer".</div>
+            <div id="step2-preview">
+              <div class="preview">
+                <div id="name_label">Surnom PGL</div>
+                <div id="name_preview"></div>
+              </div>
+              <div class="preview">
+                <div id="gscd_label">ID de Synchro-Jeu</div>
+                <div id="logo_preview"></div>
+                <div id="gscd_preview"></div>
+              </div>
+            </div>
+
+          </div>
+          <div class="button-container">
+            <a id="step2-prev-button" class="buttons"></a>
+            <a id="step2-next-button" class="buttons"></a>
+          </div>
+        </div>
+      </div>
+
+      <div id="step3" class="step">
+        <h3>Enregistrement du Surnom PGL / ID de Synchro-Jeu effectué !</h3>
+        <div class="step-content">
+          <div id="step3-1">
+            <p class="for-level-0">Merci de votre inscription. Votre Surnom PGL est désormais enregistré.</p>
+            <p class="for-level-2">Merci de votre coopération. L'enregistrement des données est terminé.</p>
+          </div>
+          <div id="step3-2">
+            <p class="for-level-0">Vous jouez en ce moment à la version d'essai du Pokémon Global Link.</p>
+          </div>
+          <div id="step3-3">
+            <div class="for-level-0">
+              <p>Vous pouvez jouer à la version d'essai du Pokémon Global Link même si vous ne possédez pas <span class="game-card-name">Pokémon Version Noire</span> ou <span class="game-card-name">Pokémon Version Blanche</span>. Vous aurez accès à d'autres contenus en enregistrant l'ID de Synchro-Jeu obtenu dans ces jeux sur le site du Pokémon Global Link.
+
+Vous recevrez votre ID de Synchro-Jeu grâce au C-Gear après avoir atteint la ville d'Ogoesse.
+
+Choisissez PARAMÈTRES SYNCHRO-JEU depuis le menu principal, ou bien INTERNET puis SYNCHRO-JEU depuis l'écran du C-Gear, et connectez-vous via la CWF Nintendo pour recevoir cet ID de Synchro-Jeu.
+
+Vous pourrez par la suite le consulter à tout moment dans PARAMÈTRES SYNCHRO-JEU depuis le menu principal.
+
+Vous pourrez enregister cet ID de Synchro-Jeu en allant dans votre profil, puis en cliquant sur Enregistrer ID de Synchro-Jeu. Veuillez endormir un Pokémon avant de procéder à cet enregistrement.</p>
+            </div>
+            <div class="for-level-2">
+              <p>Visitez pokemon.fr pour voir votre profil.
+Visitez pokemon.fr maintenant : http://www.pokemon.fr</p>
+              <p>Vos paramètres de confidentialité pour le PGL sont définis dans votre profil sur pokemon.fr. Pour voir ou changer vos paramètres, veuillez vous rendre sur pokemon.fr.
+Visitez pokemon.fr maintenant : http://www.pokemon.fr
+N'oubliez pas que vous pouvez enregistrer sur votre profil PGL un ID de Synchro-Jeu pour un exemplaire de <span class="game-card-name">Pokémon Version Noire</span> et un exemplaire de <span class="game-card-name">Pokémon Version Blanche</span>.</p>
+            </div>
+          </div>
+          <div class="button-container">
+            <a id="step3-next-button" class="buttons"></a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div id="footer">
+      <ul id="footer-links">
+        <li><a href="http://www.pokemon.com/fr/terms-of-use/">Conditions d'utilisation</a></li>
+        <li><a href="/fr.pokemon-gl.com/maintenance/">Maintenance</a></li>
+        <li><a href="http://www.pokemon.com/fr/pgl/requirements/">Configuration requise</a></li>
+        <li><a href="http://www.pokemon.com/fr/privacy-policy/">Politique de confidentialité </a></li>
+        <li><a href="http://www.pokemon.com/fr/about/legal/">Infos juridiques</a></li>
+        <li><a href="" class="trafficy">Trafic du Pokémon DW</a></li>
+      </ul>
+      <ul id="select-language">
+        <li>Choix de la LANGUE (Language) : &nbsp;&nbsp;&nbsp;</li>
+        <li><a href="/ja.pokemon-gl.com/">日本語</a></li>
+        <li><a href="/en.pokemon-gl.com/">English</a></li>
+        <li><a href="/fr.pokemon-gl.com/">Français</a></li>
+        <li><a href="/it.pokemon-gl.com/">Italiano</a></li>
+        <li><a href="/de.pokemon-gl.com/">Deutsch</a></li>
+        <li><a href="/es.pokemon-gl.com/">Español</a></li>
+        <li><a href="/ko.pokemon-gl.com/">한국어</a></li>
+      </ul>
+      <div id="copyright">
+        <p>©2011-2012 Pokémon. © 1995-2012 Nintendo/Creatures Inc./GAME FREAK inc. Pokémon, les noms des Pokémon et Nintendo DS sont des marques de Nintendo.</p>
+        <p class="maintenance"><a href="" target="_blank"></a></p>
+      </div>
+      <div id="badges"><a class="footer-badges-com" href="http://www.pokemon.com/" target="_blank"><img src="/fr.pokemon-gl.com/assets/global/fr/images/footer/com.png"/></a><a class="footer-badges-nintendo" href="http://www.nintendo.fr/" target="_blank"><img src="/fr.pokemon-gl.com/assets/global/fr/images/footer/nintendo.png"/></a><a class="footer-badges-ds" href="http://www.nintendo.fr/" target="_blank"><img src="/fr.pokemon-gl.com/assets/global/fr/images/footer/ds.png"/></a><a class="footer-badges-wifi" href="http://www.nintendo.fr/NOE/fr_FR/connexion_wi-fi_nintendo_5025.html" target="_blank"><img src="/fr.pokemon-gl.com/assets/global/fr/images/footer/wifi.png"/></a><a class="footer-badges-esrb" href="http://www.esrb.org/index-js.jsp" target="_blank"><img src="/fr.pokemon-gl.com/assets/global/fr/images/footer/esrb.png"/></a><a class="footer-badges-pegi" href="http://www.pegi.info" target="_blank"><img src="/fr.pokemon-gl.com/assets/global/fr/images/footer/pegi.png"/></a></div>
+    </div>
+  </div>
+</body>
+</html>

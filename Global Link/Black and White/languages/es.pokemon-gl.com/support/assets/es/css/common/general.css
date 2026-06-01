@@ -1,0 +1,317 @@
+@charset "utf-8";
+/*------------------------------------------------------------
+	書式設定
+------------------------------------------------------------*/
+/* テキストの位置 */
+.taLeft { text-align: left !important; }
+.taCenter { text-align: center !important; }
+.taRight { text-align: right !important; }
+
+/* フォントの大きさ（プラス） */
+.fsP1 { font-size: 1.08em !important; }
+.fsP2 { font-size: 1.16em !important; }
+.fsP3 { font-size: 1.24em !important; }
+.fsP4 { font-size: 1.32em !important; }
+.fsP5 { font-size: 1.4em !important; }
+
+/* フォントの大きさ（マイナス） */
+.fsM1 { font-size: 0.92em !important; }
+.fsM2 { font-size: 0.84em !important; }
+.fsM3 { font-size: 0.76em !important; }
+.fsM4 { font-size: 0.68em !important; }
+.fsM5 { font-size: 0.6em !important; }
+
+/* フォントの太さ */
+.fwNormal { font-weight: normal !important; }
+.fwBold { font-weight: bold !important; }
+
+/*------------------------------------------------------------
+	微調整用クラス（※多用しないこと）
+------------------------------------------------------------*/
+.mt0 { margin-top: 0 !important; }
+.mb0 { margin-bottom: 0 !important; }
+
+/*------------------------------------------------------------
+	汎用スタイル
+------------------------------------------------------------*/
+	* html .clearfix {
+		zoom: 1;
+	}
+
+	*+html .clearfix {
+		zoom: 1;
+	}
+
+.clearfix:after {
+	height: 0;
+	visibility: hidden;
+	content: ".";
+	display: block;
+	clear: both;
+}
+.clear {
+	clear: both;
+}
+
+.dis {
+	display: block;
+}
+
+.floatL {
+	float: left;
+}
+
+.floatR {
+	float: right;
+}
+
+.mb15 {
+	margin-bottom: 15px !important;
+}
+
+
+#supprot_gNavi {
+	background: url(../../images/manual/navi_bg.jpg) no-repeat left top;
+	margin-bottom: 17px;
+	padding-left: 10px;
+}
+
+#supprot_gNavi p {
+	float: left;
+	margin-top: 6px;
+}
+
+#supprot_gNavi ul {
+	float: right;
+	width: 514px;
+}
+
+#supprot_gNavi ul li {
+	float: left;
+}
+
+#supprot_gNavi ul li a {
+	display: block;
+}
+
+#supprot_gNavi ul li.navi01 a {
+	background: url(../../images/manual/g_navi01_over.jpg) no-repeat;
+}
+
+#supprot_gNavi ul li.navi02 a {
+	background: url(../../images/manual/g_navi02_over.jpg) no-repeat;
+}
+
+#supprot_gNavi ul li.navi03 a {
+	background: url(../../images/manual/g_navi03_over.jpg) no-repeat;
+}
+
+#supprot_gNavi ul li a:hover img {
+	filter:alpha(opacity=0);
+	opacity:0;
+	-moz-opacity:0;
+}
+
+#supprot_gNavi ul li.navi02 {
+	position: relative;
+}
+
+#supprot_gNavi ul li.navi02 ul {
+	background-color: #fff;
+	border-left: 1px solid #B0B0B0;
+	border-right: 1px solid #B0B0B0;
+	display: none;
+	left: 0;
+	position: absolute;
+	top: 40px;
+	width: 170px;
+}
+
+#supprot_gNavi ul li.navi02 ul li {
+	border-bottom: 1px solid #B0B0B0;
+	width: 170px;
+}
+
+#supprot_gNavi ul li.navi02 ul li a {
+	color: #333;
+	display: block;
+	font-size: 1.2em;
+	background-image: url(../../images/manual/icon.gif);
+	background-repeat: no-repeat;
+	background-position: 10px center;
+	padding-top: 10px;
+	padding-right: 7px;
+	padding-bottom: 7px;
+	padding-left: 19px;
+}
+
+#supprot_gNavi ul li.navi02 ul li a:hover {
+	background: #5d5d5d url(../../images/manual/icon02.gif) no-repeat 10px center;
+	color: #ccc;
+	text-decoration: underline;
+}
+
+#main p.supprot_title {
+	margin: 0 0 14px 12px;
+}
+
+#main .supprot_section ul {
+	margin: 0 0 4px 13px;
+}
+
+#main .supprot_section ul li {
+	float: left;
+	margin-right: 8px;
+}
+
+#main .supprot_section ul li.list01 a {
+	background: url(../../images/manual/list_photo01_over.jpg) no-repeat;
+}
+
+#main .supprot_section ul li.list02 a {
+	background: url(../../images/manual/list_photo02_over.jpg) no-repeat;
+}
+
+#main .supprot_section ul li.list03 a {
+	background: url(../../images/manual/list_photo03_over.jpg) no-repeat;
+}
+
+#main .supprot_section ul li.list04 a {
+	background: url(../../images/manual/list_photo04_over.jpg) no-repeat;
+}
+
+#main .supprot_section ul li.list05 a {
+	background: url(../../images/manual/list_photo05_over.jpg) no-repeat;
+}
+
+#main .supprot_section ul li.list06 a {
+	background: url(../../images/manual/list_photo06_over.jpg) no-repeat;
+}
+
+#main .supprot_section ul li.list07 a {
+	background: url(../../images/manual/list_photo07_over.jpg) no-repeat;
+}
+
+#main .supprot_section ul li.list08 a {
+	background: url(../../images/manual/list_photo08_over.jpg) no-repeat;
+}
+
+#main .supprot_section ul li.list09 a {
+	background: url(../../images/manual/list_photo09_over.jpg) no-repeat;
+}
+
+#main .supprot_section ul li.list10 a {
+	background: url(../../images/manual/list_photo10_over.jpg) no-repeat;
+}
+
+#main .supprot_section ul li a:hover img {
+	filter:alpha(opacity=0);
+	opacity:0;
+	-moz-opacity:0;
+}
+
+.mb50 {
+	margin-bottom: 50px;
+}
+
+#main .supprot_comDl {
+	margin-bottom: 15px;
+}
+
+#main .supprot_comDl dt {
+	margin-bottom: 12px;
+}
+
+#main .supprot_comDl dd {
+	margin-left: 27px;
+}
+
+#main .supprot_comDl img {
+	display: block;
+}
+
+.supprot_imgMenuUl {
+	margin: 0 0 13px 13px;
+	clear: both;
+}
+
+.supprot_imgMenuUl li {
+	margin-right: 5px;
+	float: left;
+}
+
+.supprot_imgMenuUl li a,
+.supprot_imgMenuUl li img {
+	display: block;
+}
+
+.supprot_imgMenuUl .menu01 a {
+	background: url(../../images/index/img_menu01_over.jpg) no-repeat;
+}
+
+.supprot_imgMenuUl .menu02 a {
+	background: url(../../images/index/img_menu02_over.jpg) no-repeat;
+}
+
+.supprot_imgMenuUl .menu03 a {
+	background: url(../../images/index/img_menu03_over.jpg) no-repeat;
+}
+
+.supprot_imgMenuUl .menu04 a {
+	background: url(../../images/index/img_menu04_over.jpg) no-repeat;
+}
+
+.supprot_imgMenuUl .menu05 a {
+	background: url(../../images/index/img_menu05_over.jpg) no-repeat;
+}
+
+.supprot_imgMenuUl .menu06 a {
+	background: url(../../images/index/img_menu06_over.jpg) no-repeat;
+}
+
+.supprot_imgMenuUl .menu06 {
+	margin-right: 0;
+}
+
+.supprot_imgMenuUl li a:hover img {
+	filter:alpha(opacity=0);
+	opacity:0;
+}
+
+.supprot_pdfBox {
+	margin: 0 13px;
+	padding: 7px 8px;
+	border: solid 1px #CCC;
+} 
+
+.supprot_pdfBox p {
+	width: 740px;
+	float: right;
+	line-height: 1.6;
+	font-size: 1.2em;
+}
+
+span.pdfIcon img {
+	vertical-align: top;
+	padding-top:3px;
+	padding-right: 4px;
+	padding-left:2px;
+}
+
+span.linkIcon img {
+	vertical-align: top;
+	padding-top:6px;
+	padding-right: 3px;
+}
+
+span.otherIcon img {
+	vertical-align: top;
+	padding-top:6px;
+	padding-right: 4px;
+	padding-left:2px;
+}
+
+
+strong.red {
+	color: #F00;	
+}

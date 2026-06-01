@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=1024,user-scalable=yes" />
+	<title>Pok&eacute;mon Global Link</title>
+	<link rel="stylesheet" type="text/css" href="/www.pokemon-gl.com/theme/assets/css/theme.css" />
+	<link rel="stylesheet" type="text/css" href="assets/css/languages.css" />
+	<script type="text/javascript" src="/www.pokemon-gl.com/theme/assets/js/jquery-1.4.3.min.js"></script>
+	<script type="text/javascript">
+		$(function () {
+			$('#selector a').each(function () {
+				$(this).attr({ href: 'http://' + location.host.replace(/(new-)?www\./, $(this).attr('class') + '.') });
+			}).click(function () {
+				var cookie = 'selected-language=' + $(this).attr('class') + ';';
+				cookie += 'path=/;'
+				var domain = location.hostname.replace(/^[-\w]+\.([-\w]+\.[-\w]+)$/, '$1');
+				if (domain != location.hostname) {
+					cookie += 'domain=' + domain + ';';
+				}
+				var expires = new Date(); expires.setTime(expires.getTime() + 365 * 24 * 60 * 60 * 1000);
+				cookie += 'expires=' + expires.toGMTString() + ';';
+				document.cookie = cookie;
+			});
+		});
+	</script>
+<script src="../../_restore/mock-api-interceptor.js" data-pgl-restore="mock-api-interceptor.js"></script>
+<script src="../../_restore/plugin-guards.js" data-pgl-restore="plugin-guards.js"></script>
+<script src="../../_restore/runtime-fixes.js" data-pgl-restore="runtime-fixes.js"></script>
+</head>
+<body>
+<div id="wrapper">
+	<div id="wrapper-bg"><div id="wrapper-bg-inner"></div></div>
+	<div id="content-block">
+		<div id="content-block-bg"></div>
+		<div id="content">
+			<div id="prompt">
+				<p>Please select your language.</p>
+			</div>
+			<div id="selector">
+				<a class="ja" href="/ja.pokemon-gl.com/"><span>日本語</span></a>
+				<a class="en" href="/en.pokemon-gl.com/"><span>English</span></a>
+				<a class="fr" href="/fr.pokemon-gl.com/"><span>Français</span></a>
+				<a class="de" href="/de.pokemon-gl.com/"><span>Deutsch</span></a>
+				<a class="it" href="/it.pokemon-gl.com/"><span>Italiano</span></a>
+				<a class="es" href="/es.pokemon-gl.com/"><span>Español</span></a>
+				<a class="ko" href="/ko.pokemon-gl.com/"><span>한국어</span></a>
+			</div>
+		</div>
+	</div>
+	<div id="footer-block">
+		<div id="footer">
+			<div class="footer-row" id="footer-copy-row">
+				<p>© 2013 Pokémon. © 1995-2013 Nintendo/Creatures Inc./GAME FREAK inc.</p>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>

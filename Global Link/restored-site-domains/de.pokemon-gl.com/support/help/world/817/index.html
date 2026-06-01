@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=1024" />
+  <title>Pokémon Global Link</title>
+  <link rel="stylesheet" type="text/css" href="/cdn2.pokemon-gl.com/src/swf/assets/global/css/theme.css" />
+  <link rel="stylesheet" type="text/css" href="/cdn2.pokemon-gl.com/src/swf/assets/global/de/css/lang.css" />
+  <script src="/de.pokemon-gl.com/assets/global/js/jquery-1.7.min.js"></script>
+  <script src="/de.pokemon-gl.com/assets/global/js/jquery.blockUI.js"></script>
+  <script src="/de.pokemon-gl.com/assets/global/js/jquery.corner.js"></script>
+  <script src="/de.pokemon-gl.com/assets/global/js/swfobject.js"></script>
+  <script src="/de.pokemon-gl.com/assets/global/js/pgl.js"></script>
+  <script src="/de.pokemon-gl.com/assets/global/js/text.js"></script>
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-17682532-2']);
+    _gaq.push(['_setDomainName', '.pokemon-gl.com']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+<link href="/de.pokemon-gl.com/support/assets/de/css/common/layout.css" rel="stylesheet" type="text/css" />
+<link href="/de.pokemon-gl.com/support/assets/de/css/common/general.css" rel="stylesheet" type="text/css" />
+<link href="/de.pokemon-gl.com/support/assets/de/css/manual.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/de.pokemon-gl.com/support/assets/de/js/jquery.min.js"></script>
+<script type="text/javascript" src="/de.pokemon-gl.com/support/assets/de/js/jquery.ez-bg-resize.min.js"></script>
+<script type="text/javascript" src="/de.pokemon-gl.com/support/assets/de/js/local.min.js"></script>
+<script type="text/javascript">
+
+$(document).ready(function(){
+ $(".navi02").hover(function(){
+  $(".navi02 ul").css("display","block");
+ },function() {
+$(".navi02 ul").css("display","none");
+});
+
+var h2=$('.supprot_rContents h2').text();
+$('.supprot_lContents ul li a').each(function(index, element) {
+      if($(this).text()==h2){
+$(this).parent().addClass('on');
+}
+});
+
+var title=$('#supprot_pagePath li img').attr('alt');
+$('.supprot_section ul li a img').each(function(index, element) {
+if($(this).attr('alt')==title){
+  var src=$(this).attr('src');
+  if(src.indexOf('_on')==-1){
+    src=src.replace('.jpg','_on.jpg');
+  }
+  $(this).attr('src',src);
+}
+});
+
+});
+
+</script>
+    
+<script src="../../../../../_restore/mock-api-interceptor.js" data-pgl-restore="mock-api-interceptor.js"></script>
+<script src="../../../../../_restore/plugin-guards.js" data-pgl-restore="plugin-guards.js"></script>
+<script src="../../../../../_restore/runtime-fixes.js" data-pgl-restore="runtime-fixes.js"></script>
+</head>
+<body id="wrapper" oncontextmenu="return false" ondragstart="return false" onselectstart="return false">
+  <div id="container">
+    <div id="header">
+      <div id="logo">
+        <a href="/de.pokemon-gl.com/">Pokémon Global Link</a>
+      </div>
+      <div id="logged-in-info">
+        <div id="header-avatar" class="logged-in"></div>
+        <div id="header-pgln" class="logged-in">
+          <span id="header-pglname"></span>
+        </div>
+        <div id="header-rom" class="logged-in">
+          <span id="header-romname" class="game-card-name"></span>
+        </div>
+        <div id="header-volume"><div id="header-volume-swf"></div></div>
+        <div id="header-rom-change" class="logged-in"></div>
+        <div id="header-logout" class="logged-in"><a href="/de.pokemon-gl.com/?p=logout">Abmelden</a></div>
+        <div id="header-back-to-top" class="logged-out"><a href="/de.pokemon-gl.com/"></a></div>
+      </div>
+      <div id="head-menu">
+        <ul>
+          <li id="head-menu-profile"><a href="/de.pokemon-gl.com/profile">Meine Seite</a></li>
+          <li id="head-menu-campaign"><a href="/de.pokemon-gl.com/campaign/">Aktionen</a></li>
+          <li id="head-menu-customize"><a href="/de.pokemon-gl.com/customize">Individualisierung</a></li>
+          <li id="head-menu-pdw"><a href="/de.pokemon-gl.com/pdw/">Pokémon Dream World</a></li>
+          <li id="head-menu-report"><a href="/de.pokemon-gl.com/report/">Spieldaten</a></li>
+          <li id="head-menu-wifi"><a href="/de.pokemon-gl.com/wifi/">Wi-Fi-Turnier</a></li>
+          <li id="head-menu-support"><a href="/de.pokemon-gl.com/support/">Hilfe</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="main">
+
+	<!-- 上記コメント部分はindex.phpで利用しているので消さないで下さい（このコメントは削除して問題ありません） -->
+	
+	<!-- 
+		このコメント以下から../assets/template.[lang].htmlの
+		    <div id="main">
+		%s
+		    </div>
+		%sの部分にあてこまれます。
+	  -->
+	<div id="main">
+		<div id="supprot_gNavi" class="clearfix">
+			<h1><p><img src="/de.pokemon-gl.com/support/assets/de/images/manual/imgtext01.jpg" alt="support" /></p></h1>
+			<ul class="clearfix">
+				<li class="navi01"><a href="/de.pokemon-gl.com/support/"><img src="/de.pokemon-gl.com/support/assets/de/images/manual/g_navi01.jpg" alt="Hilfsübersicht" width="172" height="40" /></a></li>
+				<li class="navi02 on"><a href="/de.pokemon-gl.com/support/help/"><img src="/de.pokemon-gl.com/support/assets/de/images/manual/g_navi02_on.jpg" alt="Bedienungsanleitung" width="172" height="40" /></a>
+					<ul class="clearfix">
+						<li><a href="/de.pokemon-gl.com/support/help/about/000/">Infos zur Seite</a></li>
+						<li><a href="/de.pokemon-gl.com/support/help/cooperation/100/">Verbindung mit der Spielesoftware</a></li>
+						<li><a href="/de.pokemon-gl.com/support/help/friend/200/">Spielfreunde und Traumfreunde</a></li>
+						<li><a href="/de.pokemon-gl.com/support/help/page/300/">Startseite und Meine Seite</a></li>
+						<li><a href="/de.pokemon-gl.com/support/help/report/400/">Auswertungsübersicht</a></li>
+						<li><a href="/de.pokemon-gl.com/support/help/custom/500/">Individualisierung</a></li>
+						<li><a href="/de.pokemon-gl.com/support/help/mail/600/">Sorglospost</a></li>
+						<li><a href="/de.pokemon-gl.com/support/help/campaign/700/">Aktionen</a></li>
+						<li><a href="/de.pokemon-gl.com/support/help/world/800/">Pokémon Dream World</a></li>
+						<li class="mb0"><a href="/de.pokemon-gl.com/support/help/wi-fi/900/">Wi-Fi-Turniere</a></li>
+					</ul>				</li>
+				<li class="navi03"><a href="http://support-de.pokemon.com/" target="_blank"><img src="/de.pokemon-gl.com/support/assets/de/images/manual/g_navi03.jpg" alt="Häufig gestellte Fragen" width="170" height="40" /></a></li>
+			</ul>
+		</div>
+        
+		<ul id="supprot_pagePath" class="clear clearfix">
+			<li><img src="/de.pokemon-gl.com/support/assets/de/images/manual/world.gif" alt="Pokémon Dream World" /></li>
+		</ul>
+		
+        <!--▼コンテンツエリア-->
+        <div class="supprot_contents clear clearfix">
+	    <div class="supprot_rContents">
+		<h2>Wofür ist die Tauschbörse gut?</h2>
+                
+                
+                <!--▼各section-->
+                
+                <div class="section" onContextmenu="return false">
+              
+                <a name="lay1" id="lay1"></a>
+
+
+
+
+
+
+<div class="indent">
+
+    <div class="supprot_inner clearfix">
+    
+    
+    <img class="layImg" src="/de.pokemon-gl.com/support/help/de/817a.png" />
+    
+    
+    
+    <p>Lege Beeren und Items, die du in der Pok&eacute;mon Dream World gefunden hast, auf das Regal der Tauschb&ouml;rse, um sie anderen Nutzern zum Tausch anzubieten.</p>
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a name="lay2" id="lay2"></a>
+
+
+
+
+
+<h3>Welche Vorbereitungen sind für die Tauschbörse nötig?</h3>
+
+
+<div class="indent">
+    
+    <div class="supprot_inner clearfix">
+    
+    
+    <img class="layImg" src="/de.pokemon-gl.com/support/help/de/817b.png" />
+    
+    
+    
+    <p>Wenn du den Mauszeiger auf eine freie Stelle im Regal der Tauschb&ouml;rse bewegst, erscheint die Nachricht &bdquo;Ablage f&uuml;r Tauschitems&ldquo; auf dem Bildschirm. Klickst du auf den Schriftzug, wird dir der Inhalt deiner Schatztruhe angezeigt. W&auml;hle dort, welches Item oder welche Beere du zum Tausch anbieten m&ouml;chtest.<br />M&ouml;chtest du ein Item vom Tauschregal zur&uuml;cknehmen oder mit einem anderen austauschen, musst du zun&auml;chst auf das gew&uuml;nschte Item klicken. W&auml;hle nun die Option &bdquo;In die Schatztruhe&ldquo;, um es wieder zur&uuml;ckzunehmen. Um es mit einem anderen Item auszuwechseln, w&auml;hle die Option &bdquo;Auswechseln&ldquo;. Auf diese Weise kannst du auch &uuml;berpr&uuml;fen, von wem per Tausch erhaltene Items und Beeren stammen.</p>
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a name="lay3" id="lay3"></a>
+
+
+
+
+<h3>Tauschvorgänge mit anderen PGL-Nutzern</h3>
+
+
+<div class="indent">
+
+    <div class="supprot_inner clearfix">
+    
+    
+    <img class="layImg" src="/de.pokemon-gl.com/support/help/de/817c.png" />
+    
+    
+    
+    <p>Wenn du einem anderen Nutzer auf seiner Insel einen Besuch abstattest, kannst du mit ihm Items und Beeren tauschen, die er auf dem Regal seiner Tauschb&ouml;rse abgelegt hat. Du kannst allerdings nur Items im Tausch erhalten, die sich noch nicht in deiner Schatztruhe befinden. Items, von denen du bereits ein Exemplar in deiner Schatztruhe lagerst, kannst du nicht aus der Tauschb&ouml;rse anderer Nutzer mitnehmen.</p>
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a name="lay4" id="lay4"></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a name="lay5" id="lay5"></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a name="lay6" id="lay6"></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a name="lay7" id="lay7"></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a name="lay8" id="lay8"></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                
+                
+                </div>
+                
+                
+
+       
+            
+                
+                
+	    </div>
+            
+            
+            <!--▼サイドナビ-->
+            
+            <div class="supprot_lContents">
+
+<p>Pokémon Dream World</p>
+
+<ul class="clearfix">
+<li><a href="/de.pokemon-gl.com/support/help/world/800/">Was ist die Pokémon Dream World?</a></li>
+<li><a href="/de.pokemon-gl.com/support/help/world/801/">Bildschirmaufbau</a></li>
+<li><a href="/de.pokemon-gl.com/support/help/world/802/">Traumaktivitäten</a></li>
+<li><a href="/de.pokemon-gl.com/support/help/world/803/">Transfer von Pokémon und Items</a></li>
+<li><a href="/de.pokemon-gl.com/support/help/world/804/">Die Pokémon Dream World verlassen</a></li>
+</ul>
+
+<p>Inseln</p>
+
+<ul class="clearfix">
+<li><a href="/de.pokemon-gl.com/support/help/world/805/">Was hat es mit den Inseln auf sich?</a></li>
+<li><a href="/de.pokemon-gl.com/support/help/world/806/">Pokémon</a></li>
+<li><a href="/de.pokemon-gl.com/support/help/world/807/">Die Fußmatte</a></li>
+<li><a href="/de.pokemon-gl.com/support/help/world/808/">Die Traumfreundeskarte</a></li>
+<li><a href="/de.pokemon-gl.com/support/help/world/809/">Besondere Inseln</a></li>
+</ul>
+
+<p>Häuser</p>
+
+<ul class="clearfix">
+<li><a href="/de.pokemon-gl.com/support/help/world/810/">So betrittst du ein Haus</a></li>
+<li><a href="/de.pokemon-gl.com/support/help/world/811/">Die Freundestafel</a></li>
+<li><a href="/de.pokemon-gl.com/support/help/world/812/">Die Schatztruhe</a></li>
+<li><a href="/de.pokemon-gl.com/support/help/world/813/">Der Traumkatalog</a></li>
+</ul>
+
+<p>Gärten</p>
+
+<ul class="clearfix">
+<li><a href="/de.pokemon-gl.com/support/help/world/814/">Was kann ich in meinem Garten tun?</a></li>
+<li><a href="/de.pokemon-gl.com/support/help/world/815/">Beetreihen</a></li>
+<li><a href="/de.pokemon-gl.com/support/help/world/816/">Wie pflanzt man Beeren an?</a></li>
+</ul>
+
+<p>Tauschbörse</p>
+
+<ul class="clearfix">
+<li><a href="/de.pokemon-gl.com/support/help/world/817/">Wofür ist die Tauschbörse gut?</a></li>
+</ul>
+
+<p>Austausch mit anderen PGL-Nutzern</p>
+
+<ul class="clearfix">
+<li><a href="/de.pokemon-gl.com/support/help/world/818/">Was für Austauschmöglichkeiten gibt es?</a></li>
+<li><a href="/de.pokemon-gl.com/support/help/world/819/">Traumfreunde</a></li>
+<li><a href="/de.pokemon-gl.com/support/help/world/820/">Austausch mit Traumfreunden und anderen PGL-Nutzern</a></li>
+</ul>
+
+<p>Trauminsel</p>
+
+<ul class="clearfix">
+<li><a href="/de.pokemon-gl.com/support/help/world/821/">Was hat es mit der Trauminsel auf sich?</a></li>
+<li><a href="/de.pokemon-gl.com/support/help/world/822/">Die Traumeiche</a></li>
+</ul>
+
+<p>Traumpunkte</p>
+
+<ul class="clearfix">
+<li><a href="/de.pokemon-gl.com/support/help/world/823/">Was sind Traumpunkte?</a></li>
+</ul>
+
+<p>Nutzungseinschränkungen</p>
+
+<ul class="clearfix">
+<li><a href="/de.pokemon-gl.com/support/help/world/824/">Begrenzter Zugang bei hohem Datenaufkommen</a></li>
+<li><a href="/de.pokemon-gl.com/support/help/world/825/">Die tägliche Zeitbegrenzung</a></li>
+<li><a href="/de.pokemon-gl.com/support/help/world/826/">Wann erhältst du wieder Zugang zur Pokémon Dream World?</a></li>
+</ul>
+
+</div>
+
+            
+            
+            
+		</div>
+        
+        
+		<p class="supprot_title"><img src="/de.pokemon-gl.com/support/assets/de/images/manual/title.jpg" alt="マニュアル一覧" width="374" height="28" /></p>
+        
+        
+        <!--▼サブナビエリア-->
+		<div class="supprot_section clear">
+				<ul class="clearfix">
+					<li class="list01"><a href="/de.pokemon-gl.com/support/help/about/000/"><img src="/de.pokemon-gl.com/support/assets/de/images/manual/list_photo01.jpg" alt="Infos zur Seite" /></a></li>
+					<li class="list02"><a href="/de.pokemon-gl.com/support/help/cooperation/100/"><img src="/de.pokemon-gl.com/support/assets/de/images/manual/list_photo02.jpg" alt="Verbindung mit derSpielesoftware" /></a></li>
+					<li class="list03"><a href="/de.pokemon-gl.com/support/help/friend/200/"><img src="/de.pokemon-gl.com/support/assets/de/images/manual/list_photo03.jpg" alt="Spielfreunde und Traumfreunde" /></a></li>
+					<li class="list04"><a href="/de.pokemon-gl.com/support/help/page/300/"><img src="/de.pokemon-gl.com/support/assets/de/images/manual/list_photo04.jpg" alt="Startseite und Meine Seite" /></a></li>
+					<li class="list05"><a href="/de.pokemon-gl.com/support/help/report/400/"><img src="/de.pokemon-gl.com/support/assets/de/images/manual/list_photo05.jpg" alt="Auswertungsübersicht" /></a></li>
+				</ul>
+				<ul class="clearfix mb0">
+					<li class="list06"><a href="/de.pokemon-gl.com/support/help/custom/500/"><img src="/de.pokemon-gl.com/support/assets/de/images/manual/list_photo06.jpg" alt="Individualisierung" /></a></li>
+					<li class="list07"><a href="/de.pokemon-gl.com/support/help/mail/600/"><img src="/de.pokemon-gl.com/support/assets/de/images/manual/list_photo07.jpg" alt="Sorglospost" /></a></li>
+					<li class="list08"><a href="/de.pokemon-gl.com/support/help/campaign/700/"><img src="/de.pokemon-gl.com/support/assets/de/images/manual/list_photo08.jpg" alt="Aktionen" /></a></li>
+					<li class="list09"><a href="/de.pokemon-gl.com/support/help/world/800/"><img src="/de.pokemon-gl.com/support/assets/de/images/manual/list_photo09.jpg" alt="Pokémon Dream World" /></a></li>
+					<li class="list10"><a href="/de.pokemon-gl.com/support/help/wi-fi/900/"><img src="/de.pokemon-gl.com/support/assets/de/images/manual/list_photo10.jpg" alt="Wi-Fi-Turniere" /></a></li>
+				</ul>
+                
+                
+                
+			</div>
+        
+	</div>
+    </div>
+    <div id="footer">
+      <ul id="footer-links">
+        <li><a href="http://www.pokemon.com/de/terms-of-use/">Nutzungsbedingungen</a></li>
+        <li><a href="/de.pokemon-gl.com/maintenance/">Wartungsarbeiten</a></li>
+        <li><a href="http://www.pokemon.com/de/pgl/requirements/">Systemvoraussetzungen</a></li>
+        <li><a href="http://www.pokemon.com/de/privacy-policy/">Datenschutzrichtlinien</a></li>
+        <li><a href="http://www.pokemon.com/de/about/legal/">Rechtl. Hinweise</a></li>
+        <li><a href="" class="trafficy">Auslastung der Pokémon DW</a></li>
+      </ul>
+      <ul id="select-language">
+        <li>Sprachauswahl (Language): &nbsp;&nbsp;&nbsp;</li>
+        <li><a href="/ja.pokemon-gl.com/">日本語</a></li>
+        <li><a href="/en.pokemon-gl.com/">English</a></li>
+        <li><a href="/fr.pokemon-gl.com/">Français</a></li>
+        <li><a href="/it.pokemon-gl.com/">Italiano</a></li>
+        <li><a href="/de.pokemon-gl.com/">Deutsch</a></li>
+        <li><a href="/es.pokemon-gl.com/">Español</a></li>
+        <li><a href="/ko.pokemon-gl.com/">한국어</a></li>
+      </ul>
+      <div id="copyright">
+        <p>©2011-2013 Pokémon. ©1995-2013 Nintendo/Creatures Inc./GAME FREAK inc. Pokémon, Pokémon character names and Nintendo DS are trademarks of Nintendo.</p>
+        <p class="maintenance"><a href="" target="_blank"></a></p>
+      </div>
+      <div id="badges"><a class="footer-badges-com" href="http://www.pokemon.com/" target="_blank"><img src="/de.pokemon-gl.com/assets/global/de/images/footer/com.png"/></a><a class="footer-badges-nintendo" href="http://www.nintendo.de/" target="_blank"><img src="/de.pokemon-gl.com/assets/global/de/images/footer/nintendo.png"/></a><a class="footer-badges-ds" href="http://www.nintendo.de/" target="_blank"><img src="/de.pokemon-gl.com/assets/global/de/images/footer/ds.png"/></a><a class="footer-badges-wifi" href="http://www.nintendo.de/NOE/de_DE/nintendo_wi-fi_5025.html" target="_blank"><img src="/de.pokemon-gl.com/assets/global/de/images/footer/wifi.png"/></a><a class="footer-badges-usk" href="http://www.usk.de/" target="_blank"><img src="/de.pokemon-gl.com/assets/global/de/images/footer/usk.png"/></a></div>
+    </div>
+  </div>
+</body>
+</html>

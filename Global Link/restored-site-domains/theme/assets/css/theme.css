@@ -1,0 +1,338 @@
+
+body, select {
+	font-family:Verdana,'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro',Osaka,'ＭＳ Ｐゴシック','MS P Gothic',sans-serif;
+}
+
+/* FIX FOR IE8 ISSUE:0000603 */
+* html body,
+* html body select {
+	font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro',Osaka,'ＭＳ Ｐゴシック','MS P Gothic',Verdana,sans-serif;
+} /* for lte ie6 */
+
+*:first-child+html body,
+*:first-child+html body select {
+	font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro',Osaka,'ＭＳ Ｐゴシック','MS P Gothic',Verdana,sans-serif;
+} /* for ie7 */
+
+html>/**/body,
+html>/**/body select {
+	font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro',Osaka,'ＭＳ Ｐゴシック','MS P Gothic',Verdana,sans-serif;
+} /* for ie8 */
+
+html:not(:target) body,
+html:not(:target) body select {
+	font-family:Verdana,'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro',Osaka,'ＭＳ Ｐゴシック','MS P Gothic',sans-serif;
+} /* for modern browser not ie8 */
+
+
+
+/* Non-Verdana fonts */
+.smallfont {
+	font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro',Osaka,'ＭＳ Ｐゴシック','MS P Gothic',sans-serif;
+}
+
+/* FIX FOR IE8 ISSUE:0000603 */
+* html body .smallfont {
+	font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro',Osaka,'ＭＳ Ｐゴシック','MS P Gothic',sans-serif;
+} /* for lte ie6 */
+
+*:first-child+html body .smallfont {
+	font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro',Osaka,'ＭＳ Ｐゴシック','MS P Gothic',sans-serif;
+} /* for ie7 */
+
+html>/**/body .smallfont {
+	font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro',Osaka,'ＭＳ Ｐゴシック','MS P Gothic',sans-serif;
+} /* for ie8 */
+
+html:not(:target) body .smallfont {
+	font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro',Osaka,'ＭＳ Ｐゴシック','MS P Gothic',sans-serif;
+} /* for modern browser not ie8 */
+
+
+
+
+
+#gus {
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	width: 100%;
+	height: 56px;
+}
+
+
+
+
+h1, h2, h3, h4, h5, h6, p, dl, form {
+	margin: 0;
+	padding: 0;
+}
+img {
+	border-style: none;
+}
+
+
+
+
+.swap a {
+	display: block;
+	background-position: center top;
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+.swap a:hover {
+	background-position: center bottom;
+}
+.swap a span {
+	position: absolute;
+	left: -999em;
+}
+
+
+
+
+
+.pokemon-type {
+	width: 66px;
+	height: 17px;
+	font-size: 10px;
+	background-position: 0 -289px;
+}
+.pokemon-type-normal   { background-position: 0    0px; }
+.pokemon-type-fire     { background-position: 0  -17px; }
+.pokemon-type-water    { background-position: 0  -34px; }
+.pokemon-type-electric { background-position: 0  -51px; }
+.pokemon-type-grass    { background-position: 0  -68px; }
+.pokemon-type-ice      { background-position: 0  -85px; }
+.pokemon-type-fighting { background-position: 0 -102px; }
+.pokemon-type-poison   { background-position: 0 -119px; }
+.pokemon-type-ground   { background-position: 0 -136px; }
+.pokemon-type-flying   { background-position: 0 -153px; }
+.pokemon-type-psychic  { background-position: 0 -170px; }
+.pokemon-type-bug      { background-position: 0 -187px; }
+.pokemon-type-rock     { background-position: 0 -204px; }
+.pokemon-type-ghost    { background-position: 0 -221px; }
+.pokemon-type-dragon   { background-position: 0 -238px; }
+.pokemon-type-dark     { background-position: 0 -255px; }
+.pokemon-type-steel    { background-position: 0 -272px; }
+.pokemon-type-none     { background-position: 0 -289px; }
+
+
+
+
+
+html, body {
+	height: 100%;
+	margin: 0;
+}
+
+#wrapper {
+	height: 100%;
+	color: #A2A2A2;
+	background: #000;
+	position: relative;
+}
+#wrapper-bg {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+#wrapper-bg-inner {
+	width: 1003px;
+	height: 100%;
+	margin: 0 auto;
+	background: #202020;
+}
+
+#header {
+	height: 45px;
+	position: relative;
+}
+#header h1 a {
+	position: absolute;
+	left:19px; top:10px; width:211px; height:24px;
+}
+#header h1 a span {
+	position: absolute;
+	left: -999em;
+}
+#header-pglname {
+	position: absolute;
+	top: 16px;
+	font-size: 11px;
+	width: 145px;
+	/* font-weight: bold; */
+}
+#header-romname {
+	position: absolute;
+	top: 16px;
+	font-size: 11px;
+}
+#header-volume {
+	position: absolute;
+	top: 16px;
+}
+#header-toplink {
+	position: absolute;
+	top: 12px;
+	display: block;
+	right: 10px;
+	height: 20px;
+}
+.not-logged-in #header-pglname,
+.not-logged-in #header-romname {
+	display: none;
+}
+
+
+#content-block {
+	background: #BDBDBD url(../images/body-bg.png) center top repeat;
+	position: relative;
+}
+#content-block-bg {
+	background: url(../images/wrapper-bg.png) center top repeat-x;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+#content {
+	width: 1003px;
+	margin: 0 auto;
+	position: relative;
+	background-color: #FFFFFF;
+}
+#footer-block {
+	background: #000 url(../images/footer-bg.png) center top repeat-x;
+}
+#footer {
+	width: 1003px;
+	margin: 0 auto;
+	position: relative;
+	background-color: #202020;
+}
+
+
+
+#footer-menu-row {
+	margin: 0 15px;
+	padding: 21px 0;
+	border-bottom: 1px solid #4D4D4D;
+	position: relative;
+	list-style-type: none;
+	font-size: 12px;
+}
+#footer-menu-row, #footer-menu-row a {
+	color: #FFF;
+	text-decoration: none;
+}
+#lang-select {
+	color: #FFF;
+	font-size: 12px;
+	/* font-weight: bold; */
+	border: 1px solid #4D4D4D;
+	border-radius: 4px;
+	padding: 5px 10px;
+	display: inline;
+	position: absolute;
+	right: 14px;
+	top: 15px;
+}
+#lang-select a {
+	color: #FFF;
+	text-decoration: none;
+}
+#footer-copy-row {
+	border-bottom: 1px solid #4D4D4D;
+	position: relative;
+	font-size: 8px;
+	text-align: center;
+	margin: 0 15px;
+	padding: 8px 0;
+	line-height: 150%;
+}
+#footer-copy-row, #footer-copy-row a {
+	color: #777;
+}
+#footer-badges-row {
+	margin: 0 15px;
+	position: relative;
+	text-align: center;
+}
+
+
+.footer-buttons {
+	display: block;
+	width: 92px;
+	height: 31px;
+}
+
+#footer-manual-link {
+	position: absolute;
+	left: 781px;
+	top: 21px;
+}
+#footer-manual-link:hover {
+	background-position: 0 -31px;
+}
+#footer-language-selector {
+	position: absolute;
+	left: 880px;
+	top: 21px;
+	background-position: -92px 0;
+}
+#footer-language-selector:hover {
+	background-position: -92px -31px;
+}
+#footer-about-campaign-link {
+	width: 107px;
+	position: absolute;
+	left: 667px;
+	top: 21px;
+	background-position: -184px 0;
+}
+#footer-about-campaign-link:hover {
+	background-position: -184px -31px;
+}
+
+.dialog {
+	width: 440px;
+	text-align: center;
+	position: relative;
+}
+.dialog .dialog-body {
+	padding: 10px 0;
+	background: url(../images/dialog-bg2.png);
+}
+.dialog .dialog-body p {
+	padding: 5px 20px;
+}
+.dialog .dialog-footer {
+	padding: 10px;
+	background: url(../images/dialog-bg2.png) bottom;
+}
+.dialog p {
+	font-size: 12px;
+	color: #333;
+	padding: 6px 0;
+}
+.dialog .dialog-button a {
+	display: block;
+	cursor: pointer;
+	height: 26px;
+}
+.dialog-button-ok       { width:  80px; background-position: 0 0; }
+.dialog-button-back     { width:  80px; background-position: -80px 0; }
+.dialog-button-wakeup   { width: 130px; background-position: -160px 0; }
+.dialog-button-register { width: 110px; background-position: -290px 0; }
+.dialog-button-close    { width:  80px; background-position: -400px 0; }
+.dialog-button-ok:hover       { background-position: 0 -26px; }
+.dialog-button-back:hover     { background-position: -80px -26px; }
+.dialog-button-wakeup:hover   { background-position: -160px -26px; }
+.dialog-button-register:hover { background-position: -290px -26px; }
+.dialog-button-close:hover    { background-position: -400px -26px; }
+
+
+

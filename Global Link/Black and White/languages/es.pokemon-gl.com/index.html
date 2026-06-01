@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=1024" />
+  <title>Pokémon Global Link</title>
+  <link rel="stylesheet" type="text/css" href="/cdn2.pokemon-gl.com/src/swf/assets/global/css/theme.css" />
+  <link rel="stylesheet" type="text/css" href="/cdn2.pokemon-gl.com/src/swf/assets/global/es/css/lang.css" />
+  <link rel="stylesheet" type="text/css" href="/cdn2.pokemon-gl.com/src/swf/top/css/top.css" />
+  <link rel="stylesheet" type="text/css" href="/cdn2.pokemon-gl.com/src/swf/top/es/css/lang.css" />
+  <script src="assets/global/js/jquery-1.7.min.js"></script>
+  <script src="assets/global/js/jquery.blockUI.js"></script>
+  <script src="/es.pokemon-gl.com/assets/global/js/jquery.transit.min.js"></script>
+  <script src="/es.pokemon-gl.com/assets/global/js/jquery.corner.js"></script>
+  <script src="/es.pokemon-gl.com/assets/global/js/swfobject.js"></script>
+  <script src="assets/global/js/pgl.js"></script>
+  <script src="/es.pokemon-gl.com/assets/global/js/text.js"></script>
+  <script src="/es.pokemon-gl.com/report/assets/js/raphael-min.js"></script>
+  <script src="/es.pokemon-gl.com/report/assets/js/report-utils.js"></script>
+  <script src="/es.pokemon-gl.com/report/assets/js/pokemons.js"></script>
+  <script src="/es.pokemon-gl.com/report/assets/js/areas.js"></script>
+  <script src="top/assets/js/text.js"></script>
+  <script src="top/assets/js/top.js"></script>
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-17682532-2']);
+    _gaq.push(['_setDomainName', '.pokemon-gl.com']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+<script src="../_restore/mock-api-interceptor.js" data-pgl-restore="mock-api-interceptor.js"></script>
+<script src="../_restore/plugin-guards.js" data-pgl-restore="plugin-guards.js"></script>
+<script src="../_restore/runtime-fixes.js" data-pgl-restore="runtime-fixes.js"></script>
+</head>
+<body oncontextmenu="return false" ondragstart="return false" onselectstart="return false">
+  <div id="main">
+    <div id="map-container">
+      <div id="map"></div>
+      <div id="map-canvas"></div>
+    </div>
+    <div id="report">
+      <div id="report-gts">
+        <h2>Global Trade Station (GTS)</h2>
+        <div id="trade-deposit-1" class="trade-deposit">
+          <div class="pokemon">
+            <div class="pokedex"><span class="label">N.º </span><span class="value"></span></div>
+            <div class="name"><span class="value"></span></div>
+            <div class="level"><span class="label">Nv. </span><span class="value"></span></div>
+            <div class="sex"><span class="value"></span></div>
+            <div class="iso-3166-1"><span class="value"></span></div>
+            <div class="image"></div>
+          </div>
+        </div>
+        <div id="trade-deposit-2" class="trade-deposit">
+          <div class="pokemon">
+            <div class="pokedex"><span class="label">N.º </span><span class="value"></span></div>
+            <div class="name"><span class="value"></span></div>
+            <div class="level"><span class="label">Nv. </span><span class="value"></span></div>
+            <div class="sex"><span class="value"></span></div>
+            <div class="iso-3166-1"><span class="value"></span></div>
+            <div class="image"></div>
+          </div>
+        </div>
+      </div>
+      <div id="report-gbu">
+        <h2>Global Battle Union (GBU)</h2>
+        <div id="report-gbu-format">
+          <div class="icon"></div>
+          <div class="name"></div>
+        </div>
+        <div id="battle-user">
+          <div class="result"></div>
+          <div class="avatar"><img/></div>
+          <div class="pglname"></div>
+          <div class="country"></div>
+          <table>
+            <tr class="rating">
+              <th>Puntos Clasificatorios</th>
+              <td><span class="unit"></span><span class="value"></span><span class="unit"></span></td>
+            </tr>
+            <tr class="ranking">
+              <th>Clasificación</th>
+              <td><span class="unit"></span><span class="value"></span><span class="unit"></span></td>
+            </tr>
+            <tr class="trainername">
+              <th>Nombre del Entrenador</th>
+              <td><span class="value"></span></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div id="report-records">
+        <h2>ESTADÍSTICAS DE SINCRONIZAR JUEGO</h2>
+        <div id="report-records-title">
+          <div class="icon"></div>
+          <div class="name"></div>
+        </div>
+        <div class="area">
+          <div class="name"></div>
+          <div class="tzname"></div>
+          <div class="time"></div>
+          <div class="census-result"></div>
+        </div>
+        <div class="most-slept-pokemon">
+          <h3><span class="label">Pokémon que más se ha acostado en esta región</span></h3>
+          <div class="image"><img/></div>
+          <div class="pokedex"><span class="label">N.º </span><span class="value"></span></div>
+          <div class="name"><span class="value"></span></div>
+          <div class="types"><ol></ol></div>
+          <div class="height">
+            <span class="label">Altura</span>
+            <span class="value"></span>
+          </div>
+          <div class="weight">
+            <span class="label">Peso</span>
+            <span class="value"></span>
+          </div>
+          <div class="footprint"><img/></div>
+        </div>
+      </div>
+    </div>
+    
+    <div id="login-control">
+      <h1>Pokémon Global Link</h1>
+      <div class="member-info">
+        <div class="member-info-pgl">
+          Apodo en PGL
+          <div class="member-info-pglname"></div>
+          <div class="member-info-avatar"></div>
+        </div>
+        <a class="login-menu-profile" href="/es.pokemon-gl.com/profile">Mi perfil</a>
+        <a class="login-menu-mailer" href="/es.pokemon-gl.com/mailer">Correo Simple</a>
+        <div class="member-info-rom">
+          Versión del juego
+          <div class="member-info-rom-image"></div>
+          <div class="signup-prompt">Puedes divertirte con la versión de prueba de Pokémon Dream World.<br />Para poder usar todas las funciones, debes registrar tu tarjeta del juego.<br />Haz clic en el botón de abajo para registrarla.<br /></div>
+        </div>
+        <div class="member-info-pdw">
+          Pokémon que has acostado
+          <div class="member-info-pdw-pokemon"></div>
+          <a class="member-info-pdw-wakeup" href="#">Despertar al Pokémon</a>
+          Último Pokémon acostado el 
+          <div class="member-info-pdw-slepttime"></div>
+        </div>
+
+        <a class="login-menu-customize" href="customize">Personalizar</a>
+        <span class="login-menu-customize-desc">Apariencia del C-Gear y de la Pokédex, y configuración del Musical</span>
+      </div>
+    </div>
+
+    <div id="right-buttons">
+      <div class="login-menu-logout logged-in"><a href="/es.pokemon-gl.com/?p=logout">logout</a></div>
+      <div class="menu-volume"><div id="header-volume-swf"></div></div>
+      <div id="pgl-member-count">
+        <div class="label">Número de miembros de PGL</div>
+        <div class="value"></div>
+      </div>
+    </div>
+
+    <div id="information">
+      <ul>
+      </ul>
+      <div id="pdw" class="content-link">
+        <a href="/es.pokemon-gl.com/pdw/">
+          <h2>Pokémon Dream World</h2>
+          <div id="pdw-link-message" class="ticker">
+            <div class="text"></div>
+          </div>
+          <div class="caption">¡Trae a tu juego objetos y Pokémon de Pokémon DW!</div>
+        </a>
+      </div>
+      <div id="wifi" class="content-link">
+        <a href="/es.pokemon-gl.com/wifi/">
+          <h2>Torneos Wi-Fi</h2>
+          <div id="wifi-link-message" class="ticker">
+            <div class="text"></div>
+          </div>
+          <div class="caption">¡Suma Puntos Clasificatorios en los Torneos Wi-Fi y llega alto!</div>
+        </a>
+      </div>
+      <div id="campaign" class="content-link">
+        <a href="/es.pokemon-gl.com/campaign/">
+          <h2>Promociones</h2>
+          <div class="caption">Promociones especiales para obtener Pokémon, objetos personalizados, diseños, etc.</div>
+        </a>
+      </div>
+      <div id="support" class="content-link">
+        <a href="/es.pokemon-gl.com/support/">
+          <h2>Ayuda</h2>
+          <div class="caption">Información sobre cómo jugar en PGL y participar en las promociones.</div>
+        </a>
+      </div>
+      <div id="report-link" class="content-link">
+        <a href="/es.pokemon-gl.com/report/">
+          <h2>Datos</h2>
+        </a>
+      </div>
+      <div class="loading">Cargando...</div>
+    </div>
+  </div>
+  <div id="footer">
+    <ul id="footer-links">
+      <li><a href="http://www.pokemon.com/es/terms-of-use/">Condiciones de uso</a></li>
+      <li><a href="/es.pokemon-gl.com/maintenance/">Acerca del mantenimiento</a></li>
+      <li><a href="http://www.pokemon.com/es/pgl/requirements/">Requisitos del sistema</a></li>
+      <li><a href="http://www.pokemon.com/es/privacy-policy/">Política de privacidad </a></li>
+      <li><a href="http://www.pokemon.com/es/about/legal/">Información legal</a></li>
+      <li><a href="" class="trafficy">Estado del servidor de Pokémon DW</a></li>
+    </ul>
+    <ul id="select-language">
+      <li>Selección de idioma (Language): &nbsp;&nbsp;&nbsp;</li>
+      <li><a href="/ja.pokemon-gl.com/">日本語</a></li>
+      <li><a href="/en.pokemon-gl.com/">English</a></li>
+      <li><a href="/fr.pokemon-gl.com/">Français</a></li>
+      <li><a href="/it.pokemon-gl.com/">Italiano</a></li>
+      <li><a href="/de.pokemon-gl.com/">Deutsch</a></li>
+      <li><a href="/es.pokemon-gl.com/">Español</a></li>
+      <li><a href="/ko.pokemon-gl.com/">한국어</a></li>
+    </ul>
+    <div id="copyright">
+      <p>©2011-2013 Pokémon. ©1995-2013 Nintendo/Creatures Inc./GAME FREAK inc. Pokémon, Pokémon character names and Nintendo DS are trademarks of Nintendo.</p>
+      <p class="maintenance"><a href="" target="_blank"></a></p>
+    </div>
+    <div id="badges"><a class="footer-badges-com" href="http://www.pokemon.com/" target="_blank"><img src="/es.pokemon-gl.com/assets/global/es/images/footer/com.png"/></a><a class="footer-badges-nintendo" href="http://www.nintendo.es/" target="_blank"><img src="/es.pokemon-gl.com/assets/global/es/images/footer/nintendo.png"/></a><a class="footer-badges-ds" href="http://www.nintendo.es/" target="_blank"><img src="/es.pokemon-gl.com/assets/global/es/images/footer/ds.png"/></a><a class="footer-badges-wifi" href="http://www.nintendo.es/NOE/es_ES/conexin_wi-fi_de_nintendo_5025.html" target="_blank"><img src="/es.pokemon-gl.com/assets/global/es/images/footer/wifi.png"/></a><a class="footer-badges-esrb" href="http://www.esrb.org/index-js.jsp" target="_blank"><img src="/es.pokemon-gl.com/assets/global/es/images/footer/esrb.png"/></a><a class="footer-badges-pegi" href="http://www.pegi.info" target="_blank"><img src="/es.pokemon-gl.com/assets/global/es/images/footer/pegi.png"/></a></div>
+  </div>
+</body>
+</html>
