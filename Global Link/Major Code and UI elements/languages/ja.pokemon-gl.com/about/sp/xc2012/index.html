@@ -1,0 +1,261 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="copyright" content="(C)2011 Pokemon. (C)1995-2011 Nintendo/Creatures Inc. /GAME FREAK inc. ポケットモンスター・ポケモン・Pokemon は任天堂・クリーチャーズ・ゲームフリークの登録商標です。" />
+<meta name="author" content="The Pokémon Company" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta content="index,follow" name="robots" />
+<meta name="description" content="「ポケモングローバルリンク」は、ニンテンドーDSソフト「ポケットモンスターブラック・ホワイト」と連動したWEBサイトです。" />
+<meta name="keywords" content="ポケモン,ぽけもん,ポケットモンスター,ブラック,ホワイト,黒,白,新作,BW,pokemon,DS,PGL,PDW,Black,White,ポケモンドリームワールド, グローバルバトルユニオン,イッシュ地方" />
+<title>ポケモングローバルリンク | Pok&eacute;mon GLOBAL LINK</title>
+
+<link rel="stylesheet" type="text/css" href="/assets/global/css/theme.css" />
+<link rel="stylesheet" type="text/css" href="/assets/global/ja/css/lang.css" />
+<link rel="stylesheet" type="text/css" href="contents.css" />
+
+ <script src="/assets/global/js/jquery-1.7.min.js"></script>
+  <script src="/assets/global/js/jquery.blockUI.js"></script>
+  <script src="/assets/global/js/jquery.corner.js"></script>
+  <script src="/assets/global/js/swfobject.js"></script>
+  <script src="/assets/global/js/pgl.js?rev=3"></script>
+  <script src="/assets/global/js/text.js"></script>
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-17682532-2']);
+    _gaq.push(['_setDomainName', '.pokemon-gl.com']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+</head>
+<body id="wrapper" oncontextmenu="return false" ondragstart="return false" onselectstart="return false" style="text-align:center;">
+  <div id="container">
+    <div id="header">
+      <div id="logo">
+        <a href="/">Pokémon Global Link</a>
+      </div>
+      <div id="logged-in-info">
+        <div id="header-avatar" class="logged-in"></div>
+        <div id="header-pgln" class="logged-in">
+          <span id="header-pglname"></span>
+        </div>
+        <div id="header-rom" class="logged-in">
+          <span id="header-romname" class="game-card-name"></span>
+        </div>
+        <div id="header-volume"><div id="header-volume-swf"></div></div>
+        <div id="header-rom-change" class="logged-in"></div>
+        <div id="header-logout" class="logged-in"><a href="/?p=logout">ログアウト</a></div>
+        <div id="header-back-to-top" class="logged-out"><a href="/"></a></div>
+      </div>
+      <div id="head-menu">
+        <ul>
+          <li id="head-menu-profile"><a href="/profile">マイページ</a></li>
+          <li id="head-menu-campaign"><a href="/campaign/">キャンペーン</a></li>
+          <li id="head-menu-customize"><a href="/customize">カスタマイズ</a></li>
+          <li id="head-menu-pdw"><a href="/pdw/">ポケモンドリームワールド</a></li>
+          <li id="head-menu-report"><a href="/report/">レポート</a></li>
+          <li id="head-menu-wifi"><a href="/wifi/">Wi-Fi大会</a></li>
+          <li id="head-menu-support"><a href="/support/">サポート</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="main">
+  <script type="text/javascript">
+	var cs = document.createElement("link");
+	cs.rel="stylesheet";
+	cs.href="contents.css";
+	cs.type="text/css";
+	document.getElementsByTagName('head')[0].appendChild(cs);
+  </script>
+<style type="text/css">
+.logged-in-black #container {
+  background-repeat: no-repeat;
+  background:#FFFFFF;
+}
+#container {
+  background-repeat: no-repeat;
+  background:#FFFFFF;
+}
+</style>
+
+<!--contents▼-->
+<div id="xmascup">
+
+<h1><span class="alt">クリスマスカップ</span></h1>
+<p class="alt">今年最後の大バトル！600種類以上のポケモンからどれを選ぶ？！（※小さいお子さまは、おうちの人といっしょによんでください。）</p>
+
+<ul id="wifimenu">
+<li class="m01"><a href="#rule">大会ルール</a></li>
+<li class="m02"><a href="#shikaku">参加資格</a></li>
+<li class="m03"><a href="#about">大会概要</a></li>
+<li class="m04 normal"><a href="regulation.pdf" target="_blank">重要事項・レギュレーション</a></li>
+<li class="m05 normal"><a href="http://ja.pokemon-gl.com/support/faq/ja/Wifi.pdf" target="_blank">エントリーから参加の手順</a></li>
+</ul>
+
+<div id="mainbg">
+<!--プレゼント-->
+<div id="present01">
+	<p>参加者限定プレゼント「イバンのみ」！<br />
+	大会に参加してランキングに掲載された方全員に、『ポケットモンスターブラック２・ホワイト２』のゲーム内では手に入らないきのみ「イバンのみ」をプレゼント！　ピンチのときに一度だけ先制できるきのみだ！</p>
+</div>
+<div id="present02">
+	<p>「次世代ワールドホビーフェア '13 Winter」にご招待！<br />
+	小学生以下カテゴリーの成績優秀者を「次世代ワールドホビーフェア '13 Winter」(全国4会場)で行うポケモンバトルイベントにご招待！</p>
+	<a href="http://www.pokemon.co.jp/info/2012/11/121115_e01.html" target="_blank" class="btn01 alphaImg">くわしくはオフィシャルサイトをチェック！</a>
+</div>
+
+<!--大会ルール-->
+<div class="unit" id="rule">
+<h2>大会ルール</h2>
+<div class="innerBG"><div class="innerBG2">
+<table border="0" cellpadding="0" cellspacing="0" class="table01">
+	<tr>
+		<th class="t1"><span>対戦ルール</span></th>
+		<td><strong>ダブルバトル</strong><br />
+		<span class="f12">※レーティングの最終数値にてランキングを決定します。</span></td>
+	</tr>
+	<tr>
+		<th class="t2"><span>使用できるポケモン</span></th>
+		<td><strong>「ぜんこく図鑑No.001 〜 649」</strong><br />
+		ただし、下記のポケモンは除く<br />
+		ペラップ
+	</tr>
+</table>
+<a href="regulation.pdf" target="_blank" class="btn01 alphaImg">くわしくは、「重要事項・レギュレーション」をご確認ください</a>
+</div></div>
+<div class="pagetop"><a href="#">ページトップへ戻る</a></div>
+</div>
+
+<!--参加資格-->
+<div class="unit" id="shikaku">
+<h2>参加資格</h2>
+<div class="innerBG"><div class="innerBG2">
+<ul>
+	<li><strong>ポケモンだいすきクラブ（登録・年会費無料）のメンバーであること。</strong></li>
+	<li><strong>ポケモングローバルリンク（以下PGL）へ下記【使用ゲームソフト】のゲームシンクIDコードの登録を完了させていること。</strong><br />
+	<span class="f12">※１つのメンバーIDに複数のゲームソフトを登録されている場合、それぞれのゲームソフトでの参加が可能です。<br />
+	※参加するゲームソフトごとにエントリーすることが必要です。</span></li>
+	<li><strong>Wi-Fi接続環境があること。</strong></li>
+	<li><strong>居住地域による参加制限はありません。</strong>（日本国内限定の大会です。PGLの海外版からは参加できません。）</li>
+	<li style="list-style:none;"><span class="f12" style="color:#F00;">※本大会は参加者の生年月日ごとに、カテゴリーを分けて開催します。エントリー時に「ポケモンだいすきクラブ」にご登録いただいている生年月日が間違っている場合は、正しいカテゴリーにご参加いただくことができません。エントリー開始までに必ずご登録内容をご確認ください。<br />
+※参加される方の生年月日とまったく違う生年月日のカテゴリーでの参加が発覚した場合は、今後開催される公式大会も含めて、参加資格を失効させていただく場合があります。</span></li>
+</ul>
+<a href="https://www.pokemon.jp/login/" target="_blank" class="btn02 alphaImg">ポケモンだいすきクラブのメンバー登録情報の確認はコチラから</a>
+</div></div>
+<div class="pagetop"><a href="#">ページトップへ戻る</a></div>
+</div>
+
+<!--大会概要-->
+<div class="unit" id="about">
+<h2>大会概要</h2>
+<div class="innerBG"><div class="innerBG2">
+<table border="0" cellpadding="0" cellspacing="0" class="table02">
+	<tr>
+		<th class="t1"><span>開催期間</span></th>
+		<td><strong>2012年12月21日（金）00:00 〜 2012年12月24日（月・振休）23:59</strong></td>
+	</tr>
+	<tr>
+		<th class="t2"><span>エントリー期間</span></th>
+		<td><strong>2012年12月14日（金）13:00 〜 2012年12月20日（木）23:59</strong><br />
+		<p style="padding-top:10px;">※参加にはPGLでの事前エントリーが必要です。<br />
+		※受付は先着順です。受付人数が定員数に達しましたら、エントリー期間内でも受付を終了させていただく場合があります。<br />
+		※大会期間中の当日参加はできません。エントリー受付期間内にPGLにてエントリーを完了させてください。</p></td>
+	</tr>
+	<tr>
+		<th class="t3"><span>カテゴリー</span></th>
+		<td><strong>今回の大会は参加者の生年月日ごとに、カテゴリーを分けて開催します。</strong>
+		<p style="padding-top:10px;"><span class="f14"><strong class="orang">●小学生以下</strong>（2000年4月2日以降生まれ）<br />
+		<strong class="orang">●中学生以上</strong>（2000年4月1日以前生まれ）</span></p></td>
+	</tr>
+	<tr>
+		<th class="t4"><span>受付定員数</span></th>
+		<td><strong>先着５万名様</strong>（予定）<br />
+			<span class="f12">※内訳は　小学生以下：2万名／中学生以上：3万名　を予定していますが、エントリー状況に応じて<br />
+			変更させていただく場合があります。</span> </td>
+	</tr>
+	<tr>
+		<th class="t5"><span>ランキング結果発表</span></th>
+		<td><strong>2013年1月8日（火）22:00 〜（予定）</strong><br /></td>
+	</tr>
+	<tr>
+		<th class="t6"><span>使用ゲームソフト</span></th>
+		<td>『ポケットモンスターブラック２』『ポケットモンスターホワイト２』</td>
+	</tr>
+</table>
+</div></div>
+<div class="pagetop"><a href="#">ページトップへ戻る</a></div>
+</div>
+
+<!--Wi-Fi対戦マナー-->
+<div id="wifimanner">
+<div class="alt">
+	<h2>Wi-Fi対戦マナー</h2>
+	<p>Wi-Fi通信の対戦はお互いの姿が見えないぶん、対戦相手に対しての思いやりが重要だよ。対戦マナーを守って正々堂々対戦しよう！</p>
+	<h3>（1）対戦相手がみつかったら最後まで対戦しよう！</h3>
+	<p>対戦相手が見つかったら、対戦後結果の送信が完了するまでは電源を切ったり、途中で通信を切断するような行為はやめよう。対戦相手にも迷惑がかかるので、フェアプレイを心がけよう。</p>
+	<h3>（2）インターネットの掲示板やブログ等での誹謗・中傷の書き込みはやめよう！</h3>
+	<p>対戦が終わった後も、自分と対戦相手のことを思いやろう。インターネットの掲示板やブログ等での誹謗・中傷など、対戦相手が傷つくような行為、自分がされてイヤなことは絶対にやめよう。対戦終了後もスポーツマン精神を心がけよう。</p>
+	<ul>
+	<li>上記のような行為によって、大会・サイトの正常な運営を乱す選手は、ペナルティを課せられる場合があります。</li>
+	<li>切断が著しく多い選手は、ランキングの集計の対象外とさせていただきます。また、今後の公式大会に出場できなくなる場合があります。</li>
+	<li>「（1）対戦相手がみつかったら最後まで対戦しよう！」をよく読んで、対戦を途中で中断しないようにルールを守って切断をしないように心がけてください。また、安定したWi-Fi通信環境と本体の充電が充分な状態でのプレイをお願いします。 </li>
+	<li>また、大会期間中に限らず、ポケモントレーナーとしての良識を欠いた行動を行った場合、今後全ての大会に出場できないことがあります。 </li>
+	</ul>
+</div>
+<div class="pagetop" style="padding-top:758px"><a href="#">ページトップへ戻る</a></div>
+</div>
+
+</div><!--mainbg end-->
+
+<!--お問い合わせ-->
+<div class="otoiawase">
+<div class="unit">
+<h2>お問い合わせ</h2>
+<p>ポケモングローバルリンクについての不明点等については、[マニュアル]・[よくあるしつもん]をご確認ください。</p>
+<div class="otoiawasebtn clearfix">
+<a href="http://ja.pokemon-gl.com/support/help/wi-fi/900/" class="otoiawasebtn01 alphaImg">マニュアル（Wi-Fi大会）</a>
+<a href="http://ja.pokemon-gl.com/support/faq/wi-fi/" class="otoiawasebtn02 alphaImg">よくあるしつもん（Wi-Fi大会）</a></div>
+
+<p><a href="http://ja.pokemon-gl.com/support/" class="otoiawasebtn03 alphaImg">サポートトップはコチラ</a></p>
+
+<p>ご不明な点は「ポケモンだいすきクラブ・ポケモングローバルリンクサポートデスク」までお問い合わせくださいますよう、お願いいたします。</p>
+<p><a href="https://www.pokemon.jp/form/inquiry/" target="_blank" class="otoiawasebtn04 alphaImg">お問い合わせはこちらから</a></p>
+
+</div>
+</div>
+
+</div>
+<!--contents▲-->
+<div id="footer">
+      <ul id="footer-links">
+        <li><a href="/terms-of-use/">お約束</a></li>
+        <li><a href="/maintenance/">メンテナンス情報</a></li>
+        <li><a href="/browser/">推奨利用環境</a></li>
+        <li><a href="/privacy/">プライバシーポリシー</a></li>
+        <li><a href="/copyright/">コピーライト</a></li>
+        <li><a href="" class="trafficy">ポケモンドリームワールド混雑状況</a></li>
+      </ul>
+      <ul id="select-language">
+        <li>言語選択（Language）: &nbsp;&nbsp;&nbsp;</li>
+        <li><a href="http://ja.pokemon-gl.com">日本語</a></li>
+        <li><a href="http://en.pokemon-gl.com">English</a></li>
+        <li><a href="http://fr.pokemon-gl.com">Français</a></li>
+        <li><a href="http://it.pokemon-gl.com">Italiano</a></li>
+        <li><a href="http://de.pokemon-gl.com">Deutsch</a></li>
+        <li><a href="http://es.pokemon-gl.com">Español</a></li>
+        <li><a href="http://ko.pokemon-gl.com">한국어</a></li>
+      </ul>
+      <div id="copyright">
+        <p>©2012 Pokémon. ©1995-2012 Nintendo/Creatures Inc./GAME FREAK inc. ポケットモンスター・ポケモン・Pokémonは任天堂・クリーチャーズ・ゲームフリークの登録商標です。</p>
+        <p class="maintenance"><a href="http://www.nintendo.co.jp/netinfo/index.html" target="_blank">ニンテンドーDS ネットワークメンテナンス情報・稼働状況</a></p>
+      </div>
+      <div id="badges"><a class="footer-badges-nintendo" href="http://www.nintendo.co.jp/" target="_blank"><img src="/assets/global/ja/images/footer/nintendo.png"/></a><a class="footer-badges-pokemon" href="http://www.pokemon.co.jp/" target="_blank"><img src="/assets/global/ja/images/footer/pokemon.png"/></a><a class="footer-badges-pdc" href="http://www.pokemon.jp/" target="_blank"><img src="/assets/global/ja/images/footer/pdc.png"/></a></div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=1024" />
+  <title>Pokémon Global Link</title>
+  <link rel="stylesheet" type="text/css" href="http://cdn2.pokemon-gl.com/src/swf/assets/global/css/theme.css" />
+  <link rel="stylesheet" type="text/css" href="http://cdn2.pokemon-gl.com/src/swf/assets/global/ko/css/lang.css" />
+  <script src="/assets/global/js/jquery-1.7.min.js"></script>
+  <script src="/assets/global/js/jquery.blockUI.js"></script>
+  <script src="/assets/global/js/jquery.corner.js"></script>
+  <script src="/assets/global/js/swfobject.js"></script>
+  <script src="/assets/global/js/pgl.js?rev=3"></script>
+  <script src="/assets/global/js/text.js"></script>
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-17682532-2']);
+    _gaq.push(['_setDomainName', '.pokemon-gl.com']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+</head>
+<body id="wrapper" oncontextmenu="return false" ondragstart="return false" onselectstart="return false">
+  <div id="container">
+    <div id="header">
+      <div id="logo">
+        <a href="/">Pokémon Global Link</a>
+      </div>
+      <div id="logged-in-info">
+        <div id="header-avatar" class="logged-in"></div>
+        <div id="header-pgln" class="logged-in">
+          <span id="header-pglname"></span>
+        </div>
+        <div id="header-rom" class="logged-in">
+          <span id="header-romname" class="game-card-name"></span>
+        </div>
+        <div id="header-volume"><div id="header-volume-swf"></div></div>
+        <div id="header-rom-change" class="logged-in"></div>
+        <div id="header-logout" class="logged-in"><a href="/?p=logout">로그아웃</a></div>
+        <div id="header-back-to-top" class="logged-out"><a href="/"></a></div>
+      </div>
+      <div id="head-menu">
+        <ul>
+          <li id="head-menu-profile"><a href="/profile">마이페이지</a></li>
+          <li id="head-menu-campaign"><a href="/campaign/">캠페인</a></li>
+          <li id="head-menu-customize"><a href="/customize">커스터마이즈</a></li>
+          <li id="head-menu-pdw"><a href="/pdw/">PDW</a></li>
+          <li id="head-menu-report"><a href="/report/">리포트</a></li>
+          <li id="head-menu-wifi"><a href="/wifi/">Wi-Fi 대회</a></li>
+          <li id="head-menu-support"><a href="/support/">고객지원</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="main">
+
+<div style="width:1003px;margin:0;padding:40px 0 20px 0;background:#ffffff top no-repeat;" id="flashcontent">
+
+<style type="text/css">
+.logged-in-black #container {
+  background-repeat: no-repeat;
+  background-color:#ffffff;
+}
+#container {
+  background-repeat: no-repeat;
+  background-color:#ffffff;
+}
+.finside {width:1003px;height:533px;margin:0;padding:90px 0 0 0;background:url(/src/swf/error/assets/ko/img/error.ko_bg.jpg) top no-repeat;text-align:center;}
+.finside p {color:#666666;font-size:80%;line-height:1.4;}
+.finside a {color:#f99604;text-decoration:none;}
+.finside div.inside {width:900px;margin:0 auto;text-align:center;}
+.finside img {border:0;}
+.finside p.topimg {margin:0;}
+.finside p.sttl {margin:0 0 5px 0;}
+.finside p.kosc {margin:0 0 15px 0;}
+</style>
+
+<div class="finside">
+
+<div class="inside">
+<p class="topimg"><img src="/src/swf/error/assets/ko/img/404_03.png"></p>
+<p class="sttl"><img src="/src/swf/error/assets/ko/img/404_05.png"></p>
+<p class="kosc"><img src="/src/swf/error/assets/ko/img/404_06.png" width="422" height="60" border="0" usemap="#Map"></p>
+<p><a href="/"><img src="/src/swf/error/assets/ko/img/404_09.png"></a></p>
+</div>
+<map name="Map" id="Map"><area shape="rect" coords="138,42,190,54" href="http://pokemonkorea.co.kr/html/pokemonkorea/qna.asp
+" /></map>
+</div>
+
+</div>
+    </div>
+    <div id="footer">
+      <ul id="footer-links">
+        <li><a href="/terms-of-use/">약속</a></li>
+        <li><a href="/maintenance/">사이트 점검에 대해서</a></li>
+        <li><a href="http://pokemonkorea.co.kr/pgl/footer/browser.asp">PC 설정</a></li>
+        <li><a href="http://pokemonkorea.co.kr/pgl/footer/privacy.asp">개인정보취급방침</a></li>
+        <li><a href="http://pokemonkorea.co.kr/pgl/footer/copyright.asp">저작권</a></li>
+        <li><a href="" class="trafficy">PDW 혼잡상황</a></li>
+      </ul>
+      <ul id="select-language">
+        <li>언어 선택（Language） : &nbsp;&nbsp;&nbsp;</li>
+        <li><a href="http://ja.pokemon-gl.com">日本語</a></li>
+        <li><a href="http://en.pokemon-gl.com">English</a></li>
+        <li><a href="http://fr.pokemon-gl.com">Français</a></li>
+        <li><a href="http://it.pokemon-gl.com">Italiano</a></li>
+        <li><a href="http://de.pokemon-gl.com">Deutsch</a></li>
+        <li><a href="http://es.pokemon-gl.com">Español</a></li>
+        <li><a href="http://ko.pokemon-gl.com">한국어</a></li>
+      </ul>
+      <div id="copyright">
+        <p>© 2013 Pokémon. © 1995-2013 Nintendo/Creatures Inc./GAME FREAK inc. 포켓몬스터, 포켓몬, Pokémon은 Nintendo의 등록상표입니다. Nintendo DS is a trademark of Nintendo. </p>
+        <p class="maintenance"><a href="http://www.nintendo.co.kr/DS/soft/wifi/wifi_connection.php" target="_blank">닌텐도 DS 네트워크 점검정보·가동상황</a></p>
+      </div>
+      <div id="badges"><a class="footer-badges-pki" href="http://pokemonkorea.co.kr/" target="_blank"><img src="/assets/global/ko/images/footer/pki.png"/></a><a class="footer-badges-nintendo" href="http://www.nintendo.co.kr/" target="_blank"><img src="/assets/global/ko/images/footer/nintendo.png"/></a><a class="footer-badges-wifi" href="http://www.nintendo.co.kr/DS/soft/wifi/wifi_connection.php" target="_blank"><img src="/assets/global/ko/images/footer/wifi.png"/></a><span class="footer-badges-ko"><img src="/assets/global/ko/images/footer/ko.png"/></span></div>
+    </div>
+  </div>
+</body>
+</html>
+

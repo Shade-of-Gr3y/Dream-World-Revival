@@ -1,0 +1,147 @@
+/*maintenance css*/
+
+a{outline:none;}
+a:hover{text-decoration: none;}
+
+
+
+#pgl{
+	font-size:80%;
+	color:#000000;
+	background-color:#ffffff;
+	padding: 0px 64px 50px 64px;
+}
+#pgl h2,#pgl h3,#pgl h4,#pgl h5{ margin: 0 0 15px 0; padding:0;}
+#pgl p{ margin:0; padding-bottom:12px; line-height:150%;}
+#pgl img{border:0;}
+
+#pgl .s{font-size:10px;}
+#pgl .alignC{text-align:center;}
+
+#pgl .imgP{margin-bottom:15px;}
+
+#pgl ul,#pgl li{margin:0; padding:0;}
+	#pgl li{ padding: 0 0 10px 15px; background:url(/about/function-change/img/li.gif) no-repeat 0.5em 0.5em; list-style:none;}
+
+.alt{
+	visibility:hidden;
+	position:absolute;
+	top:-15000px;
+	left:-15000px;
+	width:1px;
+	display:none;
+	/*?*/
+	display:block;
+	/**/
+	}
+
+#pgl .clearfix:after{
+    content:"."; 
+    display:block; 
+    height:0; 
+    clear:both; 
+    visibility:hidden;
+	}
+	.clearfix{display:inline-block;}
+	/* Hides from IE-mac ?*/
+	* html .clearfix{height:1%;}
+	.clearfix{display:block;}
+	/* End hide from IE-mac */
+	
+	
+	
+
+#header h1 #btop{
+	position: absolute;
+	right:15px;
+	left:auto;
+	top:10px;
+	width:90px;
+	height:20px;
+	display:block;
+}
+
+
+/**/
+
+#pgl table#ment{border: solid 1px #bcc6cd; background:url(./about/function-change/img/r_yaji.gif) no-repeat center 25px; margin: 0 auto;}
+#pgl table#ment td{padding:5px;}
+
+/**/
+
+#pgl .period{border: solid 1px #bcc6cd; margin-bottom:15px;}
+#pgl .period td{padding:5px;}
+#pgl .period .time{background: #eaeff3; font-weight:bold;}
+#pgl .mPunit{background: #eaeff3; border: solid 1px #bcc6cd; padding:15px; margin: 0 90px 10px 90px; margin-bottom:15px;}
+#pgl .mPunit img{ float:left; margin-right:15px;}
+
+#pgl #pia{border-top: solid 1px #bcc6cd;border-left: solid 1px #bcc6cd; margin: 0 auto; width:600px;}
+#pgl #pia td{padding:5px;border-right: solid 1px #bcc6cd;border-bottom: solid 1px #bcc6cd;}
+/**/
+
+
+
+
+/*===========================
+main
+===========================*/
+
+#pgl h2{
+	margin:0;
+	padding:0;
+}
+
+#pgl ul.innerlink{
+	margin:0 0 0 26px;
+	padding:0 0 0 0px;
+	width:852px;
+	height:100px;
+}
+
+#pgl ul.innerlink li {
+	margin:0 5px 0px 0px;
+	padding:0;
+	height:103px;
+	float:left;
+}
+#pgl ul.innerlink li.right {
+	margin:0 0px 0px 0px;
+	padding:0;
+	float:left;
+}
+
+#pgl .firstvisit {
+	margin:0 0 0px 26px;
+	padding:0;
+}
+
+
+/*===========================
+page top
+===========================*/
+
+#pgl p.pagetop{
+	margin:0 0 0 0;
+	padding:0 0 0 0;
+	text-align:right;
+	clear:both;
+}
+
+#pgl p.pagetop a{
+	margin:0 0 0 0;
+	padding:0 0 0 15px;
+	background:url(../img/icon_triangle_gray.gif) no-repeat left center;
+	color:#666666;
+	text-decoration:underline;
+}
+
+#pgl p.pagetop a:hover{
+	text-decoration:none;
+}
+
+#pgl .mainbg {
+	margin:0;
+	padding:0;
+	font-size:0em;
+}
+

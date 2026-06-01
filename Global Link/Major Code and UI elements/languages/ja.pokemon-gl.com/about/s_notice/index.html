@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=1024" />
+  <title>Pokémon Global Link</title>
+  <link rel="stylesheet" type="text/css" href="http://cdn2.pokemon-gl.com/src/swf/assets/global/css/theme.css" />
+  <link rel="stylesheet" type="text/css" href="http://cdn2.pokemon-gl.com/src/swf/assets/global/ja/css/lang.css" />
+  <script src="/assets/global/js/jquery-1.7.min.js"></script>
+  <script src="/assets/global/js/jquery.blockUI.js"></script>
+  <script src="/assets/global/js/jquery.corner.js"></script>
+  <script src="/assets/global/js/swfobject.js"></script>
+  <script src="/assets/global/js/pgl.js?rev=3"></script>
+  <script src="/assets/global/js/text.js"></script>
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-17682532-2']);
+    _gaq.push(['_setDomainName', '.pokemon-gl.com']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+</head>
+<body id="wrapper" oncontextmenu="return false" ondragstart="return false" onselectstart="return false">
+  <div id="container">
+    <div id="header">
+      <div id="logo">
+        <a href="/">Pokémon Global Link</a>
+      </div>
+      <div id="logged-in-info">
+        <div id="header-avatar" class="logged-in"></div>
+        <div id="header-pgln" class="logged-in">
+          <span id="header-pglname"></span>
+        </div>
+        <div id="header-rom" class="logged-in">
+          <span id="header-romname" class="game-card-name"></span>
+        </div>
+        <div id="header-volume"><div id="header-volume-swf"></div></div>
+        <div id="header-rom-change" class="logged-in"></div>
+        <div id="header-logout" class="logged-in"><a href="/?p=logout">ログアウト</a></div>
+        <div id="header-back-to-top" class="logged-out"><a href="/"></a></div>
+      </div>
+      <div id="head-menu">
+        <ul>
+          <li id="head-menu-profile"><a href="/profile">マイページ</a></li>
+          <li id="head-menu-campaign"><a href="/campaign/">キャンペーン</a></li>
+          <li id="head-menu-customize"><a href="/customize">カスタマイズ</a></li>
+          <li id="head-menu-pdw"><a href="/pdw/">ポケモンドリームワールド</a></li>
+          <li id="head-menu-report"><a href="/report/">レポート</a></li>
+          <li id="head-menu-wifi"><a href="/wifi/">Wi-Fi大会</a></li>
+          <li id="head-menu-support"><a href="/support/">サポート</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="main">
+<style type="text/css">
+* { margin:0;padding:0;}
+body { text-align:center; font:13px/1.231 sans-serif; font-family:'Lucida Grande', 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif;}
+h1, h2, h3, h4, h5, h6, table, caption, tbody, tfoot, thead, tr, th, td { font-size:100%;}
+a { outline:none;}
+img { border:none;}
+hr { display:none;}
+ul { list-style:none;}
+.alt { position:absolute; top:-5000px; left:-9999px;}
+.bold { font-weight:bold !important;}
+.normal { font-weight:normal !important;}
+.floatL { float:left;}
+.floatR { float:right;}
+.clearfix:after { content: "."; display: block; clear: both; height: 0; visibility: hidden;}
+.clearfix { min-height:1px;}
+* html .clearfix { height: 1px;
+	/*?*//*/
+	height: auto;
+	overflow: hidden;
+	/**/
+	}
+.f10 { font-size:10px; line-height:1.35;}
+.red { color:#f00;}
+
+#contentsArea { width:1003px; background:#002d63 url(img/bg.png); margin: 0 auto;}
+#contentsAreaIn { background:url(img/bg_head.jpg) no-repeat center 0; padding-top:207px;}
+.fr #contentsAreaIn { background:url(img/bg_head_fr.jpg) no-repeat center 0;}
+.ja #contentsAreaIn { background:url(img/bg_head_ja.jpg) no-repeat center 0;}
+#contentsArea .unit {
+	width:820px; background:#fff; text-align:left; color:#333; border:2px solid #0258c0; margin:0 auto 30px;
+	border-radius:10px; -webkit-border-radius:10px; -moz-border-radius:10px; position:relative;
+}
+#contentsArea h1 {
+	display:table-cell; width:730px; height:75px; vertical-align:middle;
+	font-size:16px; line-height:1.4; text-align:center; color:#ffe100;
+	background:url(img/parts.png) no-repeat 0 0;
+}
+#contentsArea p { line-height:1.4; padding:0 10px 20px;}
+#contentsArea .date { font-size:12px; text-align:right; padding:10px 10px 0;}
+#contentsArea .innerTxt { padding-top:20px;}
+#contentsArea .link { padding-top:5px;}
+#contentsArea .link a {
+	display:inline-block; background:url(img/parts.png) no-repeat -990px 0;
+	line-height:1.8; color:#333; padding-left:25px;
+	}
+	#contentsArea .link a:hover { text-decoration:none;}
+/*01*/
+#contentsArea #con01 { background:#fff url(img/xylogo.png) no-repeat center 17px; padding-top:110px;}
+.ja #con01 { background:#fff url(img/xylogo_ja.png) no-repeat center 17px !important;}
+.ko #con01 { background:#fff url(img/xylogo_ko.png) no-repeat center 17px !important;}
+#contentsArea #con01 .inner { padding:0 45px 25px;}
+#contentsArea #con01 #opening { text-align:center; padding:10px 0;}
+	#contentsArea #con01 #opening h2 {
+		display:table-cell; width:730px; font-size:16px; line-height:1.35; color:#d50000; vertical-align:middle;
+		background:#ffe100 url(img/ball.png) no-repeat 0 center; padding:10px 0;
+		border-radius:5px; -webkit-border-radius:5px; -moz-border-radius:5px;
+	}
+	#contentsArea #con01 #opening h2 .date { display:inline; background:none; font-size:30px;}
+	#contentsArea #con01 #opening h2 .small { font-size:20px;}
+	#contentsArea #con01 #opening p { text-align:left; padding-top:15px;}
+	#contentsArea #con01 #opening .box {
+		display:block; line-height:1.5; border:solid 2px #ffe100;
+		padding:8px 12px; margin:8px 0 5px;
+	}
+	#contentsArea #con01 #opening .box strong {  font-family:'Hiragino Kaku Gothic ProN', Meiryo, sans-serif !important;}
+/*02*/
+#contentsArea #con02 .inner { padding:30px 45px 30px;}
+#contentsArea #con02 h2 {
+	display:table-cell; width:820px; height:60px; font-size:16px; color:#ffe100;
+	background:url(img/parts.png) no-repeat 0 -80px; vertical-align:middle;
+	border-radius:7px 7px 0 0; -webkit-border-radius:7px 7px 0 0; -moz-border-radius:7px 7px 0 0;
+	}
+	#contentsArea #con02 h2 .inner1 { display:inline-block; padding-left:148px;}
+	#contentsArea #con02 h2 .inner2 {
+		disply:block; width:156px; height:115px;
+		background:url(img/parts.png) no-repeat -830px 0;
+		position:absolute; top:-57px; left:-30px;
+	}
+#contentsArea #con02 .point {
+	border:2px solid #ffe100; margin-bottom:20px;
+	border-radius:10px; -webkit-border-radius:10px; -moz-border-radius:10px;
+	}
+	#contentsArea #con02 .point h3 {
+		font-size:16px; color:#003d86; padding:15px 15px 15px 60px;
+		background:#ffe100 url(img/ball2.png) no-repeat 10px center;
+	}
+#contentsArea #con02 .point p { padding:25px;}
+#contentsArea #con02 .bg1 { background:url(img/bg1.png) no-repeat center center;}
+#contentsArea #con02 .bg2 { background:url(img/bg2.png) no-repeat center center;}
+#contentsArea #con02 .bg3 { background:url(img/bg3.png) no-repeat center center;}
+#contentsArea #con02 .pic { float:right; margin-left:10px; border:2px solid #ffe100;}
+#contentsArea #con02 .point .redtxt { padding-top:0; color:#d50000;}
+#contentsArea #con02 .point .redtxt strong {
+	display:block; font-size:14px; color:#fff; text-align:center;
+	background:#d50000; padding:3px 0; margin-bottom:15px;
+}
+
+.contact { text-align:center; background:#fff; padding:30px 0;}
+	.contact .inner {
+		width:820px; font-size:12px; border:3px solid #00306b; padding:25px 0 10px; margin:0 auto;
+		border-radius:10px; -webkit-border-radius:10px; -moz-border-radius:10px;
+	}
+	.contact h2 { display:none;}
+	.contact p { padding-bottom:15px;}
+	.contact .btn a {
+		display:block; width:430px; height:56px; text-indent:-5000px;
+		background:url(img/btn.png) no-repeat; margin:0 auto;
+	}
+	.contact .btnTxt a {
+		display:inline-block; font-size:18px; font-weight:bold; color:#fff; text-decoration:none;
+		background:#00306b url(img/arr.png) no-repeat 95% center; padding:15px 60px;
+		border-radius:5px; -webkit-border-radius:5px; -moz-border-radius:5px;
+	}
+	.contact a:hover { filter:alpha(opacity=80); -moz-opacity:0.8; opacity:0.8;}
+#footer { text-align:left;}
+
+/*languages*/
+.ja h1, .ko h1 { line-height:1.6;}
+.ja p, .ko p { line-height:1.6 !important;}
+
+.logged-in-black #container { background-repeat:no-repeat; background:#fff;}
+#container { background-repeat:no-repeat; background:#fff;}
+</style>
+
+<!--/////////////contents/////////////-->
+<div id="contentsArea" class="ja">
+<div id="contentsAreaIn">
+
+<div class="unit" id="con01"><div class="inner">
+	<h1>『ポケットモンスター X』『ポケットモンスター Y』版<br />
+	「ポケモングローバルリンク」オープンのご案内</h1>
+	<p class="date">2013年9月14日（更新）　株式会社ポケモン</p>
+	<div class="innerTxt">
+		<p>　いつも「ポケモングローバルリンク（以下、PGL）」をご利用いただき、ありがとうございます。<br />
+		2013年10月12日に発売予定の、『ポケットモンスター X・Y』と連動したWebサイト『ポケットモンスター X・Y』版「ポケモングローバルリンク」をオープンいたします。</p>
+		<p>　これにともない、現行の『ポケットモンスターブラック・ホワイト・ブラック2・ホワイト2』版「ポケモングローバルリンク」（以下、現行PGL）は、2014年1月14日（火）をもちまして、サービスを終了させていただきます。</p>
+		<p>『ポケットモンスター X・Y』でも、世界中のポケモンプレイヤーとつながる「ポケモングローバルリンク」のオープンを楽しみにお待ちください。</p>
+		<p class="link"><a href="http://ja.pokemon-gl.com/about/e_notice/">現行PGLのサービス停止についてはこちら</a></p>
+	</div>
+	
+	<div id="opening">
+		<h2><span class="inner1">
+			プレオープン：<span class="date">2013年10月12日（土）<span class="small">（予定）</span></span><br />
+			正式サービススタートは、10月中を予定！
+		</span></h2>
+		<p>
+			『ポケットモンスター X･Y』の発売日10月12日（土）よりプレオープンし、ゲームソフトの登録（ゲームシンクID登録）を受け付けます。<br />
+			<span class="box">
+			<strong>●登録いただくと</strong><br />
+			・ゲームシンクでPGLに冒険の記録などを送ることができます。<br />
+			・『ポケットモンスター X･Y』でインターネット通信対戦のレーティングバトルに挑戦できるようになります。
+			</span>
+		</p>
+		<img src="./img/xyimage_ja.jpg" width="720" alt="" />
+	</div>
+
+</div></div>
+
+<div class="unit" id="con02">
+	<h2><span class="inner1">『ポケットモンスター X・Y』版　「ポケモングローバルリンク」のご紹介</span><span class="inner2"></span></h2>
+	<div class="inner">
+		<div class="point">
+			<h3>タイムラインにゲーム内の冒険が記録されていくよ！</h3>
+			<p class="bg1">『ポケットモンスター X・Y』 のゲームソフトを、PGLにゲームシンクすると、それまでの自分の冒険の記録が、PGLに自動的に記録され、タイムラインのかたちでひと目でわかるようになるよ。<br />
+			このタイムラインは、公開設定をすることで、ともだちや世界中のプレイヤーにも見せることができるので、みんなでゲームの進み具合を見ながら楽しむことができるよ！</p>
+		</div>
+		<div class="point">
+			<h3>世界中のトレーナーとバトルを楽しもう！</h3>
+			<p class="bg2 clearfix">『ポケットモンスター X・Y』 でも、世界中のトレーナーとバトルができるよ！<br />
+			レーティングバトルを楽しんだり、期間限定のインターネット大会に参加したり。PGLから大会参加の申し込みもできるよ。<br /><br />
+			<img src="./img/pic.jpg" width="280" alt="" class="pic" />
+			他にも、対戦ルール毎の自分のレーティングや世界ランキングを確認することができるぞ！<br />
+			『ポケットモンスター Ｘ・Ｙ』のレーティングバトルでは、従来のシングルバトル・ダブルバトル・トリプルバトル・ローテーションバトルに加えて、新たにスペシャルバトルというルールができるぞ！<br />
+			スペシャルバトルは、シーズンごとにレギュレーションが変わるよ！<br />
+			「シーズン1」では、今作で初登場するポケモンだけが利用可能な、「新ポケモン限定」のレギュレーションで開催するよ！<br /><br />
+			※「シーズン1」は、12月下旬まで開催予定</p>
+			<p class="bg1 redtxt">
+			<strong>対戦マナーについて</strong>
+			『ポケットモンスターブラック・ホワイト・ブラック２・ホワイト２』でインターネット通信にて対戦をお楽しみいただいたユーザーの皆様からご要望をいただいておりました、対戦途中の通信切断については、理由・状況を問わず、通信状態を離脱したユーザーの方が「負け」となり、レーティングバトルにおいてはレーティングが下がるように対応しました。<br />
+			インターネットでの対戦は、安定した通信状態で、対戦相手をお互いに思いやるフェアプレイでお楽しみください！</p>
+		</div>
+		<div class="point">
+			<h3>ゲーム内の撮影スポットで撮ってもらった写真をPGLで見たり、世界中のプレイヤーに共有することができるよ！</h3>
+			<p class="bg3">『ポケットモンスター X・Y』 の冒険の途中には、素敵な写真が撮れる撮影スポットがあるよ！<br />
+			撮影してもらった写真は、PGLのトップページや写真一覧などで見ることができるよ！<br />
+			ベストショットが取れたら、世界中のプレイヤーに共有して自慢しよう！</p>
+		</div>
+		<p class="link"><a href="http://www.pokemon.co.jp/ex/xy/" target="_blank">『ポケットモンスター X・Y』公式サイトはこちら</a></p>
+	</div>
+</div>
+
+</div>
+<!--contact-->
+<div class="contact">
+	<div class="inner">
+		<h2>お問い合わせ</h2>
+		<p>ご不明な点は「ポケモンだいすきクラブ・ポケモングローバルリンクサポートデスク」までお問い合わせくださいますよう、お願いいたします。</p>
+		<p class="btn"><a href="https://www.pokemon.jp/form/inquiry/" target="_blank">お問い合わせはこちらから</a></p>
+	</div>
+</div>
+
+</div>
+<!--//contentsArea end-->
+<!--/////////////contents end/////////////-->
+
+    </div>
+    <div id="footer">
+      <ul id="footer-links">
+        <li><a href="/terms-of-use/">お約束</a></li>
+        <li><a href="/maintenance/">メンテナンス情報</a></li>
+        <li><a href="/browser/">推奨利用環境</a></li>
+        <li><a href="/privacy/">プライバシーポリシー</a></li>
+        <li><a href="/copyright/">コピーライト</a></li>
+        <li><a href="" class="trafficy">ポケモンドリームワールド混雑状況</a></li>
+      </ul>
+      <ul id="select-language">
+        <li>言語選択（Language）: &nbsp;&nbsp;&nbsp;</li>
+        <li><a href="http://ja.pokemon-gl.com">日本語</a></li>
+        <li><a href="http://en.pokemon-gl.com">English</a></li>
+        <li><a href="http://fr.pokemon-gl.com">Français</a></li>
+        <li><a href="http://it.pokemon-gl.com">Italiano</a></li>
+        <li><a href="http://de.pokemon-gl.com">Deutsch</a></li>
+        <li><a href="http://es.pokemon-gl.com">Español</a></li>
+        <li><a href="http://ko.pokemon-gl.com">한국어</a></li>
+      </ul>
+      <div id="copyright">
+        <p>©2013 Pokémon. ©1995-2013 Nintendo/Creatures Inc./GAME FREAK inc. ポケットモンスター・ポケモン・Pokémonは任天堂・クリーチャーズ・ゲームフリークの登録商標です。</p>
+        <p class="maintenance"><a href="http://www.nintendo.co.jp/netinfo/index.html" target="_blank">ニンテンドーDS ネットワークメンテナンス情報・稼働状況</a></p>
+      </div>
+      <div id="badges"><a class="footer-badges-nintendo" href="http://www.nintendo.co.jp/" target="_blank"><img src="/assets/global/ja/images/footer/nintendo.png"/></a><a class="footer-badges-pokemon" href="http://www.pokemon.co.jp/" target="_blank"><img src="/assets/global/ja/images/footer/pokemon.png"/></a><a class="footer-badges-pdc" href="http://www.pokemon.jp/" target="_blank"><img src="/assets/global/ja/images/footer/pdc.png"/></a></div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,48 @@
+
+#sidebar h1 { background-image: url(../images/pgl-logo.png); }
+
+.trial              #sidebar { background-image: url(../images/sidebar-bg-trial.png) }
+.interim-registered #sidebar { background-image: url(../images/sidebar-bg-interim.png) }
+.not-logged-in      #sidebar { background-image: url(../images/sidebar-bg-logout.png) }
+.logged-in-black    #sidebar { background-image: url(../images/sidebar-bg-black.png) }
+.logged-in-white    #sidebar { background-image: url(../images/sidebar-bg-white.png) }
+
+.not-logged-in      .sidebar-ui { background-image: url(../images/sidebar-ui-trial.png); }
+.trial              .sidebar-ui { background-image: url(../images/sidebar-ui-trial.png); }
+.interim-registered .sidebar-ui { background-image: url(../images/sidebar-ui-trial.png); }
+.logged-in-black    .sidebar-ui { background-image: url(../images/sidebar-ui-black.png); }
+.logged-in-white    .sidebar-ui { background-image: url(../images/sidebar-ui-white.png); }
+
+
+#pokemon-window { background-image: url(../images/pokemon-window-bg.png); }
+
+.trial #gbu a,
+.interim-registered #gbu a,
+.not-logged-in #gbu a { background-image: url(../images/contents-link-gbu-logout.png); }
+.trial #pdw a,
+.interim-registered #pdw a,
+.not-logged-in #pdw a { background-image: url(../images/contents-link-pdw-logout.png); }
+.trial #gts a,
+.interim-registered #gts a,
+.not-logged-in #gts a { background-image: url(../images/contents-link-gts-logout.png); }
+.logged-in-black #gbu a { background-image: url(../images/contents-link-gbu-black.png); }
+.logged-in-black #pdw a { background-image: url(../images/contents-link-pdw-black.png); }
+.logged-in-black #gts a { background-image: url(../images/contents-link-gts-black.png); }
+.logged-in-white #gbu a { background-image: url(../images/contents-link-gbu-white.png); }
+.logged-in-white #pdw a { background-image: url(../images/contents-link-pdw-white.png); }
+.logged-in-white #gts a { background-image: url(../images/contents-link-gts-white.png); }
+
+
+.trial .contents-link2 a,
+.interim-registered .contents-link2 a,
+.not-logged-in .contents-link2 a { background-image: url(../images/contents-link-others-logout.png); }
+.logged-in-black .contents-link2 a { background-image: url(../images/contents-link-others-black.png); }
+.logged-in-white .contents-link2 a { background-image: url(../images/contents-link-others-white.png); }
+
+.information-icon {
+	background-image:  url(../images/information-icons.png);
+}
+
+                 #inline-footer-buttons a { background-image: url(../images/footer-trial-buttons.png); }
+.logged-in-black #inline-footer-buttons a { background-image: url(../images/footer-black-buttons.png); }
+.logged-in-white #inline-footer-buttons a { background-image: url(../images/footer-white-buttons.png); }

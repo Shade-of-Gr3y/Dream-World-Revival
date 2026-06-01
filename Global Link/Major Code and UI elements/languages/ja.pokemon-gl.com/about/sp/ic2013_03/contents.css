@@ -1,0 +1,74 @@
+@charset "utf-8";
+
+a{outline:none;}
+a:hover{text-decoration: none;}
+.alt{ visibility:hidden; position:absolute; top:-15000px; left:-15000px; width:1px; display:none;
+	/*?*/display:block;/**/}
+.clearfix:after{ content:"."; display:block; height:0; clear:both; visibility:hidden;}
+	.clearfix{display:inline-block;}
+	/* Hides from IE-mac ?*/
+	* html .clearfix{height:1%;}
+	.clearfix{display:block;}
+	/* End hide from IE-mac */
+.f12 { font-size:12px;}
+.orang { color:#F60;}
+
+#international { width:1003px; font-size:12px; background:#00273b url(img/bg.png); padding-bottom:40px; margin: 0 auto;}
+#international h1 { background:url(img/main_title.jpg) no-repeat; height:471px; padding:0; margin:0;}
+
+#international #wifimenu { background:url(img/main_parts.png) no-repeat 0 0; height:70px; width:1003px; position:relative; text-align:left; margin:0 0 20px; padding:0;}
+#international #wifimenu li,#wifimenu li a { display:block; position:absolute; text-indent:-50000px; list-style:none;}
+#international #wifimenu li.m01 a { width:126px; height:36px; top:15px; left:58px;}
+#international #wifimenu li.m02 a { width:115px; height:36px; top:15px; left:208px;}
+#international #wifimenu li.m03 a { width:115px; height:36px; top:15px; left:348px;}
+#international #wifimenu li.m04 a { width:223px; height:44px; top:8px; left:496px;}
+#international #wifimenu li.m05 a { width:223px; height:43px; top:9px; left:729px;}
+#international #wifimenu li a:hover { background:#001b29; filter: alpha(opacity=50); opacity:0.5;}
+#international a:hover.alphaImg { filter: alpha(opacity=50); opacity:0.5;}
+#international h2,#international h3,#international p { padding:0; margin:0; font-size:12px; text-align:left; line-height:1.5;}
+
+#international .unit { width:854px; margin: 0 auto 25px;}
+#international .unit .innerBG { background:url(img/main_box.png) no-repeat -860px bottom; padding:0 0 10px;}
+#international .unit .innerBG2 { background:#fff url(img/main_box.png) repeat-y 0 0; padding:0 3px 15px;}
+#international .unit h2 { background: url(img/main_parts.png) no-repeat; height:52px; text-indent:-5000px;}
+	#international #rule h2 { background-position:0 -80px;}
+	#international #shikaku h2 { background-position:0 -140px;}
+	#international #about h2 { background-position:0 -200px;}
+
+#international #present { width:859px; height:310px; background:url(img/present.png) no-repeat; margin:0 auto 25px;}
+#international #present p { display:none;}
+#international table { width:100%;}
+#international th, #international td { border-bottom:dotted 1px #c6c1c0; padding:15px;}
+#international th { background:#efebeb;}
+#international td { font-size:14px; text-align:left;}
+#international th span { width:174px; height:26px; background:url(img/main_parts.png) no-repeat; text-indent:-5000px; display:block;}
+#international #rule th.t1 span { background-position:-550px -260px;}
+#international #rule th.t2 span { background-position:-550px -285px;}
+#international #about th.t1 span { background-position:-550px -310px;}
+#international #about th.t2 span { background-position:-550px -335px;}
+#international #about th.t3 span { background-position:-760px -260px;}
+#international #about th.t4 span { background-position:-760px -285px;}
+#international #about th.t5 span { background-position:-760px -310px;}
+#international #about th.t6 span { background-position:-760px -335px;}
+#international #rule td { background:url(img/bg_yj.png) no-repeat left center; padding: 15px 10px 15px 30px;}
+
+#international .unit a.btn01 { background:url(img/main_parts.png) no-repeat 0 -260px; text-indent:-5000px; width:515px; height:43px; display:block; margin: 20px auto 0;}
+#international .unit a.btn02 { background:url(img/main_parts.png) no-repeat 0 -310px; text-indent:-5000px; width:515px; height:43px; display:block; margin: 20px auto 0;}
+
+#international #shikaku ul { text-align:left; padding:20px 30px 0 40px; margin:0;}
+#international #shikaku li { font-size:14px; list-style:circle; padding-bottom:15px;}
+#international #wifimanner { width:854px; height:753px; background:url(img/wifi_manner.jpg) no-repeat 0 0; margin:20px auto 50px;}
+
+#international .otoiawase { background:#fff; padding:30px 0;}
+#international .otoiawase h2 { width:854px; height:46px; background:url(img/main_parts.png) no-repeat 0 -370px; text-indent:-5000px;}
+#international .otoiawase .otoiawasebtn01{background:url(img/main_parts.png) no-repeat 0 -430px; width:308px; height:56px; display:block; float:left; margin-right:15px; text-indent:-5000px;}
+#international .otoiawase .otoiawasebtn02{background:url(img/main_parts.png) no-repeat -314px -430px; width:308px; height:56px; display:block; float:left; text-indent:-5000px;}
+#international .otoiawase .otoiawasebtn03{background:url(img/main_parts.png) no-repeat 0 -500px; width:160px; height:24px; display:block; margin: 0 auto; text-indent:-5000px;}
+#international .otoiawase .otoiawasebtn04{background:url(img/main_parts.png) no-repeat -630px -430px; width:308px; height:36px; display:block; margin: 0 auto; text-indent:-5000px;}
+#international .otoiawase div.otoiawasebtn{padding: 20px 0 10px 110px; text-align:center;}
+#international .otoiawase p{ padding: 10px; text-align:center;}
+
+#international .pagetop { text-align:right; padding-top:3px;}
+#international .pagetop a { display:block; background:url(img/main_parts.png) -860px -80px; width:130px; height:20px; margin:0 0 0 auto;text-indent:-5000px; text-align:left;}
+
+#footer{text-align:left;}

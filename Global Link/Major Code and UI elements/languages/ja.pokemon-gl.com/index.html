@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=1024" />
+  <title>Pokémon Global Link</title>
+  <link rel="stylesheet" type="text/css" href="http://cdn2.pokemon-gl.com/src/swf/assets/global/css/theme.css" />
+  <link rel="stylesheet" type="text/css" href="http://cdn2.pokemon-gl.com/src/swf/assets/global/ja/css/lang.css" />
+  <link rel="stylesheet" type="text/css" href="http://cdn2.pokemon-gl.com/src/swf/top/css/top.css" />
+  <link rel="stylesheet" type="text/css" href="http://cdn2.pokemon-gl.com/src/swf/top/ja/css/lang.css" />
+  <script src="assets/global/js/jquery-1.7.min.js"></script>
+  <script src="assets/global/js/jquery.blockUI.js"></script>
+  <script src="/assets/global/js/jquery.transit.min.js"></script>
+  <script src="/assets/global/js/jquery.corner.js"></script>
+  <script src="/assets/global/js/swfobject.js"></script>
+  <script src="assets/global/js/pgl.js?rev=3.1"></script>
+  <script src="/assets/global/js/text.js"></script>
+  <script src="/report/assets/js/raphael-min.js"></script>
+  <script src="/report/assets/js/report-utils.js?rev=3"></script>
+  <script src="/report/assets/js/pokemons.js"></script>
+  <script src="/report/assets/js/areas.js?rev=3"></script>
+  <script src="top/assets/js/text.js"></script>
+  <script src="top/assets/js/top.js?rev=3.5"></script>
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-17682532-2']);
+    _gaq.push(['_setDomainName', '.pokemon-gl.com']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+</head>
+<body oncontextmenu="return false" ondragstart="return false" onselectstart="return false">
+  <div id="main">
+    <div id="map-container">
+      <div id="map"></div>
+      <div id="map-canvas"></div>
+    </div>
+    <div id="report">
+      <div id="report-gts">
+        <h2>グローバルトレードステーション（GTS）</h2>
+        <div id="trade-deposit-1" class="trade-deposit">
+          <div class="pokemon">
+            <div class="pokedex"><span class="label">No. </span><span class="value"></span></div>
+            <div class="name"><span class="value"></span></div>
+            <div class="level"><span class="label">Lv.</span><span class="value"></span></div>
+            <div class="sex"><span class="value"></span></div>
+            <div class="iso-3166-1"><span class="value"></span></div>
+            <div class="image"></div>
+          </div>
+        </div>
+        <div id="trade-deposit-2" class="trade-deposit">
+          <div class="pokemon">
+            <div class="pokedex"><span class="label">No. </span><span class="value"></span></div>
+            <div class="name"><span class="value"></span></div>
+            <div class="level"><span class="label">Lv.</span><span class="value"></span></div>
+            <div class="sex"><span class="value"></span></div>
+            <div class="iso-3166-1"><span class="value"></span></div>
+            <div class="image"></div>
+          </div>
+        </div>
+      </div>
+      <div id="report-gbu">
+        <h2>グローバルバトルユニオン（GBU）</h2>
+        <div id="report-gbu-format">
+          <div class="icon"></div>
+          <div class="name"></div>
+        </div>
+        <div id="battle-user">
+          <div class="result"></div>
+          <div class="avatar"><img/></div>
+          <div class="pglname"></div>
+          <div class="country"></div>
+          <table>
+            <tr class="rating">
+              <th>レーティング</th>
+              <td><span class="unit"></span><span class="value"></span><span class="unit"> pt</span></td>
+            </tr>
+            <tr class="ranking">
+              <th>ランキング</th>
+              <td><span class="unit"></span><span class="value"></span><span class="unit"> 位</span></td>
+            </tr>
+            <tr class="trainername">
+              <th>トレーナー名</th>
+              <td><span class="value"></span></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div id="report-records">
+        <h2>ゲームシンク調査隊</h2>
+        <div id="report-records-title">
+          <div class="icon"></div>
+          <div class="name"></div>
+        </div>
+        <div class="area">
+          <div class="name"></div>
+          <div class="tzname"></div>
+          <div class="time"></div>
+          <div class="census-result"></div>
+        </div>
+        <div class="most-slept-pokemon">
+          <h3><span class="label">この地域でいちばんねむっているポケモン</span></h3>
+          <div class="image"><img/></div>
+          <div class="pokedex"><span class="label">No. </span><span class="value"></span></div>
+          <div class="name"><span class="value"></span></div>
+          <div class="types"><ol></ol></div>
+          <div class="height">
+            <span class="label">たかさ</span>
+            <span class="value"></span>
+          </div>
+          <div class="weight">
+            <span class="label">おもさ</span>
+            <span class="value"></span>
+          </div>
+          <div class="footprint"><img/></div>
+        </div>
+      </div>
+    </div>
+    
+    <div id="login-control">
+      <h1>Pokémon Global Link</h1>
+      <div class="member-info">
+        <div class="member-info-pgl">
+          PGLニックネーム
+          <div class="member-info-pglname"></div>
+          <div class="member-info-avatar"></div>
+        </div>
+        <a class="login-menu-profile" href="/profile">マイページ</a>
+        <a class="login-menu-mailer" href="/mailer">あんしんメール</a>
+        <div class="member-info-rom">
+          プレイしているゲームソフト
+          <div class="member-info-rom-image"></div>
+          <div class="signup-prompt">ポケモンドリームワールドを体験版でお楽しみいただけます。<br />全ての機能を利用するには、<br />ゲームソフトで発行された<br />ゲームシンクIDコードの登録が必要です。<br />登録は下のボタンから行うことができます。</div>
+        </div>
+        <div class="member-info-pdw">
+          ねむらせているポケモン
+          <div class="member-info-pdw-pokemon"></div>
+          <a class="member-info-pdw-wakeup" href="#">ポケモンを起こす</a>
+          最後にねむらせた時間
+          <div class="member-info-pdw-slepttime"></div>
+        </div>
+
+        <a class="login-menu-customize" href="customize">カスタマイズ</a>
+        <span class="login-menu-customize-desc">Cギアスキン・ずかんスキン・ミュージカルの設定</span>
+      </div>
+    </div>
+
+    <div id="right-buttons">
+      <div class="login-menu-logout logged-in"><a href="/?p=logout">logout</a></div>
+      <div class="menu-volume"><div id="header-volume-swf"></div></div>
+      <div id="pgl-member-count">
+        <div class="label">ポケモングローバルリンク<br />メンバー数</div>
+        <div class="value"></div>
+      </div>
+    </div>
+
+    <div id="information">
+      <ul>
+      </ul>
+      <div id="pdw" class="content-link">
+        <a href="/pdw/">
+          <h2>ポケモンドリームワールド</h2>
+          <div id="pdw-link-message" class="ticker">
+            <div class="text"></div>
+          </div>
+          <div class="caption">ポケモンたちのゆめの世界。<br />ポケモンやどうぐをゲームソフトに送れる！<br /></div>
+        </a>
+      </div>
+      <div id="wifi" class="content-link">
+        <a href="/wifi/">
+          <h2>Wi-Fi大会</h2>
+          <div id="wifi-link-message" class="ticker">
+            <div class="text"></div>
+          </div>
+          <div class="caption">レーティングバトルでランキング上位を目指そう！</div>
+        </a>
+      </div>
+      <div id="campaign" class="content-link">
+        <a href="/campaign/">
+          <h2>キャンペーン</h2>
+          <div class="caption">ポケモンやカスタマイズアイテム、インテリア等のプレゼントの受け取りはこちらから。</div>
+        </a>
+      </div>
+      <div id="support" class="content-link">
+        <a href="/support/">
+          <h2>サポート</h2>
+          <div class="caption">あそびかたやキャンペーンの参加方法、お問い合わせはこちらから。</div>
+        </a>
+      </div>
+      <div id="report-link" class="content-link">
+        <a href="/report/">
+          <h2>レポート</h2>
+        </a>
+      </div>
+      <div class="loading">読み込み中</div>
+    </div>
+  </div>
+  <div id="footer">
+    <ul id="footer-links">
+      <li><a href="/terms-of-use/">お約束</a></li>
+      <li><a href="/maintenance/">メンテナンス情報</a></li>
+      <li><a href="/browser/">推奨利用環境</a></li>
+      <li><a href="/privacy/">プライバシーポリシー</a></li>
+      <li><a href="/copyright/">コピーライト</a></li>
+      <li><a href="" class="trafficy">ポケモンドリームワールド混雑状況</a></li>
+    </ul>
+    <ul id="select-language">
+      <li>言語選択（Language）: &nbsp;&nbsp;&nbsp;</li>
+      <li><a href="http://ja.pokemon-gl.com">日本語</a></li>
+      <li><a href="http://en.pokemon-gl.com">English</a></li>
+      <li><a href="http://fr.pokemon-gl.com">Français</a></li>
+      <li><a href="http://it.pokemon-gl.com">Italiano</a></li>
+      <li><a href="http://de.pokemon-gl.com">Deutsch</a></li>
+      <li><a href="http://es.pokemon-gl.com">Español</a></li>
+      <li><a href="http://ko.pokemon-gl.com">한국어</a></li>
+    </ul>
+    <div id="copyright">
+      <p>©2013 Pokémon. ©1995-2013 Nintendo/Creatures Inc./GAME FREAK inc. ポケットモンスター・ポケモン・Pokémonは任天堂・クリーチャーズ・ゲームフリークの登録商標です。</p>
+      <p class="maintenance"><a href="http://www.nintendo.co.jp/netinfo/index.html" target="_blank">ニンテンドーDS ネットワークメンテナンス情報・稼働状況</a></p>
+    </div>
+    <div id="badges"><a class="footer-badges-nintendo" href="http://www.nintendo.co.jp/" target="_blank"><img src="/assets/global/ja/images/footer/nintendo.png"/></a><a class="footer-badges-pokemon" href="http://www.pokemon.co.jp/" target="_blank"><img src="/assets/global/ja/images/footer/pokemon.png"/></a><a class="footer-badges-pdc" href="http://www.pokemon.jp/" target="_blank"><img src="/assets/global/ja/images/footer/pdc.png"/></a></div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,81 @@
+/*===========================
+profile
+===========================*/
+
+#pgl #profile {
+	margin:0 35px 0 35px;
+}
+
+#pgl #profile h3 {
+	margin:0 0 0 0;
+	padding: 0 0 0 0;
+}
+
+#pgl #profile h4 {
+	margin:0;
+	padding:0;
+}
+
+#pgl #profile p{
+	margin:0;
+	padding:0;
+}
+
+
+#pgl #profile .profile_message_top{
+	margin:30px 0 0 0;
+	padding:0;
+	width:797px;
+	height:40px;
+	font-size:0em;
+}
+
+#pgl #profile .profile_message_box {
+	margin:0;
+	padding:10px 20px 10px 20px;
+	width:757px;
+	background:url(../img/profile_bg_fill.gif) repeat-y top left;
+}
+
+#pgl #profile .profile_message_box .profile_message_left{
+	margin:0;
+	padding:24px 0 0 28px;
+	float:left;
+
+}
+#pgl #profile .profile_message_box .profile_message_left p{
+	width:485px;
+	margin:0 0 7px 0;
+	padding:0;
+	color:#404040;
+	font-size:100%;
+}
+
+
+#pgl #profile .profile_message_box .profile_image_set {
+	margin:24px 0 0 0;
+	padding:0 0 0 20px;
+	width:366px;
+	float:left;
+
+}
+
+#pgl #profile .profile_message_box .profile_image_set p{
+	margin:10px 0 0 0;
+	padding:0;
+	color:#404040;
+	font-size:90%;
+}
+
+#pgl #profile .profile_message_box .profile_image_set img{
+	margin:0 0 10px 0;
+	padding:0;
+}
+
+#pgl #profile .profile_message_bottom{
+	margin:0 0 25px 0;
+	padding:0;
+	width:797px;
+	height:6px;
+	background:url(../img/profile_bottom.gif) no-repeat;
+}
