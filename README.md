@@ -15,7 +15,7 @@ Our Goal is to recreate Pokemon Dream World functionality for the Pokemon Genera
 + Minibug (*bonnibel.bubblegum*): Lead Programmer
 + Piplup (*Piplupness_*): Asset Finder
 + yemu (*yemu0766*): Programmer
-+ StarBorne (*kfnole*): Programmer
++ StarBorne (*kfnole*): First Programmer
 + Omni (*Omni_Omen*): Programmer
 + Coyote (*THERIIOCIDE*): Github Help, Asset Recreation
 + GabiShy (*gabishy*): Video Archiver,  Asset Finder, Social Media Specialist
@@ -24,8 +24,8 @@ Our Goal is to recreate Pokemon Dream World functionality for the Pokemon Genera
 + Yemu (*yemu0766*): File Modification
 + stgiga (*stgiga*): HD Audio Sourcing, Asset Help
 + Greenland (*Greenland_101*): Artist
-+ Akima (*Akeyma*): Server related stuff
-+ Eclipse (*eclipse69x*): Asset Help
++ Akima (*Akeyma*): Early Server and Webhosting Help
++ Eclipse (*eclipse69x*): Archive.org Asset Retrievement Help
 
 **Translation Help** (Language)
 + kamet_sdr, fenmiri, angie_vala, Arceusgp, backe, (Spanish (SP-EU/ES-ES))
@@ -43,10 +43,13 @@ Bulbapedia\
 PokeWiki\
 Pokemon Central Wiki\
 PocketMonsters.net\
-Pente.koro-Pokemon\
+pente.koro-Pokemon.com\
+pokebook.jp\
+4gamer.net\
 galarianguy on Discord, Twitter, and Bluesky (MVP for finding a decomp from 2012) \
 Independent blogger YaTen(夜天) (Site: http://pokeaogtytnsy.blog70.fc2.com/?cat=24&page=4) \
 Rem on Ameba (Site: https://www.ameba.jp/profile/general/pokemonplatinum/) \
+疑義 on Ameba (Site: https://www.ameba.jp/profile/general/g-ig-i/)\
 @Cuddleofdeath on Youtube and Twitter \
 MinakoArtemis5 on Bulbapedia\
 ReignOfComputer on Discord and Serebii\
