@@ -11,10 +11,12 @@ Our Goal is to recreate Pokemon Dream World functionality for the Pokemon Genera
 + Rye (*thetrashdragon*): Asset Recreation, Programmer, "Berry Farmer"
 + DarkShade (*DarkShade*): Oversight
 + Phantazap (*Phantazap*): Asset Finder, Github Help
++ stgiga (*stgiga*): HD Audio Sourcing, Asset Help, File Finder
 + ShutterBug (*ShutterBug2000*): Oversight, Programmer
 + Minibug (*bonnibel.bubblegum*): Lead Programmer
 + Piplup (*Piplupness_*): Asset Finder
 + yemu (*yemu0766*): Programmer
++ Eclipse (*eclipse69x*): Coding and Archive.org Asset Retrievement Help
 + StarBorne (*kfnole*): First Programmer
 + Omni (*Omni_Omen*): Programmer
 + Coyote (*THERIIOCIDE*): Github Help, Asset Recreation
@@ -22,21 +24,19 @@ Our Goal is to recreate Pokemon Dream World functionality for the Pokemon Genera
 + Shadow (*q8yshadow*): Asset Finder
 + maq47 (*maq47*): Asset Finder
 + Yemu (*yemu0766*): File Modification
-+ stgiga (*stgiga*): HD Audio Sourcing, Asset Help
 + Greenland (*Greenland_101*): Artist
 + Akima (*Akeyma*): Early Server and Webhosting Help
-+ Eclipse (*eclipse69x*): Archive.org Asset Retrievement Help
 
 **Translation Help** (Language)
 + kamet_sdr, fenmiri, angie_vala, Arceusgp, backe, (Spanish (SP-EU/ES-ES))
-+ _n0tvortex_ (Latin Spanish (ES-LA))
-+ joapixies (Brazilian Portugese (PT-BR)
++ _n0tvortex_ (Latin Spanish (ES-LA)) (Coming soon)
++ joapixies (Brazilian Portugese (PT-BR) (coming soon)
 + pawrawre, silver_mix_rgnt, Shermaann, warbinc, yeon2727 (French)
 + lazysasch (German)
 + Piplupness_, section9_, (Italian)
 + llapacahime (Korean)
-+ (Chinese)
-+ (Chinese Traditional)
++ (Chinese) (coming soon)
++ (Chinese Traditional) (coming soon)
 
 **Special Shoutouts**\
 Bulbapedia\
@@ -51,6 +51,7 @@ Independent blogger YaTen(夜天) (Site: http://pokeaogtytnsy.blog70.fc2.com/?ca
 Rem on Ameba (Site: https://www.ameba.jp/profile/general/pokemonplatinum/) \
 疑義 on Ameba (Site: https://www.ameba.jp/profile/general/g-ig-i/) \
 @Cuddleofdeath on Youtube and Twitter \
+@ProfessorRex on Youtube and Bluesky \
 MinakoArtemis5 on Bulbapedia\
 ReignOfComputer on Discord and Serebii\
 Blupee/KuroNeko on Discord and Github\
