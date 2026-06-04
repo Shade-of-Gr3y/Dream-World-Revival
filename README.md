@@ -49,7 +49,7 @@ pokebook.jp\
 galarianguy on Discord, Twitter, and Bluesky (MVP for finding a decomp from 2012) \
 Independent blogger YaTen(夜天) (Site: http://pokeaogtytnsy.blog70.fc2.com/?cat=24&page=4) \
 Rem on Ameba (Site: https://www.ameba.jp/profile/general/pokemonplatinum/) \
-疑義 on Ameba (Site: https://www.ameba.jp/profile/general/g-ig-i/)\
+疑義 on Ameba (Site: https://www.ameba.jp/profile/general/g-ig-i/) \
 @Cuddleofdeath on Youtube and Twitter \
 MinakoArtemis5 on Bulbapedia\
 ReignOfComputer on Discord and Serebii\
