@@ -15,7 +15,7 @@ Our Goal is to recreate Pokemon Dream World functionality for the Pokemon Genera
 + ShutterBug (*ShutterBug2000*): Oversight, Programmer
 + Minibug (*bonnibel.bubblegum*): Lead Programmer
 + Piplup (*Piplupness_*): Asset Finder
-+ yemu (*yemu0766*): Programmer
++ yemu (*yemu0766*): Programmer, File Modification Help
 + Eclipse (*eclipse69x*): Coding and Archive.org Asset Retrievement Help
 + StarBorne (*kfnole*): First Programmer
 + Omni (*Omni_Omen*): Programmer
@@ -23,7 +23,6 @@ Our Goal is to recreate Pokemon Dream World functionality for the Pokemon Genera
 + GabiShy (*gabishy*): Video Archiver,  Asset Finder, Social Media Specialist
 + Shadow (*q8yshadow*): Asset Finder
 + maq47 (*maq47*): Asset Finder
-+ Yemu (*yemu0766*): File Modification
 + Greenland (*Greenland_101*): Artist
 + Akima (*Akeyma*): Early Server and Webhosting Help
 
@@ -31,10 +30,10 @@ Our Goal is to recreate Pokemon Dream World functionality for the Pokemon Genera
 + kamet_sdr, fenmiri, angie_vala, Arceusgp, backe, (Spanish (SP-EU/ES-ES))
 + _n0tvortex_ (Latin Spanish (ES-LA)) (Coming soon)
 + joapixies (Brazilian Portugese (PT-BR) (coming soon)
-+ pawrawre, silver_mix_rgnt, Shermaann, warbinc, yeon2727 (French)
-+ lazysasch (German)
++ sombrabsol, pawrawre, silver_mix_rgnt, Shermaann, warbinc, yeon2727 (French)
++ lazysasch, captainquinn1 (German)
 + Piplupness_, section9_, (Italian)
-+ llapacahime (Korean)
++ jamasi, whygee1245, 0_5ynt4x_0, llapacahime (Korean)
 + (Chinese) (coming soon)
 + (Chinese Traditional) (coming soon)
 
