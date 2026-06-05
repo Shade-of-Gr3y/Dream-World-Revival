@@ -23,7 +23,6 @@ Our Goal is to recreate Pokemon Dream World functionality for the Pokemon Genera
 + GabiShy (*gabishy*): Video Archiver,  Asset Finder, Social Media Specialist
 + Shadow (*q8yshadow*): Asset Finder
 + maq47 (*maq47*): Asset Finder
-+ Greenland (*Greenland_101*): Artist
 + Akima (*Akeyma*): Early Server and Webhosting Help
 
 **Translation Help** (Language)
@@ -36,6 +35,10 @@ Our Goal is to recreate Pokemon Dream World functionality for the Pokemon Genera
 + jamasi, whygee1245, 0_5ynt4x_0, llapacahime (Korean)
 + (Chinese) (coming soon)
 + (Chinese Traditional) (coming soon)
+
+**Artists**
++ Greenland (*Greenland_101*): Berry Tree Recreation
++ konnexionz (*.typenull.*): Shiny Pokemon Sprites
 
 **Special Shoutouts**\
 Bulbapedia\
