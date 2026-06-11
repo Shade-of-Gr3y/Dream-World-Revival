@@ -26,13 +26,14 @@ Our Goal is to recreate Pokemon Dream World functionality for the Pokemon Genera
 + Akima (*Akeyma*): Early Server and Webhosting Help
 
 **Translation Help** (Language)
++ lemon12345678 (Japanese)
 + kamet_sdr, fenmiri, angie_vala, Arceusgp, backe, (Spanish (SP-EU/ES-ES))
 + _n0tvortex_ (Latin Spanish (ES-LA)) (Coming soon)
 + joapixies (Brazilian Portugese (PT-BR) (coming soon)
 + sombrabsol, pawrawre, silver_mix_rgnt, Shermaann, warbinc, yeon2727 (French)
 + lazysasch, captainquinn1 (German)
 + Piplupness_, section9_, (Italian)
-+ jamasi, whygee1245, 0_5ynt4x_0, llapacahime (Korean)
++ lemon12345678, jamasi, whygee1245, 0_5ynt4x_0, llapacahime (Korean)
 + (Chinese) (coming soon)
 + (Chinese Traditional) (coming soon)
 
