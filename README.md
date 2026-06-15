@@ -8,24 +8,25 @@ Our Goal is to recreate Pokemon Dream World functionality for the Pokemon Genera
 
 **Contributors** (Discord)
 + Grey (*Shade_of_Gr3y*): Main Book-Keeper, Github Manager, Social Media Owner
-+ Rye (*thetrashdragon*): Asset Recreation, Programmer, "Berry Farmer"
 + DarkShade (*DarkShade*): Oversight
 + ShutterBug (*ShutterBug2000*): Oversight, Programming
-+ Phantazap (*Phantazap*): Asset Finder, Github Help
++ Blupee/KuroNeko (*blupee*): Oversight, Programming 
++ Alec (*alec0o*): First Programmer
 + StarBorne (*kfnole*): First Programmer
-+ stgiga (*stgiga*): HD Audio Sourcing, Asset Help, File Finder
 + Minibug (*bonnibel.bubblegum*): Lead Programmer
-+ Blupee/KuroNeko (*blupee*): Programming 
++ Eclipse (*eclipse69x*): Programming, Archive.org Asset Retrievement Help
 + Stargen (*stargen96*): Programming 
-+ Piplup (*Piplupness_*): Asset Finder, Misc help, Token Italian
-+ yemu (*yemu0766*): Programmer, File Modification Help
-+ Eclipse (*eclipse69x*): Programmer, Archive.org Asset Retrievement Help
-+ Omni (*Omni_Omen*): Programmer
-+ Coyote (*THERIIOCIDE*): Github Help, Asset Recreation
-+ GabiShy (*gabishy*): Video Archiver,  Asset Finder, Social Media Manager
++ Omni (*Omni_Omen*): Programming
++ yemu (*yemu0766*): Programming, File Modification Assistance
++ stgiga (*stgiga*): Asset Retrieval, Audio Sourcing
++ Piplup (*Piplupness_*): Asset Retrieval, Misc help, Token Italian
++ Coyote (*THERIIOCIDE*): Asset Recreation, Github Help
++ Phantazap (*Phantazap*): Asset Retrieval, Github Help
++ GabiShy (*gabishy*): Video Archiver,  Asset Retrieval, Social Media Manager
++ Rye (*thetrashdragon*): Asset Recreation, Programming, "Berry Farmer"
 + Galarianguy (*galarianguy*): Social Media Manager
-+ Shadow (*q8yshadow*): Asset Finder
-+ maq47 (*maq47*): Asset Finder
++ Shadow (*q8yshadow*): Asset Recreation
++ maq47 (*maq47*): Asset Recreation
 + Akima (*Akeyma*): Early Server and Webhosting Help
 
 **Artists**
@@ -48,11 +49,11 @@ Our Goal is to recreate Pokemon Dream World functionality for the Pokemon Genera
 + (Chinese Traditional) (coming soon)
 
 **Special Thanks**\
-Bulbapedia\
-PidgiWiki\
-**Everyone who Contributed their old save files from Twitter/Bluesky/Discord**
+Bulbapedia \
+PidgiWiki \
+**Everyone who Contributed their old save files from Twitter/Bluesky/Discord** \ 
 PokeWiki\
-Pokemon Central Wiki\
+Pokemon Central Wiki \
 PocketMonsters.net\
 **galarianguy** on Discord, Twitter, and Bluesky (MVP for finding a decomp from 2012) \
 pente.koro-Pokemon.com\
@@ -64,7 +65,7 @@ Rem on Ameba (Site: https://www.ameba.jp/profile/general/pokemonplatinum/) \
 @Cuddleofdeath on Youtube and Twitter \
 @ProfessorRex on Youtube and Bluesky \
 @Chuggaconroy on Youtube, Bluesky and Twitter \
-**Bluesuntl** for being the first Dream World Archiver
+**Bluesuntl** for being the first Dream World Archiver \
 MinakoArtemis5 on Bulbapedia \
 ReignOfComputer on Discord and Serebii \
 Blupee/KuroNeko on Discord and Github \
