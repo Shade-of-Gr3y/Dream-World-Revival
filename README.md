@@ -25,7 +25,7 @@ Our Goal is to recreate Pokemon Dream World functionality for the Pokemon Genera
 + GabiShy (*gabishy*): Video Archiver,  Asset Retrieval, Social Media Manager
 + Rye (*thetrashdragon*): Asset Recreation, Programming, "Berry Farmer"
 + Galarianguy (*galarianguy*): Social Media Manager
-+ Shadow (*q8yshadow*): Asset Recreation
++ q8yshadow (*q8yshadow*): Asset Recreation
 + maq47 (*maq47*): Asset Recreation
 + Akima (*Akeyma*): Early Server and Webhosting Help
 
