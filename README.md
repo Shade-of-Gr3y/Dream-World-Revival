@@ -20,7 +20,7 @@ Our Goal is to recreate Pokemon Dream World functionality for the Pokemon Genera
 + yemu (*yemu0766*): Programming, File Modification Assistance
 + stgiga (*stgiga*): Asset Retrieval, Audio Sourcing
 + Piplup (*Piplupness_*): Asset Retrieval, Misc help, Token Italian
-+ Coyote (*THERIIOCIDE*): Asset Recreation, Github Help
++ Coyote (*SELFBUILTWARMACHINE*): Asset Recreation, Github Help
 + Phantazap (*Phantazap*): Asset Retrieval, Github Help
 + GabiShy (*gabishy*): Video Archiver,  Asset Retrieval, Social Media Manager
 + Rye (*thetrashdragon*): Asset Recreation, Programming, "Berry Farmer"
